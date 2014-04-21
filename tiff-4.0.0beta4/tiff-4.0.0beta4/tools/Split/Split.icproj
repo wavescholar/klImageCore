@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Intel C++ Project"
+	Version="12.0"
+	Name="Split"
+	ProjectGUID="{5AF9D534-5580-44EB-AC6B-69C83F52BA7F}"
+	VCNestedProjectGUID="{36D032E6-3DBC-4185-8F39-A640A280546D}"
+	VCNestedProjectFileName="Split.vcproj"
+	>
+	<Configurations/>
+	<Files/>
+</VisualStudioProject>

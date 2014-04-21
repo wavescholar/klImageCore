@@ -1,0 +1,22 @@
+<map id="PrintGetLastError" name="PrintGetLastError">
+<area shape="rect" id="node2" href="$_aperio_file_manager_8cpp.html#ad01cf56d48bc76e2367a2c0e3d705097" title="logError" alt="" coords="176,330,243,357"/>
+<area shape="rect" id="node21" href="$_aperio_file_manager_8cpp.html#affebe48975fb37e021ffc1c410389a30" title="logInfo" alt="" coords="180,134,239,161"/>
+<area shape="rect" id="node3" href="$class_aperio_file_manager.html#a8712c8def3feae5d27cffe0f2c226580" title="AperioFileManager::\lAperioFileManager" alt="" coords="291,5,429,47"/>
+<area shape="rect" id="node4" href="$class_aperio_file_manager.html#a1e30e1c10bb9ff1f73eb4e5dc70818c9" title="AperioFileManager::\lwriteTiffFile" alt="" coords="291,188,429,229"/>
+<area shape="rect" id="node5" href="$class_aperio_file_manager.html#ab21032520a76a590404241b584d4c120" title="AperioFileManager::\lgetTiffImageInfo" alt="" coords="477,479,616,520"/>
+<area shape="rect" id="node6" href="$class_aperio_file_manager.html#a0d6452b6d7cefd389848f2be95a09221" title="AperioFileManager::\lgetThumbnail" alt="" coords="689,223,828,264"/>
+<area shape="rect" id="node7" href="$class_aperio_file_manager.html#a6a3dde5d29d68ca127fc075dadbe32cb" title="AperioFileManager::\lgetLabelImage" alt="" coords="909,419,1047,460"/>
+<area shape="rect" id="node8" href="$class_aperio_file_manager.html#aa21b32bb1c543d1a897a22139df4764c" title="AperioFileManager::\lgetWSIImage" alt="" coords="909,192,1047,233"/>
+<area shape="rect" id="node9" href="$class_aperio_file_manager.html#a4cd2778a6e2a129879e621d1ee25d0bc" title="AperioFileManager::\lgetMetadata" alt="" coords="689,340,828,381"/>
+<area shape="rect" id="node14" href="$class_aperio_file_manager.html#abec3417da7fff16c5a491801f223dde1" title="AperioFileManager::\lExtractMainResTile" alt="" coords="689,609,828,651"/>
+<area shape="rect" id="node15" href="$class_aperio_file_manager.html#ad84acc400420143ee6aa6795e5d69f54" title="AperioFileManager::\lExtractMainResTileApplyICC" alt="" coords="664,675,853,716"/>
+<area shape="rect" id="node16" href="$class_aperio_file_manager.html#a92a18b5f49c8f95711ed8ce964cbac2e" title="AperioFileManager::\lgetTiffDirImage" alt="" coords="689,740,828,781"/>
+<area shape="rect" id="node18" href="$class_aperio_file_manager.html#ac0876ff34752d650663039e0c834003c" title="AperioFileManager::\lgetStripSubDir" alt="" coords="689,157,828,199"/>
+<area shape="rect" id="node19" href="$class_aperio_file_manager.html#a68c47efa0ac310dc395bbe59a09905ca" title="AperioFileManager::\lgetNumberOfTiffDirs" alt="" coords="291,123,429,164"/>
+<area shape="rect" id="node20" href="$class_aperio_file_manager.html#a4bde73872c5b6463de4304d68694306d" title="AperioFileManager::\lsetTiffDirectory" alt="" coords="291,457,429,499"/>
+<area shape="rect" id="node10" href="$class_aperio_file_manager.html#a1b0a68740e1629198f9051273df4676a" title="AperioFileManager::\lprintMetadata" alt="" coords="909,495,1047,536"/>
+<area shape="rect" id="node13" href="$class_aperio_file_manager.html#a2a8481a5c0a709373d75ff7387fd7470" title="AperioFileManager::\lExtractImageTiles" alt="" coords="909,585,1047,627"/>
+<area shape="rect" id="node11" href="$class_aperio_managed_reader_1_1_big_tiff_dot_net_reader.html#ae9ca6fcf78c5ab4627043ebf23341698" title="AperioManagedReader\l::BigTiffDotNetReader\l::GetImageExtents" alt="" coords="901,338,1055,394"/>
+<area shape="rect" id="node12" href="$class_aperio_managed_reader_1_1_big_tiff_dot_net_reader.html#a251026e9d374e7bec0b4e2181c57dd89" title="AperioManagedReader\l::BigTiffDotNetReader\l::isAperioImage" alt="" coords="901,258,1055,314"/>
+<area shape="rect" id="node17" href="$class_aperio_managed_reader_1_1_big_tiff_dot_net_reader.html#affee0b8c03984c324251437a7042887c" title="AperioManagedReader\l::BigTiffDotNetReader\l::GetSubImages" alt="" coords="901,733,1055,789"/>
+</map>

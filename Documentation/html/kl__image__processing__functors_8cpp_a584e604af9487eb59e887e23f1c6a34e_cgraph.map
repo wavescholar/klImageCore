@@ -1,0 +1,9 @@
+<map id="TissueAnalysis" name="TissueAnalysis">
+<area shape="rect" id="node2" href="$kl__ppm__image__io_8cpp.html#a3453a753c60d966d35724298d6118a7c" title="query_ppm" alt="" coords="211,5,298,32"/>
+<area shape="rect" id="node3" href="$kl__ppm__image__io_8cpp.html#a4e631bab8c488b3cdb27e6829a66a8a7" title="read_ppm" alt="" coords="215,56,294,83"/>
+<area shape="rect" id="node4" href="$classkl_packed_heap_raster_buffer.html#a0b9e8748d6febe81c5803003a38c9b9a" title="klPackedHeapRasterBuffer\l::buffer" alt="" coords="166,107,343,149"/>
+<area shape="rect" id="node5" href="$kl__ppm__image__io_8cpp.html#a59c449d0876be18f00f00c11a3e23836" title="write_ppm_single_band" alt="" coords="176,173,333,200"/>
+<area shape="rect" id="node6" href="$kl__ppm__image__io_8cpp.html#abd4e33d1b3a2a25e1a64f8a52a101150" title="write_ppm" alt="" coords="214,224,295,251"/>
+<area shape="rect" id="node7" href="$classkl_packed_heap_raster_buffer.html#a1c1a57f455690160e825073e3b297c9c" title="klPackedHeapRasterBuffer\l::width" alt="" coords="166,275,343,317"/>
+<area shape="rect" id="node8" href="$classkl_packed_heap_raster_buffer.html#a700315115a5375ef88c78b311139d7d9" title="klPackedHeapRasterBuffer\l::height" alt="" coords="166,341,343,382"/>
+</map>

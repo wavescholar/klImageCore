@@ -1,0 +1,6 @@
+<map id="DecodeImage" name="DecodeImage">
+<area shape="rect" id="node2" href="$class_c_timer.html#a7fc2151c1fd11ac509ef01db6f6039da" title="CTimer::Init" alt="" coords="171,5,259,32"/>
+<area shape="rect" id="node3" href="$class_c_timer.html#a5a993753c3fccd19a3ed4af2d79cbee6" title="CTimer::Start" alt="" coords="165,56,264,83"/>
+<area shape="rect" id="node4" href="$class_c_timer.html#a24596351b626306f35aa5dbc1b6d7fa4" title="CTimer::Stop" alt="" coords="165,107,264,133"/>
+<area shape="rect" id="node5" href="$class_c_timer.html#a4e2df2edcfd026fb3ac0dd99cfe85e3b" title="CTimer::GetTime" alt="" coords="155,157,275,184"/>
+</map>

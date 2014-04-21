@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="gpudt.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="predicates.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h" />
+    <ClInclude Include="cudaCCW.h" />
+    <ClInclude Include="cudaDecl.h" />
+    <ClInclude Include="glut.h" />
+    <ClInclude Include="gpudt.h" />
+    <ClInclude Include="kernelVoronoi.h" />
+    <ClInclude Include="pba2DKernel.h" />
+    <ClInclude Include="predicates.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="cudaBoundary.cu" />
+    <CudaCompile Include="cudaConstraint.cu" />
+    <CudaCompile Include="cudaFlipping.cu" />
+    <CudaCompile Include="cudaMain.cu" />
+    <CudaCompile Include="cudaMissing.cu" />
+    <CudaCompile Include="cudaReconstruction.cu" />
+    <CudaCompile Include="cudaShifting.cu" />
+    <CudaCompile Include="cudaVoronoi.cu" />
+    <CudaCompile Include="pba2DHost.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CUDALIBS">
+      <UniqueIdentifier>{abe23b51-2939-4b0f-931f-9d8b2090ddd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{098127a5-5ac7-46c6-a276-14c69dc4a15b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\x64\GlU32.Lib">
+      <Filter>OpenGL</Filter>
+    </Library>
+    <Library Include="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\x64\OpenGL32.Lib">
+      <Filter>OpenGL</Filter>
+    </Library>
+    <Library Include="C:\Program Files\NVIDIA Corporation\Installer2\CUDASamples_5.5.{C52F7706-150E-408B-893D-EBE2087576B0}\common\lib\x64\freeglut.lib">
+      <Filter>CUDALIBS</Filter>
+    </Library>
+    <Library Include="C:\Program Files\NVIDIA Corporation\Installer2\CUDASamples_5.5.{C52F7706-150E-408B-893D-EBE2087576B0}\common\lib\x64\glew64.lib">
+      <Filter>CUDALIBS</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

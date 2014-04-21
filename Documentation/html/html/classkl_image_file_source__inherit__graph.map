@@ -1,0 +1,6 @@
+<map id="klImageFileSource" name="klImageFileSource">
+<area shape="rect" id="node2" href="$classkl_j_p_e_g2000_source_functor.html" title="{klJPEG2000SourceFunctor\n||+ klJPEG2000SourceFunctor()\l+ queryImage()\l+ operator()()\l}" alt="" coords="5,307,204,413"/>
+<area shape="rect" id="node3" href="$classkl_j_p_e_g_source_functor.html" title="{klJPEGSourceFunctor\n||+ klJPEGSourceFunctor()\l+ queryImage()\l+ operator()()\l}" alt="" coords="229,307,399,413"/>
+<area shape="rect" id="node4" href="$classkl_p_p_m_source_functor.html" title="{klPPMSourceFunctor\n||+ klPPMSourceFunctor()\l+ queryImage()\l+ operator()()\l}" alt="" coords="424,307,591,413"/>
+<area shape="rect" id="node5" href="$classkl_t_i_f_f_source_functor.html" title="{klTIFFSourceFunctor\n||+ klTIFFSourceFunctor()\l+ queryImage()\l+ operator()()\l}" alt="" coords="615,307,778,413"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="runJPEG" name="runJPEG">
+<area shape="rect" id="node2" href="$kl__uic__jpeg__image__io_8cpp.html#a3244159fdebe54da07dad0ce96ff9c45" title="DecodeImage" alt="" coords="128,56,229,83"/>
+<area shape="rect" id="node7" href="$kl__uic__jpeg__image__io_8cpp.html#a8e14f2327bebd243d4cd8518a5434dcb" title="EncodeImage" alt="" coords="128,107,229,133"/>
+<area shape="rect" id="node3" href="$class_c_timer.html#a7fc2151c1fd11ac509ef01db6f6039da" title="CTimer::Init" alt="" coords="293,107,381,133"/>
+<area shape="rect" id="node4" href="$class_c_timer.html#a5a993753c3fccd19a3ed4af2d79cbee6" title="CTimer::Start" alt="" coords="288,157,387,184"/>
+<area shape="rect" id="node5" href="$class_c_timer.html#a24596351b626306f35aa5dbc1b6d7fa4" title="CTimer::Stop" alt="" coords="288,5,387,32"/>
+<area shape="rect" id="node6" href="$class_c_timer.html#a4e2df2edcfd026fb3ac0dd99cfe85e3b" title="CTimer::GetTime" alt="" coords="277,56,397,83"/>
+</map>

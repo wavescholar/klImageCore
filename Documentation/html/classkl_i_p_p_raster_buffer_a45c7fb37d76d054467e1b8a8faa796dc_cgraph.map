@@ -1,0 +1,6 @@
+<map id="klIPPRasterBuffer::xStrideBits" name="klIPPRasterBuffer::xStrideBits">
+<area shape="rect" id="node2" href="$classkl_i_p_p_raster_buffer.html#ae4e5ad0fa0b14af713d4b42d9553b6ac" title="klIPPRasterBuffer::\lnumBands" alt="" coords="187,5,319,46"/>
+<area shape="rect" id="node3" href="$classkl_i_p_p_raster_buffer.html#a9ceca6bd5a077db4605119b41f7efda5" title="klIPPRasterBuffer::\lbandStrideBits" alt="" coords="187,70,319,111"/>
+<area shape="rect" id="node4" href="$classkl_i_p_p_raster_buffer.html#a17db6e46120fa09bc7ed01223c9fa7d1" title="klIPPRasterBuffer::\lsampleBits" alt="" coords="369,70,501,111"/>
+<area shape="rect" id="node5" href="$classkl_raster_buffer.html#a45bff21b22ff0999b520bd110c0354cc" title="klRasterBuffer::bitsPerByte" alt="" coords="549,77,728,104"/>
+</map>
