@@ -1,0 +1,11 @@
+<map id="klImageFileSource::queryImage" name="klImageFileSource::queryImage">
+<area shape="rect" id="node2" href="$classkl_image_file_source.html#a8ab0c622120faf1dec6f981ff0d5b3bc" title="klImageFileSource::\lgetBands" alt="" coords="193,5,330,46"/>
+<area shape="rect" id="node6" href="$classkl_image_file_source.html#a8f02c8f5d4e1a1da0fe56fe5da061e6f" title="klImageFileSource::\lgetWidth" alt="" coords="193,70,330,111"/>
+<area shape="rect" id="node7" href="$classkl_image_file_source.html#acce5f92253655b649aecc1554a954fe4" title="klImageFileSource::\lgetHeight" alt="" coords="193,135,330,177"/>
+<area shape="rect" id="node8" href="$classkl_image_file_source.html#a19ed0ca9a1d55f140d2ea3cadc5389ff" title="klImageFileSource::\lgetBitsPerPixel" alt="" coords="193,201,330,242"/>
+<area shape="rect" id="node9" href="$kl__image__processing__functors_8cpp.html#af9f9682d7221b6e3b2398b0a84bccf73" title="Dithering" alt="" coords="225,267,298,293"/>
+<area shape="rect" id="node3" href="$classkl_j_p_e_g_source_functor.html#aae622663bce25041d4110bb4630a8ee1" title="klJPEGSourceFunctor\l::operator()" alt="" coords="417,5,567,46"/>
+<area shape="rect" id="node4" href="$classkl_j_p_e_g2000_source_functor.html#a1e738faf0a67075d7fc63cfdd1399378" title="klJPEG2000SourceFunctor\l::operator()" alt="" coords="403,70,581,111"/>
+<area shape="rect" id="node5" href="$classkl_p_p_m_source_functor.html#a8b00cc662b768fc9089f53315470df7b" title="klPPMSourceFunctor\l::operator()" alt="" coords="419,135,565,177"/>
+<area shape="rect" id="node10" href="$classkl_process_image_1_1kl_image_processor.html#a2c6f2574c372c4cc9313c9dd169d9414" title="klProcessImage::klImageProcessor\l::Process" alt="" coords="379,259,605,301"/>
+</map>

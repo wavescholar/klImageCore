@@ -1,0 +1,17 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="klRasterBuffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classkl_raster_buffer.html"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="klReferenceCountedRasterBuffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classkl_reference_counted_raster_buffer.html"];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="klIPPRasterBuffer\< TYPE \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classkl_i_p_p_raster_buffer.html"];
+  Node2 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="klPackedHeapRasterBuffer\< Sample \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classkl_packed_heap_raster_buffer.html"];
+  Node2 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="klUnmanagedRasterBuffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classkl_unmanaged_raster_buffer.html"];
+  Node6 [label="klRefCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classkl_ref_count.html"];
+  Node6 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

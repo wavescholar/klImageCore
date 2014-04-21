@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classkl_raster_buffer.html" title="klRasterBuffer" alt="" coords="5,53,108,79"/>
+<area shape="rect" id="node2" href="$classkl_reference_counted_raster_buffer.html" title="klReferenceCountedRaster\lBuffer" alt="" coords="156,71,332,112"/>
+<area shape="rect" id="node3" href="$classkl_i_p_p_raster_buffer.html" title="klIPPRasterBuffer\&lt;\l TYPE \&gt;" alt="" coords="403,5,535,47"/>
+<area shape="rect" id="node4" href="$classkl_packed_heap_raster_buffer.html" title="klPackedHeapRasterBuffer\l\&lt; Sample \&gt;" alt="" coords="380,71,557,112"/>
+<area shape="rect" id="node5" href="$classkl_unmanaged_raster_buffer.html" title="klUnmanagedRasterBuffer" alt="" coords="383,137,555,163"/>
+<area shape="rect" id="node6" href="$classkl_ref_count.html" title="klRefCount" alt="" coords="14,103,99,130"/>
+</map>

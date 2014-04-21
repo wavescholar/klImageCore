@@ -1,0 +1,11 @@
+<map id="klJPEGSourceFunctor::operator()" name="klJPEGSourceFunctor::operator()">
+<area shape="rect" id="node2" href="$classkl_j_p_e_g_source_functor.html#ae55d90da7f6856083b4d96d92a478e88" title="klJPEGSourceFunctor\l::queryImage" alt="" coords="204,58,355,99"/>
+<area shape="rect" id="node4" href="$classkl_image_file_source.html#a0bc72f644c44192a0d30d65d1d5bcbee" title="klImageFileSource::\lgetFileName" alt="" coords="405,122,543,163"/>
+<area shape="rect" id="node6" href="$classkl_image_file_source.html#a8f02c8f5d4e1a1da0fe56fe5da061e6f" title="klImageFileSource::\lgetWidth" alt="" coords="211,178,348,219"/>
+<area shape="rect" id="node8" href="$classkl_image_file_source.html#acce5f92253655b649aecc1554a954fe4" title="klImageFileSource::\lgetHeight" alt="" coords="211,243,348,285"/>
+<area shape="rect" id="node9" href="$classkl_image_file_source.html#a8ab0c622120faf1dec6f981ff0d5b3bc" title="klImageFileSource::\lgetBands" alt="" coords="211,309,348,350"/>
+<area shape="rect" id="node10" href="$kl__image__io_8h.html#abc5256792fb2aa1f91aaf9b06ecc191a" title="read_jpeg" alt="" coords="240,375,319,401"/>
+<area shape="rect" id="node3" href="$kl__image__io_8h.html#a2090d40e36c70114d05c6f52906314c4" title="query_jpeg" alt="" coords="431,5,517,32"/>
+<area shape="rect" id="node5" href="$classkl_image_file_source.html#a71427f85e9d82b72a1b8797b4798fe68" title="klImageFileSource::\lsetImageParameters" alt="" coords="403,57,545,98"/>
+<area shape="rect" id="node7" href="$classkl_image_file_source.html#ab0ada36f7278604f20c7ba0c2246ac77" title="klImageFileSource::\lqueryImage" alt="" coords="405,243,543,285"/>
+</map>

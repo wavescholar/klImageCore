@@ -1,0 +1,5 @@
+<map id="klPackedHeapRasterBuffer&lt; Sample &gt;" name="klPackedHeapRasterBuffer&lt; Sample &gt;">
+<area shape="rect" id="node2" href="$classkl_reference_counted_raster_buffer.html" title="{klReferenceCountedRaster\lBuffer\n||+ klReferenceCountedRaster\lBuffer()\l}" alt="" coords="58,325,245,432"/>
+<area shape="rect" id="node3" href="$classkl_raster_buffer.html" title="{klRasterBuffer\n||+ buffer()\l+ buffer()\l+ numBands()\l+ width()\l+ height()\l+ sampleBits()\l+ bandStrideBits()\l+ xStrideBits()\l+ yStrideBits()\l+ ~klRasterBuffer()\l+ bandStride()\l+ xStride()\l+ yStride()\l# bitsPerByte()\l}" alt="" coords="5,6,136,274"/>
+<area shape="rect" id="node4" href="$classkl_ref_count.html" title="{klRefCount\&lt;klMutex\&gt;\n||}" alt="" coords="160,101,307,179"/>
+</map>

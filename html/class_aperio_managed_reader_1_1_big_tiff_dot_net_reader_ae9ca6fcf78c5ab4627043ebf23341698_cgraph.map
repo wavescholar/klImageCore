@@ -1,0 +1,10 @@
+<map id="AperioManagedReader::BigTiffDotNetReader::GetImageExtents" name="AperioManagedReader::BigTiffDotNetReader::GetImageExtents">
+<area shape="rect" id="node2" href="$class_aperio_file_manager.html#a4cd2778a6e2a129879e621d1ee25d0bc" title="AperioFileManager::\lgetMetadata" alt="" coords="207,144,345,185"/>
+<area shape="rect" id="node3" href="$class_aperio_file_manager.html#ab21032520a76a590404241b584d4c120" title="AperioFileManager::\lgetTiffImageInfo" alt="" coords="411,56,550,97"/>
+<area shape="rect" id="node5" href="$_aperio_file_manager_8cpp.html#ad01cf56d48bc76e2367a2c0e3d705097" title="logError" alt="" coords="803,71,869,98"/>
+<area shape="rect" id="node8" href="$class_aperio_file_manager.html#a2b96c23e955e9cd210b49a0493497532" title="AperioFileManager::\lparseImageDescriptionTag" alt="" coords="393,173,568,215"/>
+<area shape="rect" id="node9" href="$class_aperio_file_manager.html#ab317a307055c60d62c6bf11a137d2dae" title="AperioFileManager::\lcreateXMLMap" alt="" coords="411,239,550,280"/>
+<area shape="rect" id="node4" href="$class_aperio_file_manager.html#a4bde73872c5b6463de4304d68694306d" title="AperioFileManager::\lsetTiffDirectory" alt="" coords="616,5,755,47"/>
+<area shape="rect" id="node6" href="$_aperio_file_manager_8cpp.html#a787acf614a4bbb2c6a4c2b83fb3491c1" title="PrintGetLastError" alt="" coords="917,46,1040,73"/>
+<area shape="rect" id="node7" href="$_aperio_file_manager_8cpp.html#ae229efd655852ee7db3466f6e7989092" title="PrintModules" alt="" coords="929,97,1028,123"/>
+</map>
