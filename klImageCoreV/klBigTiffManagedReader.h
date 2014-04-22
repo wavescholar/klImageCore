@@ -11,30 +11,36 @@ using namespace log4net;
 #include "klManagedLogger.h"
 using namespace klManagedLogger;
 
- namespace klProcessImage
+ namespace klBigTiff
 {
-	public ref class klImageProcessor 
+	public ref class klBigTiffManagedReader 
     {
 	public: 
-		klImageProcessor()
+		klBigTiffManagedReader()
 		{
 			_lm=gcnew klLogWrapper((System::Object^)(this) ); 
 			_log = _lm->getLogger(); 
-			_log->Info("klImageProcessor loading");
+			_log->Info("klBigTiffManagedReader loading for klBigTiff ingestion");
 		}
+		bool isklBigTiffImage(String^ fileName);
 
+		String^ klBigTiffManagedReader::GetExposure(String^ fileName);
 
-		String^ Process(System::String ^fileName);
+		String^ GetImageExtents(System::String ^fileName);
+
+		virtual void ImportImage(String^ filename, String^ basefilename );
+
+		virtual void SVSGetMetadata(String^ fileName, String^ baseFileName);
+
+		virtual System::Collections::Hashtable^ GetSubImages(String^ fileName, String^ baseFileName);
+
+		virtual void GetImageTiles(String^ fileName, String^ baseFileName);
+
+		virtual void GetImageROI(String^ fileName, String^ baseFileName, int^ x0,int^ y0, int^ w,int^h);
 
 		virtual void setLogger(ILog^ log)
 		{ 
 			_log = log;
-		}
-
-		virtual void setStdOut()
-		{
-			/*HWND handle =  GetConsoleWindow();
-			return SetStdHandle(STD_OUTPUT_HANDLE, handle);*/
 		}
 
 	protected:	

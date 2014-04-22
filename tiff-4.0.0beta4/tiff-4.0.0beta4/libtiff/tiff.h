@@ -187,8 +187,8 @@ typedef enum {
 #define     COMPRESSION_SGILOG		34676	/* SGI Log Luminance RLE */
 #define     COMPRESSION_SGILOG24	34677	/* SGI Log 24-bit packed */
 #define     COMPRESSION_JP2000          34712   /* Leadtools JPEG2000 */
-#define		COMPRESSION_JPEG2000    33003 /* Aperio Jpeg 2000   */ 
-#define     COMPRESSION_JPEG2000_NSS  33005 /*   Aperio Jpeg 2000 NOTSUBSAMPLED */
+#define		COMPRESSION_JPEG2000    33003 /* klBigTiff Jpeg 2000   */ 
+#define     COMPRESSION_JPEG2000_NSS  33005 /*   klBigTiff Jpeg 2000 NOTSUBSAMPLED */
 #define	TIFFTAG_PHOTOMETRIC		262	/* photometric interpretation */
 #define	    PHOTOMETRIC_MINISWHITE	0	/* min value is white */
 #define	    PHOTOMETRIC_MINISBLACK	1	/* min value is black */

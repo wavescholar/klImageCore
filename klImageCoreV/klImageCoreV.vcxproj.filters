@@ -36,12 +36,6 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AperioFileManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AperioManagedReader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="kl_image_buffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -49,12 +43,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="kl_img_pca.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ppm_helper.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="InteropLogger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="klPerformanceCounter.h">
@@ -75,15 +63,18 @@
     <ClInclude Include="kl_ppm_image_io.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="klBigTiffFileManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="klBigTiffManagedReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="klMAnagedLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AperioFileManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AperioManagedReader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="kl_image_processing_functors.cpp">
@@ -95,9 +86,6 @@
     <ClCompile Include="klProcessImage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SlideMacroFns.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="kl_image_io.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -105,6 +93,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="kl_ppm_image_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="klBigTiffFileManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="klBigTiffManagedReader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

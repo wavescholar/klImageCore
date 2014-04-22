@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{98F943AA-869B-4308-B63A-30C84330126C}</ProjectGuid>
+    <ProjectGuid>{6027BAB3-5D5C-4641-BCD2-570399D1E73C}</ProjectGuid>
     <RootNamespace>libz</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

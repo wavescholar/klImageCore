@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{67F8F196-38B3-4FD8-A6EA-DC8B2A27BE65}</ProjectGuid>
+    <ProjectGuid>{5D8418B4-5B36-4606-9033-D425E7FBBDE9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>TestKLImageCoreUnmanaged</RootNamespace>
   </PropertyGroup>
@@ -162,7 +162,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\klImageCoreV\AperioFileManager.cpp" />
+    <ClCompile Include="..\klImageCoreV\klBigTiffFileManager.cpp" />
     <ClCompile Include="..\klImageCoreV\kl_image_io.cpp" />
     <ClCompile Include="..\klImageCoreV\kl_image_processing_functors.cpp" />
     <ClCompile Include="..\klImageCoreV\kl_ppm_image_io.cpp">
@@ -171,7 +171,6 @@
     <ClCompile Include="..\klImageCoreV\kl_tiff_image_io.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="..\klImageCoreV\SlideMacroFns.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="TestKLImageCoreUnmanaged.cpp" />
   </ItemGroup>

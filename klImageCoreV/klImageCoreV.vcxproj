@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F9ACA180-78EA-4ADC-BD8B-3E391729E71C}</ProjectGuid>
+    <ProjectGuid>{5D92FD03-F989-4E3F-96D4-BE417003B02C}</ProjectGuid>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <Keyword>ManagedCProj</Keyword>
     <RootNamespace>klImageCoreV</RootNamespace>
@@ -85,9 +85,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AperioFileManager.h" />
-    <ClInclude Include="AperioManagedReader.h" />
-    <ClInclude Include="InteropLogger.h" />
+    <ClInclude Include="klBigTiffFileManager.h" />
+    <ClInclude Include="klBigTiffManagedReader.h" />
+    <ClInclude Include="klMAnagedLogger.h" />
     <ClInclude Include="klPerformanceCounter.h" />
     <ClInclude Include="klProcessImage.h" />
     <ClInclude Include="kl_image_buffer.h" />
@@ -97,15 +97,14 @@
     <ClInclude Include="kl_img_pca.h" />
     <ClInclude Include="kl_ppm_image_io.h" />
     <ClInclude Include="kl_tiff_image_io.h" />
-    <ClInclude Include="ppm_helper.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AperioFileManager.cpp">
+    <ClCompile Include="klBigTiffFileManager.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="AperioManagedReader.cpp">
+    <ClCompile Include="klBigTiffManagedReader.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
@@ -122,10 +121,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="kl_tiff_image_io.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="SlideMacroFns.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>

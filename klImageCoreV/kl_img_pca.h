@@ -5,8 +5,7 @@
 
 #include "kl_image_processing_functors.h"
 
-//ppm_helper include
-#include "ppm_helper.h"
+#include "kl_ppm_image_io.h"
 
 #include "kl_principal_components.h"
 

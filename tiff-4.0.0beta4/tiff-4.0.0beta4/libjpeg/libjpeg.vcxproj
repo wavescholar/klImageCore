@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9690BA18-33E2-4CF9-92AE-9CCAB1094F31}</ProjectGuid>
+    <ProjectGuid>{843AB1F7-A172-4A8A-BB00-1F524B85653C}</ProjectGuid>
     <RootNamespace>libjpeg</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

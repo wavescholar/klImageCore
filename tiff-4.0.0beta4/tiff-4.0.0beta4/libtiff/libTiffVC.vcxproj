@@ -79,7 +79,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectName>libtiff</ProjectName>
-    <ProjectGuid>{958AD78F-E05D-4881-A4A7-2C59AE985A8D}</ProjectGuid>
+    <ProjectGuid>{3F84A25C-8B7B-4476-986B-D796B85EC2BF}</ProjectGuid>
     <RootNamespace>libTiffVC</RootNamespace>
     <Keyword>Win32Proj</Keyword>
   </PropertyGroup>

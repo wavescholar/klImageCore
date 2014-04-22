@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Runtime.Serialization;
 using System.Threading;
-using AperioManagedReader;
+using klBigTiff;
 using klProcessImage;
 
 using klDNT;
@@ -15,10 +15,9 @@ namespace TestklImageCoreV
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
-    using AperioManagedReader;
+    using klBigTiff;
     using System.IO;
-    using System.Collections;
-    using System.Text;
+    using System.Collections;   
     using log4net;
     using klCounters;
 
@@ -110,7 +109,7 @@ namespace TestklImageCoreV
             {
                 try
                 {
-                    BigTiffDotNetReader bigTiffReader = new BigTiffDotNetReader();
+                    klBigTiffManagedReader bigTiffReader = new klBigTiffManagedReader();
                     klDOTNETTimer kldnt = new klDOTNETTimer();
                     kldnt.Start();
                     FileInfo fileInfo = new FileInfo(files[i].ToString());
@@ -123,7 +122,7 @@ namespace TestklImageCoreV
                     sb.Replace(" ", "");
                     
                     String outfile = sb.ToString();
-                    if (bigTiffReader.isAperioImage(fileInfo.ToString()))
+                    if (bigTiffReader.isklBigTiffImage(fileInfo.ToString()))
                     {
                         String exp = bigTiffReader.GetExposure(fileInfo.ToString());
 

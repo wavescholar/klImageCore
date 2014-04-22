@@ -3,7 +3,7 @@
  * Bruce B Campbell 11 30 2012  *
  ********************************/
 #include "kl_image_processing_functors.h"
-#include "ppm_helper.h"
+#include "kl_ppm_image_io.h"
 #include "kl_img_pca.h"
 
 klMutex klThreadMap::lock;
@@ -163,14 +163,12 @@ void ImageWork(string fileName,string outputPath)
 
 	klApplyColorUnmixingBasis ssb(lsrc_dilated);
 	klRasterBufferPointer dstssb =  ssb();
-	output =  outputPath;	output.append("StainSpaceBasis_u8.ppm");
+	output =  outputPath;	output.append("ColorUnmixBasis_u8.ppm");
 	write_ppm(output.c_str(), dstssb->width(), dstssb->height(),dstssb->buffer());
-
-
-	//klHandERatio ssp(dstssb);
+		
 	klHandERatio ssp(lsrc_dilated);
 	klRasterBufferPointer dstssp =  ssp();
-	output =  outputPath;	output.append("StainPurity_u8_C3R.pgm");
+	output =  outputPath;	output.append("RatioImage_u8_C3R.pgm");
 	write_ppm_single_band(output.c_str(), dstssp->width(), dstssp->height(),dstssp->buffer());
 
 	double lthresholdHi=196;
@@ -181,7 +179,7 @@ void ImageWork(string fileName,string outputPath)
 	double lthresholdLowVal=0;
 	bool luseThresholdVals=true;
 	const klRasterBufferPointer lsrc_thresh=new klPackedHeapRasterBuffer<unsigned char> (lsrc->width(),lsrc->height(),1 );
-	//Skip Stain Purity 
+	 
 	klCopyFunctor<unsigned char> klcfth_u8(dstssp, lsrc_thresh);
 	klcfth_u8();
 	klThresholdFunctor<unsigned char> kltf_u8( lsrc_thresh, lthresholdHi, lthresholdLow,luseLowThreshold,luseHighThreshold,lthresholdHiVal,lthresholdLowVal, luseThresholdVals);
@@ -232,7 +230,6 @@ void ImageWork(string fileName,string outputPath)
 	write_ppm(output.c_str(), lsrc_opened->width(), lsrc_opened->height(),lsrc_opened->buffer());
 	delete lkernelO;
 
-	
 	klCompositeMask klcm( lsrc, lsrc_thresh ,0.5,0,120,0);
 	klRasterBufferPointer blended = klcm();
 	output =  outputPath;	output.append("WhiteSpaceBlended_u8_C3R.ppm");
@@ -472,32 +469,17 @@ void ImageWork(string fileName,string outputPath)
 
 int LoadImageFiles(string* files)
 {
-	int numImages = 15;
+	int numImages = 1;
 	char** fileList = new char*[numImages];
-fileList[0] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_10240_13312_1024_1024__SRC_u8_C3R.ppm";
-fileList[1] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_15360_1024_1024__SRC_u8_C3R.ppm";
-fileList[2] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_16384_1024_1024__SRC_u8_C3R.ppm";
-fileList[3] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_17408_1024_1024__SRC_u8_C3R.ppm";
-fileList[4] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_18432_1024_1024__SRC_u8_C3R.ppm";
-fileList[5] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_19456_1024_1024__SRC_u8_C3R.ppm";
-fileList[6] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_20480_1024_1024__SRC_u8_C3R.ppm";
-fileList[7] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_21504_1024_1024__SRC_u8_C3R.ppm";
-fileList[8] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_22528_1024_1024__SRC_u8_C3R.ppm";
-fileList[9] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_23552_1024_1024__SRC_u8_C3R.ppm";
-fileList[10] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_24576_1024_1024__SRC_u8_C3R.ppm";
-fileList[11] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_25600_1024_1024__SRC_u8_C3R.ppm";
-fileList[12] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_26624_1024_1024__SRC_u8_C3R.ppm";
-fileList[13] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_27648_1024_1024__SRC_u8_C3R.ppm";
-fileList[14] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_28672_1024_1024__SRC_u8_C3R.ppm";
 
+	fileList[0] = "..\\..\\test.jpg";
 
-for(int i=0;i<numImages;i++)
-{
-	*(files+i)= fileList[i];
-}
+	for(int i=0;i<numImages;i++)
+	{
+		*(files+i)= fileList[i];
+	}
 
 	return numImages;
-
 }
 
 
@@ -933,8 +915,7 @@ void TissueAnalysis(string fileName,string outputPath)
 	klflf_u8();
 	output =  outputPath;output.append("LOGICAL_u8_C1R.pgm");
 	write_ppm_single_band(output.c_str(), logical_result->width(), logical_result->height(),logical_result->buffer());
-
-
+	
 	klFillHolesFunctor<unsigned char> klfhf_NOT_GREEN_u8(lsrc_logical_B2,255,0);
 	klfhf_NOT_GREEN_u8();
 	output =  outputPath;output.append("HOLES_FILLED_B2_u8_C1R.pgm");

@@ -25,7 +25,7 @@ String^ klImageProcessor::Process(String^ fileName)
 	}
 	catch(...)
 	{
-		_log->Error("klImageProcessor::Process(String^ fileName)e recieved non SVSTiffError  " +  " on  filename :"+gcnew String( fileName) );
+		_log->Error("klImageProcessor::Process(String^ fileName)e recieved non klBigTiffError  " +  " on  filename :"+gcnew String( fileName) );
 		throw "klImageProcessor::Process(String^ fileName) recieved Error  " +  " on  filename :"+gcnew String( fileName);
 	}
 }

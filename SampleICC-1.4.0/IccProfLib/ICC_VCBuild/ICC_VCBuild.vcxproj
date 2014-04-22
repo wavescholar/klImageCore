@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectName>ICC</ProjectName>
-    <ProjectGuid>{B1CEC4BA-6CF0-4FE0-88D2-F4AB5CD787D2}</ProjectGuid>
+    <ProjectGuid>{E1360929-2C19-4D03-8001-71F7DCC7FE58}</ProjectGuid>
     <RootNamespace>ICC_VCBuild</RootNamespace>
     <Keyword>Win32Proj</Keyword>
   </PropertyGroup>
