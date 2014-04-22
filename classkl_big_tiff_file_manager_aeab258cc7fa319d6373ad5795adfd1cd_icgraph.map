@@ -1,0 +1,15 @@
+<map id="klBigTiffFileManager::getTiffImageInfo" name="klBigTiffFileManager::getTiffImageInfo">
+<area shape="rect" id="node2" href="$classkl_big_tiff_file_manager.html#a2f6c11deaf2b816a2a33a1016344b87b" title="klBigTiffFileManager\l::getThumbnail" alt="" coords="221,5,360,47"/>
+<area shape="rect" id="node3" href="$classkl_big_tiff_file_manager.html#a030ee04b5be4243d2d7862283ce802ff" title="klBigTiffFileManager\l::getLabelImage" alt="" coords="455,29,593,71"/>
+<area shape="rect" id="node4" href="$classkl_big_tiff_file_manager.html#add24ce1ae099471ca353a08a38bbbfe9" title="klBigTiffFileManager\l::getWSIImage" alt="" coords="455,95,593,136"/>
+<area shape="rect" id="node5" href="$classkl_big_tiff_file_manager.html#ab1edb6057cbcb7fefa1bc2b62709ad76" title="klBigTiffFileManager\l::getMetadata" alt="" coords="221,173,360,215"/>
+<area shape="rect" id="node6" href="$classkl_big_tiff_file_manager.html#a14d8260eb8431392640a5ebddfe2bfd3" title="klBigTiffFileManager\l::printMetadata" alt="" coords="455,291,593,332"/>
+<area shape="rect" id="node9" href="$classkl_big_tiff_file_manager.html#a5cd40d467f8137275a85e6ed72a90000" title="klBigTiffFileManager\l::ExtractImageTiles" alt="" coords="455,356,593,397"/>
+<area shape="rect" id="node10" href="$classkl_big_tiff_file_manager.html#af45e169030fd77ce6ac051533cd43234" title="klBigTiffFileManager\l::ExtractMainResTile" alt="" coords="219,341,362,383"/>
+<area shape="rect" id="node11" href="$classkl_big_tiff_file_manager.html#a0e5c05760fba058283a348c06487c041" title="klBigTiffFileManager\l::ExtractMainResTileApplyICC" alt="" coords="192,407,389,448"/>
+<area shape="rect" id="node12" href="$classkl_big_tiff_file_manager.html#a6d2a9a1d68332b8e5d1af287476ecad3" title="klBigTiffFileManager\l::getTiffDirImage" alt="" coords="221,472,360,513"/>
+<area shape="rect" id="node14" href="$classkl_big_tiff_file_manager.html#a8abf3403e9bf33fed9144ceb6866db90" title="klBigTiffFileManager\l::getStripSubDir" alt="" coords="221,537,360,579"/>
+<area shape="rect" id="node7" href="$classkl_big_tiff_1_1kl_big_tiff_managed_reader.html#ae276d021fd706977fc75fc4fc299459e" title="klBigTiff::klBigTiffManaged\lReader::GetImageExtents" alt="" coords="437,225,611,267"/>
+<area shape="rect" id="node8" href="$classkl_big_tiff_1_1kl_big_tiff_managed_reader.html#a8ec07c5d7574df189cea25fa69c34656" title="klBigTiff::klBigTiffManaged\lReader::isklBigTiffImage" alt="" coords="437,160,611,201"/>
+<area shape="rect" id="node13" href="$classkl_big_tiff_1_1kl_big_tiff_managed_reader.html#a1190ec4cd6b6e694536d512d69ab640f" title="klBigTiff::klBigTiffManaged\lReader::GetSubImages" alt="" coords="437,472,611,513"/>
+</map>

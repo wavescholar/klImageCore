@@ -1,0 +1,61 @@
+﻿Build started 4/21/2014 1:22:19 PM.
+     1>Project "D:\klImageCore\tiff-4.0.0beta4\tiff-4.0.0beta4\libz\libz.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\libz.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"..\SampleICC-1.4.0\IccProfLib" /I..\CompositeLib\SVS_READ /I"..\Kakadu\Kakadu-6.1\include" /I"..\Kakadu\Kakadu-6.1\coresys" /I"..\tiff-4.0.0beta4\tiff-4.0.0beta4\libz\zlib123" /I"..\tiff-4.0.0beta4\tiff-4.0.0beta4\libjpeg\jpeg-6b" /I"..\tiff-4.0.0beta4\tiff-4.0.0beta4\libtiff" /Zi /nologo /W3 /WX- /O2 /Ob1 /D _WIN64 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TC /errorReport:prompt zlib123\adler32.c zlib123\compress.c zlib123\crc32.c zlib123\deflate.c zlib123\example.c zlib123\gzio.c zlib123\infback.c zlib123\inffast.c zlib123\inflate.c zlib123\inftrees.c zlib123\trees.c zlib123\uncompr.c zlib123\zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         example.c
+     1>zlib123\example.c(69): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>zlib123\example.c(120): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>zlib123\example.c(214): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>zlib123\example.c(310): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>zlib123\example.c(389): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>zlib123\example.c(470): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         gzio.c
+     1>zlib123\gzio.c(131): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>zlib123\gzio.c(181): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>zlib123\gzio.c(226): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>zlib123\gzio.c(627): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_vsnprintf'
+     1>zlib123\gzio.c(1001): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror'
+     1>zlib123\gzio.c(1008): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>zlib123\gzio.c(1009): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>zlib123\gzio.c(1010): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\x64\Release\libz.lib" /NOLOGO .\Release/adler32.obj
+         .\Release/compress.obj
+         .\Release/crc32.obj
+         .\Release/deflate.obj
+         .\Release/example.obj
+         .\Release/gzio.obj
+         .\Release/infback.obj
+         .\Release/inffast.obj
+         .\Release/inflate.obj
+         .\Release/inftrees.obj
+         .\Release/trees.obj
+         .\Release/uncompr.obj
+         .\Release/zutil.obj
+         libz.vcxproj -> D:\x64\Release\libz.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libz.unsuccessfulbuild".
+         Touching "Release\libz.lastbuildstate".
+     1>Done Building Project "D:\klImageCore\tiff-4.0.0beta4\tiff-4.0.0beta4\libz\libz.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:56.29

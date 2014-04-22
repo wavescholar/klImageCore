@@ -1,6 +1,6 @@
 <map id="Dithering" name="Dithering">
-<area shape="rect" id="node2" href="$classkl_image_file_source_factory.html#aa516d1c83f88eeb193ef9e1ecc7bba97" title="klImageFileSourceFactory\l::getFileSource" alt="" coords="128,5,301,46"/>
-<area shape="rect" id="node3" href="$classkl_image_file_source.html#ab0ada36f7278604f20c7ba0c2246ac77" title="klImageFileSource::\lqueryImage" alt="" coords="146,70,283,111"/>
-<area shape="rect" id="node4" href="$kl__ppm__image__io_8cpp.html#abd4e33d1b3a2a25e1a64f8a52a101150" title="write_ppm" alt="" coords="174,136,255,163"/>
-<area shape="rect" id="node5" href="$kl__ppm__image__io_8cpp.html#a59c449d0876be18f00f00c11a3e23836" title="write_ppm_single_band" alt="" coords="136,187,293,213"/>
+<area shape="rect" id="node2" href="$classkl_image_file_source_factory.html#aa516d1c83f88eeb193ef9e1ecc7bba97" title="klImageFileSourceFactory\l::getFileSource" alt="" coords="127,5,300,47"/>
+<area shape="rect" id="node3" href="$classkl_image_file_source.html#ab0ada36f7278604f20c7ba0c2246ac77" title="klImageFileSource::\lqueryImage" alt="" coords="145,71,282,112"/>
+<area shape="rect" id="node4" href="$kl__ppm__image__io_8cpp.html#abd4e33d1b3a2a25e1a64f8a52a101150" title="write_ppm" alt="" coords="173,137,254,163"/>
+<area shape="rect" id="node5" href="$kl__ppm__image__io_8cpp.html#a59c449d0876be18f00f00c11a3e23836" title="write_ppm_single_band" alt="" coords="135,187,292,214"/>
 </map>

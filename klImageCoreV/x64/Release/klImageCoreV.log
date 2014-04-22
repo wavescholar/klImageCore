@@ -1,0 +1,1115 @@
+﻿Build started 4/21/2014 8:48:39 PM.
+     1>Project "D:\klImageCore\klImageCoreV\klImageCoreV.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Release\klImageCoreV.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\ipp\include" /I"..\SampleICC-1.4.0\IccProfLib\ICC_VCBuild" /I"D:\klImaging\Kakadu\Kakadu-6.3\managed\all_includes" /I"D:\klImaging\Kakadu\Kakadu-6.3\apps\support" /ID:\klMatrixCore\src /I"..\tiff-4.0.0beta4\tiff-4.0.0beta4\libz\zlib123" /I"D:\klImaging\Kakadu\Kakadu-6.3\include" /I"..\Kakadu\Kakadu-6.3\coresys" /I"..\tiff-4.0.0beta4\tiff-4.0.0beta4\libtiff" /I"D:\klImaging\Kakadu\Kakadu-6.3\coresys\common" /I"D:\klImaging\Kakadu\Kakadu-6.3\coresys" /I"D:\klImaging\tiff-4.0.0beta4\tiff-4.0.0beta4\libjpeg\jpeg-6b" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /D _IPP_PARALLEL_DYNAMIC /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /TP /FU"D:\klImageCore\log4net\log4net-1.2.11\bin\net\4.0\release\log4net.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /errorReport:prompt klBigTiffFileManager.cpp kl_image_processing_functors.cpp /clr:nostdlib /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\include" /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\include\fftw" /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\include\intel64" 
+         klBigTiffFileManager.cpp
+     1>D:\klMatrixCore\src\kl_util.h(220): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\klMatrixCore\src\kl_util.h(234): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\klMatrixCore\src\kl_util.h(259): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\klMatrixCore\src\kl_util.h(286): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\klimagecore\klimagecorev\kl_image_io.h(142): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_io.h(142): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_io.h(142): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_ppm_image_io.h(31): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_ppm_image_io.h(82): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_ppm_image_io.h(82): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_ppm_image_io.h(82): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(445): warning C4482: nonstandard extension used: enum 'klLogicalFunctor::LogicalFunctorOperationType' used in qualified name
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(463): warning C4482: nonstandard extension used: enum 'klLogicalFunctor::LogicalFunctorOperationType' used in qualified name
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(484): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(486): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(493): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(493): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(495): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(495): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(495): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(502): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(502): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(504): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(504): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(504): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(510): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(512): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(512): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1918): warning C4482: nonstandard extension used: enum 'IppiDitherType' used in qualified name
+                 d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1979) : see reference to class template instantiation 'klDitheringFunctor<TYPE>' being compiled
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1918): warning C4482: nonstandard extension used: enum 'IppiDitherType' used in qualified name
+     1>klBigTiffFileManager.cpp(69): warning C4101: 'processID' : unreferenced local variable
+     1>klBigTiffFileManager.cpp(93): warning C4101: 'lpFilename' : unreferenced local variable
+     1>klBigTiffFileManager.cpp(114): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>klBigTiffFileManager.cpp(118): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.h(153) : see declaration of 'asctime'
+     1>klBigTiffFileManager.cpp(141): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>klBigTiffFileManager.cpp(145): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.h(153) : see declaration of 'asctime'
+     1>klBigTiffFileManager.cpp(191): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>klBigTiffFileManager.cpp(192): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>klBigTiffFileManager.cpp(193): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>klBigTiffFileManager.cpp(194): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>klBigTiffFileManager.cpp(200): warning C4244: 'argument' : conversion from 'tsize_t' to 'unsigned int', possible loss of data
+     1>klBigTiffFileManager.cpp(224): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>klBigTiffFileManager.cpp(224): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>klBigTiffFileManager.cpp(225): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>klBigTiffFileManager.cpp(243): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(252): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(262): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(312): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(341): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(352): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(407): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>klBigTiffFileManager.cpp(449): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(461): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(469): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(375): warning C4101: 'yresolution' : unreferenced local variable
+     1>klBigTiffFileManager.cpp(373): warning C4101: 'y' : unreferenced local variable
+     1>klBigTiffFileManager.cpp(373): warning C4101: 'x' : unreferenced local variable
+     1>klBigTiffFileManager.cpp(374): warning C4101: 'xresolution' : unreferenced local variable
+     1>klBigTiffFileManager.cpp(376): warning C4101: 'isRGB' : unreferenced local variable
+     1>klBigTiffFileManager.cpp(374): warning C4101: 'xoffset' : unreferenced local variable
+     1>klBigTiffFileManager.cpp(375): warning C4101: 'yoffset' : unreferenced local variable
+     1>klBigTiffFileManager.cpp(497): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(505): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(522): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(532): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(540): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(563): warning C4244: 'initializing' : conversion from 'tmsize_t' to 'int', possible loss of data
+     1>klBigTiffFileManager.cpp(576): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>klBigTiffFileManager.cpp(576): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>klBigTiffFileManager.cpp(594): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(607): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(648): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(669): warning C4244: 'initializing' : conversion from 'tmsize_t' to 'int', possible loss of data
+     1>klBigTiffFileManager.cpp(681): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>klBigTiffFileManager.cpp(681): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>klBigTiffFileManager.cpp(699): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(712): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(778): warning C4244: 'initializing' : conversion from 'tmsize_t' to 'int', possible loss of data
+     1>klBigTiffFileManager.cpp(813): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>klBigTiffFileManager.cpp(813): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>klBigTiffFileManager.cpp(843): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(880): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(889): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(922): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(186): warning C4267: '+=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(192): warning C4267: '-=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(234): warning C4267: '-=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(238): warning C4267: '-=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(245): warning C4267: '+=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(298): warning C4244: 'initializing' : conversion from 'ULONG_PTR' to 'long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(357): warning C4244: '=' : conversion from 'ULONG_PTR' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(370): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\klmatrixcore\src\kl_memory.h(394): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\klmatrixcore\src\kl_memory.h(409): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\klmatrixcore\src\kl_memory.h(415): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\klmatrixcore\src\kl_memory.h(433): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\klmatrixcore\src\kl_memory.h(508): warning C4267: '+=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(514): warning C4267: '-=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(552): warning C4267: '-=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(556): warning C4267: '-=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(563): warning C4267: '+=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(740): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>d:\klmatrixcore\src\kl_memory.h(703): warning C4244: 'return' : conversion from 'SIZE_T' to 'long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(728): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\klmatrixcore\src\kl_memory.h(740): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\klmatrixcore\src\kl_memory.h(824): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>d:\klmatrixcore\src\kl_memory.h(829): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>d:\klmatrixcore\src\kl_memory.h(830): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>d:\klmatrixcore\src\kl_memory.h(833): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>d:\klmatrixcore\src\kl_memory.h(834): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>d:\klmatrixcore\src\kl_memory.h(812): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\klmatrixcore\src\kl_memory.h(824): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\klmatrixcore\src\kl_memory.h(829): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\klmatrixcore\src\kl_memory.h(830): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\klmatrixcore\src\kl_memory.h(833): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\klmatrixcore\src\kl_memory.h(834): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\klmatrixcore\src\kl_memory.h(972): warning C4244: 'initializing' : conversion from 'DWORDLONG' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(973): warning C4244: 'initializing' : conversion from 'DWORDLONG' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(974): warning C4244: 'initializing' : conversion from 'DWORDLONG' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(975): warning C4244: 'initializing' : conversion from 'DWORDLONG' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(976): warning C4244: 'initializing' : conversion from 'DWORDLONG' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(977): warning C4244: 'initializing' : conversion from 'DWORDLONG' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(978): warning C4244: 'initializing' : conversion from 'DWORDLONG' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(983): warning C4244: 'initializing' : conversion from 'SIZE_T' to 'long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(1049): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>d:\klmatrixcore\src\kl_memory.h(1081): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>d:\klmatrixcore\src\kl_memory.h(1084): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>d:\klmatrixcore\src\kl_vector.h(533): warning C4244: 'initializing' : conversion from 'const __int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_vector.h(550): warning C4244: 'initializing' : conversion from 'const __int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_vector.h(568): warning C4244: 'argument' : conversion from '__int64' to 'const int', possible loss of data
+     1>d:\klmatrixcore\src\kl_vector.h(580): warning C4244: 'argument' : conversion from '__int64' to 'const int', possible loss of data
+     1>d:\klmatrixcore\src\kl_vector.h(589): warning C4244: 'argument' : conversion from '__int64' to 'const int', possible loss of data
+     1>d:\klmatrixcore\src\kl_vector.h(597): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\klmatrixcore\src\kl_vector.h(597): warning C4244: 'argument' : conversion from '__int64' to 'const int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(870): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(872): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(874): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(910): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(912): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(914): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(941): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(942): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(956): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(957): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1291): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1292): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1307): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1308): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1336): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1337): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1388): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1389): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1414): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(82): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(83): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(85): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(101): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(102): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(112): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\klMatrixCore\src\kl_principal_components.h(150): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(151): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(152): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(153): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(169): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(170): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(180): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(32): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(32): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(82): warning C4244: 'initializing' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(83): warning C4244: 'initializing' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(84): warning C4244: 'initializing' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(121): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(121): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(202): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(203): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(204): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(274): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(357): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(358): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(359): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(363): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(364): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(365): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>klBigTiffFileManager.cpp(1003): warning C4018: '<=' : signed/unsigned mismatch
+     1>klBigTiffFileManager.cpp(1005): warning C4018: '<' : signed/unsigned mismatch
+     1>klBigTiffFileManager.cpp(1008): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>klBigTiffFileManager.cpp(1008): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>klBigTiffFileManager.cpp(1012): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>klBigTiffFileManager.cpp(1012): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>klBigTiffFileManager.cpp(1015): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>klBigTiffFileManager.cpp(1015): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>klBigTiffFileManager.cpp(1059): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1070): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1104): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1142): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1159): warning C4244: 'initializing' : conversion from 'tmsize_t' to 'int', possible loss of data
+     1>klBigTiffFileManager.cpp(1169): warning C4018: '<' : signed/unsigned mismatch
+     1>klBigTiffFileManager.cpp(1203): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1220): warning C4244: 'initializing' : conversion from 'tmsize_t' to 'int', possible loss of data
+     1>klBigTiffFileManager.cpp(1262): warning C4018: '<' : signed/unsigned mismatch
+     1>klBigTiffFileManager.cpp(1273): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1295): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1302): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1320): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1350): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1361): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>klBigTiffFileManager.cpp(1363): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1371): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1389): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1394): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1399): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1447): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1463): warning C4244: 'initializing' : conversion from 'tmsize_t' to 'int', possible loss of data
+     1>klBigTiffFileManager.cpp(1480): warning C4018: '<' : signed/unsigned mismatch
+     1>klBigTiffFileManager.cpp(1494): warning C4018: '<' : signed/unsigned mismatch
+     1>klBigTiffFileManager.cpp(1528): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1536): warning C4995: 'vsprintf': name was marked as #pragma deprecated
+     1>klBigTiffFileManager.cpp(1536): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>klBigTiffFileManager.cpp(1549): warning C4995: 'vsprintf': name was marked as #pragma deprecated
+     1>klBigTiffFileManager.cpp(1549): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>klBigTiffFileManager.cpp(1610): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1648): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1665): warning C4244: 'initializing' : conversion from 'tmsize_t' to 'int', possible loss of data
+     1>klBigTiffFileManager.cpp(1675): warning C4018: '<' : signed/unsigned mismatch
+     1>klBigTiffFileManager.cpp(1710): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1728): warning C4244: 'initializing' : conversion from 'tmsize_t' to 'int', possible loss of data
+     1>klBigTiffFileManager.cpp(1738): warning C4018: '<' : signed/unsigned mismatch
+     1>klBigTiffFileManager.cpp(1749): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1770): warning C4244: 'initializing' : conversion from 'tmsize_t' to 'int', possible loss of data
+     1>klBigTiffFileManager.cpp(1783): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>klBigTiffFileManager.cpp(1783): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>klBigTiffFileManager.cpp(1801): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1814): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>klBigTiffFileManager.cpp(1824): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\klmatrixcore\src\kl_sample_population.h(197): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+                 d:\klmatrixcore\src\kl_sample_population.h(167) : while compiling class template member function 'void klSamplePopulation<TYPE>::calcDescriptiveStats(void)'
+                 with
+                 [
+                     TYPE=float
+                 ]
+                 D:\klMatrixCore\src\kl_principal_components.h(14) : see reference to class template instantiation 'klSamplePopulation<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=float
+                 ]
+                 D:\klMatrixCore\src\kl_principal_components.h(58) : see reference to class template instantiation 'klPrincipalComponents<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=float
+                 ]
+     1>d:\klmatrixcore\src\kl_sample_population.h(198): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_sample_population.h(199): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_sample_population.h(200): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_sample_population.h(197): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+                 d:\klmatrixcore\src\kl_sample_population.h(167) : while compiling class template member function 'void klSamplePopulation<TYPE>::calcDescriptiveStats(void)'
+                 with
+                 [
+                     TYPE=double
+                 ]
+                 D:\klMatrixCore\src\kl_principal_components.h(14) : see reference to class template instantiation 'klSamplePopulation<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=double
+                 ]
+                 D:\klMatrixCore\src\kl_principal_components.h(124) : see reference to class template instantiation 'klPrincipalComponents<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=double
+                 ]
+     1>d:\klmatrixcore\src\kl_sample_population.h(198): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_sample_population.h(199): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_sample_population.h(200): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_util.h(425): warning C4244: 'initializing' : conversion from 'uintptr_t' to 'unsigned long', possible loss of data
+                 d:\klmatrixcore\src\kl_util.h(421) : while compiling class template member function 'void klThread<TYPE_MUTEX>::launch(void)'
+                 with
+                 [
+                     TYPE_MUTEX=klMutex
+                 ]
+                 D:\klMatrixCore\src\kl_thread_workflow.h(21) : see reference to class template instantiation 'klThread<TYPE_MUTEX>' being compiled
+                 with
+                 [
+                     TYPE_MUTEX=klMutex
+                 ]
+     1>d:\klmatrixcore\src\kl_matrix.h(1420): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+                 d:\klimagecore\klimagecorev\kl_img_pca.h(68) : see reference to function template instantiation 'std::ostream &operator <<<double>(std::ostream &,const klMatrix<TYPE> &)' being compiled
+                 with
+                 [
+                     TYPE=double
+                 ]
+     1>d:\klmatrixcore\src\kl_matrix.h(1421): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_stat.h(93): warning C4244: '/=' : conversion from 'double' to 'float', possible loss of data
+                 d:\klmatrixcore\src\kl_sample_population.h(199) : see reference to function template instantiation 'TYPE KL_stat::skewness<TYPE>(TYPE *,unsigned int,TYPE,TYPE)' being compiled
+                 with
+                 [
+                     TYPE=float
+                 ]
+                 d:\klmatrixcore\src\kl_sample_population.h(167) : while compiling class template member function 'void klSamplePopulation<TYPE>::calcDescriptiveStats(void)'
+                 with
+                 [
+                     TYPE=float
+                 ]
+     1>d:\klmatrixcore\src\kl_stat.h(107): warning C4244: '/=' : conversion from 'double' to 'float', possible loss of data
+                 d:\klmatrixcore\src\kl_sample_population.h(200) : see reference to function template instantiation 'TYPE KL_stat::kurtosis<TYPE>(TYPE *,unsigned int,TYPE,TYPE)' being compiled
+                 with
+                 [
+                     TYPE=float
+                 ]
+         kl_image_processing_functors.cpp
+     1>D:\klMatrixCore\src\kl_util.h(220): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\klMatrixCore\src\kl_util.h(234): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\klMatrixCore\src\kl_util.h(259): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>D:\klMatrixCore\src\kl_util.h(286): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(445): warning C4482: nonstandard extension used: enum 'klLogicalFunctor::LogicalFunctorOperationType' used in qualified name
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(463): warning C4482: nonstandard extension used: enum 'klLogicalFunctor::LogicalFunctorOperationType' used in qualified name
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(484): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(486): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(493): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(493): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(495): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(495): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(495): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(502): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(502): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(504): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(504): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(504): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(510): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(512): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(512): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1918): warning C4482: nonstandard extension used: enum 'IppiDitherType' used in qualified name
+                 d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1979) : see reference to class template instantiation 'klDitheringFunctor<TYPE>' being compiled
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1918): warning C4482: nonstandard extension used: enum 'IppiDitherType' used in qualified name
+     1>d:\klimagecore\klimagecorev\kl_image_io.h(142): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_io.h(142): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_io.h(142): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_ppm_image_io.h(31): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_ppm_image_io.h(82): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_ppm_image_io.h(82): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_ppm_image_io.h(82): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(186): warning C4267: '+=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(192): warning C4267: '-=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(234): warning C4267: '-=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(238): warning C4267: '-=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(245): warning C4267: '+=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(298): warning C4244: 'initializing' : conversion from 'ULONG_PTR' to 'long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(357): warning C4244: '=' : conversion from 'ULONG_PTR' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(370): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\klmatrixcore\src\kl_memory.h(394): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\klmatrixcore\src\kl_memory.h(409): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\klmatrixcore\src\kl_memory.h(415): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\klmatrixcore\src\kl_memory.h(433): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\klmatrixcore\src\kl_memory.h(508): warning C4267: '+=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(514): warning C4267: '-=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(552): warning C4267: '-=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(556): warning C4267: '-=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(563): warning C4267: '+=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(703): warning C4244: 'return' : conversion from 'SIZE_T' to 'long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(728): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\klmatrixcore\src\kl_memory.h(740): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\klmatrixcore\src\kl_memory.h(812): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\klmatrixcore\src\kl_memory.h(824): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\klmatrixcore\src\kl_memory.h(829): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\klmatrixcore\src\kl_memory.h(830): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\klmatrixcore\src\kl_memory.h(833): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\klmatrixcore\src\kl_memory.h(834): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\klmatrixcore\src\kl_memory.h(972): warning C4244: 'initializing' : conversion from 'DWORDLONG' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(973): warning C4244: 'initializing' : conversion from 'DWORDLONG' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(974): warning C4244: 'initializing' : conversion from 'DWORDLONG' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(975): warning C4244: 'initializing' : conversion from 'DWORDLONG' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(976): warning C4244: 'initializing' : conversion from 'DWORDLONG' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(977): warning C4244: 'initializing' : conversion from 'DWORDLONG' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(978): warning C4244: 'initializing' : conversion from 'DWORDLONG' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(983): warning C4244: 'initializing' : conversion from 'SIZE_T' to 'long', possible loss of data
+     1>d:\klmatrixcore\src\kl_memory.h(1049): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>d:\klmatrixcore\src\kl_memory.h(1081): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>d:\klmatrixcore\src\kl_memory.h(1084): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+     1>d:\klmatrixcore\src\kl_vector.h(533): warning C4244: 'initializing' : conversion from 'const __int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_vector.h(550): warning C4244: 'initializing' : conversion from 'const __int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_vector.h(568): warning C4244: 'argument' : conversion from '__int64' to 'const int', possible loss of data
+     1>d:\klmatrixcore\src\kl_vector.h(580): warning C4244: 'argument' : conversion from '__int64' to 'const int', possible loss of data
+     1>d:\klmatrixcore\src\kl_vector.h(589): warning C4244: 'argument' : conversion from '__int64' to 'const int', possible loss of data
+     1>d:\klmatrixcore\src\kl_vector.h(597): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>d:\klmatrixcore\src\kl_vector.h(597): warning C4244: 'argument' : conversion from '__int64' to 'const int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(870): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(872): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(874): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(910): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(912): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(914): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(941): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(942): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(956): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(957): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1291): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1292): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1307): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1308): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1336): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1337): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1388): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1389): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_matrix.h(1414): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(82): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(83): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(85): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(101): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(102): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(112): warning C4018: '<' : signed/unsigned mismatch
+     1>D:\klMatrixCore\src\kl_principal_components.h(150): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(151): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(152): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(153): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(169): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(170): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>D:\klMatrixCore\src\kl_principal_components.h(180): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(32): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(32): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(82): warning C4244: 'initializing' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(83): warning C4244: 'initializing' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(84): warning C4244: 'initializing' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(121): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(121): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(202): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(203): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(204): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(274): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(357): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(358): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(359): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(363): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(364): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_img_pca.h(365): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(133): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(133): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(142): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(142): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(162): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(162): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(167): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(167): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(172): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(172): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(188): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(188): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(218): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(218): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(230): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(230): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(236): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(236): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(245): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(245): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(251): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(251): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(251): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(252): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(252): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(252): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(253): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(253): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(253): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(263): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(263): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(269): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(269): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(287): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(287): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(306): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(306): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(323): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(323): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(334): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(334): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(343): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(343): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(352): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(352): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(357): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(357): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(364): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(364): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(376): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(376): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(381): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(381): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(386): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(386): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(388): warning C4482: nonstandard extension used: enum 'klLogicalFunctor::LogicalFunctorOperationType' used in qualified name
+     1>kl_image_processing_functors.cpp(391): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(391): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(397): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(397): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(408): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(408): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(529): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _flushall. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(724) : see declaration of 'flushall'
+     1>kl_image_processing_functors.cpp(554): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(554): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(569): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(569): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(574): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(574): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(597): warning C4482: nonstandard extension used: enum 'IppiDitherType' used in qualified name
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1918): warning C4482: nonstandard extension used: enum 'IppiDitherType' used in qualified name
+                 kl_image_processing_functors.cpp(600) : see reference to class template instantiation 'klDitheringFunctor<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1918): warning C4482: nonstandard extension used: enum 'IppiDitherType' used in qualified name
+     1>kl_image_processing_functors.cpp(602): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>kl_image_processing_functors.cpp(609): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>kl_image_processing_functors.cpp(616): warning C4482: nonstandard extension used: enum 'IppiDitherType' used in qualified name
+     1>kl_image_processing_functors.cpp(620): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>kl_image_processing_functors.cpp(626): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>kl_image_processing_functors.cpp(634): warning C4482: nonstandard extension used: enum 'IppiDitherType' used in qualified name
+     1>kl_image_processing_functors.cpp(638): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>kl_image_processing_functors.cpp(645): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>kl_image_processing_functors.cpp(652): warning C4482: nonstandard extension used: enum 'IppiDitherType' used in qualified name
+     1>kl_image_processing_functors.cpp(656): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>kl_image_processing_functors.cpp(663): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>kl_image_processing_functors.cpp(705): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(705): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(725): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(725): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(730): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(730): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(732): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(732): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(735): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(735): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(742): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(742): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(758): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(758): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(763): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(763): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(786): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(786): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(798): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(798): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(804): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(804): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(813): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(813): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(818): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(818): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(818): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(819): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(819): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(819): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(820): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(820): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(820): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+     1>kl_image_processing_functors.cpp(826): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(826): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(832): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(832): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(848): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(848): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(865): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(865): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(882): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(882): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>kl_image_processing_functors.cpp(890): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(890): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(902): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(902): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(907): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(907): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(912): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(912): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(914): warning C4482: nonstandard extension used: enum 'klLogicalFunctor::LogicalFunctorOperationType' used in qualified name
+     1>kl_image_processing_functors.cpp(917): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(917): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(922): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(922): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(932): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>kl_image_processing_functors.cpp(932): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1858): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1830) : while compiling class template member function 'void klCopySplitBandFunctor<TYPE>::operator ()(void)'
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+                 kl_image_processing_functors.cpp(138) : see reference to class template instantiation 'klCopySplitBandFunctor<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1859): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1862): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1863): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1874): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1885): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1885): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1886): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1886): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1887): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1887): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1889): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1889): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1848): warning C4101: 'i' : unreferenced local variable
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1850): warning C4101: 'b' : unreferenced local variable
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1849): warning C4101: 'j' : unreferenced local variable
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(54): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+                 d:\klimagecore\klimagecorev\kl_image_processing_functors.h(27) : while compiling class template member function 'void klCopyFunctor<TYPE>::operator ()(void)'
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+                 kl_image_processing_functors.cpp(155) : see reference to class template instantiation 'klCopyFunctor<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(55): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(57): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(58): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1066): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+                 d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1048) : while compiling class template member function 'void klDilateFunctor<TYPE>::operator ()(void)'
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+                 kl_image_processing_functors.cpp(157) : see reference to class template instantiation 'klDilateFunctor<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1066): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1068): warning C4482: nonstandard extension used: enum 'klPadFunctor::padType' used in qualified name
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1070): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1088): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1090): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1099): warning C4244: 'initializing' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1101): warning C4244: 'initializing' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1120): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1123): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1123): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1131): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1134): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1134): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1149): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1149): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1156): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1159): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1159): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(354): warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+                 d:\klimagecore\klimagecorev\kl_image_processing_functors.h(330) : while compiling class template member function 'void klThresholdFunctor<TYPE>::operator ()(void)'
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+                 kl_image_processing_functors.cpp(185) : see reference to class template instantiation 'klThresholdFunctor<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1211): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+                 d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1193) : while compiling class template member function 'void klOpenFunctor<TYPE>::operator ()(void)'
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+                 kl_image_processing_functors.cpp(227) : see reference to class template instantiation 'klOpenFunctor<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1211): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1213): warning C4482: nonstandard extension used: enum 'klPadFunctor::padType' used in qualified name
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1215): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1233): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1235): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1243): warning C4244: 'initializing' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1245): warning C4244: 'initializing' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1296): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1296): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1310): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1310): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(577): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+                 d:\klimagecore\klimagecorev\kl_image_processing_functors.h(550) : while compiling class template member function 'void klFilterFunctor<TYPE>::operator ()(void)'
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+                 kl_image_processing_functors.cpp(259) : see reference to class template instantiation 'klFilterFunctor<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(577): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(579): warning C4482: nonstandard extension used: enum 'klPadFunctor::padType' used in qualified name
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(581): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(589): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(591): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(599): warning C4244: 'initializing' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(601): warning C4244: 'initializing' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(626): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(626): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(633): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(633): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(640): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(640): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(654): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(654): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(662): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(662): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(670): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(670): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(704): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(704): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(711): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(711): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(718): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(718): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(729): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(729): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(737): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(737): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(744): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(744): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1792): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1770) : while compiling class template member function 'void klColorToGrayFunctor<TYPE>::operator ()(void)'
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+                 kl_image_processing_functors.cpp(266) : see reference to class template instantiation 'klColorToGrayFunctor<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1793): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1798): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1798): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1806): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1806): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(924): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+                 d:\klimagecore\klimagecorev\kl_image_processing_functors.h(906) : while compiling class template member function 'void klErodeFunctor<TYPE>::operator ()(void)'
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+                 kl_image_processing_functors.cpp(303) : see reference to class template instantiation 'klErodeFunctor<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(924): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(926): warning C4482: nonstandard extension used: enum 'klPadFunctor::padType' used in qualified name
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(928): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(946): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(948): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(956): warning C4244: 'initializing' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(958): warning C4244: 'initializing' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(976): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(979): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(979): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(987): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(990): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(990): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1004): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1004): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1012): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1015): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1015): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1522): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1499) : while compiling class template member function 'klRasterBufferPointer klRotateFunctor<TYPE>::operator ()(void)'
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+                 kl_image_processing_functors.cpp(331) : see reference to class template instantiation 'klRotateFunctor<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1523): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1524): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1529): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1529): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1532): warning C4244: 'initializing' : conversion from 'size_t' to 'double', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1533): warning C4244: 'initializing' : conversion from 'size_t' to 'double', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1534): warning C4244: 'initializing' : conversion from 'size_t' to 'double', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1535): warning C4244: 'initializing' : conversion from 'size_t' to 'double', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1560): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1563): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1567): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1568): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1571): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1572): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1575): warning C4244: 'argument' : conversion from 'size_t' to 'double', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1575): warning C4244: 'argument' : conversion from 'size_t' to 'double', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1586): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1588): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1588): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1531): warning C4101: 'bound' : unreferenced local variable
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1516): warning C4101: 'dstRoiSize' : unreferenced local variable
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1530): warning C4101: 'quad' : unreferenced local variable
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1378): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1359) : while compiling class template member function 'klRasterBufferPointer klResizeFunctor<TYPE>::operator ()(void)'
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+                 kl_image_processing_functors.cpp(340) : see reference to class template instantiation 'klResizeFunctor<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1379): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1384): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1385): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1386): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1389): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1389): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1393): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1397): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1397): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1405): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1698): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1664) : while compiling class template member function 'void klCopyROIFunctor<TYPE>::operator ()(void)'
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+                 kl_image_processing_functors.cpp(349) : see reference to class template instantiation 'klCopyROIFunctor<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1699): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1688): warning C4101: 'i' : unreferenced local variable
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1690): warning C4101: 'b' : unreferenced local variable
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1689): warning C4101: 'j' : unreferenced local variable
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(788): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 d:\klimagecore\klimagecorev\kl_image_processing_functors.h(778) : while compiling class template member function 'void klFillHolesFunctor<TYPE>::operator ()(void)'
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+                 kl_image_processing_functors.cpp(394) : see reference to class template instantiation 'klFillHolesFunctor<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(791): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(794): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(803): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1949): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1927) : while compiling class template member function 'void klDitheringFunctor<TYPE>::operator ()(void)'
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+                 kl_image_processing_functors.cpp(600) : see reference to class template instantiation 'klDitheringFunctor<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=unsigned char
+                 ]
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1950): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1958): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1958): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1963): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1963): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_sample_population.h(197): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+                 d:\klmatrixcore\src\kl_sample_population.h(167) : while compiling class template member function 'void klSamplePopulation<TYPE>::calcDescriptiveStats(void)'
+                 with
+                 [
+                     TYPE=float
+                 ]
+                 D:\klMatrixCore\src\kl_principal_components.h(14) : see reference to class template instantiation 'klSamplePopulation<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=float
+                 ]
+                 D:\klMatrixCore\src\kl_principal_components.h(58) : see reference to class template instantiation 'klPrincipalComponents<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=float
+                 ]
+     1>d:\klmatrixcore\src\kl_sample_population.h(198): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_sample_population.h(199): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_sample_population.h(200): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_sample_population.h(197): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+                 d:\klmatrixcore\src\kl_sample_population.h(167) : while compiling class template member function 'void klSamplePopulation<TYPE>::calcDescriptiveStats(void)'
+                 with
+                 [
+                     TYPE=double
+                 ]
+                 D:\klMatrixCore\src\kl_principal_components.h(14) : see reference to class template instantiation 'klSamplePopulation<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=double
+                 ]
+                 D:\klMatrixCore\src\kl_principal_components.h(124) : see reference to class template instantiation 'klPrincipalComponents<TYPE>' being compiled
+                 with
+                 [
+                     TYPE=double
+                 ]
+     1>d:\klmatrixcore\src\kl_sample_population.h(198): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_sample_population.h(199): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_sample_population.h(200): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>d:\klmatrixcore\src\kl_util.h(425): warning C4244: 'initializing' : conversion from 'uintptr_t' to 'unsigned long', possible loss of data
+                 d:\klmatrixcore\src\kl_util.h(421) : while compiling class template member function 'void klThread<TYPE_MUTEX>::launch(void)'
+                 with
+                 [
+                     TYPE_MUTEX=klMutex
+                 ]
+                 D:\klMatrixCore\src\kl_thread_workflow.h(21) : see reference to class template instantiation 'klThread<TYPE_MUTEX>' being compiled
+                 with
+                 [
+                     TYPE_MUTEX=klMutex
+                 ]
+     1>d:\klmatrixcore\src\kl_matrix.h(1420): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+                 d:\klimagecore\klimagecorev\kl_img_pca.h(68) : see reference to function template instantiation 'std::ostream &operator <<<double>(std::ostream &,const klMatrix<TYPE> &)' being compiled
+                 with
+                 [
+                     TYPE=double
+                 ]
+     1>d:\klmatrixcore\src\kl_matrix.h(1421): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\klmatrixcore\src\kl_stat.h(93): warning C4244: '/=' : conversion from 'double' to 'float', possible loss of data
+                 d:\klmatrixcore\src\kl_sample_population.h(199) : see reference to function template instantiation 'TYPE KL_stat::skewness<TYPE>(TYPE *,unsigned int,TYPE,TYPE)' being compiled
+                 with
+                 [
+                     TYPE=float
+                 ]
+                 d:\klmatrixcore\src\kl_sample_population.h(167) : while compiling class template member function 'void klSamplePopulation<TYPE>::calcDescriptiveStats(void)'
+                 with
+                 [
+                     TYPE=float
+                 ]
+     1>d:\klmatrixcore\src\kl_stat.h(107): warning C4244: '/=' : conversion from 'double' to 'float', possible loss of data
+                 d:\klmatrixcore\src\kl_sample_population.h(200) : see reference to function template instantiation 'TYPE KL_stat::kurtosis<TYPE>(TYPE *,unsigned int,TYPE,TYPE)' being compiled
+                 with
+                 [
+                     TYPE=float
+                 ]
+         Generating Code...
+     1>d:\klimagecore\klimagecorev\kl_image_processing_functors.h(1968): warning C4700: uninitialized local variable 'ippStatusResult' used
+     1>d:\klimagecore\klimagecorev\klbigtifffilemanager.cpp(1754): warning C4715: 'klBigTiffFileManager::getTiffDirImage' : not all control paths return a value
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\x64\Release\klImageCoreV.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\lib\intel64" /LIBPATH:"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\compiler\lib\intel64" /LIBPATH:"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\ipp\lib\intel64" mkl_solver_lp64.lib mkl_intel_lp64_dll.lib mkl_intel_thread_dll.lib mkl_core_dll.lib libiomp5md.lib /MANIFEST /ManifestFile:"x64\Release\klImageCoreV.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\x64\Release\klImageCoreV.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 /DLL x64\Release\app.res
+         x64\Release\klBigTiffFileManager.obj
+         x64\Release\klBigTiffManagedReader.obj
+         x64\Release\AssemblyInfo.obj
+         x64\Release\kl_image_io.obj
+         x64\Release\kl_ppm_image_io.obj
+         x64\Release\kl_tiff_image_io.obj
+         x64\Release\klPerformanceCounter.obj
+         x64\Release\klProcessImage.obj
+         x64\Release\kl_image_processing_functors.obj
+         "x64\Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         ..\..\x64\Release\ARPACK2.lib
+         ..\..\x64\Release\arpack_CPP_v2.lib
+         ..\..\x64\Release\expokitcpp.lib
+         ..\..\x64\Release\FGG.lib
+         ..\..\x64\Release\ICC.lib
+         ..\..\x64\Release\libjpeg.lib
+         ..\..\x64\Release\libsdpa.lib
+         ..\..\x64\Release\libtiff.lib
+         ..\..\x64\Release\libz.lib
+         ..\..\x64\Release\Matlib.lib
+         ..\..\x64\Release\SUPERLU_SEQUENTIAL.lib
+         ..\..\x64\Release\UMFPACK.lib
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\x64\Kernel32.Lib"
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\x64\Psapi.Lib"
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\x64\User32.Lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libemlrt.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libeng.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libfixedpoint.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmat.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmex.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwblas.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwblascompat32.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwlapack.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwmathutil.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwservices.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmx.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libut.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclbase.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclmcr.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclmcrrt.lib"
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+         ICC.lib(IccCmm.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>kl_image_processing_functors.obj : warning LNK4248: unresolved typeref token (0100001B) for 'ipcvMorphAdvState'; image may not run
+     1>arpack_CPP_v2.lib(dnsymreg.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'arpack_CPP_v2.lib(dnsymreg.obj)' or at 'D:\x64\Release\vc100.pdb'; linking object as if no debug info
+         klImageCoreV.vcxproj -> D:\x64\Release\klImageCoreV.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\x64\Release\klImageCoreV.dll;#2" /manifest x64\Release\klImageCoreV.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\klImageCoreV.unsuccessfulbuild".
+         Touching "x64\Release\klImageCoreV.lastbuildstate".
+     1>Done Building Project "D:\klImageCore\klImageCoreV\klImageCoreV.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:24.93

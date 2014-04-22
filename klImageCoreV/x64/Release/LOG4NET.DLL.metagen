@@ -1,0 +1,2672 @@
+  LICENSE - Embedded, ContainedInManifestFile, 
+  NOTICE - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Interface log4net.Appender.IAppender: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    System.String Name 'get set' : 
+  Methods:
+    Close(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DoAppend(LoggingEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Name(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Interface log4net.Appender.IBulkAppender: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    log4net.Appender.IAppender
+  Methods:
+    DoAppend(LoggingEvent[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface log4net.Core.IOptionHandler: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.Appender.AppenderSkeleton: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Interfaces:
+    log4net.Appender.IBulkAppender
+    log4net.Appender.IAppender
+    log4net.Core.IOptionHandler
+  Properties:
+    log4net.Core.Level Threshold 'get set' : 
+    log4net.Core.IErrorHandler ErrorHandler 'get set' : 
+    log4net.Filter.IFilter FilterHead 'get ' : 
+    log4net.Layout.ILayout Layout 'get set' : 
+    System.String Name 'get set' : 
+  Methods:
+    get_Threshold(): PrivateScope, Public, HideBySig, SpecialName
+    set_Threshold(Level): PrivateScope, Public, HideBySig, SpecialName
+    get_ErrorHandler(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ErrorHandler(IErrorHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FilterHead(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Layout(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Layout(ILayout): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Name(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Name(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Close(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    DoAppend(LoggingEvent): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    DoAppend(LoggingEvent[]): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    AddFilter(IFilter): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ClearFilters(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Appender.BufferingAppenderSkeleton: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :log4net.Appender.AppenderSkeleton
+  Properties:
+    Boolean Lossy 'get set' : 
+    Int32 BufferSize 'get set' : 
+    log4net.Core.ITriggeringEventEvaluator Evaluator 'get set' : 
+    log4net.Core.ITriggeringEventEvaluator LossyEvaluator 'get set' : 
+    Boolean OnlyFixPartialEventData 'get set' :  (Obsolete)
+    log4net.Core.FixFlags Fix 'get set' : 
+  Methods:
+    get_Lossy(): PrivateScope, Public, HideBySig, SpecialName
+    set_Lossy(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_BufferSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_BufferSize(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Evaluator(): PrivateScope, Public, HideBySig, SpecialName
+    set_Evaluator(ITriggeringEventEvaluator): PrivateScope, Public, HideBySig, SpecialName
+    get_LossyEvaluator(): PrivateScope, Public, HideBySig, SpecialName
+    set_LossyEvaluator(ITriggeringEventEvaluator): PrivateScope, Public, HideBySig, SpecialName
+    get_OnlyFixPartialEventData(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_OnlyFixPartialEventData(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Fix(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Fix(FixFlags): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Flush(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Flush(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Appender.AdoNetAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.BufferingAppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String ConnectionString 'get set' : 
+    System.String AppSettingsKey 'get set' : 
+    System.String ConnectionStringName 'get set' : 
+    System.String ConnectionType 'get set' : 
+    System.String CommandText 'get set' : 
+    System.Data.CommandType CommandType 'get set' : 
+    Boolean UseTransactions 'get set' : 
+    log4net.Core.SecurityContext SecurityContext 'get set' : 
+    Boolean ReconnectOnError 'get set' : 
+  Methods:
+    get_ConnectionString(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConnectionString(String): PrivateScope, Public, HideBySig, SpecialName
+    get_AppSettingsKey(): PrivateScope, Public, HideBySig, SpecialName
+    set_AppSettingsKey(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ConnectionStringName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConnectionStringName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ConnectionType(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConnectionType(String): PrivateScope, Public, HideBySig, SpecialName
+    get_CommandText(): PrivateScope, Public, HideBySig, SpecialName
+    set_CommandText(String): PrivateScope, Public, HideBySig, SpecialName
+    get_CommandType(): PrivateScope, Public, HideBySig, SpecialName
+    set_CommandType(CommandType): PrivateScope, Public, HideBySig, SpecialName
+    get_UseTransactions(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseTransactions(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_SecurityContext(): PrivateScope, Public, HideBySig, SpecialName
+    set_SecurityContext(SecurityContext): PrivateScope, Public, HideBySig, SpecialName
+    get_ReconnectOnError(): PrivateScope, Public, HideBySig, SpecialName
+    set_ReconnectOnError(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+    AddParameter(AdoNetAppenderParameter): PrivateScope, Public, HideBySig
+Class log4net.Appender.AdoNetAppenderParameter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String ParameterName 'get set' : 
+    System.Data.DbType DbType 'get set' : 
+    Byte Precision 'get set' : 
+    Byte Scale 'get set' : 
+    Int32 Size 'get set' : 
+    log4net.Layout.IRawLayout Layout 'get set' : 
+  Methods:
+    get_ParameterName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ParameterName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DbType(): PrivateScope, Public, HideBySig, SpecialName
+    set_DbType(DbType): PrivateScope, Public, HideBySig, SpecialName
+    get_Precision(): PrivateScope, Public, HideBySig, SpecialName
+    set_Precision(Byte): PrivateScope, Public, HideBySig, SpecialName
+    get_Scale(): PrivateScope, Public, HideBySig, SpecialName
+    set_Scale(Byte): PrivateScope, Public, HideBySig, SpecialName
+    get_Size(): PrivateScope, Public, HideBySig, SpecialName
+    set_Size(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Layout(): PrivateScope, Public, HideBySig, SpecialName
+    set_Layout(IRawLayout): PrivateScope, Public, HideBySig, SpecialName
+    Prepare(IDbCommand): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FormatValue(IDbCommand, LoggingEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Appender.AnsiColorTerminalAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.AppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String ConsoleOut = Console.Out : Public, Static, Literal, HasDefault
+    System.String ConsoleError = Console.Error : Public, Static, Literal, HasDefault
+  Properties:
+    System.String Target 'get set' : 
+  Methods:
+    get_Target(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Target(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    AddMapping(LevelColors): PrivateScope, Public, HideBySig
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+Struct log4net.Appender.AnsiColorTerminalAppender+AnsiAttributes: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    AnsiAttributes Bright = 1 : Public, Static, Literal, HasDefault
+    AnsiAttributes Dim = 2 : Public, Static, Literal, HasDefault
+    AnsiAttributes Underscore = 4 : Public, Static, Literal, HasDefault
+    AnsiAttributes Blink = 8 : Public, Static, Literal, HasDefault
+    AnsiAttributes Reverse = 16 : Public, Static, Literal, HasDefault
+    AnsiAttributes Hidden = 32 : Public, Static, Literal, HasDefault
+    AnsiAttributes Strikethrough = 64 : Public, Static, Literal, HasDefault
+Struct log4net.Appender.AnsiColorTerminalAppender+AnsiColor: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    AnsiColor Black = 0 : Public, Static, Literal, HasDefault
+    AnsiColor Red = 1 : Public, Static, Literal, HasDefault
+    AnsiColor Green = 2 : Public, Static, Literal, HasDefault
+    AnsiColor Yellow = 3 : Public, Static, Literal, HasDefault
+    AnsiColor Blue = 4 : Public, Static, Literal, HasDefault
+    AnsiColor Magenta = 5 : Public, Static, Literal, HasDefault
+    AnsiColor Cyan = 6 : Public, Static, Literal, HasDefault
+    AnsiColor White = 7 : Public, Static, Literal, HasDefault
+Class log4net.Util.LevelMappingEntry: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Interfaces:
+    log4net.Core.IOptionHandler
+  Properties:
+    log4net.Core.Level Level 'get set' : 
+  Methods:
+    get_Level(): PrivateScope, Public, HideBySig, SpecialName
+    set_Level(Level): PrivateScope, Public, HideBySig, SpecialName
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Appender.AnsiColorTerminalAppender+LevelColors: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :log4net.Util.LevelMappingEntry
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    AnsiColor ForeColor 'get set' : 
+    AnsiColor BackColor 'get set' : 
+    AnsiAttributes Attributes 'get set' : 
+  Methods:
+    get_ForeColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ForeColor(AnsiColor): PrivateScope, Public, HideBySig, SpecialName
+    get_BackColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_BackColor(AnsiColor): PrivateScope, Public, HideBySig, SpecialName
+    get_Attributes(): PrivateScope, Public, HideBySig, SpecialName
+    set_Attributes(AnsiAttributes): PrivateScope, Public, HideBySig, SpecialName
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Appender.AppenderCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Appender.AppenderCollection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Appender.IAppender[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Collections.ICollection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Collections.IList
+    System.Collections.ICollection
+    System.Collections.IEnumerable
+    System.ICloneable
+  Fields:
+    log4net.Appender.AppenderCollection EmptyCollection : Public, Static, InitOnly
+  Properties:
+    Int32 Count 'get ' : 
+    Boolean IsSynchronized 'get ' : 
+    System.Object SyncRoot 'get ' : 
+    log4net.Appender.IAppender Item [Int32] 'get set' : 
+    Boolean IsFixedSize 'get ' : 
+    Boolean IsReadOnly 'get ' : 
+    Int32 Capacity 'get set' : 
+  Methods:
+    ReadOnly(AppenderCollection): PrivateScope, Public, Static, HideBySig
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    CopyTo(IAppender[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CopyTo(IAppender[], Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_IsSynchronized(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SyncRoot(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Item(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Item(Int32, IAppender): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Add(IAppender): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Clear(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Clone(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Contains(IAppender): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IndexOf(IAppender): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Insert(Int32, IAppender): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Remove(IAppender): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RemoveAt(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_IsFixedSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsReadOnly(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetEnumerator(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Capacity(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Capacity(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    AddRange(AppenderCollection): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AddRange(IAppender[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AddRange(ICollection): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TrimToSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ToArray(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface log4net.Appender.AppenderCollection+IAppenderCollectionEnumerator: AutoLayout, AnsiClass, Class, NestedPublic, ClassSemanticsMask, Abstract
+  Properties:
+    log4net.Appender.IAppender Current 'get ' : 
+  Methods:
+    get_Current(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    MoveNext(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Reset(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.Appender.AspNetTraceAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.AppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    log4net.Layout.PatternLayout Category 'get set' : 
+  Methods:
+    get_Category(): PrivateScope, Public, HideBySig, SpecialName
+    set_Category(PatternLayout): PrivateScope, Public, HideBySig, SpecialName
+Interface log4net.Core.IAppenderAttachable: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    log4net.Appender.AppenderCollection Appenders 'get ' : 
+  Methods:
+    AddAppender(IAppender): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Appenders(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    GetAppender(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RemoveAllAppenders(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RemoveAppender(IAppender): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RemoveAppender(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.Appender.BufferingForwardingAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.BufferingAppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Core.IAppenderAttachable
+  Properties:
+    log4net.Appender.AppenderCollection Appenders 'get ' : 
+  Methods:
+    AddAppender(IAppender): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Appenders(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetAppender(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RemoveAllAppenders(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RemoveAppender(IAppender): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RemoveAppender(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Appender.ColoredConsoleAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.AppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Layout.ILayout): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName (Obsolete)
+    Void .ctor(log4net.Layout.ILayout, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName (Obsolete)
+  Fields:
+    System.String ConsoleOut = Console.Out : Public, Static, Literal, HasDefault
+    System.String ConsoleError = Console.Error : Public, Static, Literal, HasDefault
+  Properties:
+    System.String Target 'get set' : 
+  Methods:
+    get_Target(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Target(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    AddMapping(LevelColors): PrivateScope, Public, HideBySig
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig, HasSecurity
+Struct log4net.Appender.ColoredConsoleAppender+Colors: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Colors Blue = 1 : Public, Static, Literal, HasDefault
+    Colors Green = 2 : Public, Static, Literal, HasDefault
+    Colors Red = 4 : Public, Static, Literal, HasDefault
+    Colors White = 7 : Public, Static, Literal, HasDefault
+    Colors Yellow = 6 : Public, Static, Literal, HasDefault
+    Colors Purple = 5 : Public, Static, Literal, HasDefault
+    Colors Cyan = 3 : Public, Static, Literal, HasDefault
+    Colors HighIntensity = 8 : Public, Static, Literal, HasDefault
+Class log4net.Appender.ColoredConsoleAppender+LevelColors: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :log4net.Util.LevelMappingEntry
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Colors ForeColor 'get set' : 
+    Colors BackColor 'get set' : 
+  Methods:
+    get_ForeColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_ForeColor(Colors): PrivateScope, Public, HideBySig, SpecialName
+    get_BackColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_BackColor(Colors): PrivateScope, Public, HideBySig, SpecialName
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Appender.ConsoleAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.AppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Layout.ILayout): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName (Obsolete)
+    Void .ctor(log4net.Layout.ILayout, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName (Obsolete)
+  Fields:
+    System.String ConsoleOut = Console.Out : Public, Static, Literal, HasDefault
+    System.String ConsoleError = Console.Error : Public, Static, Literal, HasDefault
+  Properties:
+    System.String Target 'get set' : 
+  Methods:
+    get_Target(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Target(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class log4net.Appender.DebugAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.AppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Layout.ILayout): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName (Obsolete)
+  Properties:
+    Boolean ImmediateFlush 'get set' : 
+  Methods:
+    get_ImmediateFlush(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImmediateFlush(Boolean): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Appender.EventLogAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.AppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Layout.ILayout): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName (Obsolete)
+  Properties:
+    System.String LogName 'get set' : 
+    System.String ApplicationName 'get set' : 
+    System.String MachineName 'get set' : 
+    log4net.Core.SecurityContext SecurityContext 'get set' : 
+    Int32 EventId 'get set' : 
+    Int16 Category 'get set' : 
+  Methods:
+    get_LogName(): PrivateScope, Public, HideBySig, SpecialName
+    set_LogName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ApplicationName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ApplicationName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MachineName(): PrivateScope, Public, HideBySig, SpecialName
+    set_MachineName(String): PrivateScope, Public, HideBySig, SpecialName
+    AddMapping(Level2EventLogEntryType): PrivateScope, Public, HideBySig
+    get_SecurityContext(): PrivateScope, Public, HideBySig, SpecialName
+    set_SecurityContext(SecurityContext): PrivateScope, Public, HideBySig, SpecialName
+    get_EventId(): PrivateScope, Public, HideBySig, SpecialName
+    set_EventId(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Category(): PrivateScope, Public, HideBySig, SpecialName
+    set_Category(Int16): PrivateScope, Public, HideBySig, SpecialName
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Appender.EventLogAppender+Level2EventLogEntryType: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :log4net.Util.LevelMappingEntry
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Diagnostics.EventLogEntryType EventLogEntryType 'get set' : 
+  Methods:
+    get_EventLogEntryType(): PrivateScope, Public, HideBySig, SpecialName
+    set_EventLogEntryType(EventLogEntryType): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Appender.TextWriterAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.AppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Layout.ILayout, System.IO.Stream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName (Obsolete)
+    Void .ctor(log4net.Layout.ILayout, System.IO.TextWriter): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName (Obsolete)
+  Properties:
+    Boolean ImmediateFlush 'get set' : 
+    System.IO.TextWriter Writer 'get set' : 
+    log4net.Core.IErrorHandler ErrorHandler 'get set' : 
+  Methods:
+    get_ImmediateFlush(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImmediateFlush(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Writer(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Writer(TextWriter): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ErrorHandler(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ErrorHandler(IErrorHandler): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class log4net.Appender.FileAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.TextWriterAppender
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Layout.ILayout, System.String, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName (Obsolete)
+    Void .ctor(log4net.Layout.ILayout, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName (Obsolete)
+  Properties:
+    System.String File 'get set' : 
+    Boolean AppendToFile 'get set' : 
+    System.Text.Encoding Encoding 'get set' : 
+    log4net.Core.SecurityContext SecurityContext 'get set' : 
+    LockingModelBase LockingModel 'get set' : 
+  Methods:
+    get_File(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_File(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_AppendToFile(): PrivateScope, Public, HideBySig, SpecialName
+    set_AppendToFile(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Encoding(): PrivateScope, Public, HideBySig, SpecialName
+    set_Encoding(Encoding): PrivateScope, Public, HideBySig, SpecialName
+    get_SecurityContext(): PrivateScope, Public, HideBySig, SpecialName
+    set_SecurityContext(SecurityContext): PrivateScope, Public, HideBySig, SpecialName
+    get_LockingModel(): PrivateScope, Public, HideBySig, SpecialName
+    set_LockingModel(LockingModelBase): PrivateScope, Public, HideBySig, SpecialName
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Core.LogException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.ApplicationException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class log4net.Appender.FileAppender+LockingModelBase: AutoLayout, AnsiClass, Class, NestedPublic, Abstract, BeforeFieldInit
+  Properties:
+    log4net.Appender.FileAppender CurrentAppender 'get set' : 
+  Methods:
+    OpenFile(String, Boolean, Encoding): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CloseFile(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AcquireLock(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ReleaseLock(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_CurrentAppender(): PrivateScope, Public, HideBySig, SpecialName
+    set_CurrentAppender(FileAppender): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Appender.FileAppender+ExclusiveLock: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :log4net.Appender.FileAppender+LockingModelBase
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    OpenFile(String, Boolean, Encoding): PrivateScope, Public, Virtual, HideBySig
+    CloseFile(): PrivateScope, Public, Virtual, HideBySig
+    AcquireLock(): PrivateScope, Public, Virtual, HideBySig
+    ReleaseLock(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Appender.FileAppender+MinimalLock: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :log4net.Appender.FileAppender+LockingModelBase
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    OpenFile(String, Boolean, Encoding): PrivateScope, Public, Virtual, HideBySig
+    CloseFile(): PrivateScope, Public, Virtual, HideBySig
+    AcquireLock(): PrivateScope, Public, Virtual, HideBySig
+    ReleaseLock(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Appender.FileAppender+InterProcessLock: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :log4net.Appender.FileAppender+LockingModelBase
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    OpenFile(String, Boolean, Encoding): PrivateScope, Public, Virtual, HideBySig
+    CloseFile(): PrivateScope, Public, Virtual, HideBySig
+    AcquireLock(): PrivateScope, Public, Virtual, HideBySig
+    ReleaseLock(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Appender.ForwardingAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.AppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Core.IAppenderAttachable
+  Properties:
+    log4net.Appender.AppenderCollection Appenders 'get ' : 
+  Methods:
+    AddAppender(IAppender): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Appenders(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetAppender(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RemoveAllAppenders(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RemoveAppender(IAppender): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RemoveAppender(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Appender.LocalSyslogAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.AppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Identity 'get set' : 
+    SyslogFacility Facility 'get set' : 
+  Methods:
+    get_Identity(): PrivateScope, Public, HideBySig, SpecialName
+    set_Identity(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Facility(): PrivateScope, Public, HideBySig, SpecialName
+    set_Facility(SyslogFacility): PrivateScope, Public, HideBySig, SpecialName
+    AddMapping(LevelSeverity): PrivateScope, Public, HideBySig
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+Struct log4net.Appender.LocalSyslogAppender+SyslogSeverity: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    SyslogSeverity Emergency = 0 : Public, Static, Literal, HasDefault
+    SyslogSeverity Alert = 1 : Public, Static, Literal, HasDefault
+    SyslogSeverity Critical = 2 : Public, Static, Literal, HasDefault
+    SyslogSeverity Error = 3 : Public, Static, Literal, HasDefault
+    SyslogSeverity Warning = 4 : Public, Static, Literal, HasDefault
+    SyslogSeverity Notice = 5 : Public, Static, Literal, HasDefault
+    SyslogSeverity Informational = 6 : Public, Static, Literal, HasDefault
+    SyslogSeverity Debug = 7 : Public, Static, Literal, HasDefault
+Struct log4net.Appender.LocalSyslogAppender+SyslogFacility: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    SyslogFacility Kernel = 0 : Public, Static, Literal, HasDefault
+    SyslogFacility User = 1 : Public, Static, Literal, HasDefault
+    SyslogFacility Mail = 2 : Public, Static, Literal, HasDefault
+    SyslogFacility Daemons = 3 : Public, Static, Literal, HasDefault
+    SyslogFacility Authorization = 4 : Public, Static, Literal, HasDefault
+    SyslogFacility Syslog = 5 : Public, Static, Literal, HasDefault
+    SyslogFacility Printer = 6 : Public, Static, Literal, HasDefault
+    SyslogFacility News = 7 : Public, Static, Literal, HasDefault
+    SyslogFacility Uucp = 8 : Public, Static, Literal, HasDefault
+    SyslogFacility Clock = 9 : Public, Static, Literal, HasDefault
+    SyslogFacility Authorization2 = 10 : Public, Static, Literal, HasDefault
+    SyslogFacility Ftp = 11 : Public, Static, Literal, HasDefault
+    SyslogFacility Ntp = 12 : Public, Static, Literal, HasDefault
+    SyslogFacility Audit = 13 : Public, Static, Literal, HasDefault
+    SyslogFacility Alert = 14 : Public, Static, Literal, HasDefault
+    SyslogFacility Clock2 = 15 : Public, Static, Literal, HasDefault
+    SyslogFacility Local0 = 16 : Public, Static, Literal, HasDefault
+    SyslogFacility Local1 = 17 : Public, Static, Literal, HasDefault
+    SyslogFacility Local2 = 18 : Public, Static, Literal, HasDefault
+    SyslogFacility Local3 = 19 : Public, Static, Literal, HasDefault
+    SyslogFacility Local4 = 20 : Public, Static, Literal, HasDefault
+    SyslogFacility Local5 = 21 : Public, Static, Literal, HasDefault
+    SyslogFacility Local6 = 22 : Public, Static, Literal, HasDefault
+    SyslogFacility Local7 = 23 : Public, Static, Literal, HasDefault
+Class log4net.Appender.LocalSyslogAppender+LevelSeverity: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :log4net.Util.LevelMappingEntry
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    SyslogSeverity Severity 'get set' : 
+  Methods:
+    get_Severity(): PrivateScope, Public, HideBySig, SpecialName
+    set_Severity(SyslogSeverity): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Appender.MemoryAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.AppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean OnlyFixPartialEventData 'get set' :  (Obsolete)
+    log4net.Core.FixFlags Fix 'get set' : 
+  Methods:
+    GetEvents(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_OnlyFixPartialEventData(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_OnlyFixPartialEventData(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Fix(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Fix(FixFlags): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Clear(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Appender.NetSendAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.AppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Sender 'get set' : 
+    System.String Recipient 'get set' : 
+    System.String Server 'get set' : 
+    log4net.Core.SecurityContext SecurityContext 'get set' : 
+  Methods:
+    get_Sender(): PrivateScope, Public, HideBySig, SpecialName
+    set_Sender(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Recipient(): PrivateScope, Public, HideBySig, SpecialName
+    set_Recipient(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Server(): PrivateScope, Public, HideBySig, SpecialName
+    set_Server(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SecurityContext(): PrivateScope, Public, HideBySig, SpecialName
+    set_SecurityContext(SecurityContext): PrivateScope, Public, HideBySig, SpecialName
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Appender.OutputDebugStringAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.AppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class log4net.Appender.UdpAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.AppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Net.IPAddress RemoteAddress 'get set' : 
+    Int32 RemotePort 'get set' : 
+    Int32 LocalPort 'get set' : 
+    System.Text.Encoding Encoding 'get set' : 
+  Methods:
+    get_RemoteAddress(): PrivateScope, Public, HideBySig, SpecialName
+    set_RemoteAddress(IPAddress): PrivateScope, Public, HideBySig, SpecialName
+    get_RemotePort(): PrivateScope, Public, HideBySig, SpecialName
+    set_RemotePort(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_LocalPort(): PrivateScope, Public, HideBySig, SpecialName
+    set_LocalPort(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Encoding(): PrivateScope, Public, HideBySig, SpecialName
+    set_Encoding(Encoding): PrivateScope, Public, HideBySig, SpecialName
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Appender.RemoteSyslogAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.UdpAppender
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    log4net.Layout.PatternLayout Identity 'get set' : 
+    SyslogFacility Facility 'get set' : 
+  Methods:
+    get_Identity(): PrivateScope, Public, HideBySig, SpecialName
+    set_Identity(PatternLayout): PrivateScope, Public, HideBySig, SpecialName
+    get_Facility(): PrivateScope, Public, HideBySig, SpecialName
+    set_Facility(SyslogFacility): PrivateScope, Public, HideBySig, SpecialName
+    AddMapping(LevelSeverity): PrivateScope, Public, HideBySig
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+    GeneratePriority(SyslogFacility, SyslogSeverity): PrivateScope, Public, Static, HideBySig
+Struct log4net.Appender.RemoteSyslogAppender+SyslogSeverity: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    SyslogSeverity Emergency = 0 : Public, Static, Literal, HasDefault
+    SyslogSeverity Alert = 1 : Public, Static, Literal, HasDefault
+    SyslogSeverity Critical = 2 : Public, Static, Literal, HasDefault
+    SyslogSeverity Error = 3 : Public, Static, Literal, HasDefault
+    SyslogSeverity Warning = 4 : Public, Static, Literal, HasDefault
+    SyslogSeverity Notice = 5 : Public, Static, Literal, HasDefault
+    SyslogSeverity Informational = 6 : Public, Static, Literal, HasDefault
+    SyslogSeverity Debug = 7 : Public, Static, Literal, HasDefault
+Struct log4net.Appender.RemoteSyslogAppender+SyslogFacility: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    SyslogFacility Kernel = 0 : Public, Static, Literal, HasDefault
+    SyslogFacility User = 1 : Public, Static, Literal, HasDefault
+    SyslogFacility Mail = 2 : Public, Static, Literal, HasDefault
+    SyslogFacility Daemons = 3 : Public, Static, Literal, HasDefault
+    SyslogFacility Authorization = 4 : Public, Static, Literal, HasDefault
+    SyslogFacility Syslog = 5 : Public, Static, Literal, HasDefault
+    SyslogFacility Printer = 6 : Public, Static, Literal, HasDefault
+    SyslogFacility News = 7 : Public, Static, Literal, HasDefault
+    SyslogFacility Uucp = 8 : Public, Static, Literal, HasDefault
+    SyslogFacility Clock = 9 : Public, Static, Literal, HasDefault
+    SyslogFacility Authorization2 = 10 : Public, Static, Literal, HasDefault
+    SyslogFacility Ftp = 11 : Public, Static, Literal, HasDefault
+    SyslogFacility Ntp = 12 : Public, Static, Literal, HasDefault
+    SyslogFacility Audit = 13 : Public, Static, Literal, HasDefault
+    SyslogFacility Alert = 14 : Public, Static, Literal, HasDefault
+    SyslogFacility Clock2 = 15 : Public, Static, Literal, HasDefault
+    SyslogFacility Local0 = 16 : Public, Static, Literal, HasDefault
+    SyslogFacility Local1 = 17 : Public, Static, Literal, HasDefault
+    SyslogFacility Local2 = 18 : Public, Static, Literal, HasDefault
+    SyslogFacility Local3 = 19 : Public, Static, Literal, HasDefault
+    SyslogFacility Local4 = 20 : Public, Static, Literal, HasDefault
+    SyslogFacility Local5 = 21 : Public, Static, Literal, HasDefault
+    SyslogFacility Local6 = 22 : Public, Static, Literal, HasDefault
+    SyslogFacility Local7 = 23 : Public, Static, Literal, HasDefault
+Class log4net.Appender.RemoteSyslogAppender+LevelSeverity: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :log4net.Util.LevelMappingEntry
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    SyslogSeverity Severity 'get set' : 
+  Methods:
+    get_Severity(): PrivateScope, Public, HideBySig, SpecialName
+    set_Severity(SyslogSeverity): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Appender.RemotingAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.BufferingAppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Sink 'get set' : 
+  Methods:
+    get_Sink(): PrivateScope, Public, HideBySig, SpecialName
+    set_Sink(String): PrivateScope, Public, HideBySig, SpecialName
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+Interface log4net.Appender.RemotingAppender+IRemoteLoggingSink: AutoLayout, AnsiClass, Class, NestedPublic, ClassSemanticsMask, Abstract
+  Methods:
+    LogEvents(LoggingEvent[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.Appender.RollingFileAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.FileAppender
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    IDateTime DateTimeStrategy 'get set' : 
+    System.String DatePattern 'get set' : 
+    Int32 MaxSizeRollBackups 'get set' : 
+    Int64 MaxFileSize 'get set' : 
+    System.String MaximumFileSize 'get set' : 
+    Int32 CountDirection 'get set' : 
+    RollingMode RollingStyle 'get set' : 
+    Boolean PreserveLogFileNameExtension 'get set' : 
+    Boolean StaticLogFileName 'get set' : 
+  Methods:
+    get_DateTimeStrategy(): PrivateScope, Public, HideBySig, SpecialName
+    set_DateTimeStrategy(IDateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_DatePattern(): PrivateScope, Public, HideBySig, SpecialName
+    set_DatePattern(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MaxSizeRollBackups(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaxSizeRollBackups(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_MaxFileSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaxFileSize(Int64): PrivateScope, Public, HideBySig, SpecialName
+    get_MaximumFileSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaximumFileSize(String): PrivateScope, Public, HideBySig, SpecialName
+    get_CountDirection(): PrivateScope, Public, HideBySig, SpecialName
+    set_CountDirection(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_RollingStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_RollingStyle(RollingMode): PrivateScope, Public, HideBySig, SpecialName
+    get_PreserveLogFileNameExtension(): PrivateScope, Public, HideBySig, SpecialName
+    set_PreserveLogFileNameExtension(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_StaticLogFileName(): PrivateScope, Public, HideBySig, SpecialName
+    set_StaticLogFileName(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+Struct log4net.Appender.RollingFileAppender+RollingMode: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RollingMode Once = 0 : Public, Static, Literal, HasDefault
+    RollingMode Size = 1 : Public, Static, Literal, HasDefault
+    RollingMode Date = 2 : Public, Static, Literal, HasDefault
+    RollingMode Composite = 3 : Public, Static, Literal, HasDefault
+Interface log4net.Appender.RollingFileAppender+IDateTime: AutoLayout, AnsiClass, Class, NestedPublic, ClassSemanticsMask, Abstract
+  Properties:
+    System.DateTime Now 'get ' : 
+  Methods:
+    get_Now(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class log4net.Appender.SmtpAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.BufferingAppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String To 'get set' : 
+    System.String Cc 'get set' : 
+    System.String Bcc 'get set' : 
+    System.String From 'get set' : 
+    System.String Subject 'get set' : 
+    System.String SmtpHost 'get set' : 
+    Boolean LocationInfo 'get set' :  (Obsolete)
+    SmtpAuthentication Authentication 'get set' : 
+    System.String Username 'get set' : 
+    System.String Password 'get set' : 
+    Int32 Port 'get set' : 
+    System.Net.Mail.MailPriority Priority 'get set' : 
+    Boolean EnableSsl 'get set' : 
+    System.String ReplyTo 'get set' : 
+  Methods:
+    get_To(): PrivateScope, Public, HideBySig, SpecialName
+    set_To(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Cc(): PrivateScope, Public, HideBySig, SpecialName
+    set_Cc(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Bcc(): PrivateScope, Public, HideBySig, SpecialName
+    set_Bcc(String): PrivateScope, Public, HideBySig, SpecialName
+    get_From(): PrivateScope, Public, HideBySig, SpecialName
+    set_From(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Subject(): PrivateScope, Public, HideBySig, SpecialName
+    set_Subject(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SmtpHost(): PrivateScope, Public, HideBySig, SpecialName
+    set_SmtpHost(String): PrivateScope, Public, HideBySig, SpecialName
+    get_LocationInfo(): PrivateScope, Public, HideBySig, SpecialName
+    set_LocationInfo(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Authentication(): PrivateScope, Public, HideBySig, SpecialName
+    set_Authentication(SmtpAuthentication): PrivateScope, Public, HideBySig, SpecialName
+    get_Username(): PrivateScope, Public, HideBySig, SpecialName
+    set_Username(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Password(): PrivateScope, Public, HideBySig, SpecialName
+    set_Password(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Port(): PrivateScope, Public, HideBySig, SpecialName
+    set_Port(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Priority(): PrivateScope, Public, HideBySig, SpecialName
+    set_Priority(MailPriority): PrivateScope, Public, HideBySig, SpecialName
+    get_EnableSsl(): PrivateScope, Public, HideBySig, SpecialName
+    set_EnableSsl(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ReplyTo(): PrivateScope, Public, HideBySig, SpecialName
+    set_ReplyTo(String): PrivateScope, Public, HideBySig, SpecialName
+Struct log4net.Appender.SmtpAppender+SmtpAuthentication: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    SmtpAuthentication None = 0 : Public, Static, Literal, HasDefault
+    SmtpAuthentication Basic = 1 : Public, Static, Literal, HasDefault
+    SmtpAuthentication Ntlm = 2 : Public, Static, Literal, HasDefault
+Class log4net.Appender.SmtpPickupDirAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.BufferingAppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String To 'get set' : 
+    System.String From 'get set' : 
+    System.String Subject 'get set' : 
+    System.String PickupDir 'get set' : 
+    log4net.Core.SecurityContext SecurityContext 'get set' : 
+  Methods:
+    get_To(): PrivateScope, Public, HideBySig, SpecialName
+    set_To(String): PrivateScope, Public, HideBySig, SpecialName
+    get_From(): PrivateScope, Public, HideBySig, SpecialName
+    set_From(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Subject(): PrivateScope, Public, HideBySig, SpecialName
+    set_Subject(String): PrivateScope, Public, HideBySig, SpecialName
+    get_PickupDir(): PrivateScope, Public, HideBySig, SpecialName
+    set_PickupDir(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SecurityContext(): PrivateScope, Public, HideBySig, SpecialName
+    set_SecurityContext(SecurityContext): PrivateScope, Public, HideBySig, SpecialName
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Appender.TelnetAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.AppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Port 'get set' : 
+  Methods:
+    get_Port(): PrivateScope, Public, HideBySig, SpecialName
+    set_Port(Int32): PrivateScope, Public, HideBySig, SpecialName
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Appender.TraceAppender: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Appender.AppenderSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Layout.ILayout): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName (Obsolete)
+  Properties:
+    Boolean ImmediateFlush 'get set' : 
+    log4net.Layout.PatternLayout Category 'get set' : 
+  Methods:
+    get_ImmediateFlush(): PrivateScope, Public, HideBySig, SpecialName
+    set_ImmediateFlush(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Category(): PrivateScope, Public, HideBySig, SpecialName
+    set_Category(PatternLayout): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Config.AliasRepositoryAttribute: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Config.AliasDomainAttribute: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit (Obsolete)
+  :log4net.Config.AliasRepositoryAttribute
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class log4net.Config.BasicConfigurator: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Methods:
+    Configure(): PrivateScope, Public, Static, HideBySig
+    Configure(IAppender): PrivateScope, Public, Static, HideBySig
+    Configure(IAppender[]): PrivateScope, Public, Static, HideBySig
+    Configure(ILoggerRepository): PrivateScope, Public, Static, HideBySig
+    Configure(ILoggerRepository, IAppender): PrivateScope, Public, Static, HideBySig
+    Configure(ILoggerRepository, IAppender[]): PrivateScope, Public, Static, HideBySig
+Class log4net.Config.ConfiguratorAttribute: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Attribute
+  Interfaces:
+    System.IComparable
+  Methods:
+    Configure(Assembly, ILoggerRepository): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CompareTo(Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Config.RepositoryAttribute: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get set' : 
+    System.Type RepositoryType 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+    get_RepositoryType(): PrivateScope, Public, HideBySig, SpecialName
+    set_RepositoryType(Type): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Config.DomainAttribute: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit (Obsolete)
+  :log4net.Config.RepositoryAttribute
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class log4net.Config.DOMConfigurator: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit (Obsolete)
+  Methods:
+    Configure(): PrivateScope, Public, Static, HideBySig (Obsolete)
+    Configure(ILoggerRepository): PrivateScope, Public, Static, HideBySig (Obsolete)
+    Configure(XmlElement): PrivateScope, Public, Static, HideBySig (Obsolete)
+    Configure(ILoggerRepository, XmlElement): PrivateScope, Public, Static, HideBySig (Obsolete)
+    Configure(FileInfo): PrivateScope, Public, Static, HideBySig (Obsolete)
+    Configure(Stream): PrivateScope, Public, Static, HideBySig (Obsolete)
+    Configure(ILoggerRepository, FileInfo): PrivateScope, Public, Static, HideBySig (Obsolete)
+    Configure(ILoggerRepository, Stream): PrivateScope, Public, Static, HideBySig (Obsolete)
+    ConfigureAndWatch(FileInfo): PrivateScope, Public, Static, HideBySig (Obsolete)
+    ConfigureAndWatch(ILoggerRepository, FileInfo): PrivateScope, Public, Static, HideBySig (Obsolete)
+Class log4net.Config.XmlConfiguratorAttribute: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :log4net.Config.ConfiguratorAttribute
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String ConfigFile 'get set' : 
+    System.String ConfigFileExtension 'get set' : 
+    Boolean Watch 'get set' : 
+  Methods:
+    get_ConfigFile(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConfigFile(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ConfigFileExtension(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConfigFileExtension(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Watch(): PrivateScope, Public, HideBySig, SpecialName
+    set_Watch(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    Configure(Assembly, ILoggerRepository): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Config.DOMConfiguratorAttribute: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit (Obsolete)
+  :log4net.Config.XmlConfiguratorAttribute
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class log4net.Config.Log4NetConfigurationSectionHandler: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Configuration.IConfigurationSectionHandler
+  Methods:
+    Create(Object, Object, XmlNode): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Interface log4net.Plugin.IPluginFactory: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    CreatePlugin(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.Config.PluginAttribute: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Type): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Plugin.IPluginFactory
+  Properties:
+    System.Type Type 'get set' : 
+    System.String TypeName 'get set' : 
+  Methods:
+    get_Type(): PrivateScope, Public, HideBySig, SpecialName
+    set_Type(Type): PrivateScope, Public, HideBySig, SpecialName
+    get_TypeName(): PrivateScope, Public, HideBySig, SpecialName
+    set_TypeName(String): PrivateScope, Public, HideBySig, SpecialName
+    CreatePlugin(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Config.SecurityContextProviderAttribute: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  :log4net.Config.ConfiguratorAttribute
+    Void .ctor(System.Type): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Type ProviderType 'get set' : 
+  Methods:
+    get_ProviderType(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProviderType(Type): PrivateScope, Public, HideBySig, SpecialName
+    Configure(Assembly, ILoggerRepository): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Config.XmlConfigurator: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Methods:
+    Configure(): PrivateScope, Public, Static, HideBySig
+    Configure(ILoggerRepository): PrivateScope, Public, Static, HideBySig
+    Configure(XmlElement): PrivateScope, Public, Static, HideBySig
+    Configure(ILoggerRepository, XmlElement): PrivateScope, Public, Static, HideBySig
+    Configure(FileInfo): PrivateScope, Public, Static, HideBySig
+    Configure(Uri): PrivateScope, Public, Static, HideBySig
+    Configure(Stream): PrivateScope, Public, Static, HideBySig
+    Configure(ILoggerRepository, FileInfo): PrivateScope, Public, Static, HideBySig
+    Configure(ILoggerRepository, Uri): PrivateScope, Public, Static, HideBySig
+    Configure(ILoggerRepository, Stream): PrivateScope, Public, Static, HideBySig
+    ConfigureAndWatch(FileInfo): PrivateScope, Public, Static, HideBySig
+    ConfigureAndWatch(ILoggerRepository, FileInfo): PrivateScope, Public, Static, HideBySig
+Interface log4net.Core.IRepositorySelector: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Events:
+    log4net.Core.LoggerRepositoryCreationEventHandler LoggerRepositoryCreatedEvent: 
+  Methods:
+    GetRepository(Assembly): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetRepository(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateRepository(Assembly, Type): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateRepository(String, Type): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ExistsRepository(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetAllRepositories(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    add_LoggerRepositoryCreatedEvent(LoggerRepositoryCreationEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    remove_LoggerRepositoryCreatedEvent(LoggerRepositoryCreationEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class log4net.Core.CompactRepositorySelector: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Type): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Core.IRepositorySelector
+  Events:
+    log4net.Core.LoggerRepositoryCreationEventHandler LoggerRepositoryCreatedEvent: 
+  Methods:
+    GetRepository(Assembly): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRepository(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    CreateRepository(Assembly, Type): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    CreateRepository(String, Type): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ExistsRepository(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetAllRepositories(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    add_LoggerRepositoryCreatedEvent(LoggerRepositoryCreationEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    remove_LoggerRepositoryCreatedEvent(LoggerRepositoryCreationEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class log4net.Core.DefaultRepositorySelector: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Type): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Core.IRepositorySelector
+  Events:
+    log4net.Core.LoggerRepositoryCreationEventHandler LoggerRepositoryCreatedEvent: 
+  Methods:
+    add_LoggerRepositoryCreatedEvent(LoggerRepositoryCreationEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    remove_LoggerRepositoryCreatedEvent(LoggerRepositoryCreationEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetRepository(Assembly): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRepository(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    CreateRepository(Assembly, Type): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    CreateRepository(Assembly, Type, String, Boolean): PrivateScope, Public, HideBySig
+    CreateRepository(String, Type): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ExistsRepository(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetAllRepositories(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    AliasRepository(String, ILoggerRepository): PrivateScope, Public, HideBySig
+Struct log4net.Core.ErrorCode: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    log4net.Core.ErrorCode GenericFailure = 0 : Public, Static, Literal, HasDefault
+    log4net.Core.ErrorCode WriteFailure = 1 : Public, Static, Literal, HasDefault
+    log4net.Core.ErrorCode FlushFailure = 2 : Public, Static, Literal, HasDefault
+    log4net.Core.ErrorCode CloseFailure = 3 : Public, Static, Literal, HasDefault
+    log4net.Core.ErrorCode FileOpenFailure = 4 : Public, Static, Literal, HasDefault
+    log4net.Core.ErrorCode MissingLayout = 5 : Public, Static, Literal, HasDefault
+    log4net.Core.ErrorCode AddressParseFailure = 6 : Public, Static, Literal, HasDefault
+Interface log4net.Core.ITriggeringEventEvaluator: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    IsTriggeringEvent(LoggingEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.Core.ExceptionEvaluator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Type, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Core.ITriggeringEventEvaluator
+  Properties:
+    System.Type ExceptionType 'get set' : 
+    Boolean TriggerOnSubclass 'get set' : 
+  Methods:
+    get_ExceptionType(): PrivateScope, Public, HideBySig, SpecialName
+    set_ExceptionType(Type): PrivateScope, Public, HideBySig, SpecialName
+    get_TriggerOnSubclass(): PrivateScope, Public, HideBySig, SpecialName
+    set_TriggerOnSubclass(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    IsTriggeringEvent(LoggingEvent): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Interface log4net.Core.IErrorHandler: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    Error(String, Exception, ErrorCode): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Error(String, Exception): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Error(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface log4net.Core.IFixingRequired: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    GetFixedObject(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface log4net.Core.ILogger: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    System.String Name 'get ' : 
+    log4net.Repository.ILoggerRepository Repository 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Log(Type, Level, Object, Exception): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Log(LoggingEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    IsEnabledFor(Level): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Repository(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Interface log4net.Core.ILoggerWrapper: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    log4net.Core.ILogger Logger 'get ' : 
+  Methods:
+    get_Logger(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class log4net.Core.LoggerRepositoryCreationEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, LoggerRepositoryCreationEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, LoggerRepositoryCreationEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Core.LoggerRepositoryCreationEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(log4net.Repository.ILoggerRepository): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    log4net.Repository.ILoggerRepository LoggerRepository 'get ' : 
+  Methods:
+    get_LoggerRepository(): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Core.Level: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IComparable
+  Fields:
+    log4net.Core.Level Off : Public, Static, InitOnly
+    log4net.Core.Level Log4Net_Debug : Public, Static, InitOnly
+    log4net.Core.Level Emergency : Public, Static, InitOnly
+    log4net.Core.Level Fatal : Public, Static, InitOnly
+    log4net.Core.Level Alert : Public, Static, InitOnly
+    log4net.Core.Level Critical : Public, Static, InitOnly
+    log4net.Core.Level Severe : Public, Static, InitOnly
+    log4net.Core.Level Error : Public, Static, InitOnly
+    log4net.Core.Level Warn : Public, Static, InitOnly
+    log4net.Core.Level Notice : Public, Static, InitOnly
+    log4net.Core.Level Info : Public, Static, InitOnly
+    log4net.Core.Level Debug : Public, Static, InitOnly
+    log4net.Core.Level Fine : Public, Static, InitOnly
+    log4net.Core.Level Trace : Public, Static, InitOnly
+    log4net.Core.Level Finer : Public, Static, InitOnly
+    log4net.Core.Level Verbose : Public, Static, InitOnly
+    log4net.Core.Level Finest : Public, Static, InitOnly
+    log4net.Core.Level All : Public, Static, InitOnly
+  Properties:
+    System.String Name 'get ' : 
+    Int32 Value 'get ' : 
+    System.String DisplayName 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    get_DisplayName(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    CompareTo(Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    op_GreaterThan(Level, Level): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_LessThan(Level, Level): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_GreaterThanOrEqual(Level, Level): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_LessThanOrEqual(Level, Level): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(Level, Level): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(Level, Level): PrivateScope, Public, Static, HideBySig, SpecialName
+    Compare(Level, Level): PrivateScope, Public, Static, HideBySig
+Class log4net.Core.LevelCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Core.LevelCollection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Core.Level[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Collections.ICollection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Collections.IList
+    System.Collections.ICollection
+    System.Collections.IEnumerable
+    System.ICloneable
+  Properties:
+    Int32 Count 'get ' : 
+    Boolean IsSynchronized 'get ' : 
+    System.Object SyncRoot 'get ' : 
+    log4net.Core.Level Item [Int32] 'get set' : 
+    Boolean IsFixedSize 'get ' : 
+    Boolean IsReadOnly 'get ' : 
+    Int32 Capacity 'get set' : 
+  Methods:
+    ReadOnly(LevelCollection): PrivateScope, Public, Static, HideBySig
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    CopyTo(Level[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CopyTo(Level[], Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_IsSynchronized(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SyncRoot(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Item(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Item(Int32, Level): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Add(Level): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Clear(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Clone(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Contains(Level): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IndexOf(Level): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Insert(Int32, Level): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Remove(Level): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RemoveAt(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_IsFixedSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsReadOnly(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetEnumerator(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Capacity(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Capacity(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    AddRange(LevelCollection): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AddRange(Level[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AddRange(ICollection): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TrimToSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface log4net.Core.LevelCollection+ILevelCollectionEnumerator: AutoLayout, AnsiClass, Class, NestedPublic, ClassSemanticsMask, Abstract
+  Properties:
+    log4net.Core.Level Current 'get ' : 
+  Methods:
+    get_Current(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    MoveNext(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Reset(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.Core.LevelEvaluator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Core.Level): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Core.ITriggeringEventEvaluator
+  Properties:
+    log4net.Core.Level Threshold 'get set' : 
+  Methods:
+    get_Threshold(): PrivateScope, Public, HideBySig, SpecialName
+    set_Threshold(Level): PrivateScope, Public, HideBySig, SpecialName
+    IsTriggeringEvent(LoggingEvent): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Core.LevelMap: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    log4net.Core.Level Item [System.String] 'get ' : 
+    log4net.Core.LevelCollection AllLevels 'get ' : 
+  Methods:
+    Clear(): PrivateScope, Public, HideBySig
+    get_Item(String): PrivateScope, Public, HideBySig, SpecialName
+    Add(String, Int32): PrivateScope, Public, HideBySig
+    Add(String, Int32, String): PrivateScope, Public, HideBySig
+    Add(Level): PrivateScope, Public, HideBySig
+    get_AllLevels(): PrivateScope, Public, HideBySig, SpecialName
+    LookupWithDefault(Level): PrivateScope, Public, HideBySig
+Class log4net.Core.LocationInfo: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(System.Type): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String ClassName 'get ' : 
+    System.String FileName 'get ' : 
+    System.String LineNumber 'get ' : 
+    System.String MethodName 'get ' : 
+    System.String FullInfo 'get ' : 
+    System.Diagnostics.StackFrame[] StackFrames 'get ' : 
+  Methods:
+    get_ClassName(): PrivateScope, Public, HideBySig, SpecialName
+    get_FileName(): PrivateScope, Public, HideBySig, SpecialName
+    get_LineNumber(): PrivateScope, Public, HideBySig, SpecialName
+    get_MethodName(): PrivateScope, Public, HideBySig, SpecialName
+    get_FullInfo(): PrivateScope, Public, HideBySig, SpecialName
+    get_StackFrames(): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Core.LoggerManager: AutoLayout, AnsiClass, Class, Public, Sealed
+  Properties:
+    log4net.Core.IRepositorySelector RepositorySelector 'get set' : 
+  Methods:
+    GetLoggerRepository(String): PrivateScope, Public, Static, HideBySig (Obsolete)
+    GetLoggerRepository(Assembly): PrivateScope, Public, Static, HideBySig (Obsolete)
+    GetRepository(String): PrivateScope, Public, Static, HideBySig
+    GetRepository(Assembly): PrivateScope, Public, Static, HideBySig
+    Exists(String, String): PrivateScope, Public, Static, HideBySig
+    Exists(Assembly, String): PrivateScope, Public, Static, HideBySig
+    GetCurrentLoggers(String): PrivateScope, Public, Static, HideBySig
+    GetCurrentLoggers(Assembly): PrivateScope, Public, Static, HideBySig
+    GetLogger(String, String): PrivateScope, Public, Static, HideBySig
+    GetLogger(Assembly, String): PrivateScope, Public, Static, HideBySig
+    GetLogger(String, Type): PrivateScope, Public, Static, HideBySig
+    GetLogger(Assembly, Type): PrivateScope, Public, Static, HideBySig
+    Shutdown(): PrivateScope, Public, Static, HideBySig
+    ShutdownRepository(String): PrivateScope, Public, Static, HideBySig
+    ShutdownRepository(Assembly): PrivateScope, Public, Static, HideBySig
+    ResetConfiguration(String): PrivateScope, Public, Static, HideBySig
+    ResetConfiguration(Assembly): PrivateScope, Public, Static, HideBySig
+    CreateDomain(String): PrivateScope, Public, Static, HideBySig (Obsolete)
+    CreateRepository(String): PrivateScope, Public, Static, HideBySig
+    CreateDomain(String, Type): PrivateScope, Public, Static, HideBySig (Obsolete)
+    CreateRepository(String, Type): PrivateScope, Public, Static, HideBySig
+    CreateDomain(Assembly, Type): PrivateScope, Public, Static, HideBySig (Obsolete)
+    CreateRepository(Assembly, Type): PrivateScope, Public, Static, HideBySig
+    GetAllRepositories(): PrivateScope, Public, Static, HideBySig
+    get_RepositorySelector(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_RepositorySelector(IRepositorySelector): PrivateScope, Public, Static, HideBySig, SpecialName
+Class log4net.Core.LoggerWrapperImpl: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Interfaces:
+    log4net.Core.ILoggerWrapper
+  Properties:
+    log4net.Core.ILogger Logger 'get ' : 
+  Methods:
+    get_Logger(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Struct log4net.Core.LoggingEventData: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String LoggerName : Public
+    log4net.Core.Level Level : Public
+    System.String Message : Public
+    System.String ThreadName : Public
+    System.DateTime TimeStamp : Public
+    log4net.Core.LocationInfo LocationInfo : Public
+    System.String UserName : Public
+    System.String Identity : Public
+    System.String ExceptionString : Public
+    System.String Domain : Public
+    log4net.Util.PropertiesDictionary Properties : Public
+Struct log4net.Core.FixFlags: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    log4net.Core.FixFlags Mdc = 1 : Public, Static, Literal, HasDefault (Obsolete)
+    log4net.Core.FixFlags Ndc = 2 : Public, Static, Literal, HasDefault
+    log4net.Core.FixFlags Message = 4 : Public, Static, Literal, HasDefault
+    log4net.Core.FixFlags ThreadName = 8 : Public, Static, Literal, HasDefault
+    log4net.Core.FixFlags LocationInfo = 16 : Public, Static, Literal, HasDefault
+    log4net.Core.FixFlags UserName = 32 : Public, Static, Literal, HasDefault
+    log4net.Core.FixFlags Domain = 64 : Public, Static, Literal, HasDefault
+    log4net.Core.FixFlags Identity = 128 : Public, Static, Literal, HasDefault
+    log4net.Core.FixFlags Exception = 256 : Public, Static, Literal, HasDefault
+    log4net.Core.FixFlags Properties = 512 : Public, Static, Literal, HasDefault
+    log4net.Core.FixFlags None = 0 : Public, Static, Literal, HasDefault
+    log4net.Core.FixFlags All = 268435455 : Public, Static, Literal, HasDefault
+    log4net.Core.FixFlags Partial = 844 : Public, Static, Literal, HasDefault
+Class log4net.Core.LoggingEvent: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(System.Type, log4net.Repository.ILoggerRepository, System.String, log4net.Core.Level, System.Object, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Type, log4net.Repository.ILoggerRepository, log4net.Core.LoggingEventData, log4net.Core.FixFlags): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Type, log4net.Repository.ILoggerRepository, log4net.Core.LoggingEventData): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Core.LoggingEventData): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Runtime.Serialization.ISerializable
+  Fields:
+    System.String HostNameProperty = log4net:HostName : Public, Static, Literal, HasDefault
+    System.String IdentityProperty = log4net:Identity : Public, Static, Literal, HasDefault
+    System.String UserNameProperty = log4net:UserName : Public, Static, Literal, HasDefault
+  Properties:
+    System.DateTime StartTime 'get ' : 
+    log4net.Core.Level Level 'get ' : 
+    System.DateTime TimeStamp 'get ' : 
+    System.String LoggerName 'get ' : 
+    log4net.Core.LocationInfo LocationInformation 'get ' : 
+    System.Object MessageObject 'get ' : 
+    System.Exception ExceptionObject 'get ' : 
+    log4net.Repository.ILoggerRepository Repository 'get ' : 
+    System.String RenderedMessage 'get ' : 
+    System.String ThreadName 'get ' : 
+    System.String UserName 'get ' : 
+    System.String Identity 'get ' : 
+    System.String Domain 'get ' : 
+    log4net.Util.PropertiesDictionary Properties 'get ' : 
+    log4net.Core.FixFlags Fix 'get set' : 
+  Methods:
+    get_StartTime(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Level(): PrivateScope, Public, HideBySig, SpecialName
+    get_TimeStamp(): PrivateScope, Public, HideBySig, SpecialName
+    get_LoggerName(): PrivateScope, Public, HideBySig, SpecialName
+    get_LocationInformation(): PrivateScope, Public, HideBySig, SpecialName
+    get_MessageObject(): PrivateScope, Public, HideBySig, SpecialName
+    get_ExceptionObject(): PrivateScope, Public, HideBySig, SpecialName
+    get_Repository(): PrivateScope, Public, HideBySig, SpecialName
+    get_RenderedMessage(): PrivateScope, Public, HideBySig, SpecialName
+    WriteRenderedMessage(TextWriter): PrivateScope, Public, HideBySig
+    get_ThreadName(): PrivateScope, Public, HideBySig, SpecialName
+    get_UserName(): PrivateScope, Public, HideBySig, SpecialName
+    get_Identity(): PrivateScope, Public, HideBySig, SpecialName
+    get_Domain(): PrivateScope, Public, HideBySig, SpecialName
+    get_Properties(): PrivateScope, Public, HideBySig, SpecialName
+    get_Fix(): PrivateScope, Public, HideBySig, SpecialName
+    set_Fix(FixFlags): PrivateScope, Public, HideBySig, SpecialName
+    GetObjectData(SerializationInfo, StreamingContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetLoggingEventData(): PrivateScope, Public, HideBySig
+    GetLoggingEventData(FixFlags): PrivateScope, Public, HideBySig
+    GetExceptionStrRep(): PrivateScope, Public, HideBySig (Obsolete)
+    GetExceptionString(): PrivateScope, Public, HideBySig
+    FixVolatileData(): PrivateScope, Public, HideBySig (Obsolete)
+    FixVolatileData(Boolean): PrivateScope, Public, HideBySig (Obsolete)
+    LookupProperty(String): PrivateScope, Public, HideBySig
+    GetProperties(): PrivateScope, Public, HideBySig
+Interface log4net.ILog: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    log4net.Core.ILoggerWrapper
+  Properties:
+    Boolean IsDebugEnabled 'get ' : 
+    Boolean IsInfoEnabled 'get ' : 
+    Boolean IsWarnEnabled 'get ' : 
+    Boolean IsErrorEnabled 'get ' : 
+    Boolean IsFatalEnabled 'get ' : 
+  Methods:
+    Fatal(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Fatal(Object, Exception): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    FatalFormat(String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    FatalFormat(String, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    FatalFormat(String, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    FatalFormat(String, Object, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    FatalFormat(IFormatProvider, String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_IsDebugEnabled(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_IsInfoEnabled(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_IsWarnEnabled(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_IsErrorEnabled(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_IsFatalEnabled(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Debug(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Debug(Object, Exception): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DebugFormat(String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DebugFormat(String, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DebugFormat(String, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DebugFormat(String, Object, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DebugFormat(IFormatProvider, String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Info(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Info(Object, Exception): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    InfoFormat(String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    InfoFormat(String, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    InfoFormat(String, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    InfoFormat(String, Object, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    InfoFormat(IFormatProvider, String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Warn(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Warn(Object, Exception): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WarnFormat(String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WarnFormat(String, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WarnFormat(String, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WarnFormat(String, Object, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WarnFormat(IFormatProvider, String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Error(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Error(Object, Exception): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ErrorFormat(String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ErrorFormat(String, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ErrorFormat(String, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ErrorFormat(String, Object, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ErrorFormat(IFormatProvider, String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.Core.LogImpl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Core.LoggerWrapperImpl
+    Void .ctor(log4net.Core.ILogger): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.ILog
+  Properties:
+    Boolean IsDebugEnabled 'get ' : 
+    Boolean IsInfoEnabled 'get ' : 
+    Boolean IsWarnEnabled 'get ' : 
+    Boolean IsErrorEnabled 'get ' : 
+    Boolean IsFatalEnabled 'get ' : 
+  Methods:
+    Debug(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Debug(Object, Exception): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DebugFormat(String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DebugFormat(String, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DebugFormat(String, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DebugFormat(String, Object, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DebugFormat(IFormatProvider, String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Info(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Info(Object, Exception): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    InfoFormat(String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    InfoFormat(String, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    InfoFormat(String, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    InfoFormat(String, Object, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    InfoFormat(IFormatProvider, String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Warn(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Warn(Object, Exception): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WarnFormat(String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WarnFormat(String, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WarnFormat(String, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WarnFormat(String, Object, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WarnFormat(IFormatProvider, String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Error(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Error(Object, Exception): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ErrorFormat(String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ErrorFormat(String, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ErrorFormat(String, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ErrorFormat(String, Object, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ErrorFormat(IFormatProvider, String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Fatal(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Fatal(Object, Exception): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FatalFormat(String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FatalFormat(String, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FatalFormat(String, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FatalFormat(String, Object, Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FatalFormat(IFormatProvider, String, Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_IsDebugEnabled(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsInfoEnabled(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsWarnEnabled(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsErrorEnabled(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsFatalEnabled(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class log4net.Core.SecurityContext: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Methods:
+    Impersonate(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.Core.SecurityContextProvider: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Properties:
+    log4net.Core.SecurityContextProvider DefaultProvider 'get set' : 
+  Methods:
+    get_DefaultProvider(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_DefaultProvider(SecurityContextProvider): PrivateScope, Public, Static, HideBySig, SpecialName
+    CreateSecurityContext(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Core.TimeEvaluator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Core.ITriggeringEventEvaluator
+  Properties:
+    Int32 Interval 'get set' : 
+  Methods:
+    get_Interval(): PrivateScope, Public, HideBySig, SpecialName
+    set_Interval(Int32): PrivateScope, Public, HideBySig, SpecialName
+    IsTriggeringEvent(LoggingEvent): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Core.WrapperCreationHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(ILogger): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(ILogger, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Core.WrapperMap: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(log4net.Core.WrapperCreationHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetWrapper(ILogger): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface log4net.DateFormatter.IDateFormatter: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    FormatDate(DateTime, TextWriter): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.DateFormatter.AbsoluteTimeDateFormatter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.DateFormatter.IDateFormatter
+  Fields:
+    System.String AbsoluteTimeDateFormat = ABSOLUTE : Public, Static, Literal, HasDefault
+    System.String DateAndTimeDateFormat = DATE : Public, Static, Literal, HasDefault
+    System.String Iso8601TimeDateFormat = ISO8601 : Public, Static, Literal, HasDefault
+  Methods:
+    FormatDate(DateTime, TextWriter): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.DateFormatter.DateTimeDateFormatter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.DateFormatter.AbsoluteTimeDateFormatter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class log4net.DateFormatter.Iso8601DateFormatter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.DateFormatter.AbsoluteTimeDateFormatter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class log4net.DateFormatter.SimpleDateFormatter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.DateFormatter.IDateFormatter
+  Methods:
+    FormatDate(DateTime, TextWriter): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface log4net.Filter.IFilter: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    log4net.Core.IOptionHandler
+  Properties:
+    log4net.Filter.IFilter Next 'get set' : 
+  Methods:
+    Decide(LoggingEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Next(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Next(IFilter): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class log4net.Filter.FilterSkeleton: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Interfaces:
+    log4net.Filter.IFilter
+    log4net.Core.IOptionHandler
+  Properties:
+    log4net.Filter.IFilter Next 'get set' : 
+  Methods:
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Decide(LoggingEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Next(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Next(IFilter): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class log4net.Filter.DenyAllFilter: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :log4net.Filter.FilterSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Decide(LoggingEvent): PrivateScope, Public, Virtual, HideBySig
+Struct log4net.Filter.FilterDecision: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    log4net.Filter.FilterDecision Deny = -1 : Public, Static, Literal, HasDefault
+    log4net.Filter.FilterDecision Neutral = 0 : Public, Static, Literal, HasDefault
+    log4net.Filter.FilterDecision Accept = 1 : Public, Static, Literal, HasDefault
+Class log4net.Filter.LevelMatchFilter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Filter.FilterSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean AcceptOnMatch 'get set' : 
+    log4net.Core.Level LevelToMatch 'get set' : 
+  Methods:
+    get_AcceptOnMatch(): PrivateScope, Public, HideBySig, SpecialName
+    set_AcceptOnMatch(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_LevelToMatch(): PrivateScope, Public, HideBySig, SpecialName
+    set_LevelToMatch(Level): PrivateScope, Public, HideBySig, SpecialName
+    Decide(LoggingEvent): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Filter.LevelRangeFilter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Filter.FilterSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean AcceptOnMatch 'get set' : 
+    log4net.Core.Level LevelMin 'get set' : 
+    log4net.Core.Level LevelMax 'get set' : 
+  Methods:
+    get_AcceptOnMatch(): PrivateScope, Public, HideBySig, SpecialName
+    set_AcceptOnMatch(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_LevelMin(): PrivateScope, Public, HideBySig, SpecialName
+    set_LevelMin(Level): PrivateScope, Public, HideBySig, SpecialName
+    get_LevelMax(): PrivateScope, Public, HideBySig, SpecialName
+    set_LevelMax(Level): PrivateScope, Public, HideBySig, SpecialName
+    Decide(LoggingEvent): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Filter.LoggerMatchFilter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Filter.FilterSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean AcceptOnMatch 'get set' : 
+    System.String LoggerToMatch 'get set' : 
+  Methods:
+    get_AcceptOnMatch(): PrivateScope, Public, HideBySig, SpecialName
+    set_AcceptOnMatch(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_LoggerToMatch(): PrivateScope, Public, HideBySig, SpecialName
+    set_LoggerToMatch(String): PrivateScope, Public, HideBySig, SpecialName
+    Decide(LoggingEvent): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Filter.StringMatchFilter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Filter.FilterSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean AcceptOnMatch 'get set' : 
+    System.String StringToMatch 'get set' : 
+    System.String RegexToMatch 'get set' : 
+  Methods:
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+    get_AcceptOnMatch(): PrivateScope, Public, HideBySig, SpecialName
+    set_AcceptOnMatch(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_StringToMatch(): PrivateScope, Public, HideBySig, SpecialName
+    set_StringToMatch(String): PrivateScope, Public, HideBySig, SpecialName
+    get_RegexToMatch(): PrivateScope, Public, HideBySig, SpecialName
+    set_RegexToMatch(String): PrivateScope, Public, HideBySig, SpecialName
+    Decide(LoggingEvent): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Filter.PropertyFilter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Filter.StringMatchFilter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Key 'get set' : 
+  Methods:
+    get_Key(): PrivateScope, Public, HideBySig, SpecialName
+    set_Key(String): PrivateScope, Public, HideBySig, SpecialName
+    Decide(LoggingEvent): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Filter.MdcFilter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Filter.PropertyFilter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class log4net.Filter.NdcFilter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Filter.PropertyFilter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class log4net.Util.PatternConverter: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Properties:
+    log4net.Util.PatternConverter Next 'get ' : 
+    log4net.Util.FormattingInfo FormattingInfo 'get set' : 
+    System.String Option 'get set' : 
+    log4net.Util.PropertiesDictionary Properties 'get set' : 
+  Methods:
+    get_Next(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_FormattingInfo(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_FormattingInfo(FormattingInfo): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Option(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Option(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    SetNext(PatternConverter): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Format(TextWriter, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Properties(): PrivateScope, Public, HideBySig, SpecialName
+    set_Properties(PropertiesDictionary): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Layout.Pattern.PatternLayoutConverter: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :log4net.Util.PatternConverter
+  Properties:
+    Boolean IgnoresException 'get set' : 
+  Methods:
+    get_IgnoresException(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_IgnoresException(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class log4net.Layout.Pattern.NamedPatternConverter: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :log4net.Layout.Pattern.PatternLayoutConverter
+  Interfaces:
+    log4net.Core.IOptionHandler
+  Methods:
+    ActivateOptions(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Interface log4net.Layout.ILayout: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    System.String ContentType 'get ' : 
+    System.String Header 'get ' : 
+    System.String Footer 'get ' : 
+    Boolean IgnoresException 'get ' : 
+  Methods:
+    Format(TextWriter, LoggingEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_ContentType(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Header(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Footer(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_IgnoresException(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class log4net.Layout.LayoutSkeleton: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Interfaces:
+    log4net.Layout.ILayout
+    log4net.Core.IOptionHandler
+  Properties:
+    System.String ContentType 'get ' : 
+    System.String Header 'get set' : 
+    System.String Footer 'get set' : 
+    Boolean IgnoresException 'get set' : 
+  Methods:
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Format(TextWriter, LoggingEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Format(LoggingEvent): PrivateScope, Public, HideBySig
+    get_ContentType(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Header(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Header(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Footer(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Footer(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IgnoresException(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_IgnoresException(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class log4net.Layout.ExceptionLayout: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Layout.LayoutSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+    Format(TextWriter, LoggingEvent): PrivateScope, Public, Virtual, HideBySig
+Interface log4net.Layout.IRawLayout: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    Format(LoggingEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.Layout.Layout2RawLayoutAdapter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(log4net.Layout.ILayout): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Layout.IRawLayout
+  Methods:
+    Format(LoggingEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Layout.PatternLayout: AutoLayout, AnsiClass, Class, Public
+  :log4net.Layout.LayoutSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String DefaultConversionPattern = %message%newline : Public, Static, Literal, HasDefault
+    System.String DetailConversionPattern = %timestamp [%thread] %level %logger %ndc - %message%newline : Public, Static, Literal, HasDefault
+  Properties:
+    System.String ConversionPattern 'get set' : 
+  Methods:
+    get_ConversionPattern(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConversionPattern(String): PrivateScope, Public, HideBySig, SpecialName
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+    Format(TextWriter, LoggingEvent): PrivateScope, Public, Virtual, HideBySig
+    AddConverter(ConverterInfo): PrivateScope, Public, HideBySig
+    AddConverter(String, Type): PrivateScope, Public, HideBySig
+Interface log4net.Util.TypeConverters.IConvertFrom: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    CanConvertFrom(Type): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ConvertFrom(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.Layout.RawLayoutConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Util.TypeConverters.IConvertFrom
+  Methods:
+    CanConvertFrom(Type): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ConvertFrom(Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Layout.RawPropertyLayout: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Layout.IRawLayout
+  Properties:
+    System.String Key 'get set' : 
+  Methods:
+    get_Key(): PrivateScope, Public, HideBySig, SpecialName
+    set_Key(String): PrivateScope, Public, HideBySig, SpecialName
+    Format(LoggingEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Layout.RawTimeStampLayout: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Layout.IRawLayout
+  Methods:
+    Format(LoggingEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Layout.RawUtcTimeStampLayout: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Layout.IRawLayout
+  Methods:
+    Format(LoggingEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Layout.SimpleLayout: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Layout.LayoutSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+    Format(TextWriter, LoggingEvent): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Layout.XmlLayoutBase: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :log4net.Layout.LayoutSkeleton
+  Properties:
+    Boolean LocationInfo 'get set' : 
+    System.String InvalidCharReplacement 'get set' : 
+    System.String ContentType 'get ' : 
+  Methods:
+    get_LocationInfo(): PrivateScope, Public, HideBySig, SpecialName
+    set_LocationInfo(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_InvalidCharReplacement(): PrivateScope, Public, HideBySig, SpecialName
+    set_InvalidCharReplacement(String): PrivateScope, Public, HideBySig, SpecialName
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+    get_ContentType(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Format(TextWriter, LoggingEvent): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Layout.XmlLayout: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Layout.XmlLayoutBase
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Prefix 'get set' : 
+    Boolean Base64EncodeMessage 'get set' : 
+    Boolean Base64EncodeProperties 'get set' : 
+  Methods:
+    get_Prefix(): PrivateScope, Public, HideBySig, SpecialName
+    set_Prefix(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Base64EncodeMessage(): PrivateScope, Public, HideBySig, SpecialName
+    set_Base64EncodeMessage(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Base64EncodeProperties(): PrivateScope, Public, HideBySig, SpecialName
+    set_Base64EncodeProperties(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Layout.XmlLayoutSchemaLog4j: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Layout.XmlLayoutBase
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Version 'get set' : 
+  Methods:
+    get_Version(): PrivateScope, Public, HideBySig, SpecialName
+    set_Version(String): PrivateScope, Public, HideBySig, SpecialName
+Interface log4net.ObjectRenderer.IObjectRenderer: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    RenderObject(RendererMap, Object, TextWriter): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.ObjectRenderer.DefaultRenderer: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.ObjectRenderer.IObjectRenderer
+  Methods:
+    RenderObject(RendererMap, Object, TextWriter): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class log4net.ObjectRenderer.RendererMap: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    log4net.ObjectRenderer.IObjectRenderer DefaultRenderer 'get ' : 
+  Methods:
+    FindAndRender(Object): PrivateScope, Public, HideBySig
+    FindAndRender(Object, TextWriter): PrivateScope, Public, HideBySig
+    Get(Object): PrivateScope, Public, HideBySig
+    Get(Type): PrivateScope, Public, HideBySig
+    get_DefaultRenderer(): PrivateScope, Public, HideBySig, SpecialName
+    Clear(): PrivateScope, Public, HideBySig
+    Put(Type, IObjectRenderer): PrivateScope, Public, HideBySig
+Interface log4net.Plugin.IPlugin: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    System.String Name 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Attach(ILoggerRepository): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Shutdown(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.Plugin.PluginCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Plugin.PluginCollection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Plugin.IPlugin[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Collections.ICollection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Collections.IList
+    System.Collections.ICollection
+    System.Collections.IEnumerable
+    System.ICloneable
+  Properties:
+    Int32 Count 'get ' : 
+    Boolean IsSynchronized 'get ' : 
+    System.Object SyncRoot 'get ' : 
+    log4net.Plugin.IPlugin Item [Int32] 'get set' : 
+    Boolean IsFixedSize 'get ' : 
+    Boolean IsReadOnly 'get ' : 
+    Int32 Capacity 'get set' : 
+  Methods:
+    ReadOnly(PluginCollection): PrivateScope, Public, Static, HideBySig
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    CopyTo(IPlugin[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CopyTo(IPlugin[], Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_IsSynchronized(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SyncRoot(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Item(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Item(Int32, IPlugin): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Add(IPlugin): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Clear(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Clone(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Contains(IPlugin): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IndexOf(IPlugin): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Insert(Int32, IPlugin): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Remove(IPlugin): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RemoveAt(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_IsFixedSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsReadOnly(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetEnumerator(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Capacity(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Capacity(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    AddRange(PluginCollection): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AddRange(IPlugin[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AddRange(ICollection): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TrimToSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface log4net.Plugin.PluginCollection+IPluginCollectionEnumerator: AutoLayout, AnsiClass, Class, NestedPublic, ClassSemanticsMask, Abstract
+  Properties:
+    log4net.Plugin.IPlugin Current 'get ' : 
+  Methods:
+    get_Current(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    MoveNext(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Reset(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.Plugin.PluginMap: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(log4net.Repository.ILoggerRepository): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    log4net.Plugin.IPlugin Item [System.String] 'get ' : 
+    log4net.Plugin.PluginCollection AllPlugins 'get ' : 
+  Methods:
+    get_Item(String): PrivateScope, Public, HideBySig, SpecialName
+    get_AllPlugins(): PrivateScope, Public, HideBySig, SpecialName
+    Add(IPlugin): PrivateScope, Public, HideBySig
+    Remove(IPlugin): PrivateScope, Public, HideBySig
+Class log4net.Plugin.PluginSkeleton: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Interfaces:
+    log4net.Plugin.IPlugin
+  Properties:
+    System.String Name 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Name(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Attach(ILoggerRepository): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Shutdown(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Plugin.RemoteLoggingServerPlugin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Plugin.PluginSkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String SinkUri 'get set' : 
+  Methods:
+    get_SinkUri(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_SinkUri(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Attach(ILoggerRepository): PrivateScope, Public, Virtual, HideBySig
+    Shutdown(): PrivateScope, Public, Virtual, HideBySig
+Interface log4net.Repository.Hierarchy.ILoggerFactory: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    CreateLogger(ILoggerRepository, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.Repository.Hierarchy.Logger: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Interfaces:
+    log4net.Core.IAppenderAttachable
+    log4net.Core.ILogger
+  Properties:
+    log4net.Repository.Hierarchy.Logger Parent 'get set' : 
+    Boolean Additivity 'get set' : 
+    log4net.Core.Level EffectiveLevel 'get ' : 
+    log4net.Repository.Hierarchy.Hierarchy Hierarchy 'get set' : 
+    log4net.Core.Level Level 'get set' : 
+    log4net.Appender.AppenderCollection Appenders 'get ' : 
+    System.String Name 'get ' : 
+    log4net.Repository.ILoggerRepository Repository 'get ' : 
+  Methods:
+    get_Parent(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Parent(Logger): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Additivity(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Additivity(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_EffectiveLevel(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Hierarchy(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Hierarchy(Hierarchy): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Level(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Level(Level): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    AddAppender(IAppender): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Appenders(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetAppender(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RemoveAllAppenders(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RemoveAppender(IAppender): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RemoveAppender(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Log(Type, Level, Object, Exception): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Log(LoggingEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IsEnabledFor(Level): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Repository(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    CloseNestedAppenders(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Log(Level, Object, Exception): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Repository.Hierarchy.LoggerCreationEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, LoggerCreationEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, LoggerCreationEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Repository.Hierarchy.LoggerCreationEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(log4net.Repository.Hierarchy.Logger): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    log4net.Repository.Hierarchy.Logger Logger 'get ' : 
+  Methods:
+    get_Logger(): PrivateScope, Public, HideBySig, SpecialName
+Interface log4net.Repository.ILoggerRepository: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    System.String Name 'get set' : 
+    log4net.ObjectRenderer.RendererMap RendererMap 'get ' : 
+    log4net.Plugin.PluginMap PluginMap 'get ' : 
+    log4net.Core.LevelMap LevelMap 'get ' : 
+    log4net.Core.Level Threshold 'get set' : 
+    Boolean Configured 'get set' : 
+    System.Collections.ICollection ConfigurationMessages 'get set' : 
+    log4net.Util.PropertiesDictionary Properties 'get ' : 
+  Events:
+    log4net.Repository.LoggerRepositoryShutdownEventHandler ShutdownEvent: 
+    log4net.Repository.LoggerRepositoryConfigurationResetEventHandler ConfigurationReset: 
+    log4net.Repository.LoggerRepositoryConfigurationChangedEventHandler ConfigurationChanged: 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Name(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_RendererMap(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_PluginMap(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_LevelMap(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Threshold(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Threshold(Level): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Exists(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetCurrentLoggers(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetLogger(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Shutdown(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ResetConfiguration(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Log(LoggingEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Configured(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Configured(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ConfigurationMessages(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_ConfigurationMessages(ICollection): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    add_ShutdownEvent(LoggerRepositoryShutdownEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    remove_ShutdownEvent(LoggerRepositoryShutdownEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    add_ConfigurationReset(LoggerRepositoryConfigurationResetEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    remove_ConfigurationReset(LoggerRepositoryConfigurationResetEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    add_ConfigurationChanged(LoggerRepositoryConfigurationChangedEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    remove_ConfigurationChanged(LoggerRepositoryConfigurationChangedEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Properties(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    GetAppenders(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.Repository.LoggerRepositorySkeleton: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Interfaces:
+    log4net.Repository.ILoggerRepository
+  Properties:
+    System.String Name 'get set' : 
+    log4net.Core.Level Threshold 'get set' : 
+    log4net.ObjectRenderer.RendererMap RendererMap 'get ' : 
+    log4net.Plugin.PluginMap PluginMap 'get ' : 
+    log4net.Core.LevelMap LevelMap 'get ' : 
+    Boolean Configured 'get set' : 
+    System.Collections.ICollection ConfigurationMessages 'get set' : 
+    log4net.Util.PropertiesDictionary Properties 'get ' : 
+  Events:
+    log4net.Repository.LoggerRepositoryShutdownEventHandler ShutdownEvent: 
+    log4net.Repository.LoggerRepositoryConfigurationResetEventHandler ConfigurationReset: 
+    log4net.Repository.LoggerRepositoryConfigurationChangedEventHandler ConfigurationChanged: 
+  Methods:
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Name(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Threshold(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Threshold(Level): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_RendererMap(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_PluginMap(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_LevelMap(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Exists(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetCurrentLoggers(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetLogger(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Shutdown(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ResetConfiguration(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Log(LoggingEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_Configured(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Configured(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_ConfigurationMessages(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ConfigurationMessages(ICollection): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    add_ShutdownEvent(LoggerRepositoryShutdownEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    remove_ShutdownEvent(LoggerRepositoryShutdownEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    add_ConfigurationReset(LoggerRepositoryConfigurationResetEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    remove_ConfigurationReset(LoggerRepositoryConfigurationResetEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    add_ConfigurationChanged(LoggerRepositoryConfigurationChangedEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    remove_ConfigurationChanged(LoggerRepositoryConfigurationChangedEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Properties(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetAppenders(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AddRenderer(Type, IObjectRenderer): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RaiseConfigurationChanged(EventArgs): PrivateScope, Public, HideBySig
+Interface log4net.Repository.IBasicRepositoryConfigurator: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    Configure(IAppender): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Configure(IAppender[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface log4net.Repository.IXmlRepositoryConfigurator: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    Configure(XmlElement): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.Repository.Hierarchy.Hierarchy: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Repository.LoggerRepositorySkeleton
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Util.PropertiesDictionary): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Repository.Hierarchy.ILoggerFactory): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Util.PropertiesDictionary, log4net.Repository.Hierarchy.ILoggerFactory): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Repository.IBasicRepositoryConfigurator
+    log4net.Repository.IXmlRepositoryConfigurator
+  Properties:
+    Boolean EmittedNoAppenderWarning 'get set' : 
+    log4net.Repository.Hierarchy.Logger Root 'get ' : 
+    log4net.Repository.Hierarchy.ILoggerFactory LoggerFactory 'get set' : 
+  Events:
+    log4net.Repository.Hierarchy.LoggerCreationEventHandler LoggerCreatedEvent: 
+  Methods:
+    add_LoggerCreatedEvent(LoggerCreationEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_LoggerCreatedEvent(LoggerCreationEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_EmittedNoAppenderWarning(): PrivateScope, Public, HideBySig, SpecialName
+    set_EmittedNoAppenderWarning(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Root(): PrivateScope, Public, HideBySig, SpecialName
+    get_LoggerFactory(): PrivateScope, Public, HideBySig, SpecialName
+    set_LoggerFactory(ILoggerFactory): PrivateScope, Public, HideBySig, SpecialName
+    Exists(String): PrivateScope, Public, Virtual, HideBySig
+    GetCurrentLoggers(): PrivateScope, Public, Virtual, HideBySig
+    GetLogger(String): PrivateScope, Public, Virtual, HideBySig
+    Shutdown(): PrivateScope, Public, Virtual, HideBySig
+    ResetConfiguration(): PrivateScope, Public, Virtual, HideBySig
+    Log(LoggingEvent): PrivateScope, Public, Virtual, HideBySig
+    GetAppenders(): PrivateScope, Public, Virtual, HideBySig
+    IsDisabled(Level): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+    GetLogger(String, ILoggerFactory): PrivateScope, Public, HideBySig
+Class log4net.Repository.Hierarchy.RootLogger: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Repository.Hierarchy.Logger
+    Void .ctor(log4net.Core.Level): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    log4net.Core.Level EffectiveLevel 'get ' : 
+    log4net.Core.Level Level 'get set' : 
+  Methods:
+    get_EffectiveLevel(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Level(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Level(Level): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class log4net.Repository.Hierarchy.XmlHierarchyConfigurator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(log4net.Repository.Hierarchy.Hierarchy): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Configure(XmlElement): PrivateScope, Public, HideBySig
+Class log4net.Repository.ConfigurationChangedEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(System.Collections.ICollection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.ICollection ConfigurationMessages 'get ' : 
+  Methods:
+    get_ConfigurationMessages(): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Repository.LoggerRepositoryShutdownEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, EventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, EventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Repository.LoggerRepositoryConfigurationResetEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, EventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, EventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Repository.LoggerRepositoryConfigurationChangedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, EventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, EventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Util.TypeConverters.ConversionNotSupportedException: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.ApplicationException
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Create(Type, Object): PrivateScope, Public, Static, HideBySig
+    Create(Type, Object, Exception): PrivateScope, Public, Static, HideBySig
+Class log4net.Util.TypeConverters.ConverterRegistry: AutoLayout, AnsiClass, Class, Public, Sealed
+  Methods:
+    AddConverter(Type, Object): PrivateScope, Public, Static, HideBySig
+    AddConverter(Type, Type): PrivateScope, Public, Static, HideBySig
+    GetConvertTo(Type, Type): PrivateScope, Public, Static, HideBySig
+    GetConvertFrom(Type): PrivateScope, Public, Static, HideBySig
+Interface log4net.Util.TypeConverters.IConvertTo: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    CanConvertTo(Type): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ConvertTo(Object, Type): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class log4net.Util.TypeConverters.TypeConverterAttribute: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Type): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String ConverterTypeName 'get set' : 
+  Methods:
+    get_ConverterTypeName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConverterTypeName(String): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Util.AppenderAttachedImpl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Core.IAppenderAttachable
+  Properties:
+    log4net.Appender.AppenderCollection Appenders 'get ' : 
+  Methods:
+    AppendLoopOnAppenders(LoggingEvent): PrivateScope, Public, HideBySig
+    AppendLoopOnAppenders(LoggingEvent[]): PrivateScope, Public, HideBySig
+    AddAppender(IAppender): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_Appenders(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetAppender(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    RemoveAllAppenders(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    RemoveAppender(IAppender): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    RemoveAppender(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Util.CompositeProperties: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Properties:
+    System.Object Item [System.String] 'get ' : 
+  Methods:
+    get_Item(String): PrivateScope, Public, HideBySig, SpecialName
+    Add(ReadOnlyPropertiesDictionary): PrivateScope, Public, HideBySig
+    Flatten(): PrivateScope, Public, HideBySig
+Class log4net.Util.ContextPropertiesBase: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Properties:
+    System.Object Item [System.String] 'get set' : 
+  Methods:
+    get_Item(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Item(String, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class log4net.Util.ConverterInfo: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get set' : 
+    System.Type Type 'get set' : 
+    log4net.Util.PropertiesDictionary Properties 'get ' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Type(): PrivateScope, Public, HideBySig, SpecialName
+    set_Type(Type): PrivateScope, Public, HideBySig, SpecialName
+    AddProperty(PropertyEntry): PrivateScope, Public, HideBySig
+    get_Properties(): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Util.TextWriterAdapter: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.IO.TextWriter
+  Properties:
+    System.Text.Encoding Encoding 'get ' : 
+    System.IFormatProvider FormatProvider 'get ' : 
+    System.String NewLine 'get set' : 
+  Methods:
+    get_Encoding(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_FormatProvider(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_NewLine(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_NewLine(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Close(): PrivateScope, Public, Virtual, HideBySig
+    Flush(): PrivateScope, Public, Virtual, HideBySig
+    Write(Char): PrivateScope, Public, Virtual, HideBySig
+    Write(Char[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    Write(String): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Util.QuietTextWriter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Util.TextWriterAdapter
+    Void .ctor(System.IO.TextWriter, log4net.Core.IErrorHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    log4net.Core.IErrorHandler ErrorHandler 'get set' : 
+    Boolean Closed 'get ' : 
+  Methods:
+    get_ErrorHandler(): PrivateScope, Public, HideBySig, SpecialName
+    set_ErrorHandler(IErrorHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_Closed(): PrivateScope, Public, HideBySig, SpecialName
+    Write(Char): PrivateScope, Public, Virtual, HideBySig
+    Write(Char[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    Write(String): PrivateScope, Public, Virtual, HideBySig
+    Close(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Util.CountingQuietTextWriter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Util.QuietTextWriter
+    Void .ctor(System.IO.TextWriter, log4net.Core.IErrorHandler): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int64 Count 'get set' : 
+  Methods:
+    Write(Char): PrivateScope, Public, Virtual, HideBySig
+    Write(Char[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    Write(String): PrivateScope, Public, Virtual, HideBySig
+    get_Count(): PrivateScope, Public, HideBySig, SpecialName
+    set_Count(Int64): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Util.CyclicBuffer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    log4net.Core.LoggingEvent Item [Int32] 'get ' : 
+    Int32 MaxSize 'get ' : 
+    Int32 Length 'get ' : 
+  Methods:
+    Append(LoggingEvent): PrivateScope, Public, HideBySig
+    PopOldest(): PrivateScope, Public, HideBySig
+    PopAll(): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_MaxSize(): PrivateScope, Public, HideBySig, SpecialName
+    get_Length(): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Util.EmptyCollection: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  Interfaces:
+    System.Collections.ICollection
+    System.Collections.IEnumerable
+  Properties:
+    log4net.Util.EmptyCollection Instance 'get ' : 
+    Boolean IsSynchronized 'get ' : 
+    Int32 Count 'get ' : 
+    System.Object SyncRoot 'get ' : 
+  Methods:
+    get_Instance(): PrivateScope, Public, Static, HideBySig, SpecialName
+    CopyTo(Array, Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_IsSynchronized(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Count(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SyncRoot(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetEnumerator(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Util.EmptyDictionary: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  Interfaces:
+    System.Collections.IDictionary
+    System.Collections.ICollection
+    System.Collections.IEnumerable
+  Properties:
+    log4net.Util.EmptyDictionary Instance 'get ' : 
+    Boolean IsSynchronized 'get ' : 
+    Int32 Count 'get ' : 
+    System.Object SyncRoot 'get ' : 
+    Boolean IsFixedSize 'get ' : 
+    Boolean IsReadOnly 'get ' : 
+    System.Collections.ICollection Keys 'get ' : 
+    System.Collections.ICollection Values 'get ' : 
+    System.Object Item [System.Object] 'get set' : 
+  Methods:
+    get_Instance(): PrivateScope, Public, Static, HideBySig, SpecialName
+    CopyTo(Array, Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_IsSynchronized(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Count(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_SyncRoot(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Add(Object, Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Clear(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Contains(Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetEnumerator(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Remove(Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_IsFixedSize(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsReadOnly(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Keys(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Values(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Item(Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Item(Object, Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class log4net.Util.FormattingInfo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Min  'get set' : 
+    Int32 Max  'get set' : 
+    Boolean LeftAlign 'get set' : 
+  Methods:
+    get_Min(): PrivateScope, Public, HideBySig, SpecialName
+    set_Min(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Max(): PrivateScope, Public, HideBySig, SpecialName
+    set_Max(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_LeftAlign(): PrivateScope, Public, HideBySig, SpecialName
+    set_LeftAlign(Boolean): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Util.GlobalContextProperties: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :log4net.Util.ContextPropertiesBase
+  Properties:
+    System.Object Item [System.String] 'get set' : 
+  Methods:
+    get_Item(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Item(String, Object): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Remove(String): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+Class log4net.Util.LevelMapping: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Core.IOptionHandler
+  Methods:
+    Add(LevelMappingEntry): PrivateScope, Public, HideBySig
+    Lookup(Level): PrivateScope, Public, HideBySig
+    ActivateOptions(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Util.LogicalThreadContextProperties: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :log4net.Util.ContextPropertiesBase
+  Properties:
+    System.Object Item [System.String] 'get set' : 
+  Methods:
+    get_Item(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Item(String, Object): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Remove(String): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+Class log4net.Util.LogReceivedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, LogReceivedEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, LogReceivedEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Util.LogLog: AutoLayout, AnsiClass, Class, Public, Sealed
+    Void .ctor(System.Type, System.String, System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Type Source 'get ' : 
+    System.DateTime TimeStamp 'get ' : 
+    System.String Prefix 'get ' : 
+    System.String Message 'get ' : 
+    System.Exception Exception 'get ' : 
+    Boolean InternalDebugging 'get set' : 
+    Boolean QuietMode 'get set' : 
+    Boolean EmitInternalMessages 'get set' : 
+    Boolean IsDebugEnabled 'get ' : 
+    Boolean IsWarnEnabled 'get ' : 
+    Boolean IsErrorEnabled 'get ' : 
+  Events:
+    log4net.Util.LogReceivedEventHandler LogReceived: 
+  Methods:
+    add_LogReceived(LogReceivedEventHandler): PrivateScope, Public, Static, HideBySig, SpecialName
+    remove_LogReceived(LogReceivedEventHandler): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Source(): PrivateScope, Public, HideBySig, SpecialName
+    get_TimeStamp(): PrivateScope, Public, HideBySig, SpecialName
+    get_Prefix(): PrivateScope, Public, HideBySig, SpecialName
+    get_Message(): PrivateScope, Public, HideBySig, SpecialName
+    get_Exception(): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    get_InternalDebugging(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_InternalDebugging(Boolean): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_QuietMode(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_QuietMode(Boolean): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_EmitInternalMessages(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_EmitInternalMessages(Boolean): PrivateScope, Public, Static, HideBySig, SpecialName
+    OnLogReceived(Type, String, String, Exception): PrivateScope, Public, Static, HideBySig
+    get_IsDebugEnabled(): PrivateScope, Public, Static, HideBySig, SpecialName
+    Debug(Type, String): PrivateScope, Public, Static, HideBySig
+    Debug(Type, String, Exception): PrivateScope, Public, Static, HideBySig
+    get_IsWarnEnabled(): PrivateScope, Public, Static, HideBySig, SpecialName
+    Warn(Type, String): PrivateScope, Public, Static, HideBySig
+    Warn(Type, String, Exception): PrivateScope, Public, Static, HideBySig
+    get_IsErrorEnabled(): PrivateScope, Public, Static, HideBySig, SpecialName
+    Error(Type, String): PrivateScope, Public, Static, HideBySig
+    Error(Type, String, Exception): PrivateScope, Public, Static, HideBySig
+Class log4net.Util.LogLog+LogReceivedAdapter: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+    Void .ctor(System.Collections.IList): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.Collections.IList Items 'get ' : 
+  Methods:
+    get_Items(): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Util.LogReceivedEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(log4net.Util.LogLog): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    log4net.Util.LogLog LogLog 'get ' : 
+  Methods:
+    get_LogLog(): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Util.NativeError: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Properties:
+    Int32 Number 'get ' : 
+    System.String Message 'get ' : 
+  Methods:
+    get_Number(): PrivateScope, Public, HideBySig, SpecialName
+    get_Message(): PrivateScope, Public, HideBySig, SpecialName
+    GetLastError(): PrivateScope, Public, Static, HideBySig
+    GetError(Int32): PrivateScope, Public, Static, HideBySig
+    GetErrorMessage(Int32): PrivateScope, Public, Static, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Util.NullDictionaryEnumerator: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Collections.IDictionaryEnumerator
+    System.Collections.IEnumerator
+  Properties:
+    log4net.Util.NullDictionaryEnumerator Instance 'get ' : 
+    System.Object Current 'get ' : 
+    System.Object Key 'get ' : 
+    System.Object Value 'get ' : 
+    System.Collections.DictionaryEntry Entry 'get ' : 
+  Methods:
+    get_Instance(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Current(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    MoveNext(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Reset(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_Key(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Value(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Entry(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class log4net.Util.NullEnumerator: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    System.Collections.IEnumerator
+  Properties:
+    log4net.Util.NullEnumerator Instance 'get ' : 
+    System.Object Current 'get ' : 
+  Methods:
+    get_Instance(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Current(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    MoveNext(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Reset(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class log4net.Util.NullSecurityContext: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :log4net.Core.SecurityContext
+  Fields:
+    log4net.Util.NullSecurityContext Instance : Public, Static, InitOnly
+  Methods:
+    Impersonate(Object): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Util.OnlyOnceErrorHandler: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Core.IErrorHandler
+  Properties:
+    Boolean IsEnabled 'get ' : 
+    System.DateTime EnabledDate 'get ' : 
+    System.String ErrorMessage 'get ' : 
+    System.Exception Exception 'get ' : 
+    log4net.Core.ErrorCode ErrorCode 'get ' : 
+  Methods:
+    Reset(): PrivateScope, Public, HideBySig
+    Error(String, Exception, ErrorCode): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Error(String, Exception): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Error(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_IsEnabled(): PrivateScope, Public, HideBySig, SpecialName
+    get_EnabledDate(): PrivateScope, Public, HideBySig, SpecialName
+    get_ErrorMessage(): PrivateScope, Public, HideBySig, SpecialName
+    get_Exception(): PrivateScope, Public, HideBySig, SpecialName
+    get_ErrorCode(): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Util.OptionConverter: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Methods:
+    ToBoolean(String, Boolean): PrivateScope, Public, Static, HideBySig
+    ToFileSize(String, Int64): PrivateScope, Public, Static, HideBySig
+    ConvertStringTo(Type, String): PrivateScope, Public, Static, HideBySig
+    CanConvertTypeTo(Type, Type): PrivateScope, Public, Static, HideBySig
+    ConvertTypeTo(Object, Type): PrivateScope, Public, Static, HideBySig
+    InstantiateByClassName(String, Type, Object): PrivateScope, Public, Static, HideBySig
+    SubstituteVariables(String, IDictionary): PrivateScope, Public, Static, HideBySig
+Class log4net.Util.PatternParser: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Hashtable PatternConverters 'get ' : 
+  Methods:
+    Parse(): PrivateScope, Public, HideBySig
+    get_PatternConverters(): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Util.PatternString: AutoLayout, AnsiClass, Class, Public
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Core.IOptionHandler
+  Properties:
+    System.String ConversionPattern 'get set' : 
+  Methods:
+    get_ConversionPattern(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConversionPattern(String): PrivateScope, Public, HideBySig, SpecialName
+    ActivateOptions(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Format(TextWriter): PrivateScope, Public, HideBySig
+    Format(): PrivateScope, Public, HideBySig
+    AddConverter(ConverterInfo): PrivateScope, Public, HideBySig
+    AddConverter(String, Type): PrivateScope, Public, HideBySig
+Class log4net.Util.ReadOnlyPropertiesDictionary: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Util.ReadOnlyPropertiesDictionary): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Runtime.Serialization.ISerializable
+    System.Collections.IDictionary
+    System.Collections.ICollection
+    System.Collections.IEnumerable
+  Properties:
+    System.Object Item [System.String] 'get set' : 
+    Int32 Count 'get ' : 
+  Methods:
+    GetKeys(): PrivateScope, Public, HideBySig
+    get_Item(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Item(String, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Contains(String): PrivateScope, Public, HideBySig
+    GetObjectData(SerializationInfo, StreamingContext): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Clear(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Count(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class log4net.Util.PropertiesDictionary: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  :log4net.Util.ReadOnlyPropertiesDictionary
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(log4net.Util.ReadOnlyPropertiesDictionary): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Object Item [System.String] 'get set' : 
+  Methods:
+    get_Item(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Item(String, Object): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Remove(String): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Util.PropertyEntry: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Key 'get set' : 
+    System.Object Value 'get set' : 
+  Methods:
+    get_Key(): PrivateScope, Public, HideBySig, SpecialName
+    set_Key(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    set_Value(Object): PrivateScope, Public, HideBySig, SpecialName
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Util.ProtectCloseTextWriter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Util.TextWriterAdapter
+    Void .ctor(System.IO.TextWriter): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Attach(TextWriter): PrivateScope, Public, HideBySig
+    Close(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Util.ReaderWriterLock: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    AcquireReaderLock(): PrivateScope, Public, HideBySig
+    ReleaseReaderLock(): PrivateScope, Public, HideBySig
+    AcquireWriterLock(): PrivateScope, Public, HideBySig
+    ReleaseWriterLock(): PrivateScope, Public, HideBySig
+Class log4net.Util.ReusableStringWriter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.IO.StringWriter
+    Void .ctor(System.IFormatProvider): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Reset(Int32, Int32): PrivateScope, Public, HideBySig
+Class log4net.Util.SystemInfo: AutoLayout, AnsiClass, Class, Public, Sealed
+  Fields:
+    System.Type[] EmptyTypes : Public, Static, InitOnly
+  Properties:
+    System.String NewLine 'get ' : 
+    System.String ApplicationBaseDirectory 'get ' : 
+    System.String ConfigurationFileLocation 'get ' : 
+    System.String EntryAssemblyLocation 'get ' : 
+    Int32 CurrentThreadId 'get ' : 
+    System.String HostName 'get ' : 
+    System.String ApplicationFriendlyName 'get ' : 
+    System.DateTime ProcessStartTime 'get ' : 
+    System.String NullText 'get set' : 
+    System.String NotAvailableText 'get set' : 
+  Methods:
+    get_NewLine(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_ApplicationBaseDirectory(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_ConfigurationFileLocation(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_EntryAssemblyLocation(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CurrentThreadId(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_HostName(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_ApplicationFriendlyName(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_ProcessStartTime(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_NullText(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_NullText(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_NotAvailableText(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_NotAvailableText(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    AssemblyLocationInfo(Assembly): PrivateScope, Public, Static, HideBySig
+    AssemblyQualifiedName(Type): PrivateScope, Public, Static, HideBySig
+    AssemblyShortName(Assembly): PrivateScope, Public, Static, HideBySig
+    AssemblyFileName(Assembly): PrivateScope, Public, Static, HideBySig
+    GetTypeFromString(Type, String, Boolean, Boolean): PrivateScope, Public, Static, HideBySig
+    GetTypeFromString(String, Boolean, Boolean): PrivateScope, Public, Static, HideBySig
+    GetTypeFromString(Assembly, String, Boolean, Boolean): PrivateScope, Public, Static, HideBySig
+    NewGuid(): PrivateScope, Public, Static, HideBySig
+    CreateArgumentOutOfRangeException(String, Object, String): PrivateScope, Public, Static, HideBySig
+    TryParse(String, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    TryParse(String, Int64&(Out)): PrivateScope, Public, Static, HideBySig
+    TryParse(String, Int16&(Out)): PrivateScope, Public, Static, HideBySig
+    GetAppSetting(String): PrivateScope, Public, Static, HideBySig
+    ConvertToFullPath(String): PrivateScope, Public, Static, HideBySig
+    CreateCaseInsensitiveHashtable(): PrivateScope, Public, Static, HideBySig
+Class log4net.Util.SystemStringFormat: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(System.IFormatProvider, System.String, System.Object[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Util.ThreadContextProperties: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :log4net.Util.ContextPropertiesBase
+  Properties:
+    System.Object Item [System.String] 'get set' : 
+  Methods:
+    get_Item(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Item(String, Object): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Remove(String): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+Class log4net.Util.ThreadContextStack: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Interfaces:
+    log4net.Core.IFixingRequired
+  Properties:
+    Int32 Count 'get ' : 
+  Methods:
+    get_Count(): PrivateScope, Public, HideBySig, SpecialName
+    Clear(): PrivateScope, Public, HideBySig
+    Pop(): PrivateScope, Public, HideBySig
+    Push(String): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class log4net.Util.ThreadContextStacks: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Properties:
+    log4net.Util.ThreadContextStack Item [System.String] 'get ' : 
+  Methods:
+    get_Item(String): PrivateScope, Public, HideBySig, SpecialName
+Class log4net.Util.Transform: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Methods:
+    WriteEscapedXmlString(XmlWriter, String, String): PrivateScope, Public, Static, HideBySig
+    MaskXmlInvalidCharacters(String, String): PrivateScope, Public, Static, HideBySig
+Class log4net.Util.WindowsSecurityContext: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :log4net.Core.SecurityContext
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    log4net.Core.IOptionHandler
+  Properties:
+    ImpersonationMode Credentials 'get set' : 
+    System.String UserName 'get set' : 
+    System.String DomainName 'get set' : 
+    System.String Password 'set' : 
+  Methods:
+    get_Credentials(): PrivateScope, Public, HideBySig, SpecialName
+    set_Credentials(ImpersonationMode): PrivateScope, Public, HideBySig, SpecialName
+    get_UserName(): PrivateScope, Public, HideBySig, SpecialName
+    set_UserName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DomainName(): PrivateScope, Public, HideBySig, SpecialName
+    set_DomainName(String): PrivateScope, Public, HideBySig, SpecialName
+    set_Password(String): PrivateScope, Public, HideBySig, SpecialName
+    ActivateOptions(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Impersonate(Object): PrivateScope, Public, Virtual, HideBySig
+Struct log4net.Util.WindowsSecurityContext+ImpersonationMode: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ImpersonationMode User = 0 : Public, Static, Literal, HasDefault
+    ImpersonationMode Process = 1 : Public, Static, Literal, HasDefault
+Class log4net.GlobalContext: AutoLayout, AnsiClass, Class, Public, Sealed
+  Properties:
+    log4net.Util.GlobalContextProperties Properties 'get ' : 
+  Methods:
+    get_Properties(): PrivateScope, Public, Static, HideBySig, SpecialName
+Class log4net.AssemblyInfo: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Decimal TargetFrameworkVersion : Public, Static, InitOnly
+    System.String Version = 1.2.11 : Public, Static, Literal, HasDefault
+    System.String TargetFramework = .NET Framework : Public, Static, Literal, HasDefault
+    Boolean ClientProfile = False : Public, Static, Literal, HasDefault
+  Properties:
+    System.String Info 'get ' : 
+  Methods:
+    get_Info(): PrivateScope, Public, Static, HideBySig, SpecialName
+Class log4net.LogicalThreadContext: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Properties:
+    log4net.Util.LogicalThreadContextProperties Properties 'get ' : 
+    log4net.Util.ThreadContextStacks Stacks 'get ' : 
+  Methods:
+    get_Properties(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Stacks(): PrivateScope, Public, Static, HideBySig, SpecialName
+Class log4net.LogManager: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Methods:
+    Exists(String): PrivateScope, Public, Static, HideBySig
+    Exists(String, String): PrivateScope, Public, Static, HideBySig
+    Exists(Assembly, String): PrivateScope, Public, Static, HideBySig
+    GetCurrentLoggers(): PrivateScope, Public, Static, HideBySig
+    GetCurrentLoggers(String): PrivateScope, Public, Static, HideBySig
+    GetCurrentLoggers(Assembly): PrivateScope, Public, Static, HideBySig
+    GetLogger(String): PrivateScope, Public, Static, HideBySig
+    GetLogger(String, String): PrivateScope, Public, Static, HideBySig
+    GetLogger(Assembly, String): PrivateScope, Public, Static, HideBySig
+    GetLogger(Type): PrivateScope, Public, Static, HideBySig
+    GetLogger(String, Type): PrivateScope, Public, Static, HideBySig
+    GetLogger(Assembly, Type): PrivateScope, Public, Static, HideBySig
+    Shutdown(): PrivateScope, Public, Static, HideBySig
+    ShutdownRepository(): PrivateScope, Public, Static, HideBySig
+    ShutdownRepository(String): PrivateScope, Public, Static, HideBySig
+    ShutdownRepository(Assembly): PrivateScope, Public, Static, HideBySig
+    ResetConfiguration(): PrivateScope, Public, Static, HideBySig
+    ResetConfiguration(String): PrivateScope, Public, Static, HideBySig
+    ResetConfiguration(Assembly): PrivateScope, Public, Static, HideBySig
+    GetLoggerRepository(): PrivateScope, Public, Static, HideBySig (Obsolete)
+    GetLoggerRepository(String): PrivateScope, Public, Static, HideBySig (Obsolete)
+    GetLoggerRepository(Assembly): PrivateScope, Public, Static, HideBySig (Obsolete)
+    GetRepository(): PrivateScope, Public, Static, HideBySig
+    GetRepository(String): PrivateScope, Public, Static, HideBySig
+    GetRepository(Assembly): PrivateScope, Public, Static, HideBySig
+    CreateDomain(Type): PrivateScope, Public, Static, HideBySig (Obsolete)
+    CreateRepository(Type): PrivateScope, Public, Static, HideBySig
+    CreateDomain(String): PrivateScope, Public, Static, HideBySig (Obsolete)
+    CreateRepository(String): PrivateScope, Public, Static, HideBySig
+    CreateDomain(String, Type): PrivateScope, Public, Static, HideBySig (Obsolete)
+    CreateRepository(String, Type): PrivateScope, Public, Static, HideBySig
+    CreateDomain(Assembly, Type): PrivateScope, Public, Static, HideBySig (Obsolete)
+    CreateRepository(Assembly, Type): PrivateScope, Public, Static, HideBySig
+    GetAllRepositories(): PrivateScope, Public, Static, HideBySig
+Class log4net.MDC: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Methods:
+    Get(String): PrivateScope, Public, Static, HideBySig
+    Set(String, String): PrivateScope, Public, Static, HideBySig
+    Remove(String): PrivateScope, Public, Static, HideBySig
+    Clear(): PrivateScope, Public, Static, HideBySig
+Class log4net.NDC: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Properties:
+    Int32 Depth 'get ' : 
+  Methods:
+    get_Depth(): PrivateScope, Public, Static, HideBySig, SpecialName
+    Clear(): PrivateScope, Public, Static, HideBySig
+    CloneStack(): PrivateScope, Public, Static, HideBySig
+    Inherit(Stack): PrivateScope, Public, Static, HideBySig
+    Pop(): PrivateScope, Public, Static, HideBySig
+    Push(String): PrivateScope, Public, Static, HideBySig
+    Remove(): PrivateScope, Public, Static, HideBySig
+    SetMaxDepth(Int32): PrivateScope, Public, Static, HideBySig
+Class log4net.ThreadContext: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Properties:
+    log4net.Util.ThreadContextProperties Properties 'get ' : 
+    log4net.Util.ThreadContextStacks Stacks 'get ' : 
+  Methods:
+    get_Properties(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Stacks(): PrivateScope, Public, Static, HideBySig, SpecialName

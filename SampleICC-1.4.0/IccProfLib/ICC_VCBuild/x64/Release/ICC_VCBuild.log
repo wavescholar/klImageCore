@@ -1,0 +1,40 @@
+﻿Build started 4/21/2014 2:16:12 PM.
+     1>Project "D:\klImageCore\SampleICC-1.4.0\IccProfLib\ICC_VCBuild\ICC_VCBuild.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\ICC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"..\..\..\\tiff-4.0.0beta4\tiff-4.0.0beta4\libtiff" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _WIN64 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt TiffImg.cpp iccApplyProfiles.cpp
+         TiffImg.cpp
+     1>TiffImg.cpp(174): warning C4244: '=' : conversion from 'tmsize_t' to 'unsigned long', possible loss of data
+     1>TiffImg.cpp(211): warning C4244: '=' : conversion from 'tmsize_t' to 'unsigned long', possible loss of data
+         iccApplyProfiles.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\x64\Release\ICC.lib" /NOLOGO /LTCG x64\Release\IccApplyBPC.obj
+         x64\Release\iccApplyProfiles.obj
+         x64\Release\IccCmm.obj
+         x64\Release\iccDumpProfile.obj
+         x64\Release\IccEval.obj
+         x64\Release\IccIO.obj
+         x64\Release\IccMpeACS.obj
+         x64\Release\IccMpeBasic.obj
+         x64\Release\IccMpeFactory.obj
+         x64\Release\IccPrmg.obj
+         x64\Release\IccProfile.obj
+         x64\Release\IccTagBasic.obj
+         x64\Release\IccTagFactory.obj
+         x64\Release\IccTagLut.obj
+         x64\Release\IccTagMPE.obj
+         x64\Release\IccTagProfSeqId.obj
+         x64\Release\IccUtil.obj
+         x64\Release\IccXformFactory.obj
+         x64\Release\md5.obj
+         x64\Release\TiffImg.obj
+         ICC_VCBuild.vcxproj -> D:\x64\Release\ICC.lib
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\ICC.unsuccessfulbuild".
+         Touching "x64\Release\ICC.lastbuildstate".
+     1>Done Building Project "D:\klImageCore\SampleICC-1.4.0\IccProfLib\ICC_VCBuild\ICC_VCBuild.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.74

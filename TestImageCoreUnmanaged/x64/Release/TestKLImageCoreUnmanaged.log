@@ -1,0 +1,76 @@
+﻿Build started 4/21/2014 8:42:04 PM.
+     1>Project "D:\klImageCore\TestImageCoreUnmanaged\TestKLImageCoreUnmanaged.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\TestKLImageCoreUnmanaged.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       MessageBuildingWithCompiler:
+         Building with Intel(R) C++ Compiler XE 12.1
+       ClCompile:
+         ***** ClCompile (X64 - Intel C++)
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\Intel64\icl.exe /c /Qvc10 /Qlocation,link,"$(VCInstallDir)\bin\x86_amd64" /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\ipp\include" /I"..\SampleICC-1.4.0\IccProfLib\ICC_VCBuild" /I"D:\klImaging\Kakadu\Kakadu-6.3\managed\all_includes" /I"D:\klImaging\Kakadu\Kakadu-6.3\apps\support" /ID:\klMatrixCore\src /I"..\tiff-4.0.0beta4\tiff-4.0.0beta4\libz\zlib123" /I"D:\klImaging\Kakadu\Kakadu-6.3\include" /I"..\Kakadu\Kakadu-6.3\coresys" /I"..\tiff-4.0.0beta4\tiff-4.0.0beta4\libtiff" /I"D:\klImaging\Kakadu\Kakadu-6.3\coresys\common" /I"D:\klImaging\Kakadu\Kakadu-6.3\coresys" /I"D:\klImaging\tiff-4.0.0beta4\tiff-4.0.0beta4\libjpeg\jpeg-6b" /Zi /nologo /W3 /O2 /Oi /Qipo /Qftz- /D _IPP_PARALLEL_DYNAMIC /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /TP ..\klImageCoreV\klBigTiffFileManager.cpp ..\klImageCoreV\kl_image_processing_functors.cpp /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\include" /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\include\fftw" /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\include\intel64" 
+         klBigTiffFileManager.cpp
+     1>D:\klMatrixCore\src\kl_SEH.h(115): warning #80: a storage class may not be specified here
+             typedef enum CallstackEntryType {firstEntry, nextEntry, lastEntry};
+             ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(701): warning #810: conversion from "void *" to "int" may lose significant bits
+           	bool klHeapCheckBlock(void* mem){  return HeapValidate(pHeap,0,reinterpret_cast<void*>(int(mem)));	
+           	                                                                                       ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(782): warning #810: conversion from "void *" to "int" may lose significant bits
+           		 return HeapValidate(pHeap,0,reinterpret_cast<void*>(int(mem)-sizeof(klHeader) ) ) ;
+           		                                                     ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(828): warning #810: conversion from "char *" to "int" may lose significant bits
+           				klFooter* theTlr =reinterpret_cast<klFooter*>((int)theMem+sizeof(klHeader)+DataSize); ;
+           				                                              ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(994): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klFooter* pFooter=reinterpret_cast<klFooter*>((int)theMem+sizeof(klHeader)+inSize);
+           	                                              ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(996): warning #810: conversion from "void *" to "int" may lose significant bits
+           	return reinterpret_cast<void*>((int)theMem+sizeof(klHeader));
+           	                               ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1023): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klFooter* pFooter=reinterpret_cast<klFooter*>((int)theMem+sizeof(klHeader)+inSize);
+           	                                              ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1025): warning #810: conversion from "void *" to "int" may lose significant bits
+           	return reinterpret_cast<void*>((int)theMem+sizeof(klHeader));
+           	                               ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1035): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klHeader* pHeader=reinterpret_cast<klHeader*>(int(inPtr)-sizeof(klHeader));
+           	                                              ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1036): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klFooter* pFooter= reinterpret_cast<klFooter*>(int(inPtr)+pHeader->bufferLen);
+           	                                               ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1070): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klHeader* pHeader=reinterpret_cast<klHeader*>(int(inPtr)-sizeof(klHeader));
+           	                                              ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1071): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klFooter* pFooter= reinterpret_cast<klFooter*>(int(inPtr)+pHeader->bufferLen);
+           	                                               ^
+         
+     1>..\klImageCoreV\klBigTiffFileManager.cpp(1754): warning #1011: missing return statement at end of non-void function "klBigTiffFileManager::getTiffDirImage"
+           }
+           ^
+         
+         kl_image_processing_functors.cpp
+     1>D:\klMatrixCore\src\kl_SEH.h(115): warning #80: a storage class may not be specified here
+             typedef enum CallstackEntryType {firstEntry, nextEntry, lastEntry};
+             ^
+         
+     1>..\klImageCoreV\kl_image_processing_functors.cpp(6): error : cannot open source file "ppm_helper.h"
+           #include "ppm_helper.h"
+                                  ^
+         
+     1>Done Building Project "D:\klImageCore\TestImageCoreUnmanaged\TestKLImageCoreUnmanaged.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.31

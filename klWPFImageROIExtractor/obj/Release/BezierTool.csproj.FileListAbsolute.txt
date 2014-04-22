@@ -1,0 +1,14 @@
+D:\klImageCore\x64\Release\MaskDrawingApp.exe.config
+D:\klImageCore\x64\Release\MaskDrawingApp.exe
+D:\klImageCore\x64\Release\MaskDrawingApp.pdb
+D:\klImageCore\klWPFImageROIExtractor\obj\Release\ResolveAssemblyReference.cache
+D:\klImageCore\klWPFImageROIExtractor\obj\Release\Window1.baml
+D:\klImageCore\klWPFImageROIExtractor\obj\Release\Window1.g.cs
+D:\klImageCore\klWPFImageROIExtractor\obj\Release\App.g.cs
+D:\klImageCore\klWPFImageROIExtractor\obj\Release\MaskDrawingApp_MarkupCompile.cache
+D:\klImageCore\klWPFImageROIExtractor\obj\Release\MaskDrawingApp.g.resources
+D:\klImageCore\klWPFImageROIExtractor\obj\Release\MaskDrawingApp.Properties.Resources.resources
+D:\klImageCore\klWPFImageROIExtractor\obj\Release\GenerateResource.read.1.tlog
+D:\klImageCore\klWPFImageROIExtractor\obj\Release\GenerateResource.write.1.tlog
+D:\klImageCore\klWPFImageROIExtractor\obj\Release\MaskDrawingApp.exe
+D:\klImageCore\klWPFImageROIExtractor\obj\Release\MaskDrawingApp.pdb

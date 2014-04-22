@@ -1,0 +1,11 @@
+<map id="klBigTiffFileManager::getWSIImage" name="klBigTiffFileManager::getWSIImage">
+<area shape="rect" id="node2" href="$classkl_big_tiff_file_manager.html#aeab258cc7fa319d6373ad5795adfd1cd" title="klBigTiffFileManager\l::getTiffImageInfo" alt="" coords="401,24,539,65"/>
+<area shape="rect" id="node4" href="$kl_big_tiff_file_manager_8cpp.html#ad01cf56d48bc76e2367a2c0e3d705097" title="logError" alt="" coords="796,57,863,83"/>
+<area shape="rect" id="node7" href="$classkl_big_tiff_file_manager.html#ab1edb6057cbcb7fefa1bc2b62709ad76" title="klBigTiffFileManager\l::getMetadata" alt="" coords="192,88,331,129"/>
+<area shape="rect" id="node10" href="$kl__ppm__image__io_8cpp.html#abd4e33d1b3a2a25e1a64f8a52a101150" title="write_ppm" alt="" coords="221,154,302,181"/>
+<area shape="rect" id="node3" href="$classkl_big_tiff_file_manager.html#aba6281db3d8425112e2485cd9761c772" title="klBigTiffFileManager\l::setTiffDirectory" alt="" coords="609,79,748,120"/>
+<area shape="rect" id="node5" href="$kl_big_tiff_file_manager_8cpp.html#a787acf614a4bbb2c6a4c2b83fb3491c1" title="PrintGetLastError" alt="" coords="911,31,1033,58"/>
+<area shape="rect" id="node6" href="$kl_big_tiff_file_manager_8cpp.html#ae229efd655852ee7db3466f6e7989092" title="PrintModules" alt="" coords="923,82,1021,109"/>
+<area shape="rect" id="node8" href="$classkl_big_tiff_file_manager.html#ad4b683ac680dc71acfb06880954a9d05" title="klBigTiffFileManager\l::parseImageDescriptionTag" alt="" coords="379,89,561,131"/>
+<area shape="rect" id="node9" href="$classkl_big_tiff_file_manager.html#a3ba0a0de48b959534a40237242c44f0e" title="klBigTiffFileManager\l::createXMLMap" alt="" coords="401,155,539,196"/>
+</map>

@@ -1,3 +1,4 @@
 <map id="TissueAnalysis" name="TissueAnalysis">
-<area shape="rect" id="node2" href="$class_aperio_file_manager.html#a2a8481a5c0a709373d75ff7387fd7470" title="AperioFileManager::\lExtractImageTiles" alt="" coords="165,5,304,46"/>
+<area shape="rect" id="node2" href="$class_aperio_file_manager.html#a2a8481a5c0a709373d75ff7387fd7470" title="AperioFileManager::\lExtractImageTiles" alt="" coords="164,5,303,47"/>
+<area shape="rect" id="node3" href="$classkl_big_tiff_file_manager.html#a5cd40d467f8137275a85e6ed72a90000" title="klBigTiffFileManager\l::ExtractImageTiles" alt="" coords="164,71,303,112"/>
 </map>
