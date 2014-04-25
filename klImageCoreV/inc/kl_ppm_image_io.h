@@ -9,6 +9,7 @@
 #include "kl_image_buffer.h"
 #include "kl_image_io.h"
 
+
 bool query_ppm(const char* filename,unsigned int &width,unsigned int &height,unsigned int &bands);
 bool read_ppm(const char* filename,unsigned int width,unsigned int height,unsigned int bands, unsigned char * inputbuf);
 

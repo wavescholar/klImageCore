@@ -55,7 +55,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_WIN64;_DEBUG;_LIB;JPEG2000_SUPPORT;JPEG_SUPPORT;LZW_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader>Use</PrecompiledHeader>
-      <AdditionalIncludeDirectories>..\SampleICC-1.4.0\IccProfLib\ICC_VCBuild;D:\klImaging\Kakadu\Kakadu-6.3\managed\all_includes;D:\klImaging\Kakadu\Kakadu-6.3\apps\support;D:\klMatrixCore\src;..\tiff-4.0.0beta4\tiff-4.0.0beta4\libz\zlib123;D:\klImaging\Kakadu\Kakadu-6.3\include;..\Kakadu\Kakadu-6.3\coresys;..\tiff-4.0.0beta4\tiff-4.0.0beta4\libtiff;D:\klImaging\Kakadu\Kakadu-6.3\coresys\common;D:\klImaging\Kakadu\Kakadu-6.3\coresys;D:\klImaging\tiff-4.0.0beta4\tiff-4.0.0beta4\libjpeg\jpeg-6b</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SampleICC-1.4.0\IccProfLib\ICC_VCBuild;..\tiff-4.0.0beta4\tiff-4.0.0beta4\libz\zlib123;..\tiff-4.0.0beta4\tiff-4.0.0beta4\libtiff;D:\klMatrixCore\inc;D:\klImageCore\klImageCoreV\inc;..\tiff-4.0.0beta4\tiff-4.0.0beta4\libjpeg\jpeg-6b</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -68,7 +68,7 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader>Use</PrecompiledHeader>
-      <AdditionalIncludeDirectories>..\SampleICC-1.4.0\IccProfLib\ICC_VCBuild;D:\klImaging\Kakadu\Kakadu-6.3\managed\all_includes;D:\klImaging\Kakadu\Kakadu-6.3\apps\support;D:\klMatrixCore\src;..\tiff-4.0.0beta4\tiff-4.0.0beta4\libz\zlib123;D:\klImaging\Kakadu\Kakadu-6.3\include;..\Kakadu\Kakadu-6.3\coresys;..\tiff-4.0.0beta4\tiff-4.0.0beta4\libtiff;D:\klImaging\Kakadu\Kakadu-6.3\coresys\common;D:\klImaging\Kakadu\Kakadu-6.3\coresys;D:\klImaging\tiff-4.0.0beta4\tiff-4.0.0beta4\libjpeg\jpeg-6b</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\SampleICC-1.4.0\IccProfLib\ICC_VCBuild;..\tiff-4.0.0beta4\tiff-4.0.0beta4\libz\zlib123;..\tiff-4.0.0beta4\tiff-4.0.0beta4\libtiff;D:\klMatrixCore\inc;D:\klImageCore\klImageCoreV\inc;..\tiff-4.0.0beta4\tiff-4.0.0beta4\libjpeg\jpeg-6b</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -83,59 +83,6 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="klBigTiffFileManager.h" />
-    <ClInclude Include="klBigTiffManagedReader.h" />
-    <ClInclude Include="klMAnagedLogger.h" />
-    <ClInclude Include="klPerformanceCounter.h" />
-    <ClInclude Include="klProcessImage.h" />
-    <ClInclude Include="kl_image_buffer.h" />
-    <ClInclude Include="kl_image_io.h" />
-    <ClInclude Include="kl_image_io_factory.h" />
-    <ClInclude Include="kl_image_processing_functors.h" />
-    <ClInclude Include="kl_img_pca.h" />
-    <ClInclude Include="kl_ppm_image_io.h" />
-    <ClInclude Include="kl_tiff_image_io.h" />
-    <ClInclude Include="resource.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="klBigTiffFileManager.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="klBigTiffManagedReader.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="AssemblyInfo.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="kl_image_io.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="kl_ppm_image_io.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="kl_tiff_image_io.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="klPerformanceCounter.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="klProcessImage.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="kl_image_processing_functors.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.ico" />
@@ -254,6 +201,68 @@
     <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclbase.lib" />
     <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclmcr.lib" />
     <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclmcrrt.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\InteropLogger.h" />
+    <ClInclude Include="inc\klBigTiffFileManager.h" />
+    <ClInclude Include="inc\klBigTiffManagedReader.h" />
+    <ClInclude Include="inc\klManagedLogger.h" />
+    <ClInclude Include="inc\klPerformanceCounter.h" />
+    <ClInclude Include="inc\klProcessImage.h" />
+    <ClInclude Include="inc\kl_image_buffer.h" />
+    <ClInclude Include="inc\kl_image_io.h" />
+    <ClInclude Include="inc\kl_image_io_factory.h" />
+    <ClInclude Include="inc\kl_image_processing_functors.h" />
+    <ClInclude Include="inc\kl_img_pca.h" />
+    <ClInclude Include="inc\kl_ppm_image_io.h" />
+    <ClInclude Include="inc\kl_tiff_image_io.h" />
+    <ClInclude Include="inc\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AssemblyInfo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\klBigTiffFileManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\klBigTiffManagedReader.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\klPerformanceCounter.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\klProcessImage.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\kl_image_io.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\kl_image_processing_functors.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\kl_jpeg_image_io.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\kl_ppm_image_io.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\kl_tiff_image_io.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\klBiggTiffSubDirFns.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -13,28 +13,9 @@
 #include <vector>
 using namespace std;
 
-
-#include <stdio.h>
-#include "jpeglib.h"
-#include <setjmp.h>
-#include <stdlib.h>     /* malloc, free, rand */
-
-#include <string.h> //memcopy
-
-void write_ppm(const char* filename, int width, int height, unsigned char * buf)
-{
-	FILE * ppmfile;
-
-	ppmfile = fopen (filename, "wb");
-
-	fprintf (ppmfile, "P6\n%d %d\n255\n", width, height);
-	unsigned int stepSize=3 * width;
-	for (int i=0; i<height; i++)
-		fwrite (&buf[i*stepSize], 3 * width, 1, ppmfile);
-
-	flushall();
-	fclose(ppmfile);
-}
+/* This file contains code to benchmark the JPEG SIMD library
+   http://libjpeg-turbo.virtualgl.org/ 
+*/
 
 std::queue<wstring> ListDirectoryContents(const wchar_t *sDir)
 { 

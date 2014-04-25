@@ -11,7 +11,6 @@
 
 #include "kl_image_io.h"
 
-
 #include "precomp.h"
 #include "string.h"
 
@@ -162,8 +161,6 @@ static IM_TYPE ImageFormatFromExtension(const char* name)
   return fmt;
 } // ImageFormatFromExtension()
 
-
-
 static ExcStatus DecodeImage(BaseStreamInput& in, CIppImage& image, CmdOptions& cmdOpt, IM_TYPE& fmt, double* msec)
 {
   IM_ERROR  imStatus;
@@ -297,7 +294,6 @@ static ExcStatus DecodeImage(BaseStreamInput& in, CIppImage& image, CmdOptions& 
 
   return ExcStatusOk;
 } // DecodeImage()
-
 
 static ExcStatus EncodeImage(CIppImage& image, BaseStreamOutput& out, CmdOptions& cmdOpt, IM_TYPE& fmt, double* msec)
 {

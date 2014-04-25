@@ -151,26 +151,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\klImageCoreV\kl_image_buffer.h" />
-    <ClInclude Include="..\klImageCoreV\kl_image_io.h" />
-    <ClInclude Include="..\klImageCoreV\kl_image_processing_functors.h" />
-    <ClInclude Include="..\klImageCoreV\kl_img_pca.h" />
-    <ClInclude Include="..\klImageCoreV\ppm_helper.h" />
     <ClInclude Include="..\klImageCoreV\resource.h" />
     <ClInclude Include="..\klImageCoreV\Stdafx.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\klImageCoreV\klBigTiffFileManager.cpp" />
-    <ClCompile Include="..\klImageCoreV\kl_image_io.cpp" />
-    <ClCompile Include="..\klImageCoreV\kl_image_processing_functors.cpp" />
-    <ClCompile Include="..\klImageCoreV\kl_ppm_image_io.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="..\klImageCoreV\kl_tiff_image_io.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
-    </ClCompile>
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="TestKLImageCoreUnmanaged.cpp" />
   </ItemGroup>

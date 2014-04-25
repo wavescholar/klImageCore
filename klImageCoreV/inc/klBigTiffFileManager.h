@@ -3,11 +3,8 @@
  * Bruce B Campbell 11 30 2012  *
  ********************************/
 
-#ifndef __SVSReader__
-#define __SVSReader__
-
-#include "stdafx.h"
-
+#ifndef __BigTiffReader__
+#define __BigTiffReader__
 
 #include <iostream>
 #include <string>
@@ -264,4 +261,4 @@ private:
 
 };
 
-#endif //__SVSReader__ conditional include
+#endif //__BigTiffReader__ conditional include

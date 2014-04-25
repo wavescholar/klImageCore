@@ -39,21 +39,6 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\klImageCoreV\kl_image_buffer.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\klImageCoreV\kl_image_io.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\klImageCoreV\kl_image_processing_functors.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\klImageCoreV\kl_img_pca.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\klImageCoreV\ppm_helper.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\klImageCoreV\resource.h">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -66,21 +51,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TestKLImageCoreUnmanaged.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\klImageCoreV\kl_image_io.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\klImageCoreV\kl_image_processing_functors.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\klImageCoreV\kl_tiff_image_io.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\klImageCoreV\kl_ppm_image_io.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\klImageCoreV\klBigTiffFileManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

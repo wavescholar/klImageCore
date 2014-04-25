@@ -5,11 +5,14 @@
 
 #include "kl_image_processing_functors.h"
 
-//ppm_helper include
-#include "ppm_helper.h"
+#include "kl_ppm_image_io.h"
 
-//It simply rotates the greyscale WSI from the Hamamatsu.
-extern "C" bool tRotate(const char* macro,const char* thumbnail,const char* ofile)
+/* These are various low level image processing functions for handling the types of
+   BigTiff subimages that are used in various digital pathology whole slide imaging devices
+*/
+
+//Rotates the greyscale WSI from the Hamamatsu.
+extern "C" bool klBiggTiffSubDirRotateImage(const char* macro,const char* thumbnail,const char* ofile)
 {
 	unsigned int thumbwidth=0;
 	unsigned int thumbheight=0;
@@ -88,7 +91,7 @@ extern "C" bool tRotate(const char* macro,const char* thumbnail,const char* ofil
 
 //This is called if (!isLabel && isMacro && isThumb) and we want to make a color tumbnail.  We assume the label is in the top part of the WSI Image.
 //For Hamamatsu, this is the case. 
-extern "C" bool tMacroThumb(const char* macro,const char* thumbnail,const char* ofile)
+extern "C" bool klBiggTiffSubDirMacroThumb(const char* macro,const char* thumbnail,const char* ofile)
 {
 	unsigned int thumbwidth=0;
 	unsigned int thumbheight=0;
@@ -179,8 +182,8 @@ extern "C" bool tMacroThumb(const char* macro,const char* thumbnail,const char* 
 }
 
 //This is called if(isThumb && isLabel) which is the case for older Aperio images.  The thnumbnail indicates the image data
-//actually in the file.  There is no WSI in this case.  These types of images also come from exports from the Aperio SCanSCope software.
-extern "C" bool tMacro(const char* thumbnail,const char* label,const char* ofile)
+//actually in the file.  There is no WSI in this case.  These types of images also come from exports from the Aperio ScanScope software.
+extern "C" bool klBiggTiffSubDirMacro(const char* thumbnail,const char* label,const char* ofile)
 {
 
 	unsigned int thumbwidth=0;
@@ -303,7 +306,7 @@ extern "C" bool tMacro(const char* thumbnail,const char* label,const char* ofile
 //This is called when (isMacro && isLabel).  This should be the default case.
 //The label image is not included in the WSI.  This is most likely a scanner specific setting, but we assume it is not there and place 
 //the label provided in the proper location of the WSI.
-extern "C" bool tSlideImage(const char* thumbnail,const  char* label,const char* ofile)
+extern "C" bool klBiggTiffSubDirSlideImage(const char* thumbnail,const  char* label,const char* ofile)
 {
 
 	unsigned int thumbwidth=0;
@@ -407,8 +410,7 @@ extern "C" bool tSlideImage(const char* thumbnail,const  char* label,const char*
 //This assumes there is a green ROI indicater in the WSI image.  We do a rough
 //calculation to determine if the image data in the SVS file contains most/all of the 
 //tissue on the slide.
-//This method is unfinished and not used in the FW release.
- extern "C" bool tSlideImage_LT(const char* thumbnail,const char* label,const char* ofile)
+ extern "C" bool klBiggTiffSubDirSlideImage_LT(const char* thumbnail,const char* label,const char* ofile)
 {
 
 	unsigned int thumbwidth=0;
@@ -508,9 +510,8 @@ extern "C" bool tSlideImage(const char* thumbnail,const  char* label,const char*
 	delete rotated_macro;
 	return true;
 }
-
-//Partial Implementation
- extern "C" double ROI_To_Tissue_Ratio(const char* WSI)
+ 
+ extern "C" double klBiggTiffSubDirROIToTissue_Ratio(const char* WSI)
 {
 	const char* infilename="WSI.ppm" ;
 	unsigned int inwidth=0;

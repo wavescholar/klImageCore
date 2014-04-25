@@ -3,8 +3,6 @@
  * Bruce B Campbell 11 30 2012  *
  ********************************/
 
-#include "stdafx.h"
-
 #include "klPerformanceCounter.h"
 
 #using <System.dll>

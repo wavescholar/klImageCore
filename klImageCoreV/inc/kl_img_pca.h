@@ -97,7 +97,6 @@ protected:
 	klRasterBufferPointer src;
 };
 
-
 class klApplyColorUnmixingBasis{
 public:
 	klApplyColorUnmixingBasis(klRasterBufferPointer lsrc)
