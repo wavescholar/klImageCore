@@ -1,0 +1,316 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""ippsapp.rc2""   // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "ippsapp.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 304, 226
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "About IPPS Kernel Mode Demo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,8,8,20,20
+    LTEXT           "IPPS Library Driver Example. Demo Version 7.1",
+                    IDC_STATIC,31,13,153,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2000-2012 Intel Corporation",IDC_STATIC,
+                    85,211,133,8
+    DEFPUSHBUTTON   "OK",IDOK,109,191,59,14,WS_GROUP
+    LTEXT           "The example consists of the following four components",
+                    IDC_STATIC,15,29,174,8
+    LTEXT           "1. IPPSAPP.EXE is Win32 or Intel(R) 64 executable module, which works in the user mode. It calls several IPPS Library functions placed in the kernel mode drivers. Note that the example does not do any useful work and is just a demo application.",
+                    IDC_STATIC,15,40,274,24
+    LTEXT           "2. IPPSOLD.SYS is a kernel mode driver linked with the static version of IPPS library. It has two services: to get IPPS version information, and to perform a simple test of the ippsFFTFwd_RToCCS_32f and ippsFFTInv_CCSToR functions.",
+                    IDC_STATIC,15,66,274,24
+    LTEXT           "3. IPPSEXP.SYS is a kernel mode export driver linked with the static version of IPPS library, it exports the IPPS functions that may be used in the kernel mode by the other drivers.",
+                    IDC_STATIC,15,92,274,23
+    LTEXT           "4. IPPSDRV.SYS is a kernel mode driver using the IPPS library functions exported by the IPPSEXP.SYS driver.",
+                    IDC_STATIC,16,119,274,16
+    LTEXT           " A result printed in the log window is a value of maximum deviation for original data and data after forward and inverse transform obtained with the ippsNorm function",
+                    IDC_STATIC,15,160,274,17
+    LTEXT           "As the IPPSOLD.SYS driver it has two services: to get IPPS version information, and to perform a simple test of the ippsFFTFwd_RToCCS and ippsFFTInv_CCSToR functions.",
+                    IDC_STATIC,15,134,274,17
+END
+
+IDD_IPPSAPP_DIALOG DIALOGEX 0, 0, 377, 198
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "IPPS in Kernel Mode Demo"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "About...",IDABOUT,320,24,50,14
+    PUSHBUTTON      "Start",IDC_START_FFT,320,8,50,14
+    DEFPUSHBUTTON   "Exit",IDOK,320,39,50,14
+    COMBOBOX        IDC_FFT_LEN,253,30,48,84,CBS_DROPDOWNLIST | WS_TABSTOP
+    CONTROL         "float data",IDC_FFT_FLT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,188,19,45,10
+    CONTROL         "integer data",IDC_FFT_INT,"Button",BS_AUTORADIOBUTTON,
+                    188,34,53,10
+    EDITTEXT        IDC_DRV_LOG,187,119,174,65,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL
+    EDITTEXT        IDC_LIB_NAME,58,152,64,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "Name",IDC_STATIC,18,152,36,8
+    LTEXT           "Version",IDC_STATIC,18,164,36,8
+    LTEXT           "Build Date",IDC_STATIC,18,176,36,8
+    EDITTEXT        IDC_LIB_VERS,58,164,64,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_LIB_BILD,58,176,64,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "OS",IDC_STATIC,18,71,36,8
+    LTEXT           "Version",IDC_STATIC,18,94,36,8
+    LTEXT           "Build",IDC_STATIC,18,106,36,8
+    LTEXT           "Options",IDC_STATIC,18,118,36,8
+    EDITTEXT        IDC_OS_NAME,58,71,109,20,ES_MULTILINE | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_OS_VERS,58,94,64,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_OS_BILD,58,106,64,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_OS_ADDS,58,118,64,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    GROUPBOX        "Driver Activity Log",IDC_STATIC,178,107,192,84
+    GROUPBOX        "FFT Options",IDC_STATIC,178,3,132,48
+    LTEXT           "Vector length",IDC_STATIC,253,19,49,8
+    GROUPBOX        "Driver type",IDC_STATIC,178,55,192,48
+    LTEXT           "CPU",IDC_STATIC,17,27,36,8
+    EDITTEXT        IDC_CPU_NAME,57,27,107,28,ES_MULTILINE | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    GROUPBOX        "Info",IDC_STATIC,7,0,162,188
+    CONTROL         "IPPS build in kernel mode driver",IDC_DRV_OLD,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,188,70,119,10
+    CONTROL         "IPPS in separate export kernel mode driver",IDC_DRV_NEW,
+                    "Button",BS_AUTORADIOBUTTON,188,85,153,10
+    LTEXT           "Copyright (C) 2000-2012 Intel Corporation",IDC_STATIC,
+                    18,138,136,10
+    LTEXT           "Operating System",IDC_STATIC,18,58,59,10,NOT WS_VISIBLE
+    LTEXT           "Processor",IDC_STATIC,17,14,35,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,0,0,0
+ PRODUCTVERSION 4,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x40000L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Intel Corporation"
+            VALUE "FileDescription", "Intel® IPPS Library Kernel Mode Demo"
+            VALUE "FileVersion", "5, 2, 0, 0"
+            VALUE "InternalName", "ippsapp"
+            VALUE "LegalCopyright", "Copyright (C) 2000-2012 Intel® Corporation"
+            VALUE "LegalTrademarks", "Intel® Corporation"
+            VALUE "OriginalFilename", "IppsApp.EXE"
+            VALUE "PrivateBuild", "0"
+            VALUE "ProductName", "ippsapp Application"
+            VALUE "ProductVersion", "5, 2, 0, 0"
+            VALUE "SpecialBuild", "0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 297
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_IPPSAPP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 370
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_IPPSAPP_DIALOG DLGINIT
+BEGIN
+    IDC_FFT_LEN, 0x403, 3, 0
+0x3436, "\000" 
+    IDC_FFT_LEN, 0x403, 4, 0
+0x3231, 0x0038, 
+    IDC_FFT_LEN, 0x403, 4, 0
+0x3532, 0x0036, 
+    IDC_FFT_LEN, 0x403, 4, 0
+0x3135, 0x0032, 
+    IDC_FFT_LEN, 0x403, 5, 0
+0x3031, 0x3432, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About NspApp..."
+    IDS_DRV_OPEN            "Driver %s was open [handle: 0x%08X]"
+    IDS_PRG_START           "Start Program..."
+    IDS_WO_MMX              "CPU has not MMX(TM) support"
+    IDS_USE_FLOAT           "Use float data flavor"
+    IDS_USE_SFFT            "%s call ippsFFTFwd_RToCCS/ippsCcsFftNip()"
+    IDS_USE_WFFT            "%s call ippsFFTFwd_RToCCS() / ippsFFTInv_CCSToR()"
+    IDS_NORMA               "ippsNormDiff_Inf  return: [%f]"
+    IDS_STR_ERROR           "some problem encountered"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CPU_NAME            "Detected: %s"
+    IDS_E_SCMGR_OPEN        "Can't open Service Control Manager"
+    IDS_E_SCREATE           "Can't create service %s"
+    IDS_E_DCREATE           "Can't open device %s"
+    IDS_E_CURDIR            "Can't get current directory name"
+    IDS_E_SSTART            "Can't start service %s"
+    IDS_E_DCTRL             "Can't send command to device 0x%08X"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "ippsapp.rc2"   // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

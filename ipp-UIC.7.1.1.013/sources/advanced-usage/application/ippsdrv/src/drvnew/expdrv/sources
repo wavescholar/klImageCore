@@ -1,0 +1,31 @@
+
+#
+#
+#               INTEL CORPORATION PROPRIETARY INFORMATION
+#  This software is supplied under the terms of a license agreement or
+#  nondisclosure agreement with Intel Corporation and may not be copied
+#  or disclosed except in accordance with the terms of that agreement.
+#        Copyright (c) 1998-2009 Intel Corporation. All Rights Reserved.
+#
+#
+#
+
+# !IPPROOT should be corrected to the existing version IPP in the system. Also please specify $ARCH variable
+
+IPP_INC_PATH=$(IPPROOT)\include
+IPP_LIB_PATH=$(IPPROOT)\lib\$(ARCH)
+
+TARGETNAME=ippsexp
+TARGETPATH=obj
+TARGETTYPE=EXPORT_DRIVER
+
+TARGETLIBS=$(IPP_LIB_PATH)\ippcore_l.lib $(IPP_LIB_PATH)\ipps_l.lib $(SDK_LIB_PATH)\libcntpr.lib $(SDK_LIB_PATH)\bufferoverflowk.lib
+LIBRARIAN_FLAGS=/LIBPATH:$(IPP_LIB_PATH) ippcore_l.lib ipps_l.lib 
+
+DLLDEF=ippsexp.def
+INCLUDES=$(IPP_INC_PATH) ;$(DDK_INC_PATH)
+LINKER_FLAGS= $(LINKER_FLAGS)  /map
+
+SOURCES=ippsexp.rc \
+        ippsexp.c  \
+        exit.c

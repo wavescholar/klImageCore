@@ -1,0 +1,75 @@
+# UMC encoder configuration file
+# Note: you can use -p argument to input listed parameters directly
+
+## Common params
+sCodec       = H.264
+sSrcFile     =
+sDstFile     =
+iWidth       = 720
+iHeight      = 576
+iFramesLimit = 0
+fFramerate   = 30
+iBitrate     = 2500000 # bits per second, if 0 - iRateControl=0
+
+## Profile control
+# Some profiles are only partially supported (yuv422/444 and bitdepth > 12 unsupported).
+# If profile is specified unsupported values will be changed.
+# profile_idc: 0 - auto, 44 - cavlc444_intra, 66 - baseline, 77 - main, 100 - high, 110 - high10
+#              122 - high422, 244 - high444
+iProfile     = 0
+iLevel       = 0  # level_idc: 0 - auto
+
+# Constrained profile flags array (works only for iProfile != 0).
+# Flag 2 specifies constrained baseline profile, flag 4 specifies high10_intra,
+# high422_intra and high444_intra profiles.
+bConstrained = 0,1,0,0,0,0
+
+## Image control
+iChromaFormat     = 1    # chroma_format_idc: 0 - Gray, 1 - YUV420
+iBitDepthLuma     = 8    # bit_depth_luma: 8-12
+iBitDepthChroma   = 8    # bit_depth_chroma: 8-12
+iAuxFormat        = 0    # aux_format_idc: 0 - no aux plane, 1 - premultiplied values, 2 - common values, 3 - unspecified format
+iBitDepthAux      = 8    # bit_depth_aux: 8-12
+iAlphaOpaque      = 0    # alpha_opaque_value: [0, 2^bit_depth_aux - 1]
+iAlphaTransparent = 0    # alpha_transparent_value: [0, 2^bit_depth_aux - 1]
+bAlphaIncrFlag    = 0    # alpha_incr_flag 
+iPictureType      = 0    # picture coding type: 0 - frame, 1 - field
+
+## Frames control
+iIFramesInterval  = 200  # gap between two I frames
+iIDRInterval      = 0    # amount of non IDR I frames between two IDR I frames
+iBFramesCount     = 2    # number of B frames between P or I frames
+iBReferenceMode   = 1    # 0 - no reference, 1 - middle B as reference, 2 - all B as reference
+iRefFramesNum     = 5    # number of reference frames ([0,16] if I frames only, [1,16] if P frames present, [2,16] if B frames present)
+iSlicesNum        = 0    # number of slices: 0 - set slices automatically
+iSliceSizeLimit   = 0    # max slice size in bytes: 0 - no limit; automatically split frame into slices to limit NAL units size (overrides iSlicesNum)
+
+## Bitrate control
+iRateControl      = 2    # bit rate control method: 0 - constant QPs, 1 - CBR, 2 - VBR
+iStartQPI         = 0    # start QP value for I slice
+iStartQPP         = 0    # start QP value for P slice
+iStartQPB         = 0    # start QP value for B slice
+bOptimalQuantFlag = 0    # optimal quantization
+
+## ME control
+# motion estimation method:
+# 0 - full search, 1 - classic log, 2 - log, 3 - EPZS, 4 - full orthogonal, 5 - log orthogonal, 6 - TTS
+iMEMethod         = 2
+iSubSplit         = 1    # subblock split limit: 0 - 16x16, 1 - 8x8, 2 - 4x4
+iSearchX          = 8    # maximum search distance for X coordinate
+iSearchY          = 8    # maximum search distance for Y coordinate
+iDirectType       = 2    # direct type: 0 - temporal, 1 - spatial, 2 - auto
+bDirectInfFlag    = 0    # direct_8x8_inference_flag
+
+## Deblocking control
+iDeblockingMode   = 0    # disable_deblocking_idc: 0 - use deblocking, 1 - disable deblocking, 2 - disable deblocking on slice boundaries
+iDeblockFilterA   = 0    # deblocking_filter_alpha: [-12,12]
+iDeblockFilterB   = 0    # deblocking_filter_beta: [-12,12]
+
+## Others
+bTransformMode    = 1    # transform_8x8_mode_flag
+iScalingMatrices  = 0    # scaling matrices for 8x8 transform: 0 - flat, 1 - default
+bTransformBypass  = 0    # qpprime_y_zero_transform_bypass_flag
+bEntropyMode      = 1    # entropy_coding_mode_flag: 0 - CAVLC, 1 - CABAC
+iCABACInit        = 0    # cabac_init_idc: [0,2]
+iQuality          = 3    # speed/quality grade: 0 - maximum speed, 5 - maximum quality

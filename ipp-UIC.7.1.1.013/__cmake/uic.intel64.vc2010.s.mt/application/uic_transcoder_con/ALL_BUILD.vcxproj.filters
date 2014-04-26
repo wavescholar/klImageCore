@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\sources\uic\application\uic_transcoder_con\CMakeLists.txt" />
+    <CustomBuild Include="..\..\CMakeFiles\7ed9fb8c1706de4d8b2e51a6013d3133\ALL_BUILD.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\ALL_BUILD" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{345BCBEA-A7AC-42DA-A5D3-5F8597644389}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+<!DOCTYPE RCC><RCC version="1.00">
+<qresource>
+  <file>../res/fileopen.xpm</file>
+  <file>../res/filesave.xpm</file>
+  <file>../res/next.xpm</file>
+  <file>../res/prev.xpm</file>
+  <file>../data/haar.txt</file>
+</qresource>
+</RCC>

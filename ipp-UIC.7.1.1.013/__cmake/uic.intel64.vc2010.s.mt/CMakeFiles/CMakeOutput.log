@@ -1,0 +1,301 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: CompilerIdC, Configuration: Debug x64 ------
+1>Build started 11/4/2013 4:04:20 PM.
+1>InitializeBuildStatus:
+1>  Creating "Debug\CompilerIdC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  CMakeCCompilerId.c
+1>Link:
+1>  CompilerIdC.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\2.8.12\CompilerIdC\.\CompilerIdC.exe
+1>PostBuildEvent:
+1>  CMAKE_C_COMPILER=k:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\cl.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "Debug\CompilerIdC.unsuccessfulbuild".
+1>  Touching "Debug\CompilerIdC.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.21
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj.user"
+
+The C compiler identification is MSVC, found in "K:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt/CMakeFiles/2.8.12/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: CompilerIdCXX, Configuration: Debug x64 ------
+1>Build started 11/4/2013 4:04:23 PM.
+1>InitializeBuildStatus:
+1>  Creating "Debug\CompilerIdCXX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  CMakeCXXCompilerId.cpp
+1>Link:
+1>  CompilerIdCXX.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\2.8.12\CompilerIdCXX\.\CompilerIdCXX.exe
+1>PostBuildEvent:
+1>  CMAKE_CXX_COMPILER=k:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\cl.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "Debug\CompilerIdCXX.unsuccessfulbuild".
+1>  Touching "Debug\CompilerIdCXX.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.53
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj.user"
+
+The CXX compiler identification is MSVC, found in "K:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt/CMakeFiles/2.8.12/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: K:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt/CMakeFiles/CMakeTmp
+
+Run Build Command:k:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3647706484
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3647706484, Configuration: Debug x64 ------
+1>Build started 11/4/2013 4:04:26 PM.
+1>PrepareForBuild:
+1>  Creating directory "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3647706484.dir\Debug\cmTryCompileExec3647706484.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3647706484.dir\Debug\\" /Fd"cmTryCompileExec3647706484.dir\Debug\vc100.pdb" /Gd /TC /errorReport:prompt testCCompiler.c
+1>  
+1>  testCCompiler.c
+1>Link:
+1>  cmTryCompileExec3647706484.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3647706484.exe
+1>LinkEmbedManifest:
+1>  cmTryCompileExec3647706484.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3647706484.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3647706484.dir\Debug\cmTryCompileExec3647706484.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3647706484.dir\Debug\cmTryCompileExec3647706484.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.54
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: K:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt/CMakeFiles/CMakeTmp
+
+Run Build Command:k:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec4121386874
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec4121386874, Configuration: Debug x64 ------
+1>Build started 11/4/2013 4:04:29 PM.
+1>PrepareForBuild:
+1>  Creating directory "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec4121386874.dir\Debug\cmTryCompileExec4121386874.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4121386874.dir\Debug\\" /Fd"cmTryCompileExec4121386874.dir\Debug\vc100.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"
+1>  
+1>  CMakeCCompilerABI.c
+1>Link:
+1>  cmTryCompileExec4121386874.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4121386874.exe
+1>LinkEmbedManifest:
+1>  cmTryCompileExec4121386874.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4121386874.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec4121386874.dir\Debug\cmTryCompileExec4121386874.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec4121386874.dir\Debug\cmTryCompileExec4121386874.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.97
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: K:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt/CMakeFiles/CMakeTmp
+
+Run Build Command:k:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3872345035
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3872345035, Configuration: Debug x64 ------
+1>Build started 11/4/2013 4:04:31 PM.
+1>PrepareForBuild:
+1>  Creating directory "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3872345035.dir\Debug\cmTryCompileExec3872345035.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3872345035.dir\Debug\\" /Fd"cmTryCompileExec3872345035.dir\Debug\vc100.pdb" /Gd /TP /errorReport:prompt testCXXCompiler.cxx
+1>  
+1>  testCXXCompiler.cxx
+1>Link:
+1>  cmTryCompileExec3872345035.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3872345035.exe
+1>LinkEmbedManifest:
+1>  cmTryCompileExec3872345035.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3872345035.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3872345035.dir\Debug\cmTryCompileExec3872345035.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3872345035.dir\Debug\cmTryCompileExec3872345035.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.96
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: K:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt/CMakeFiles/CMakeTmp
+
+Run Build Command:k:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3016313521
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3016313521, Configuration: Debug x64 ------
+1>Build started 11/4/2013 4:04:34 PM.
+1>PrepareForBuild:
+1>  Creating directory "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec3016313521.dir\Debug\cmTryCompileExec3016313521.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3016313521.dir\Debug\\" /Fd"cmTryCompileExec3016313521.dir\Debug\vc100.pdb" /Gd /TP /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"
+1>  
+1>  CMakeCXXCompilerABI.cpp
+1>Link:
+1>  cmTryCompileExec3016313521.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3016313521.exe
+1>LinkEmbedManifest:
+1>  cmTryCompileExec3016313521.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3016313521.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec3016313521.dir\Debug\cmTryCompileExec3016313521.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec3016313521.dir\Debug\cmTryCompileExec3016313521.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:01.00
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: K:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt/CMakeFiles/CMakeTmp
+
+Run Build Command:k:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec644010936
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec644010936, Configuration: Debug x64 ------
+1>Build started 11/4/2013 4:04:36 PM.
+1>PrepareForBuild:
+1>  Creating directory "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec644010936.dir\Debug\cmTryCompileExec644010936.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec644010936.dir\Debug\\" /Fd"cmTryCompileExec644010936.dir\Debug\vc100.pdb" /Gd /TC /errorReport:prompt src.c
+1>  
+1>  src.c
+1>Link:
+1>  cmTryCompileExec644010936.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec644010936.exe
+1>LinkEmbedManifest:
+1>  cmTryCompileExec644010936.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec644010936.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec644010936.dir\Debug\cmTryCompileExec644010936.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec644010936.dir\Debug\cmTryCompileExec644010936.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.91
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: K:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt/CMakeFiles/CMakeTmp
+
+Run Build Command:k:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec411007901
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec411007901, Configuration: Debug x64 ------
+1>Build started 11/4/2013 4:04:39 PM.
+1>PrepareForBuild:
+1>  Creating directory "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec411007901.dir\Debug\cmTryCompileExec411007901.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec411007901.dir\Debug\\" /Fd"cmTryCompileExec411007901.dir\Debug\vc100.pdb" /Gd /TP /errorReport:prompt src.cxx
+1>  
+1>  src.cxx
+1>Link:
+1>  cmTryCompileExec411007901.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec411007901.exe
+1>LinkEmbedManifest:
+1>  cmTryCompileExec411007901.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec411007901.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec411007901.dir\Debug\cmTryCompileExec411007901.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec411007901.dir\Debug\cmTryCompileExec411007901.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.98
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+

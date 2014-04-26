@@ -1,0 +1,9 @@
+The following materials are defined as 'Redistributables' and are subject
+to the terms and conditions of the End User License Agreement
+YOU MAY NOT REDISTRIBUTE THESE MATERIALS UNDER AN EVALUATION LICENSE
+
+################################################################################
+###   Intel(R) IPP Samples 7.1 Update 1 for Windows* OS
+################################################################################
+
+<installdir>/*

@@ -1,0 +1,36 @@
+
+#
+#
+#               INTEL CORPORATION PROPRIETARY INFORMATION
+#  This software is supplied under the terms of a license agreement or
+#  nondisclosure agreement with Intel Corporation and may not be copied
+#  or disclosed except in accordance with the terms of that agreement.
+#        Copyright (c) 1998-2009 Intel Corporation. All Rights Reserved.
+#
+#
+
+# !IPPROOT should be corrected to the existing version IPP in the system
+
+IPP_INC_PATH=$(IPPROOT)\include
+
+TARGETNAME=ippsdrv
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+
+!if "$(ARCH)" == "ia32"
+TARGETLIBS= ..\expdrv\objfre_win7_x86\i386\ippsexp.lib  $(SDK_LIB_PATH)\libcntpr.lib
+!else
+TARGETLIBS= ..\expdrv\objfre_win7_amd64\amd64\ippsexp.lib  $(SDK_LIB_PATH)\libcntpr.lib
+!endif
+
+
+INCLUDES=$(IPP_INC_PATH);$(DDK_INC_PATH) 
+
+LINKER_FLAGS = $(LINKER_FLAGS) /map
+
+SOURCES=ippsdrv.rc \
+        ippsdrv.c  \
+        ippsfunc.c \
+        ioctl.c
+        
+USER_C_FLAGS=$(USER_C_FLAGS) /WX-

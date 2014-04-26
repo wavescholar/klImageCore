@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="release|x64">
+      <Configuration>release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="debug|x64">
+      <Configuration>debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{9A84E62D-46CE-4EF4-B531-F5262A381303}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/application/uic_transcoder_con/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/common/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/dec/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/enc/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/png/dec/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/png/enc/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/common/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/dec/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/enc/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/dec/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/enc/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/dec/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/enc/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/io/uic_io/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/core/uic/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/application/uic_transcoder_con/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/common/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/dec/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/enc/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/png/dec/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/png/enc/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/common/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/dec/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/enc/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/dec/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/enc/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/dec/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/enc/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/io/uic_io/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/core/uic/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\sources\uic\application\uic_transcoder_con\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/application/uic_transcoder_con/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HK:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic -BK:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt --check-stamp-file K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\application\uic_transcoder_con\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/application/uic_transcoder_con/CMakeLists.txt;K:\KL\klImaging\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\CMakeLists.txt;K:\KL\klImaging\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\application\uic_transcoder_con\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/application/uic_transcoder_con/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HK:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic -BK:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt --check-stamp-file K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\application\uic_transcoder_con\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/application/uic_transcoder_con/CMakeLists.txt;K:\KL\klImaging\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\CMakeLists.txt;K:\KL\klImaging\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\application\uic_transcoder_con\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\7ed9fb8c1706de4d8b2e51a6013d3133\ALL_BUILD.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">K:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt/CMakeFiles/7ed9fb8c1706de4d8b2e51a6013d3133/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\application\uic_transcoder_con\CMakeFiles\ALL_BUILD</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">K:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt/CMakeFiles/7ed9fb8c1706de4d8b2e51a6013d3133/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\application\uic_transcoder_con\CMakeFiles\ALL_BUILD</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\ALL_BUILD" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="K:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt/application/uic_transcoder_con/uic_transcoder_con.vcxproj">
+      <Project>D318D960-068C-4C48-8D62-9E93434F4D35</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

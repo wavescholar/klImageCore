@@ -1,0 +1,36 @@
+# UMC encoder configuration file
+# Note: you can use -p argument to input listed parameters directly
+
+# Common params
+sCodec       = VC1
+sSrcFile     =
+sDstFile     =
+iWidth       = 720
+iHeight      = 576
+iFramesLimit = 0
+fFramerate   = 30
+iBitrate     = 8000000   # bits per second
+
+# Codec-specific params
+sProfile                 = advance # Simple, Main or Advance
+iGOPLength               = 50      # Distance between I frames
+iBFramesLength           = 0       # The number of successive B frames.So GOP looks like: "IBPB"
+bVSTtransform            = 0       # If equal 1 variable transform MB type will switch on
+bDeblocking              = 1       # If equal 1 deblocking will switch on
+iConstQuantization       = 0       # if equal 0 constant quatization is switch of, overwise [1;31] 
+iMESearchSpeed           = 25      # 0-127, 0 - maximum quality, 127 - maximum speed, -1 use specified rameters
+iHRDBufferSize           = 0       # HRD buffer size (bytes)
+iHRDInitFullness         = 0       # Init HRD buffer fullness
+bFrameRecoding           = 0       # if equal to 1 frame recoding mode will switch on;
+bMixedMV                 = 0       # If equal 1 Mixed MV mode will switch on
+bInterlaceField          = 0       # switch on/off fields
+iRefField                = 0       # 0 - VC1_ENC_REF_FIELD_FIRST; 1 - VC1_ENC_REF_FIELD_SECOND; 2 - VC1_ENC_REF_FIELD_BOTH
+bSceneAnalyzer           = 0       # Switch on/off scene analyzer
+bUseFeedback             = 1       # switch on/off me internal coding statistics
+bUpdateFeedback          = 1       # switch on/off encoder internal coding statistics
+bUseFastFeedback         = 0  
+iQuantType               = 3       # 0 - IMPL, from table; 1 - EXPL, from stream, 2 - non-uniform, 3 - uniform
+iOriginalPredictedFrame  = 0
+bSelectVLCTables         = 0
+bChangeInterpPixelType   = 0
+bUseTreillisQuantization = 0

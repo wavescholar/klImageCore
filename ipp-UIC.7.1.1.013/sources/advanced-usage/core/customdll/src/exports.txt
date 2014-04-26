@@ -1,0 +1,31 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;                  INTEL CORPORATION PROPRIETARY INFORMATION
+;     This software is supplied under the terms of a license agreement or
+;     nondisclosure agreement with Intel Corporation and may not be copied
+;     or disclosed except in accordance with the terms of that agreement.
+;          Copyright(c) 1999-2005 Intel Corporation. All Rights Reserved.
+;
+;          Purpose: List of needed functions from the Intel(R) Integrated 
+;               Performance Primitives
+;
+
+EXPORTS
+    ippGetStatusString
+
+    ippsGetLibVersion
+
+    ippsMalloc_32f
+    ippsFree
+
+    ippsThreshold_32f_I
+    ippsSum_32f
+
+    ippiGetLibVersion
+
+    ippiMomentInitAlloc_64f
+    ippiMomentFree_64f
+    ippiMoments64f_32f_C1R
+    ippiGetSpatialMoment_64f
+
+;;;;;;;;;;;;;;;;;;;;;;;;;; End of file "export.def" ;;;;;;;;;;;;;;;;;;;;;;;;;;;;

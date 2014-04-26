@@ -1,0 +1,8 @@
+Please use the following information when submitting customer support requests
+
+Package ID: w_ipp-samples_p_7.1.1.013
+Package Contents: Intel(R) IPP Samples 7.1 Update 1 for Windows* OS
+
+Please direct customer support requests through http://www.intel.com/software/products/support
+
+* Other names and brands may be claimed as the property of others.

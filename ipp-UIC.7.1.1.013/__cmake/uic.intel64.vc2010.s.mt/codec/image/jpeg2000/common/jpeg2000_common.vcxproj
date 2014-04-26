@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="release|x64">
+      <Configuration>release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="debug|x64">
+      <Configuration>debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1DD96BB9-0572-4862-AD4A-D51787CE7E41}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>jpeg2000_common</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">jpeg2000_common.dir\release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='release|x64'">jpeg2000_common</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='release|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">jpeg2000_common.dir\debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='debug|x64'">jpeg2000_common</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='debug|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/common;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/ebcot;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/mainheader;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/marker;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/packetheader;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/quant;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/tile;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/wavelet;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/container;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/geometry;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/image;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/ippwrapper;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/stream;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/string;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/file;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;INTEL64;WINDOWS;_SBCS;WIN32;_WIN32;_WIN32_WINNT=0x501;WIN64;_WIN64;CMAKE_INTDIR="release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;INTEL64;WINDOWS;_SBCS;WIN32;_WIN32;_WIN32_WINNT=0x501;WIN64;_WIN64;CMAKE_INTDIR=\"release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/common;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/ebcot;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/mainheader;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/marker;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/packetheader;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/quant;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/tile;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/wavelet;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/container;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/geometry;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/image;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/ippwrapper;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/stream;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/string;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/file;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/common;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/ebcot;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/mainheader;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/marker;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/packetheader;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/quant;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/tile;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/wavelet;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/container;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/geometry;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/image;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/ippwrapper;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/stream;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/string;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/file;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/common;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/ebcot;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/mainheader;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/marker;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/packetheader;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/quant;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/tile;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/wavelet;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/container;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/geometry;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/image;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/ippwrapper;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/stream;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/string;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/file;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;INTEL64;WINDOWS;_SBCS;WIN32;_WIN32;_WIN32_WINNT=0x501;WIN64;_WIN64;CMAKE_INTDIR="debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;INTEL64;WINDOWS;_SBCS;WIN32;_WIN32;_WIN32_WINNT=0x501;WIN64;_WIN64;CMAKE_INTDIR=\"debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/common;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/ebcot;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/mainheader;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/marker;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/packetheader;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/quant;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/tile;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/wavelet;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/container;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/geometry;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/image;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/ippwrapper;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/stream;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/string;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/file;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/common;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/ebcot;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/mainheader;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/marker;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/packetheader;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/quant;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/tile;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/codestream/wavelet;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/container;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/geometry;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/image;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/ippwrapper;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/stream;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common/string;K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/file;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HK:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic -BK:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt --check-stamp-file K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\jpeg2000\common\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/CMakeLists.txt;K:\KL\klImaging\ipp-UIC.7.1.1.013\sources\uic\codec\image\jpeg2000\common\CMakeLists.txt;K:\KL\klImaging\ipp-UIC.7.1.1.013\sources\uic\codec\image\jpeg2000\common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\jpeg2000\common\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HK:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic -BK:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt --check-stamp-file K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\jpeg2000\common\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/CMakeLists.txt;K:\KL\klImaging\ipp-UIC.7.1.1.013\sources\uic\codec\image\jpeg2000\common\CMakeLists.txt;K:\KL\klImaging\ipp-UIC.7.1.1.013\sources\uic\codec\image\jpeg2000\common\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\jpeg2000\common\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\box\djp2box.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\box\djp2boxbitspercomp.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\box\djp2boxcaptureresolution.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\box\djp2boxcolourspec.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\box\djp2boxcompmapping.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\box\djp2boxdisplayresolution.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\box\djp2boxexception.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\box\djp2boxheader.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\box\djp2boximageheader.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\box\djp2boxpalette.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\box\djp2boxresolution.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\box\djp2boxuuid.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\box\djp2boxwarning.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\box\ejp2box.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\box\jp2box.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\box\jp2refgridresolution.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\common\cbcodingstyle.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\common\djp2csexception.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\common\djp2csunsuppexception.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\common\djp2cswarning.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\common\djp2quantcomp.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\common\jp2bitspercomp.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\common\jp2codingstylecomp.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\common\jp2codingstylejoint.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\common\jp2const.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\common\jp2progrrange.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\djp2codestream.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\bcodeblock.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\cbencoder.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\dcblayer.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\dcodeblock.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\debcotwarning.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\dprecinct.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\dreslevel.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\dsubband.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\dtile.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\dtilecomp.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\ecbpass.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\ecodeblock.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\eprecinct.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\ereslevel.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\esubband.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\etile.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\etilecomp.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\mainheader\djp2csmainheader.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\marker\djp2marker.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\marker\djp2markerexception.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\marker\djp2markerwarning.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\marker\ejp2marker.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\marker\jp2marker.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\packetheader\dphwarning.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\packetheader\phbitin.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\packetheader\phbitout.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\packetheader\tagtree.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\packetheader\tagtreedecoder.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\packetheader\tagtreeencoder.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\quant\dquant.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\quant\equant.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\quant\quant.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\tile\djp2cstile.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\tile\djp2cstilepartheader.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\tile\dpostprocess.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\tile\epreprocess.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\tile\jp2tileprogriterator.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\tile\tilemetric.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\sbtree.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt53fwd.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt53inv.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97const16s32s.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97const32f.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97fwdcol16s.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97fwdcol32f.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97fwdcol32s.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97fwdcolgen.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97fwdrow16s.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97fwdrow32f.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97fwdrow32s.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97fwdrowgen.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invborderindexhmt.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invborderindexlmt.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invcol16s.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invcol32f.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invcol32s.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invcolgen.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invcolgenbasemt.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invcolgenhmt.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invcolgenlmt.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invcolgenmt.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invcolmt32f.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invrow16s.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invrow32f.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invrow32s.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invrowgen.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invrowgenhmt.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invrowgenlmt.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invrowgenmt.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wt97invrowmt32f.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wtfwd.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wtinv.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wtinvmt.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wtinvrowmt.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wtmetric.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\wavelet\wtmetricmt.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\addrarith.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\auxmath.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\bdiagnoutput.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\calcvector.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\container\delayline.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\container\fixedarray.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\container\fixedbuffer.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\container\list_.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\container\optionalarray.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\container\optionalvalue.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\container\ringbuffer.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\container\ringstripe.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\container\stack.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\decimetric.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\diagndescr.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\genalg.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\geometry\boundediterator.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\geometry\geometry1d.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\geometry\geometry2d.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\geometry\geometrybase.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\geometry\rasteriterator.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\geometry\rectgrid.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\image\image.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\image\imagealloc.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\image\imageconvert.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\image\imagecore.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\image\imagerowinput.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\image\imagerowoutput.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\image\rowiterator.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\image\trackedrowinput.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\image\trackedrowoutput.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\ippwrapper\pp.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\memexception.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\stream\bufferstream.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\stream\bytebuffer.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\stream\byteinput.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\stream\byteinputexception.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\stream\byteoutput.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\stream\dummyoutput.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\stream\lookahead.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\stream\memoryinput.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\stream\memoryoutput.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\string\fixedstring.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\string\stackstring.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\string\stralg.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\string\stricmp.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\string\strnature.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\diagn_adapter.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\file\djp2file.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\file\djp2fileexception.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\file\djp2filewarning.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\jp2_encode.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\ompthreads.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\stream_input_adapter.h" />
+    <ClInclude Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\stream_output_adapter.h" />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\common\djp2quantcomp.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\cbencoder.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\dcodeblock.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\dprecinct.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\dsubband.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\ecodeblock.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\eprecinct.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\ereslevel.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\esubband.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\etile.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\ebcot\etilecomp.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\mainheader\djp2csmainheader.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\packetheader\tagtree.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\packetheader\tagtreeencoder.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\tile\djp2cstile.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\codestream\tile\jp2tileprogriterator.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\image\imageconvert.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\stream\bufferstream.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\common\string\strnaturechar.cpp"  />
+    <ClCompile Include="..\..\..\..\..\..\sources\uic\codec\image\jpeg2000\common\src\main.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="K:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt/ZERO_CHECK.vcxproj">
+      <Project>28F2AA71-D0EF-49D8-8BE6-7BA0B3C67898</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

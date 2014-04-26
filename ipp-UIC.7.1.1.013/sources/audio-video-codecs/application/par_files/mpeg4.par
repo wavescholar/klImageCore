@@ -1,0 +1,52 @@
+# UMC encoder configuration file
+# Note: you can use -p argument to input listed parameters directly
+
+# Common params
+sCodec       = MPEG4
+sSrcFile     =
+sDstFile     =
+iWidth       = 720
+iHeight      = 576
+iFramesLimit = 0
+fFramerate   = 30
+iBitrate     = 3000000      # bits per second
+
+# Codec-specific params
+sIntraQMatrixFileName    =       # name of intra quant matrix file     (empty: default matrix)
+sNonIntraQMatrixFileName =       # name of non intra quant matrix file (empty: default matrix)
+iTimeResolution          = 30    # frame scale
+iTimeIncrement           = 1     # frame interval
+iQuantType               = 0     # quant_type: 0 - H263, 1 - the first quantization method
+iQuantIVOP               = 6     # IVOP quant
+iQuantPVOP               = 6     # PVOP quant
+iQuantBVOP               = 6     # BVOP quant
+bShortVideoHeader        = 0     # short_video_header
+iIVOPdist                = 100   # max I-VOP distance
+iBVOPdist                = 0     # num of successive B-VOPs
+iPVOPsearchWidth         = 15    # P-VOP searchWidth in full pel
+iPVOPsearchHeight        = 15    # P-VOP searchHeight in full pel
+iBVOPsearchWidthForw     = 15    # B-VOP searchWidth Forw in full pel
+iBVOPsearchHeightForw    = 15    # B-VOP searchHeight Forw in full pel
+iBVOPsearchWidthBack     = 15    # B-VOP searchWidth Back in full pel
+iBVOPsearchHeightBack    = 15    # B-VOP searchHeight Back in full pel
+iMEAlgorithm             = 1     # Motion Estimation algorithm: 0 - full search, 1 - fast search
+iMEAccuracy              = 2     # Motion Estimation accuracy: 1 - full pel, 2 - half pel, 4 - quarter pel
+iME4mv                   = 0     # 0 - 1MV  1 - 4MV
+bOBMCDisable             = 1     # obmc_disable
+bRoundingControl         = 1     # Rounding Control enable
+bCalcPSNR                = 0     # calculate PSNR
+iRateControl             = 1     # RateControl  0 - no, 1 - FrameLavel(VBR), 2 - MacroblockLevel (CBR)
+iSceneChangeThreshold    = 50    # SceneChangeThreshold, %
+bInsertGOV               = 0     # insert GOV before I-frames
+bRepeatHeaders           = 0     # repeat VOL before I-frames
+bResync                  = 0     # insert GOB/VideoPackets
+iVideoPacketLenght       = 1024  # VideoPacket length, bit
+iDataPartitioned         = 0     # data_partitioned
+iReversibleVLC           = 0     # reversible_vlc
+bInterlaced              = 0     # interlaced
+bTopFieldFirst           = 0     # top_field_first
+bAlternateVerticalScan   = 0     # alternate_vertical_scan_flag
+iInterlacedME            = 1     # ME pred - 0 - field; 1 - frame; 2 - field+frame
+iSpriteEnable            = 0     # sprites - 0 - none, 1 - basic, 2 - GMC
+bNoOfSpriteWarping       = 0     # no_of_sprite_warping_points
+bSpriteWarpingAccuracy   = 0     # sprite_warping_accuracy

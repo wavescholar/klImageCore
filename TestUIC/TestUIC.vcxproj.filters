@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DebugLibs">
+      <UniqueIdentifier>{431d7f17-43fa-4888-a063-13122ba94569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ReleaseLibs">
+      <UniqueIdentifier>{fcf67335-412b-4560-8c38-5fb2eb36d04a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UicConCode">
+      <UniqueIdentifier>{38e497b7-5794-4fe2-9578-19d09afb37f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="klCore">
+      <UniqueIdentifier>{2f252bbe-f9e8-4d02-b4fd-3e136eab1a5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\klImageCoreV\kl_img_pca.h">
+      <Filter>klCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\klImageCoreV\kl_image_processing_functors.h">
+      <Filter>klCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\klImageCoreV\kl_image_io.h">
+      <Filter>klCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\klImageCoreV\kl_image_buffer.h">
+      <Filter>klCore</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestUIC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\bmp.cpp">
+      <Filter>UicConCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\cmdline.cpp">
+      <Filter>UicConCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\detector.cpp">
+      <Filter>UicConCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\dicom.cpp">
+      <Filter>UicConCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\ippimage.cpp">
+      <Filter>UicConCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\jpeg.cpp">
+      <Filter>UicConCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\jpeg2k.cpp">
+      <Filter>UicConCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\jpegxr.cpp">
+      <Filter>UicConCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\png.cpp">
+      <Filter>UicConCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\precomp.cpp">
+      <Filter>UicConCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\raw.cpp">
+      <Filter>UicConCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\strnaturechar.cpp">
+      <Filter>UicConCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\timer.cpp">
+      <Filter>UicConCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\klImageCoreV\kl_image_io.cpp">
+      <Filter>klCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\klImageCoreV\kl_uic_jpeg_image_io.cpp">
+      <Filter>klCore</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\bmp_common.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\bmp_dec.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\bmp_enc.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\core_uic.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg_common.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg_dec.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg_enc.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg2000_common.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg2000_dec.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg2000_enc.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpegxr_common.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpegxr_dec.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpegxr_enc.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\png_common.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\png_dec.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\png_enc.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\uic_io.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\zlib.lib">
+      <Filter>ReleaseLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\bmp_common.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\bmp_dec.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\bmp_enc.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\core_uic.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpeg_common.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpeg_dec.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpeg_enc.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpeg2000_common.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpeg2000_dec.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpeg2000_enc.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpegxr_common.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpegxr_dec.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpegxr_enc.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\png_common.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\png_dec.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\png_enc.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\uic_io.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+    <Library Include="..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\zlib.lib">
+      <Filter>DebugLibs</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
