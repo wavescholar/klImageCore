@@ -63,16 +63,10 @@
     <Library Include="..\..\x64\Debug\Matlib.lib">
       <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
     </Library>
-    <Library Include="..\..\x64\Debug\SUPERLU_SEQUENTIAL.lib">
-      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
-    </Library>
     <Library Include="..\..\x64\Debug\UMFPACK.lib">
       <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
     </Library>
     <Library Include="..\..\x64\Release\ARPACK2.lib">
-      <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
-    </Library>
-    <Library Include="..\..\x64\Release\arpack_CPP_v2.lib">
       <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
     </Library>
     <Library Include="..\..\x64\Release\expokitcpp.lib">
@@ -85,9 +79,6 @@
       <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
     </Library>
     <Library Include="..\..\x64\Release\Matlib.lib">
-      <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
-    </Library>
-    <Library Include="..\..\x64\Release\SUPERLU_SEQUENTIAL.lib">
       <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
     </Library>
     <Library Include="..\..\x64\Release\UMFPACK.lib">
@@ -164,6 +155,12 @@
     </Library>
     <Library Include="..\..\x64\Release\libz.lib">
       <Filter>ReleaseLibsx64</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\SuperLU_MT_VC.lib">
+      <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\SuperLU_MT_VC.lib">
+      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
     </Library>
   </ItemGroup>
   <ItemGroup>

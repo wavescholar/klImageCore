@@ -127,8 +127,7 @@
       <FileType>Document</FileType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </Library>
-    <Library Include="..\..\x64\Debug\SUPERLU_SEQUENTIAL.lib">
-      <FileType>Document</FileType>
+    <Library Include="..\..\x64\Debug\SuperLU_MT_VC.lib">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </Library>
     <Library Include="..\..\x64\Debug\UMFPACK.lib">
@@ -136,10 +135,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </Library>
     <Library Include="..\..\x64\Release\ARPACK2.lib">
-      <FileType>Document</FileType>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </Library>
-    <Library Include="..\..\x64\Release\arpack_CPP_v2.lib">
       <FileType>Document</FileType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </Library>
@@ -171,8 +166,7 @@
       <FileType>Document</FileType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </Library>
-    <Library Include="..\..\x64\Release\SUPERLU_SEQUENTIAL.lib">
-      <FileType>Document</FileType>
+    <Library Include="..\..\x64\Release\SuperLU_MT_VC.lib">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </Library>
     <Library Include="..\..\x64\Release\UMFPACK.lib">
