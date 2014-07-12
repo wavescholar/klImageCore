@@ -1,7 +1,0 @@
-<map id="AperioFileManager::getMetadata" name="AperioFileManager::getMetadata">
-<area shape="rect" id="node2" href="$class_aperio_file_manager.html#a6a3dde5d29d68ca127fc075dadbe32cb" title="AperioFileManager::\lgetLabelImage" alt="" coords="199,5,338,47"/>
-<area shape="rect" id="node3" href="$class_aperio_file_manager.html#aa21b32bb1c543d1a897a22139df4764c" title="AperioFileManager::\lgetWSIImage" alt="" coords="199,71,338,112"/>
-<area shape="rect" id="node4" href="$class_aperio_file_manager.html#a1b0a68740e1629198f9051273df4676a" title="AperioFileManager::\lprintMetadata" alt="" coords="199,136,338,177"/>
-<area shape="rect" id="node5" href="$class_aperio_managed_reader_1_1_big_tiff_dot_net_reader.html#ae9ca6fcf78c5ab4627043ebf23341698" title="AperioManagedReader\l::BigTiffDotNetReader\l::GetImageExtents" alt="" coords="192,202,345,258"/>
-<area shape="rect" id="node6" href="$class_aperio_managed_reader_1_1_big_tiff_dot_net_reader.html#a251026e9d374e7bec0b4e2181c57dd89" title="AperioManagedReader\l::BigTiffDotNetReader\l::isAperioImage" alt="" coords="192,282,345,338"/>
-</map>

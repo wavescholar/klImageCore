@@ -1,6 +1,0 @@
-<map id="klPackedHeapRasterBuffer::xStrideBits" name="klPackedHeapRasterBuffer::xStrideBits">
-<area shape="rect" id="node2" href="$classkl_packed_heap_raster_buffer.html#a00031c01c4d18d412755687063e8da7b" title="klPackedHeapRasterBuffer\l::numBands" alt="" coords="231,5,408,47"/>
-<area shape="rect" id="node3" href="$classkl_packed_heap_raster_buffer.html#a32dd0bdeb55c148012e1bb8f04681fa3" title="klPackedHeapRasterBuffer\l::bandStrideBits" alt="" coords="231,71,408,112"/>
-<area shape="rect" id="node4" href="$classkl_packed_heap_raster_buffer.html#ab081f77e2218d6dc424cee2b02fe53c5" title="klPackedHeapRasterBuffer\l::sampleBits" alt="" coords="456,71,633,112"/>
-<area shape="rect" id="node5" href="$classkl_raster_buffer.html#a45bff21b22ff0999b520bd110c0354cc" title="klRasterBuffer::bitsPerByte" alt="" coords="681,78,860,105"/>
-</map>

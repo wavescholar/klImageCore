@@ -1,13 +1,15 @@
 /*******************************
- * Copyright (c) <2007>, <Bruce Campbell> All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.  *  
+ * WSCMP [2003] - [2012] WSCMP  *  
  * Bruce B Campbell 11 30 2012  *
  ********************************/
 #include "kl_image_processing_functors.h"
-#include "kl_ppm_image_io.h"
+#include "ppm_helper.h"
 #include "kl_img_pca.h"
 
+// If linking klMatrix lib - then we don't need this
 klMutex klThreadMap::lock;
 map<klThreadId, unsigned long> klThreadMap::threadMap;
+klMemMgr* klGlobalMemoryManager::_globalMemoryManager=NULL;
 
 void klPadFunctor::operator()(void)
 {
@@ -163,12 +165,14 @@ void ImageWork(string fileName,string outputPath)
 
 	klApplyColorUnmixingBasis ssb(lsrc_dilated);
 	klRasterBufferPointer dstssb =  ssb();
-	output =  outputPath;	output.append("ColorUnmixBasis_u8.ppm");
+	output =  outputPath;	output.append("StainSpaceBasis_u8.ppm");
 	write_ppm(output.c_str(), dstssb->width(), dstssb->height(),dstssb->buffer());
-		
+
+
+	//klHandERatio ssp(dstssb);
 	klHandERatio ssp(lsrc_dilated);
 	klRasterBufferPointer dstssp =  ssp();
-	output =  outputPath;	output.append("RatioImage_u8_C3R.pgm");
+	output =  outputPath;	output.append("StainPurity_u8_C3R.pgm");
 	write_ppm_single_band(output.c_str(), dstssp->width(), dstssp->height(),dstssp->buffer());
 
 	double lthresholdHi=196;
@@ -179,7 +183,7 @@ void ImageWork(string fileName,string outputPath)
 	double lthresholdLowVal=0;
 	bool luseThresholdVals=true;
 	const klRasterBufferPointer lsrc_thresh=new klPackedHeapRasterBuffer<unsigned char> (lsrc->width(),lsrc->height(),1 );
-	 
+	//Skip Stain Purity 
 	klCopyFunctor<unsigned char> klcfth_u8(dstssp, lsrc_thresh);
 	klcfth_u8();
 	klThresholdFunctor<unsigned char> kltf_u8( lsrc_thresh, lthresholdHi, lthresholdLow,luseLowThreshold,luseHighThreshold,lthresholdHiVal,lthresholdLowVal, luseThresholdVals);
@@ -230,6 +234,7 @@ void ImageWork(string fileName,string outputPath)
 	write_ppm(output.c_str(), lsrc_opened->width(), lsrc_opened->height(),lsrc_opened->buffer());
 	delete lkernelO;
 
+	
 	klCompositeMask klcm( lsrc, lsrc_thresh ,0.5,0,120,0);
 	klRasterBufferPointer blended = klcm();
 	output =  outputPath;	output.append("WhiteSpaceBlended_u8_C3R.ppm");
@@ -469,17 +474,32 @@ void ImageWork(string fileName,string outputPath)
 
 int LoadImageFiles(string* files)
 {
-	int numImages = 1;
+	int numImages = 15;
 	char** fileList = new char*[numImages];
+fileList[0] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_10240_13312_1024_1024__SRC_u8_C3R.ppm";
+fileList[1] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_15360_1024_1024__SRC_u8_C3R.ppm";
+fileList[2] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_16384_1024_1024__SRC_u8_C3R.ppm";
+fileList[3] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_17408_1024_1024__SRC_u8_C3R.ppm";
+fileList[4] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_18432_1024_1024__SRC_u8_C3R.ppm";
+fileList[5] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_19456_1024_1024__SRC_u8_C3R.ppm";
+fileList[6] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_20480_1024_1024__SRC_u8_C3R.ppm";
+fileList[7] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_21504_1024_1024__SRC_u8_C3R.ppm";
+fileList[8] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_22528_1024_1024__SRC_u8_C3R.ppm";
+fileList[9] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_23552_1024_1024__SRC_u8_C3R.ppm";
+fileList[10] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_24576_1024_1024__SRC_u8_C3R.ppm";
+fileList[11] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_25600_1024_1024__SRC_u8_C3R.ppm";
+fileList[12] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_26624_1024_1024__SRC_u8_C3R.ppm";
+fileList[13] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_27648_1024_1024__SRC_u8_C3R.ppm";
+fileList[14] = "D:\\klDll\\TestDll\\MTImageTestData\\1553_11264_28672_1024_1024__SRC_u8_C3R.ppm";
 
-	fileList[0] = "..\\..\\test.jpg";
 
-	for(int i=0;i<numImages;i++)
-	{
-		*(files+i)= fileList[i];
-	}
+for(int i=0;i<numImages;i++)
+{
+	*(files+i)= fileList[i];
+}
 
 	return numImages;
+
 }
 
 
@@ -684,8 +704,19 @@ void TissueAnalysis(string fileName,string outputPath)
 
 	string output =  outputPath;
 	
-	klRasterBufferPointer lsrc;
-	if(	query_ppm (infilename, inwidth, inheight,inbands))
+	//This was the old way - now we have
+	klImageFileSource* ifs = klImageFileSourceFactory::getFileSource(fileName.c_str() );
+	
+	ifs->queryImage();
+	inwidth = ifs->getWidth();
+	inheight=ifs->getHeight();
+	inbands=ifs->getBands();
+	klRasterBufferPointer lsrc= ifs->render();
+
+	klTIFFSinkFunctor kltsf("test.tif",lsrc);
+
+	kltsf();
+/*	(	query_ppm (infilename, inwidth, inheight,inbands))
 	{
 		lsrc=new klPackedHeapRasterBuffer<unsigned char>(inwidth,inheight, inbands);
 		read_ppm (infilename, inwidth,inheight, inbands,lsrc->buffer());
@@ -693,7 +724,7 @@ void TissueAnalysis(string fileName,string outputPath)
 	else
 	{
 		throw "Bad input file in void testKLImageFunctors()";
-	}	
+	}*/	
 	
 	klPCAFunctor pca(lsrc);
 	klRasterBufferPointer dst =  lsrc;
@@ -730,10 +761,14 @@ void TissueAnalysis(string fileName,string outputPath)
 	write_ppm_single_band(output.c_str(), ldst_cptbipca->width(), ldst_cptbipca->height()*3,ldst_cptbipca->buffer());
 	output =  outputPath; output.append("SSB.ppm");
 	write_ppm(output.c_str(), dstssb->width(), dstssb->height(),dstssb->buffer());
-
-	output =  outputPath; output.append("SSB_2.pgm");
-	write_ppm_single_band(output.c_str(), dstssb->width(), dstssb->height()*3,dstssb->buffer());
-
+	{
+		const klRasterBufferPointer ldst_cptbipca_ssb=new klPackedHeapRasterBuffer<unsigned char> (dst->width(),dst->height(),3 );
+	
+		klCopySplitBandFunctor<unsigned char> kl_cfpitbipca_ssb_u8( dstssb,  ldst_cptbipca_ssb);
+		kl_cfpitbipca_ssb_u8();
+		output =  outputPath; output.append("SSB_2.pgm");
+		write_ppm_single_band(output.c_str(), ldst_cptbipca_ssb->width(), ldst_cptbipca_ssb->height()*3,ldst_cptbipca_ssb->buffer());
+	}
 
 	//klHandERatio ssp(dstssb);
 	klHandERatio ssp(lsrc_dilated);
@@ -915,7 +950,8 @@ void TissueAnalysis(string fileName,string outputPath)
 	klflf_u8();
 	output =  outputPath;output.append("LOGICAL_u8_C1R.pgm");
 	write_ppm_single_band(output.c_str(), logical_result->width(), logical_result->height(),logical_result->buffer());
-	
+
+
 	klFillHolesFunctor<unsigned char> klfhf_NOT_GREEN_u8(lsrc_logical_B2,255,0);
 	klfhf_NOT_GREEN_u8();
 	output =  outputPath;output.append("HOLES_FILLED_B2_u8_C1R.pgm");
