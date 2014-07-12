@@ -1,0 +1,9 @@
+<map id="AperioFileManager::ExtractMainResTileApplyICC" name="AperioFileManager::ExtractMainResTileApplyICC">
+<area shape="rect" id="node2" href="$class_aperio_file_manager.html#ab21032520a76a590404241b584d4c120" title="AperioFileManager::\lgetTiffImageInfo" alt="" coords="243,56,381,97"/>
+<area shape="rect" id="node4" href="$_aperio_file_manager_8cpp.html#ad01cf56d48bc76e2367a2c0e3d705097" title="logError" alt="" coords="616,71,683,98"/>
+<area shape="rect" id="node7" href="$_aperio_file_manager_8cpp.html#a1d8e09f702fda2b54f55aff75b31f2ac" title="dumpICC" alt="" coords="275,173,349,199"/>
+<area shape="rect" id="node8" href="$_aperio_file_manager_8cpp.html#a6c0519738b01f52ba7341b517d3da7e4" title="UnitClip" alt="" coords="279,223,345,250"/>
+<area shape="rect" id="node3" href="$class_aperio_file_manager.html#a4bde73872c5b6463de4304d68694306d" title="AperioFileManager::\lsetTiffDirectory" alt="" coords="429,5,568,47"/>
+<area shape="rect" id="node5" href="$_aperio_file_manager_8cpp.html#a787acf614a4bbb2c6a4c2b83fb3491c1" title="PrintGetLastError" alt="" coords="731,46,853,73"/>
+<area shape="rect" id="node6" href="$_aperio_file_manager_8cpp.html#ae229efd655852ee7db3466f6e7989092" title="PrintModules" alt="" coords="743,97,841,123"/>
+</map>

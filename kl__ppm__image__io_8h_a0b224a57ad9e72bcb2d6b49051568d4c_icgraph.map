@@ -1,3 +1,9 @@
 <map id="write_ppm_single_band" name="write_ppm_single_band">
-<area shape="rect" id="node2" href="$classkl_p_p_m_sink_functor.html#a2d70f37c618dab2dc5654afe77da8285" title="klPPMSinkFunctor::operator()" alt="" coords="211,5,405,32"/>
+<area shape="rect" id="node2" href="$kl__image__processing__functors_8cpp.html#a9d7684733c3ca2f1e3d28a22fdc7deac" title="ImageWork" alt="" coords="264,9,352,36"/>
+<area shape="rect" id="node4" href="$kl__image__processing__functors_8cpp.html#af9f9682d7221b6e3b2398b0a84bccf73" title="Dithering" alt="" coords="271,61,345,88"/>
+<area shape="rect" id="node6" href="$kl_big_tiff_file_manager_8cpp.html#a584e604af9487eb59e887e23f1c6a34e" title="TissueAnalysis" alt="" coords="253,112,363,139"/>
+<area shape="rect" id="node7" href="$classkl_p_p_m_sink_functor.html#a2d70f37c618dab2dc5654afe77da8285" title="klPPMSinkFunctor::operator()" alt="" coords="211,163,405,189"/>
+<area shape="rect" id="node8" href="$kl_bigg_tiff_sub_dir_fns_8cpp.html#adbd06f672c8c287be903f1adee8292cc" title="klBiggTiffSubDirROIToTissue\l_Ratio" alt="" coords="215,214,401,255"/>
+<area shape="rect" id="node3" href="$kl_big_tiff_file_manager_8cpp.html#a5cf514a760136e68606681595080ad46" title="klRunImageWorkFlowImage" alt="" coords="475,5,658,32"/>
+<area shape="rect" id="node5" href="$classkl_process_image_1_1kl_image_processor.html#a2c6f2574c372c4cc9313c9dd169d9414" title="klProcessImage::klImageProcessor\l::Process" alt="" coords="453,57,680,98"/>
 </map>

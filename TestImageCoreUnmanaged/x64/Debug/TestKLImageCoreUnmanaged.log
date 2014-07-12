@@ -1,0 +1,23 @@
+﻿Build started 4/26/2014 4:09:31 PM.
+     1>Project "D:\klImageCore\TestImageCoreUnmanaged\TestKLImageCoreUnmanaged.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\TestKLImageCoreUnmanaged.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       MessageBuildingWithCompiler:
+         Building with Intel(R) C++ Compiler XE 12.1
+       ClCompile:
+         ***** ClCompile (X64 - Intel C++)
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\TestKLImageCoreUnmanaged.unsuccessfulbuild".
+         Touching "x64\Debug\TestKLImageCoreUnmanaged.lastbuildstate".
+     1>Done Building Project "D:\klImageCore\TestImageCoreUnmanaged\TestKLImageCoreUnmanaged.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.13

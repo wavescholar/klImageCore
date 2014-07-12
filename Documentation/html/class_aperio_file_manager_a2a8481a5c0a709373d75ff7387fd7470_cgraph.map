@@ -1,0 +1,9 @@
+<map id="AperioFileManager::ExtractImageTiles" name="AperioFileManager::ExtractImageTiles">
+<area shape="rect" id="node2" href="$class_aperio_file_manager.html#ab21032520a76a590404241b584d4c120" title="AperioFileManager::\lgetTiffImageInfo" alt="" coords="379,31,517,72"/>
+<area shape="rect" id="node7" href="$_aperio_file_manager_8cpp.html#a584e604af9487eb59e887e23f1c6a34e" title="TissueAnalysis" alt="" coords="206,63,317,90"/>
+<area shape="rect" id="node8" href="$class_aperio_file_manager.html#abec3417da7fff16c5a491801f223dde1" title="AperioFileManager::\lExtractMainResTile" alt="" coords="192,115,331,156"/>
+<area shape="rect" id="node3" href="$class_aperio_file_manager.html#a4bde73872c5b6463de4304d68694306d" title="AperioFileManager::\lsetTiffDirectory" alt="" coords="565,5,704,47"/>
+<area shape="rect" id="node4" href="$_aperio_file_manager_8cpp.html#ad01cf56d48bc76e2367a2c0e3d705097" title="logError" alt="" coords="752,71,819,98"/>
+<area shape="rect" id="node5" href="$_aperio_file_manager_8cpp.html#a787acf614a4bbb2c6a4c2b83fb3491c1" title="PrintGetLastError" alt="" coords="867,46,989,73"/>
+<area shape="rect" id="node6" href="$_aperio_file_manager_8cpp.html#ae229efd655852ee7db3466f6e7989092" title="PrintModules" alt="" coords="879,97,977,123"/>
+</map>

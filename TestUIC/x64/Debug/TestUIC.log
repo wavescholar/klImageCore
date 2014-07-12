@@ -1,0 +1,226 @@
+﻿Build started 3/25/2014 2:19:53 PM.
+     1>Project "D:\klImaging\TestUIC\TestUIC.vcxproj" on node 3 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\TestUIC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       MessageBuildingWithCompiler:
+         Building with Intel(R) C++ Compiler XE 12.1
+       ClCompile:
+         ***** ClCompile (X64 - Intel C++)
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\Intel64\icl.exe /c /Qvc10 /Qlocation,link,"$(VCInstallDir)\bin\x86_amd64" /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\ipp\include" /ID:\klImaging\klImageCoreV /ID:\klMatrixCore\src /I"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/application/uic_transcoder_con/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/common/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/dec/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/enc/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/png/dec/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/png/enc/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/common/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/dec/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/enc/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/dec/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/enc/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/dec/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/enc/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/io/uic_io/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/core/uic/include" /Zi /nologo /W3 /Od /Qftz- /D _IPP_PARALLEL_DYNAMIC /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /TP "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\bmp.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\cmdline.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\detector.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\dicom.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\ippimage.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\jpeg.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\jpeg2k.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\jpegxr.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\png.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\precomp.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\raw.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\strnaturechar.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\timer.cpp" ..\klImageCoreV\kl_image_io.cpp TestUIC.cpp stdafx.cpp /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\include" /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\include\fftw" /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\include\intel64" 
+         bmp.cpp
+         cmdline.cpp
+         detector.cpp
+         dicom.cpp
+         ippimage.cpp
+         jpeg.cpp
+         jpeg2k.cpp
+     1>..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\jpeg2k.cpp(51): warning #2415: variable "MAX_N_OF_RES_LEVELS" of static storage duration was declared but never referenced
+           static const int MAX_N_OF_RES_LEVELS = 33;
+                            ^
+         
+         jpegxr.cpp
+         png.cpp
+         precomp.cpp
+         raw.cpp
+         strnaturechar.cpp
+         timer.cpp
+         kl_image_io.cpp
+     1>D:\klMatrixCore\src\kl_SEH.h(110): warning #80: a storage class may not be specified here
+             typedef enum CallstackEntryType {firstEntry, nextEntry, lastEntry};
+             ^
+         
+         TestUIC.cpp
+     1>D:\klMatrixCore\src\kl_SEH.h(110): warning #80: a storage class may not be specified here
+             typedef enum CallstackEntryType {firstEntry, nextEntry, lastEntry};
+             ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(701): warning #810: conversion from "void *" to "int" may lose significant bits
+           	bool klHeapCheckBlock(void* mem){  return HeapValidate(pHeap,0,reinterpret_cast<void*>(int(mem)));	
+           	                                                                                       ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(782): warning #810: conversion from "void *" to "int" may lose significant bits
+           		 return HeapValidate(pHeap,0,reinterpret_cast<void*>(int(mem)-sizeof(klHeader) ) ) ;
+           		                                                     ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(828): warning #810: conversion from "char *" to "int" may lose significant bits
+           				klFooter* theTlr =reinterpret_cast<klFooter*>((int)theMem+sizeof(klHeader)+DataSize); ;
+           				                                              ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(994): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klFooter* pFooter=reinterpret_cast<klFooter*>((int)theMem+sizeof(klHeader)+inSize);
+           	                                              ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(996): warning #810: conversion from "void *" to "int" may lose significant bits
+           	return reinterpret_cast<void*>((int)theMem+sizeof(klHeader));
+           	                               ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1023): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klFooter* pFooter=reinterpret_cast<klFooter*>((int)theMem+sizeof(klHeader)+inSize);
+           	                                              ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1025): warning #810: conversion from "void *" to "int" may lose significant bits
+           	return reinterpret_cast<void*>((int)theMem+sizeof(klHeader));
+           	                               ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1035): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klHeader* pHeader=reinterpret_cast<klHeader*>(int(inPtr)-sizeof(klHeader));
+           	                                              ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1036): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klFooter* pFooter= reinterpret_cast<klFooter*>(int(inPtr)+pHeader->bufferLen);
+           	                                               ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1070): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klHeader* pHeader=reinterpret_cast<klHeader*>(int(inPtr)-sizeof(klHeader));
+           	                                              ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1071): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klFooter* pFooter= reinterpret_cast<klFooter*>(int(inPtr)+pHeader->bufferLen);
+           	                                               ^
+         
+         stdafx.cpp
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\Intel64\icl.exe /c /Qvc10 /Qlocation,link,"$(VCInstallDir)\bin\x86_amd64" /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\ipp\include" /ID:\klImaging\klImageCoreV /ID:\klMatrixCore\src /I"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/application/uic_transcoder_con/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/common/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/dec/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/enc/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/png/dec/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/png/enc/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/common/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/dec/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/enc/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/dec/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/enc/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/dec/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/enc/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/io/uic_io/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/core/uic/include" /Zi /nologo /W3 /Od /Qftz- /D _IPP_PARALLEL_DYNAMIC /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /TP ..\klImageCoreV\kl_uic_jpeg_image_io.cpp /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\include" /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\include\fftw" /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\include\intel64" 
+         kl_uic_jpeg_image_io.cpp
+     1>D:\klMatrixCore\src\kl_SEH.h(110): warning #80: a storage class may not be specified here
+             typedef enum CallstackEntryType {firstEntry, nextEntry, lastEntry};
+             ^
+         
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\Intel64\xilink.exe /OUT:"D:\klImaging\x64\Debug\TestUIC.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\lib\intel64" /LIBPATH:"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\compiler\lib\intel64" /LIBPATH:"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\ipp\lib\intel64" /LIBPATH:"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/lib/intel64" /LIBPATH:"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/lib/intel64/Debug" /LIBPATH:"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/../compiler/lib/intel64" /LIBPATH:"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/../compiler/lib/intel64/Debug" mkl_solver_lp64.lib mkl_intel_lp64_dll.lib mkl_intel_thread_dll.lib mkl_core_dll.lib libiomp5md.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ippcore_t.lib ippi_t.lib ippj_t.lib ipps_t.lib ippcc_t.lib ippdc_t.lib ippch_t.lib svml_dispmt.lib libircmt.lib libiomp5md.lib /MANIFEST /ManifestFile:"x64\Debug\TestUIC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\klImaging\x64\Debug\TestUIC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\klImaging\x64\Debug\TestUIC.lib" /MACHINE:X64 x64\Debug\TestUIC.exe.embed.manifest.res
+         x64\Debug\bmp.obj
+         x64\Debug\cmdline.obj
+         x64\Debug\detector.obj
+         x64\Debug\dicom.obj
+         x64\Debug\ippimage.obj
+         x64\Debug\jpeg.obj
+         x64\Debug\jpeg2k.obj
+         x64\Debug\jpegxr.obj
+         x64\Debug\png.obj
+         x64\Debug\precomp.obj
+         x64\Debug\raw.obj
+         x64\Debug\strnaturechar.obj
+         x64\Debug\timer.obj
+         x64\Debug\kl_image_io.obj
+         x64\Debug\kl_uic_jpeg_image_io.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\TestUIC.obj
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\bmp_common.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\bmp_dec.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\bmp_enc.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\core_uic.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpeg2000_common.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpeg2000_dec.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpeg2000_enc.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpegxr_common.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpegxr_dec.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpegxr_enc.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpeg_common.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpeg_dec.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpeg_enc.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\png_common.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\png_dec.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\png_enc.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\uic_io.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\zlib.lib"
+     1>ipo : warning #11059: D:\klImaging\TestUIC\..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\bmp_common.lib is an object library, but has no symbols (this can happen if lib is used where xilib is needed)
+         xilink: executing 'link'
+     1>bmp_dec.lib(uic_bmp_dec.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'bmp_dec.lib(uic_bmp_dec.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>bmp_enc.lib(uic_bmp_enc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'bmp_enc.lib(uic_bmp_enc.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>core_uic.lib(uic_image.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'core_uic.lib(uic_image.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>core_uic.lib(uic_new.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'core_uic.lib(uic_new.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_common.lib(djp2quantcomp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_common.lib(djp2quantcomp.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_common.lib(cbencoder.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_common.lib(cbencoder.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_common.lib(dcodeblock.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_common.lib(dcodeblock.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_common.lib(dprecinct.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_common.lib(dprecinct.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_common.lib(dsubband.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_common.lib(dsubband.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_common.lib(ecodeblock.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_common.lib(ecodeblock.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_common.lib(eprecinct.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_common.lib(eprecinct.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_common.lib(ereslevel.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_common.lib(ereslevel.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_common.lib(esubband.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_common.lib(esubband.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_common.lib(etile.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_common.lib(etile.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_common.lib(etilecomp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_common.lib(etilecomp.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_common.lib(djp2csmainheader.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_common.lib(djp2csmainheader.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_common.lib(tagtree.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_common.lib(tagtree.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_common.lib(tagtreeencoder.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_common.lib(tagtreeencoder.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_common.lib(djp2cstile.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_common.lib(djp2cstile.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_common.lib(jp2tileprogriterator.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_common.lib(jp2tileprogriterator.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_common.lib(bufferstream.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_common.lib(bufferstream.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_dec.lib(uic_jp2_dec.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_dec.lib(uic_jp2_dec.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_dec.lib(uic_jpeg2000_dec.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_dec.lib(uic_jpeg2000_dec.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg2000_enc.lib(uic_jp2_enc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg2000_enc.lib(uic_jp2_enc.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpegxr_common.lib(pjxrfltfwd.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpegxr_common.lib(pjxrfltfwd.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpegxr_common.lib(pjxrfltinv.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpegxr_common.lib(pjxrfltinv.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpegxr_common.lib(pjxrpctfwddc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpegxr_common.lib(pjxrpctfwddc.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpegxr_common.lib(pjxrpctinvdc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpegxr_common.lib(pjxrpctinvdc.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpegxr_common.lib(pjxrquant.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpegxr_common.lib(pjxrquant.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpegxr_common.lib(psjxrres.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpegxr_common.lib(psjxrres.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpegxr_dec.lib(bitstreamin.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpegxr_dec.lib(bitstreamin.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpegxr_dec.lib(jpegxrdec.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpegxr_dec.lib(jpegxrdec.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpegxr_dec.lib(jpegxrdec_cc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpegxr_dec.lib(jpegxrdec_cc.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpegxr_dec.lib(jpegxrmbdec.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpegxr_dec.lib(jpegxrmbdec.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpegxr_dec.lib(uic_jpegxr_dec.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpegxr_dec.lib(uic_jpegxr_dec.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpegxr_enc.lib(bitstreamout.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpegxr_enc.lib(bitstreamout.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpegxr_enc.lib(jpegxrenc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpegxr_enc.lib(jpegxrenc.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpegxr_enc.lib(jpegxrenc_cc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpegxr_enc.lib(jpegxrenc_cc.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpegxr_enc.lib(jpegxrmbenc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpegxr_enc.lib(jpegxrmbenc.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpegxr_enc.lib(uic_jpegxr_enc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpegxr_enc.lib(uic_jpegxr_enc.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg_common.lib(colorcomp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg_common.lib(colorcomp.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg_common.lib(jpegbase.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg_common.lib(jpegbase.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg_dec.lib(bitstreamin.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg_dec.lib(bitstreamin.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg_dec.lib(dechtbl.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg_dec.lib(dechtbl.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg_dec.lib(decqtbl.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg_dec.lib(decqtbl.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg_dec.lib(jpegdec.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg_dec.lib(jpegdec.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg_dec.lib(jpegdecrst.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg_dec.lib(jpegdecrst.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg_dec.lib(uic_jpeg_dec.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg_dec.lib(uic_jpeg_dec.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg_enc.lib(bitstreamout.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg_enc.lib(bitstreamout.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg_enc.lib(enchtbl.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg_enc.lib(enchtbl.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg_enc.lib(encqtbl.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg_enc.lib(encqtbl.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg_enc.lib(jpegenc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg_enc.lib(jpegenc.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg_enc.lib(jpegencrst.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg_enc.lib(jpegencrst.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>jpeg_enc.lib(uic_jpeg_enc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'jpeg_enc.lib(uic_jpeg_enc.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>png_common.lib(png.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'png_common.lib(png.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>png_common.lib(pngerror.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'png_common.lib(pngerror.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>png_common.lib(pngget.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'png_common.lib(pngget.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>png_common.lib(pngmem.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'png_common.lib(pngmem.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>png_common.lib(pngread.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'png_common.lib(pngread.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>png_common.lib(pngrio.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'png_common.lib(pngrio.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>png_common.lib(pngrtran.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'png_common.lib(pngrtran.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>png_common.lib(pngrutil.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'png_common.lib(pngrutil.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>png_common.lib(pngset.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'png_common.lib(pngset.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>png_common.lib(pngtrans.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'png_common.lib(pngtrans.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>png_common.lib(pngwio.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'png_common.lib(pngwio.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>png_common.lib(pngwrite.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'png_common.lib(pngwrite.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>png_common.lib(pngwtran.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'png_common.lib(pngwtran.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>png_common.lib(pngwutil.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'png_common.lib(pngwutil.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>png_dec.lib(uic_png_dec.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'png_dec.lib(uic_png_dec.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>png_enc.lib(uic_png_enc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'png_enc.lib(uic_png_enc.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>uic_io.lib(membuffin.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'uic_io.lib(membuffin.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>uic_io.lib(membuffout.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'uic_io.lib(membuffout.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>uic_io.lib(stdfilein.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'uic_io.lib(stdfilein.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>uic_io.lib(stdfileout.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'uic_io.lib(stdfileout.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>zlib.lib(adler32.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'zlib.lib(adler32.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>zlib.lib(compress.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'zlib.lib(compress.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>zlib.lib(crc32.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'zlib.lib(crc32.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>zlib.lib(deflate.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'zlib.lib(deflate.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>zlib.lib(inflate.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'zlib.lib(inflate.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>zlib.lib(inftrees.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'zlib.lib(inftrees.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>zlib.lib(trees.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'zlib.lib(trees.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>zlib.lib(zutil.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'zlib.lib(zutil.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+     1>zlib.lib(ipp_static.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'zlib.lib(ipp_static.obj)' or at 'D:\klImaging\x64\Debug\vc100.pdb'; linking object as if no debug info
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64\mt.exe /nologo /verbose /out:"x64\Debug\TestUIC.exe.embed.manifest" /manifest x64\Debug\TestUIC.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         TestUIC.vcxproj -> D:\klImaging\x64\Debug\TestUIC.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\TestUIC.unsuccessfulbuild".
+         Touching "x64\Debug\TestUIC.lastbuildstate".
+     1>Done Building Project "D:\klImaging\TestUIC\TestUIC.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.98

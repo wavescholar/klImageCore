@@ -1,0 +1,16 @@
+﻿Build started 11/4/2013 4:04:59 PM.
+     1>Project "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\ALL_BUILD.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\debug\ALL_BUILD\ALL_BUILD.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/CMakeLists.txt
+         CMake does not need to re-run because K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\CMakeFiles\generate.stamp is up-to-date.
+         Build all projects
+       FinalizeBuildStatus:
+         Deleting file "x64\debug\ALL_BUILD\ALL_BUILD.unsuccessfulbuild".
+         Touching "x64\debug\ALL_BUILD\ALL_BUILD.lastbuildstate".
+     1>Done Building Project "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\ALL_BUILD.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20

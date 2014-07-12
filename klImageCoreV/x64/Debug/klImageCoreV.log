@@ -1,0 +1,73 @@
+﻿Build started 4/26/2014 4:07:51 PM.
+     1>Project "D:\klImageCore\klImageCoreV\klImageCoreV.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Debug\klImageCoreV.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\x64\Debug\klImageCoreV.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\lib\intel64" /LIBPATH:"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\compiler\lib\intel64" /LIBPATH:"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\ipp\lib\intel64" mkl_solver_lp64.lib mkl_intel_lp64_dll.lib mkl_intel_thread_dll.lib mkl_core_dll.lib libiomp5md.lib /MANIFEST /ManifestFile:"x64\Debug\klImageCoreV.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\x64\Debug\klImageCoreV.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 /DLL x64\Debug\app.res
+         x64\Debug\AssemblyInfo.obj
+         x64\Debug\klBigTiffFileManager.obj
+         x64\Debug\klBigTiffManagedReader.obj
+         x64\Debug\klPerformanceCounter.obj
+         x64\Debug\klProcessImage.obj
+         x64\Debug\kl_image_io.obj
+         x64\Debug\kl_image_processing_functors.obj
+         x64\Debug\kl_jpeg_image_io.obj
+         x64\Debug\kl_ppm_image_io.obj
+         x64\Debug\kl_tiff_image_io.obj
+         x64\Debug\klBiggTiffSubDirFns.obj
+         "x64\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         ..\..\x64\Debug\ARPACK2.lib
+         ..\..\x64\Debug\expokit.lib
+         ..\..\x64\Debug\expokitcpp.lib
+         ..\..\x64\Debug\FGG.lib
+         ..\..\x64\Debug\ICC.lib
+         ..\..\x64\Debug\libjpeg.lib
+         ..\..\x64\Debug\libsdpa.lib
+         ..\..\x64\Debug\libtiff.lib
+         ..\..\x64\Debug\libz.lib
+         ..\..\x64\Debug\Matlib.lib
+         ..\..\x64\Debug\SuperLU_MT_VC.lib
+         ..\..\x64\Debug\UMFPACK.lib
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\x64\Kernel32.Lib"
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\x64\Psapi.Lib"
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\x64\User32.Lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libemlrt.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libeng.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libfixedpoint.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmat.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmex.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwblas.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwblascompat32.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwlapack.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwmathutil.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwservices.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmx.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libut.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclbase.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclmcr.lib"
+         "C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclmcrrt.lib"
+     1>kl_image_processing_functors.obj : warning LNK4248: unresolved typeref token (0100001B) for 'ipcvMorphAdvState'; image may not run
+         klImageCoreV.vcxproj -> D:\x64\Debug\klImageCoreV.dll
+       MetaGen:
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Could not load file or assembly 'log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' or one of its dependencies. The system cannot find the file specified.
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\x64\Debug\klImageCoreV.dll;#2" /manifest x64\Debug\klImageCoreV.dll.intermediate.manifest
+       _CopyFilesMarkedCopyLocal:
+         Copying file from "D:\klImageCore\log4net\log4net-1.2.11\bin\net\4.0\release\log4net.dll" to "D:\x64\Debug\log4net.dll".
+         Copying file from "D:\klImageCore\log4net\log4net-1.2.11\bin\net\4.0\release\log4net.xml" to "D:\x64\Debug\log4net.xml".
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\klImageCoreV.unsuccessfulbuild".
+         Touching "x64\Debug\klImageCoreV.lastbuildstate".
+     1>Done Building Project "D:\klImageCore\klImageCoreV\klImageCoreV.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.25

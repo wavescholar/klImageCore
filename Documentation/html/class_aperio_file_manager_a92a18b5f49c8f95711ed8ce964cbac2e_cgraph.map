@@ -1,0 +1,7 @@
+<map id="AperioFileManager::getTiffDirImage" name="AperioFileManager::getTiffDirImage">
+<area shape="rect" id="node2" href="$class_aperio_file_manager.html#ab21032520a76a590404241b584d4c120" title="AperioFileManager::\lgetTiffImageInfo" alt="" coords="192,56,331,97"/>
+<area shape="rect" id="node4" href="$_aperio_file_manager_8cpp.html#ad01cf56d48bc76e2367a2c0e3d705097" title="logError" alt="" coords="565,71,632,98"/>
+<area shape="rect" id="node3" href="$class_aperio_file_manager.html#a4bde73872c5b6463de4304d68694306d" title="AperioFileManager::\lsetTiffDirectory" alt="" coords="379,5,517,47"/>
+<area shape="rect" id="node5" href="$_aperio_file_manager_8cpp.html#a787acf614a4bbb2c6a4c2b83fb3491c1" title="PrintGetLastError" alt="" coords="680,46,803,73"/>
+<area shape="rect" id="node6" href="$_aperio_file_manager_8cpp.html#ae229efd655852ee7db3466f6e7989092" title="PrintModules" alt="" coords="692,97,791,123"/>
+</map>

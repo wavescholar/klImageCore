@@ -1,0 +1,40 @@
+﻿Build started 11/4/2013 4:04:45 PM.
+     1>Project "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\jpegxr\enc\jpegxr_enc.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "jpegxr_enc.dir\debug\jpegxr_enc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/enc/CMakeLists.txt
+         CMake does not need to re-run because K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\jpegxr\enc\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         Creating directory "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\jpegxr\enc\debug".
+       ClCompile:
+         k:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/common/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/enc/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/core/uic/include" /Zi /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D INTEL64 /D WINDOWS /D _SBCS /D WIN32 /D _WIN32 /D _WIN32_WINNT=0x501 /D WIN64 /D _WIN64 /D "CMAKE_INTDIR=\"debug\"" /Gm- /EHsc /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"jpegxr_enc.dir\debug\\" /Fd"jpegxr_enc.dir\debug\vc100.pdb" /Gd /TP /Zl /errorReport:prompt ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\enc\src\bitstreamout.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\enc\src\jpegxrenc.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\enc\src\jpegxrenc_cc.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\enc\src\jpegxrmbenc.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\enc\src\uic_jpegxr_enc.cpp
+         Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         cl /c /I"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/common/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/enc/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/core/uic/include" /Zi /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D INTEL64 /D WINDOWS /D _SBCS /D WIN32 /D _WIN32 /D _WIN32_WINNT=0x501 /D WIN64 /D _WIN64 /D "CMAKE_INTDIR=\"debug\"" /Gm- /EHsc /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"jpegxr_enc.dir\debug\\" /Fd"jpegxr_enc.dir\debug\vc100.pdb" /Gd /TP /Zl /errorReport:prompt ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\enc\src\bitstreamout.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\enc\src\jpegxrenc.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\enc\src\jpegxrenc_cc.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\enc\src\jpegxrmbenc.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\enc\src\uic_jpegxr_enc.cpp
+         
+         bitstreamout.cpp
+         jpegxrenc.cpp
+         jpegxrenc_cc.cpp
+         jpegxrmbenc.cpp
+     1>..\..\..\..\..\..\sources\uic\codec\image\jpegxr\enc\src\jpegxrmbenc.cpp(951): warning C4244: 'argument' : conversion from '__int64' to 'Ipp32u', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\jpegxr\enc\src\jpegxrmbenc.cpp(981): warning C4244: 'argument' : conversion from '__int64' to 'Ipp32u', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\jpegxr\enc\src\jpegxrmbenc.cpp(1489): warning C4244: 'argument' : conversion from '__int64' to 'Ipp32u', possible loss of data
+         uic_jpegxr_enc.cpp
+         Generating Code...
+       Lib:
+         k:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpegxr_enc.lib" /NOLOGO jpegxr_enc.dir\debug\bitstreamout.obj
+         jpegxr_enc.dir\debug\jpegxrenc.obj
+         jpegxr_enc.dir\debug\jpegxrenc_cc.obj
+         jpegxr_enc.dir\debug\jpegxrmbenc.obj
+         jpegxr_enc.dir\debug\uic_jpegxr_enc.obj
+         jpegxr_enc.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpegxr_enc.lib
+       FinalizeBuildStatus:
+         Deleting file "jpegxr_enc.dir\debug\jpegxr_enc.unsuccessfulbuild".
+         Touching "jpegxr_enc.dir\debug\jpegxr_enc.lastbuildstate".
+     1>Done Building Project "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\jpegxr\enc\jpegxr_enc.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.81

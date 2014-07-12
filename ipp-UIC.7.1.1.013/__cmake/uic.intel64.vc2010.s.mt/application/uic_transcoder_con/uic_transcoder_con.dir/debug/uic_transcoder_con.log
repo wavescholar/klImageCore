@@ -1,0 +1,81 @@
+﻿Build started 11/4/2013 4:04:51 PM.
+     1>Project "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\application\uic_transcoder_con\uic_transcoder_con.vcxproj" on node 12 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__bin\debug\".
+       InitializeBuildStatus:
+         Creating "uic_transcoder_con.dir\debug\uic_transcoder_con.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/application/uic_transcoder_con/CMakeLists.txt
+         CMake does not need to re-run because K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\application\uic_transcoder_con\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         Creating directory "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\application\uic_transcoder_con\debug".
+       ClCompile:
+         k:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/application/uic_transcoder_con/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/common/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/dec/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/enc/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/png/dec/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/png/enc/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/common/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/dec/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/enc/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/dec/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/enc/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/dec/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/enc/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/io/uic_io/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/core/uic/include" /Zi /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D INTEL64 /D WINDOWS /D _SBCS /D WIN32 /D _WIN32 /D _WIN32_WINNT=0x501 /D WIN64 /D _WIN64 /D "CMAKE_INTDIR=\"debug\"" /Gm- /EHsc /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"uic_transcoder_con.dir\debug\\" /Fd"uic_transcoder_con.dir\debug\vc100.pdb" /Gd /TP /errorReport:prompt ..\..\..\..\sources\uic\application\uic_transcoder_con\src\bmp.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\cmdline.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\detector.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\dicom.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\ippimage.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\jpeg.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\jpeg2k.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\jpegxr.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\png.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\precomp.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\raw.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\strnaturechar.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\timer.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\uic_transcoder_con.cpp
+         Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         cl /c /I"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/application/uic_transcoder_con/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/common/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/dec/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/enc/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/png/dec/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/png/enc/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/common/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/dec/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/enc/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/dec/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/enc/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/dec/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/enc/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/io/uic_io/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/core/uic/include" /Zi /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D INTEL64 /D WINDOWS /D _SBCS /D WIN32 /D _WIN32 /D _WIN32_WINNT=0x501 /D WIN64 /D _WIN64 /D "CMAKE_INTDIR=\"debug\"" /Gm- /EHsc /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"uic_transcoder_con.dir\debug\\" /Fd"uic_transcoder_con.dir\debug\vc100.pdb" /Gd /TP /errorReport:prompt ..\..\..\..\sources\uic\application\uic_transcoder_con\src\bmp.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\cmdline.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\detector.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\dicom.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\ippimage.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\jpeg.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\jpeg2k.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\jpegxr.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\png.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\precomp.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\raw.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\strnaturechar.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\timer.cpp ..\..\..\..\sources\uic\application\uic_transcoder_con\src\uic_transcoder_con.cpp
+         
+         bmp.cpp
+         cmdline.cpp
+     1>..\..\..\..\sources\uic\application\uic_transcoder_con\src\cmdline.cpp(290): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+         detector.cpp
+         dicom.cpp
+         ippimage.cpp
+         jpeg.cpp
+         jpeg2k.cpp
+         jpegxr.cpp
+         png.cpp
+         precomp.cpp
+         raw.cpp
+         strnaturechar.cpp
+         timer.cpp
+         uic_transcoder_con.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"uic_transcoder_con.dir\debug\uic_transcoder_con.exe.embed.manifest.res" uic_transcoder_con.dir\debug\uic_transcoder_con_manifest.rc 
+       Link:
+         k:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__bin\debug\uic_transcoder_con.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/lib/intel64" /LIBPATH:"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/lib/intel64/debug" /LIBPATH:"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/../compiler/lib/intel64" /LIBPATH:"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/../compiler/lib/intel64/debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\__lib\debug\uic_io.lib ..\..\__lib\debug\core_uic.lib ..\..\__lib\debug\bmp_dec.lib ..\..\__lib\debug\bmp_enc.lib ..\..\__lib\debug\jpeg_common.lib ..\..\__lib\debug\jpeg_dec.lib ..\..\__lib\debug\jpeg_enc.lib ..\..\__lib\debug\jpegxr_common.lib ..\..\__lib\debug\jpegxr_dec.lib ..\..\__lib\debug\jpegxr_enc.lib ..\..\__lib\debug\jpeg2000_common.lib ..\..\__lib\debug\jpeg2000_dec.lib ..\..\__lib\debug\jpeg2000_enc.lib ..\..\__lib\debug\png_common.lib ..\..\__lib\debug\png_dec.lib ..\..\__lib\debug\png_enc.lib ..\..\__lib\debug\zlib.lib ippcore_t.lib ippi_t.lib ippj_t.lib ipps_t.lib ippcc_t.lib ippdc_t.lib ippch_t.lib svml_dispmt.lib libircmt.lib libiomp5md.lib /MANIFEST /ManifestFile:"uic_transcoder_con.dir\debug\uic_transcoder_con.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt/__bin/debug/uic_transcoder_con.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt/application/uic_transcoder_con/debug/uic_transcoder_con.lib" /MACHINE:X64 uic_transcoder_con.dir\debug\uic_transcoder_con.exe.embed.manifest.res
+         uic_transcoder_con.dir\debug\bmp.obj
+         uic_transcoder_con.dir\debug\cmdline.obj
+         uic_transcoder_con.dir\debug\detector.obj
+         uic_transcoder_con.dir\debug\dicom.obj
+         uic_transcoder_con.dir\debug\ippimage.obj
+         uic_transcoder_con.dir\debug\jpeg.obj
+         uic_transcoder_con.dir\debug\jpeg2k.obj
+         uic_transcoder_con.dir\debug\jpegxr.obj
+         uic_transcoder_con.dir\debug\png.obj
+         uic_transcoder_con.dir\debug\precomp.obj
+         uic_transcoder_con.dir\debug\raw.obj
+         uic_transcoder_con.dir\debug\strnaturechar.obj
+         uic_transcoder_con.dir\debug\timer.obj
+         uic_transcoder_con.dir\debug\uic_transcoder_con.obj  /machine:x64 /debug 
+         uic_transcoder_con.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__bin\debug\uic_transcoder_con.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"uic_transcoder_con.dir\debug\uic_transcoder_con.exe.embed.manifest" /manifest uic_transcoder_con.dir\debug\uic_transcoder_con.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"uic_transcoder_con.dir\debug\uic_transcoder_con.exe.embed.manifest.res" uic_transcoder_con.dir\debug\uic_transcoder_con_manifest.rc 
+       LinkEmbedManifest:
+         k:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__bin\debug\uic_transcoder_con.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/lib/intel64" /LIBPATH:"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/lib/intel64/debug" /LIBPATH:"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/../compiler/lib/intel64" /LIBPATH:"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/../compiler/lib/intel64/debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\__lib\debug\uic_io.lib ..\..\__lib\debug\core_uic.lib ..\..\__lib\debug\bmp_dec.lib ..\..\__lib\debug\bmp_enc.lib ..\..\__lib\debug\jpeg_common.lib ..\..\__lib\debug\jpeg_dec.lib ..\..\__lib\debug\jpeg_enc.lib ..\..\__lib\debug\jpegxr_common.lib ..\..\__lib\debug\jpegxr_dec.lib ..\..\__lib\debug\jpegxr_enc.lib ..\..\__lib\debug\jpeg2000_common.lib ..\..\__lib\debug\jpeg2000_dec.lib ..\..\__lib\debug\jpeg2000_enc.lib ..\..\__lib\debug\png_common.lib ..\..\__lib\debug\png_dec.lib ..\..\__lib\debug\png_enc.lib ..\..\__lib\debug\zlib.lib ippcore_t.lib ippi_t.lib ippj_t.lib ipps_t.lib ippcc_t.lib ippdc_t.lib ippch_t.lib svml_dispmt.lib libircmt.lib libiomp5md.lib /MANIFEST /ManifestFile:"uic_transcoder_con.dir\debug\uic_transcoder_con.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt/__bin/debug/uic_transcoder_con.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:/KL/klImaging/ipp-UIC.7.1.1.013/__cmake/uic.intel64.vc2010.s.mt/application/uic_transcoder_con/debug/uic_transcoder_con.lib" /MACHINE:X64 uic_transcoder_con.dir\debug\uic_transcoder_con.exe.embed.manifest.res
+         uic_transcoder_con.dir\debug\bmp.obj
+         uic_transcoder_con.dir\debug\cmdline.obj
+         uic_transcoder_con.dir\debug\detector.obj
+         uic_transcoder_con.dir\debug\dicom.obj
+         uic_transcoder_con.dir\debug\ippimage.obj
+         uic_transcoder_con.dir\debug\jpeg.obj
+         uic_transcoder_con.dir\debug\jpeg2k.obj
+         uic_transcoder_con.dir\debug\jpegxr.obj
+         uic_transcoder_con.dir\debug\png.obj
+         uic_transcoder_con.dir\debug\precomp.obj
+         uic_transcoder_con.dir\debug\raw.obj
+         uic_transcoder_con.dir\debug\strnaturechar.obj
+         uic_transcoder_con.dir\debug\timer.obj
+         uic_transcoder_con.dir\debug\uic_transcoder_con.obj  /machine:x64 /debug 
+         uic_transcoder_con.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__bin\debug\uic_transcoder_con.exe
+       FinalizeBuildStatus:
+         Deleting file "uic_transcoder_con.dir\debug\uic_transcoder_con.unsuccessfulbuild".
+         Touching "uic_transcoder_con.dir\debug\uic_transcoder_con.lastbuildstate".
+     1>Done Building Project "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\application\uic_transcoder_con\uic_transcoder_con.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.50

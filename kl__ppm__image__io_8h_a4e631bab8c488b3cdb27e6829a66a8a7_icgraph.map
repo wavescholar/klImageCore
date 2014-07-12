@@ -1,3 +1,11 @@
 <map id="read_ppm" name="read_ppm">
-<area shape="rect" id="node2" href="$classkl_p_p_m_source_functor.html#a8b00cc662b768fc9089f53315470df7b" title="klPPMSourceFunctor\l::operator()" alt="" coords="132,5,279,47"/>
+<area shape="rect" id="node2" href="$kl__image__processing__functors_8cpp.html#a9d7684733c3ca2f1e3d28a22fdc7deac" title="ImageWork" alt="" coords="187,5,275,32"/>
+<area shape="rect" id="node4" href="$classkl_p_p_m_source_functor.html#a8b00cc662b768fc9089f53315470df7b" title="klPPMSourceFunctor\l::operator()" alt="" coords="158,57,305,98"/>
+<area shape="rect" id="node5" href="$kl_bigg_tiff_sub_dir_fns_8cpp.html#aef000c9231180d00709ad93d939c6783" title="klBiggTiffSubDirRotateImage" alt="" coords="138,123,325,149"/>
+<area shape="rect" id="node6" href="$kl_bigg_tiff_sub_dir_fns_8cpp.html#a2b5b2f833a12f319e7d52efee71a2f91" title="klBiggTiffSubDirMacroThumb" alt="" coords="137,173,325,200"/>
+<area shape="rect" id="node7" href="$kl_bigg_tiff_sub_dir_fns_8cpp.html#acca45ef1f8762c404573104efa1fe2d7" title="klBiggTiffSubDirMacro" alt="" coords="157,224,306,251"/>
+<area shape="rect" id="node8" href="$kl_bigg_tiff_sub_dir_fns_8cpp.html#ac20f2452855c2360c1cd1a65e5803366" title="klBiggTiffSubDirSlideImage" alt="" coords="143,275,320,301"/>
+<area shape="rect" id="node9" href="$kl_bigg_tiff_sub_dir_fns_8cpp.html#ae6ade62088d9298bcc32e3555cfd1116" title="klBiggTiffSubDirSlideImage_LT" alt="" coords="132,325,331,352"/>
+<area shape="rect" id="node10" href="$kl_bigg_tiff_sub_dir_fns_8cpp.html#adbd06f672c8c287be903f1adee8292cc" title="klBiggTiffSubDirROIToTissue\l_Ratio" alt="" coords="138,377,325,418"/>
+<area shape="rect" id="node3" href="$kl_big_tiff_file_manager_8cpp.html#a5cf514a760136e68606681595080ad46" title="klRunImageWorkFlowImage" alt="" coords="379,5,561,32"/>
 </map>

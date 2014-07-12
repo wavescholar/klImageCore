@@ -1,4 +1,12 @@
 <map id="query_ppm" name="query_ppm">
-<area shape="rect" id="node2" href="$classkl_p_p_m_source_functor.html#a92b6dfe9d076244e910778ab476b8cdb" title="klPPMSourceFunctor\l::queryImage" alt="" coords="140,5,287,47"/>
-<area shape="rect" id="node3" href="$classkl_p_p_m_source_functor.html#a8b00cc662b768fc9089f53315470df7b" title="klPPMSourceFunctor\l::operator()" alt="" coords="335,5,481,47"/>
+<area shape="rect" id="node2" href="$kl__image__processing__functors_8cpp.html#a9d7684733c3ca2f1e3d28a22fdc7deac" title="ImageWork" alt="" coords="195,5,283,32"/>
+<area shape="rect" id="node4" href="$classkl_p_p_m_source_functor.html#a92b6dfe9d076244e910778ab476b8cdb" title="klPPMSourceFunctor\l::queryImage" alt="" coords="166,57,313,98"/>
+<area shape="rect" id="node6" href="$kl_bigg_tiff_sub_dir_fns_8cpp.html#aef000c9231180d00709ad93d939c6783" title="klBiggTiffSubDirRotateImage" alt="" coords="146,123,333,149"/>
+<area shape="rect" id="node7" href="$kl_bigg_tiff_sub_dir_fns_8cpp.html#a2b5b2f833a12f319e7d52efee71a2f91" title="klBiggTiffSubDirMacroThumb" alt="" coords="145,173,333,200"/>
+<area shape="rect" id="node8" href="$kl_bigg_tiff_sub_dir_fns_8cpp.html#acca45ef1f8762c404573104efa1fe2d7" title="klBiggTiffSubDirMacro" alt="" coords="165,224,314,251"/>
+<area shape="rect" id="node9" href="$kl_bigg_tiff_sub_dir_fns_8cpp.html#ac20f2452855c2360c1cd1a65e5803366" title="klBiggTiffSubDirSlideImage" alt="" coords="151,275,328,301"/>
+<area shape="rect" id="node10" href="$kl_bigg_tiff_sub_dir_fns_8cpp.html#ae6ade62088d9298bcc32e3555cfd1116" title="klBiggTiffSubDirSlideImage_LT" alt="" coords="140,325,339,352"/>
+<area shape="rect" id="node11" href="$kl_bigg_tiff_sub_dir_fns_8cpp.html#adbd06f672c8c287be903f1adee8292cc" title="klBiggTiffSubDirROIToTissue\l_Ratio" alt="" coords="146,377,333,418"/>
+<area shape="rect" id="node3" href="$kl_big_tiff_file_manager_8cpp.html#a5cf514a760136e68606681595080ad46" title="klRunImageWorkFlowImage" alt="" coords="387,5,569,32"/>
+<area shape="rect" id="node5" href="$classkl_p_p_m_source_functor.html#a8b00cc662b768fc9089f53315470df7b" title="klPPMSourceFunctor\l::operator()" alt="" coords="405,57,551,98"/>
 </map>

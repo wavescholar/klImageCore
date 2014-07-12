@@ -1,0 +1,114 @@
+﻿Build started 4/26/2014 3:41:31 PM.
+     1>Project "D:\klImageCore\tiff-4.0.0beta4\tiff-4.0.0beta4\libjpeg\libjpeg.vcxproj" on node 7 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\libjpeg.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       MessageBuildingWithCompiler:
+         Building with Intel(R) C++ Compiler XE 12.1
+       MakeDirsForCl:
+         Creating directory "D:\klImageCore\tiff-4.0.0beta4\tiff-4.0.0beta4\libjpeg\.\..\Debug".
+       ClCompile:
+         ***** ClCompile (X64 - Intel C++)
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\Intel64\icl.exe /c /Qvc10 /Qlocation,link,"$(VCInstallDir)\bin\x86_amd64" /I"D\AperioReader\tiff-4.0.0beta4\tiff-4.0.0beta4\libjpeg\jpeg-6b" /Zi /nologo /W3 /Od /Qftz- /D _WIN64 /D _DEBUG /D _LIB /D JPEG2000_SUPPORT /D JPEG_SUPPORT /D LZW_SUPPORT /D _VC80_UPGRADE=0x0600 /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\..\Debug/" /Fd".\..\Debug/vc100.pdb" /TC "jpeg-6b\jcapimin.c" "jpeg-6b\jcapistd.c" "jpeg-6b\jccoefct.c" "jpeg-6b\jccolor.c" "jpeg-6b\jcdctmgr.c" "jpeg-6b\jchuff.c" "jpeg-6b\jcinit.c" "jpeg-6b\jcmainct.c" "jpeg-6b\jcmarker.c" "jpeg-6b\jcmaster.c" "jpeg-6b\jcomapi.c" "jpeg-6b\jcparam.c" "jpeg-6b\jcphuff.c" "jpeg-6b\jcprepct.c" "jpeg-6b\jcsample.c" "jpeg-6b\jctrans.c" "jpeg-6b\jdapimin.c" "jpeg-6b\jdapistd.c" "jpeg-6b\jdatadst.c" "jpeg-6b\jdatasrc.c" "jpeg-6b\jdcoefct.c" "jpeg-6b\jdcolor.c" "jpeg-6b\jddctmgr.c" "jpeg-6b\jdhuff.c" "jpeg-6b\jdinput.c" "jpeg-6b\jdmainct.c" "jpeg-6b\jdmarker.c" "jpeg-6b\jdmaster.c" "jpeg-6b\jdmerge.c" "jpeg-6b\jdphuff.c" "jpeg-6b\jdpostct.c" "jpeg-6b\jdsample.c" "jpeg-6b\jdtrans.c" "jpeg-6b\jerror.c" "jpeg-6b\jfdctflt.c" "jpeg-6b\jfdctfst.c" "jpeg-6b\jfdctint.c" "jpeg-6b\jidctflt.c" "jpeg-6b\jidctfst.c" "jpeg-6b\jidctint.c" "jpeg-6b\jidctred.c" "jpeg-6b\jmemansi.c" "jpeg-6b\jmemmgr.c" "jpeg-6b\jquant1.c" "jpeg-6b\jquant2.c" "jpeg-6b\jutils.c"
+         jcapimin.c
+         jcapistd.c
+         jccoefct.c
+         jccolor.c
+         jcdctmgr.c
+         jchuff.c
+         jcinit.c
+         jcmainct.c
+         jcmarker.c
+         jcmaster.c
+         jcomapi.c
+         jcparam.c
+         jcphuff.c
+         jcprepct.c
+         jcsample.c
+         jctrans.c
+         jdapimin.c
+         jdapistd.c
+         jdatadst.c
+         jdatasrc.c
+         jdcoefct.c
+         jdcolor.c
+         jddctmgr.c
+         jdhuff.c
+         jdinput.c
+         jdmainct.c
+         jdmarker.c
+         jdmaster.c
+         jdmerge.c
+         jdphuff.c
+         jdpostct.c
+         jdsample.c
+         jdtrans.c
+         jerror.c
+         jfdctflt.c
+         jfdctfst.c
+         jfdctint.c
+         jidctflt.c
+         jidctfst.c
+         jidctint.c
+         jidctred.c
+         jmemansi.c
+         jmemmgr.c
+         jquant1.c
+         jquant2.c
+         jutils.c
+       Lib:
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\Intel64\xilib.exe /OUT:"D:\x64\Debug\libjpeg.lib" /NOLOGO /MACHINE:X64 .\..\Debug/jcapimin.obj
+         .\..\Debug/jcapistd.obj
+         .\..\Debug/jccoefct.obj
+         .\..\Debug/jccolor.obj
+         .\..\Debug/jcdctmgr.obj
+         .\..\Debug/jchuff.obj
+         .\..\Debug/jcinit.obj
+         .\..\Debug/jcmainct.obj
+         .\..\Debug/jcmarker.obj
+         .\..\Debug/jcmaster.obj
+         .\..\Debug/jcomapi.obj
+         .\..\Debug/jcparam.obj
+         .\..\Debug/jcphuff.obj
+         .\..\Debug/jcprepct.obj
+         .\..\Debug/jcsample.obj
+         .\..\Debug/jctrans.obj
+         .\..\Debug/jdapimin.obj
+         .\..\Debug/jdapistd.obj
+         .\..\Debug/jdatadst.obj
+         .\..\Debug/jdatasrc.obj
+         .\..\Debug/jdcoefct.obj
+         .\..\Debug/jdcolor.obj
+         .\..\Debug/jddctmgr.obj
+         .\..\Debug/jdhuff.obj
+         .\..\Debug/jdinput.obj
+         .\..\Debug/jdmainct.obj
+         .\..\Debug/jdmarker.obj
+         .\..\Debug/jdmaster.obj
+         .\..\Debug/jdmerge.obj
+         .\..\Debug/jdphuff.obj
+         .\..\Debug/jdpostct.obj
+         .\..\Debug/jdsample.obj
+         .\..\Debug/jdtrans.obj
+         .\..\Debug/jerror.obj
+         .\..\Debug/jfdctflt.obj
+         .\..\Debug/jfdctfst.obj
+         .\..\Debug/jfdctint.obj
+         .\..\Debug/jidctflt.obj
+         .\..\Debug/jidctfst.obj
+         .\..\Debug/jidctint.obj
+         .\..\Debug/jidctred.obj
+         .\..\Debug/jmemansi.obj
+         .\..\Debug/jmemmgr.obj
+         .\..\Debug/jquant1.obj
+         .\..\Debug/jquant2.obj
+         .\..\Debug/jutils.obj
+         xilib: executing 'lib'
+         libjpeg.vcxproj -> D:\x64\Debug\libjpeg.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\libjpeg.unsuccessfulbuild".
+         Touching "Debug\libjpeg.lastbuildstate".
+     1>Done Building Project "D:\klImageCore\tiff-4.0.0beta4\tiff-4.0.0beta4\libjpeg\libjpeg.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.34

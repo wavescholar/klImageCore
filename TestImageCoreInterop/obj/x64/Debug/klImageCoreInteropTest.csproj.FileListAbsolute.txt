@@ -1,0 +1,9 @@
+D:\klImageCore\TestImageCoreInterop\obj\x64\Debug\ResolveAssemblyReference.cache
+D:\klImageCore\TestImageCoreInterop\obj\x64\Debug\TestklImageCoreV.Properties.Resources.resources
+D:\klImageCore\TestImageCoreInterop\obj\x64\Debug\GenerateResource.read.1.tlog
+D:\klImageCore\TestImageCoreInterop\obj\x64\Debug\GenerateResource.write.1.tlog
+D:\klImageCore\x64\Debug\TestklImageCoreV.exe.config
+D:\klImageCore\x64\Debug\TestklImageCoreV.exe
+D:\klImageCore\x64\Debug\TestklImageCoreV.pdb
+D:\klImageCore\TestImageCoreInterop\obj\x64\Debug\TestklImageCoreV.exe
+D:\klImageCore\TestImageCoreInterop\obj\x64\Debug\TestklImageCoreV.pdb

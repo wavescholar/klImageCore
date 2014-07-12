@@ -1,0 +1,39 @@
+﻿Build started 9/6/2013 12:35:59 PM.
+     1>Project "D:\klImaging\libjpeg-turbo\klJpegSIMD\klJpegSIMD\klJpegSIMD.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Debug\klJpegSIMD.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         k:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\klImaging\x64\Debug\klJpegSIMD.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\klJpegSIMD.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\klImaging\x64\Debug\klJpegSIMD.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\klImaging\x64\Debug\klJpegSIMD.lib" /MACHINE:X64 x64\Debug\klJpegSIMD.exe.embed.manifest.res
+         x64\Debug\kl_simd_jpeg.obj
+         x64\Debug\example.obj
+         "..\..\lib\jpeg-static.lib"
+         ..\..\lib\jpeg.lib
+         "..\..\lib\turbojpeg-static.lib"
+         ..\..\lib\turbojpeg.lib
+     1>example.obj : error LNK2019: unresolved external symbol jpeg_destroy_compress referenced in function write_JPEG_file
+     1>example.obj : error LNK2019: unresolved external symbol jpeg_finish_compress referenced in function write_JPEG_file
+     1>example.obj : error LNK2019: unresolved external symbol jpeg_write_scanlines referenced in function write_JPEG_file
+     1>example.obj : error LNK2019: unresolved external symbol jpeg_start_compress referenced in function write_JPEG_file
+     1>example.obj : error LNK2019: unresolved external symbol jpeg_set_quality referenced in function write_JPEG_file
+     1>example.obj : error LNK2019: unresolved external symbol jpeg_set_defaults referenced in function write_JPEG_file
+     1>example.obj : error LNK2019: unresolved external symbol jpeg_stdio_dest referenced in function write_JPEG_file
+     1>example.obj : error LNK2019: unresolved external symbol jpeg_CreateCompress referenced in function write_JPEG_file
+     1>example.obj : error LNK2019: unresolved external symbol jpeg_std_error referenced in function write_JPEG_file
+     1>example.obj : error LNK2019: unresolved external symbol jpeg_finish_decompress referenced in function read_JPEG_file
+     1>example.obj : error LNK2019: unresolved external symbol jpeg_read_scanlines referenced in function read_JPEG_file
+     1>example.obj : error LNK2019: unresolved external symbol jpeg_start_decompress referenced in function read_JPEG_file
+     1>example.obj : error LNK2019: unresolved external symbol jpeg_read_header referenced in function read_JPEG_file
+     1>example.obj : error LNK2019: unresolved external symbol jpeg_stdio_src referenced in function read_JPEG_file
+     1>example.obj : error LNK2019: unresolved external symbol jpeg_CreateDecompress referenced in function read_JPEG_file
+     1>example.obj : error LNK2019: unresolved external symbol jpeg_destroy_decompress referenced in function read_JPEG_file
+     1>D:\klImaging\x64\Debug\klJpegSIMD.exe : fatal error LNK1120: 16 unresolved externals
+     1>Done Building Project "D:\klImaging\libjpeg-turbo\klJpegSIMD\klJpegSIMD\klJpegSIMD.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.18

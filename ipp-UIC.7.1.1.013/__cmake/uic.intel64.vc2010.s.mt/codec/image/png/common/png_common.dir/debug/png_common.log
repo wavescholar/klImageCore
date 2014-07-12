@@ -1,0 +1,87 @@
+﻿Build started 11/4/2013 4:04:46 PM.
+     1>Project "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\png\common\png_common.vcxproj" on node 8 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "png_common.dir\debug\png_common.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/png/common/CMakeLists.txt
+         CMake does not need to re-run because K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\png\common\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         Creating directory "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\png\common\debug".
+       ClCompile:
+         k:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/zlib/src" /Zi /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D INTEL64 /D WINDOWS /D _SBCS /D WIN32 /D _WIN32 /D _WIN32_WINNT=0x501 /D WIN64 /D _WIN64 /D "CMAKE_INTDIR=\"debug\"" /Gm- /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /Fo"png_common.dir\debug\\" /Fd"png_common.dir\debug\vc100.pdb" /Gd /TC /Zl /errorReport:prompt ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\example.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\png.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngerror.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pnggccrd.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngget.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngmem.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngpread.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngread.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngrio.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngrtran.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngrutil.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngset.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngtest.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngtrans.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngvcrd.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngwio.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngwrite.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngwtran.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngwutil.c
+         Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         cl /c /I"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/zlib/src" /Zi /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D INTEL64 /D WINDOWS /D _SBCS /D WIN32 /D _WIN32 /D _WIN32_WINNT=0x501 /D WIN64 /D _WIN64 /D "CMAKE_INTDIR=\"debug\"" /Gm- /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /Fo"png_common.dir\debug\\" /Fd"png_common.dir\debug\vc100.pdb" /Gd /TC /Zl /errorReport:prompt ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\example.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\png.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngerror.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pnggccrd.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngget.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngmem.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngpread.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngread.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngrio.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngrtran.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngrutil.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngset.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngtest.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngtrans.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngvcrd.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngwio.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngwrite.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngwtran.c ..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngwutil.c
+         
+         example.c
+         png.c
+         pngerror.c
+         pnggccrd.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngpread.c(529): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngpread.c(545): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngpread.c(710): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngpread.c(733): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngpread.c(1282): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngread.c
+         pngrio.c
+         pngrtran.c
+         pngrutil.c
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngrutil.c(260): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngrutil.c(286): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngrutil.c(356): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngrutil.c(1076): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngrutil.c(1175): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngrutil.c(3196): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngrutil.c(3198): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngset.c
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngset.c(350): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngset.c(367): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngset.c(394): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngset.c(657): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngset.c(974): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngtest.c
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngtest.c(1147): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngtest.c(1312): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+         pngtrans.c
+         pngvcrd.c
+         pngwio.c
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngwio.c(59): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngwrite.c
+         pngwtran.c
+         pngwutil.c
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngwutil.c(189): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\..\..\..\sources\uic\codec\image\png\common\src\pngwutil.c(1562): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         Generating Code...
+       Lib:
+         k:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\png_common.lib" /NOLOGO png_common.dir\debug\example.obj
+         png_common.dir\debug\png.obj
+         png_common.dir\debug\pngerror.obj
+         png_common.dir\debug\pnggccrd.obj
+         png_common.dir\debug\pngget.obj
+         png_common.dir\debug\pngmem.obj
+         png_common.dir\debug\pngpread.obj
+         png_common.dir\debug\pngread.obj
+         png_common.dir\debug\pngrio.obj
+         png_common.dir\debug\pngrtran.obj
+         png_common.dir\debug\pngrutil.obj
+         png_common.dir\debug\pngset.obj
+         png_common.dir\debug\pngtest.obj
+         png_common.dir\debug\pngtrans.obj
+         png_common.dir\debug\pngvcrd.obj
+         png_common.dir\debug\pngwio.obj
+         png_common.dir\debug\pngwrite.obj
+         png_common.dir\debug\pngwtran.obj
+         png_common.dir\debug\pngwutil.obj
+         png_common.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\png_common.lib
+       FinalizeBuildStatus:
+         Deleting file "png_common.dir\debug\png_common.unsuccessfulbuild".
+         Touching "png_common.dir\debug\png_common.lastbuildstate".
+     1>Done Building Project "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\png\common\png_common.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.50

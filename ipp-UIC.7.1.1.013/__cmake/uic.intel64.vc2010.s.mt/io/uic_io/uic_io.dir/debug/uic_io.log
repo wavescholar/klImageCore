@@ -1,0 +1,35 @@
+﻿Build started 11/4/2013 4:04:45 PM.
+     1>Project "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\io\uic_io\uic_io.vcxproj" on node 12 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "uic_io.dir\debug\uic_io.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/io/uic_io/CMakeLists.txt
+         CMake does not need to re-run because K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\io\uic_io\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         Creating directory "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\io\uic_io\debug".
+       ClCompile:
+         k:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/io/uic_io/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/core/uic/include" /Zi /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D INTEL64 /D WINDOWS /D _SBCS /D WIN32 /D _WIN32 /D _WIN32_WINNT=0x501 /D WIN64 /D _WIN64 /D "CMAKE_INTDIR=\"debug\"" /Gm- /EHsc /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"uic_io.dir\debug\\" /Fd"uic_io.dir\debug\vc100.pdb" /Gd /TP /Zl /errorReport:prompt ..\..\..\..\sources\uic\io\uic_io\src\membuffin.cpp ..\..\..\..\sources\uic\io\uic_io\src\membuffout.cpp ..\..\..\..\sources\uic\io\uic_io\src\stdfilein.cpp ..\..\..\..\sources\uic\io\uic_io\src\stdfileout.cpp
+         Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         cl /c /I"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/io/uic_io/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/core/uic/include" /Zi /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D INTEL64 /D WINDOWS /D _SBCS /D WIN32 /D _WIN32 /D _WIN32_WINNT=0x501 /D WIN64 /D _WIN64 /D "CMAKE_INTDIR=\"debug\"" /Gm- /EHsc /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"uic_io.dir\debug\\" /Fd"uic_io.dir\debug\vc100.pdb" /Gd /TP /Zl /errorReport:prompt ..\..\..\..\sources\uic\io\uic_io\src\membuffin.cpp ..\..\..\..\sources\uic\io\uic_io\src\membuffout.cpp ..\..\..\..\sources\uic\io\uic_io\src\stdfilein.cpp ..\..\..\..\sources\uic\io\uic_io\src\stdfileout.cpp
+         
+         membuffin.cpp
+         membuffout.cpp
+         stdfilein.cpp
+         stdfileout.cpp
+         Generating Code...
+       Lib:
+         k:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\uic_io.lib" /NOLOGO uic_io.dir\debug\membuffin.obj
+         uic_io.dir\debug\membuffout.obj
+         uic_io.dir\debug\stdfilein.obj
+         uic_io.dir\debug\stdfileout.obj
+         uic_io.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\uic_io.lib
+       FinalizeBuildStatus:
+         Deleting file "uic_io.dir\debug\uic_io.unsuccessfulbuild".
+         Touching "uic_io.dir\debug\uic_io.lastbuildstate".
+     1>Done Building Project "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\io\uic_io\uic_io.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.70

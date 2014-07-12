@@ -1,0 +1,10 @@
+<map id="AperioFileManager::printMetadata" name="AperioFileManager::printMetadata">
+<area shape="rect" id="node2" href="$class_aperio_file_manager.html#ab21032520a76a590404241b584d4c120" title="AperioFileManager::\lgetTiffImageInfo" alt="" coords="397,56,535,97"/>
+<area shape="rect" id="node7" href="$class_aperio_file_manager.html#a4cd2778a6e2a129879e621d1ee25d0bc" title="AperioFileManager::\lgetMetadata" alt="" coords="192,115,331,156"/>
+<area shape="rect" id="node3" href="$class_aperio_file_manager.html#a4bde73872c5b6463de4304d68694306d" title="AperioFileManager::\lsetTiffDirectory" alt="" coords="601,5,740,47"/>
+<area shape="rect" id="node4" href="$_aperio_file_manager_8cpp.html#ad01cf56d48bc76e2367a2c0e3d705097" title="logError" alt="" coords="788,71,855,98"/>
+<area shape="rect" id="node5" href="$_aperio_file_manager_8cpp.html#a787acf614a4bbb2c6a4c2b83fb3491c1" title="PrintGetLastError" alt="" coords="903,46,1025,73"/>
+<area shape="rect" id="node6" href="$_aperio_file_manager_8cpp.html#ae229efd655852ee7db3466f6e7989092" title="PrintModules" alt="" coords="915,97,1013,123"/>
+<area shape="rect" id="node8" href="$class_aperio_file_manager.html#a2b96c23e955e9cd210b49a0493497532" title="AperioFileManager::\lparseImageDescriptionTag" alt="" coords="379,173,553,215"/>
+<area shape="rect" id="node9" href="$class_aperio_file_manager.html#ab317a307055c60d62c6bf11a137d2dae" title="AperioFileManager::\lcreateXMLMap" alt="" coords="397,239,535,280"/>
+</map>

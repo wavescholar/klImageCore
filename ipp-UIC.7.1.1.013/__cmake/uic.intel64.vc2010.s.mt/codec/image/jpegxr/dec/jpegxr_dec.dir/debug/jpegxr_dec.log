@@ -1,0 +1,39 @@
+﻿Build started 11/4/2013 4:04:46 PM.
+     1>Project "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\jpegxr\dec\jpegxr_dec.vcxproj" on node 13 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "jpegxr_dec.dir\debug\jpegxr_dec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/dec/CMakeLists.txt
+         CMake does not need to re-run because K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\jpegxr\dec\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         Creating directory "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\jpegxr\dec\debug".
+       ClCompile:
+         k:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/common/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/dec/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/core/uic/include" /Zi /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D INTEL64 /D WINDOWS /D _SBCS /D WIN32 /D _WIN32 /D _WIN32_WINNT=0x501 /D WIN64 /D _WIN64 /D "CMAKE_INTDIR=\"debug\"" /Gm- /EHsc /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"jpegxr_dec.dir\debug\\" /Fd"jpegxr_dec.dir\debug\vc100.pdb" /Gd /TP /Zl /errorReport:prompt ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\dec\src\bitstreamin.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\dec\src\jpegxrdec.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\dec\src\jpegxrdec_cc.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\dec\src\jpegxrdec_tbb.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\dec\src\jpegxrmbdec.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\dec\src\uic_jpegxr_dec.cpp
+         Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         cl /c /I"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/common/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/dec/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/core/uic/include" /Zi /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D INTEL64 /D WINDOWS /D _SBCS /D WIN32 /D _WIN32 /D _WIN32_WINNT=0x501 /D WIN64 /D _WIN64 /D "CMAKE_INTDIR=\"debug\"" /Gm- /EHsc /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo"jpegxr_dec.dir\debug\\" /Fd"jpegxr_dec.dir\debug\vc100.pdb" /Gd /TP /Zl /errorReport:prompt ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\dec\src\bitstreamin.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\dec\src\jpegxrdec.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\dec\src\jpegxrdec_cc.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\dec\src\jpegxrdec_tbb.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\dec\src\jpegxrmbdec.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpegxr\dec\src\uic_jpegxr_dec.cpp
+         
+         bitstreamin.cpp
+         jpegxrdec.cpp
+         jpegxrdec_cc.cpp
+         jpegxrdec_tbb.cpp
+         jpegxrmbdec.cpp
+         uic_jpegxr_dec.cpp
+         Generating Code...
+       Lib:
+         k:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpegxr_dec.lib" /NOLOGO jpegxr_dec.dir\debug\bitstreamin.obj
+         jpegxr_dec.dir\debug\jpegxrdec.obj
+         jpegxr_dec.dir\debug\jpegxrdec_cc.obj
+         jpegxr_dec.dir\debug\jpegxrdec_tbb.obj
+         jpegxr_dec.dir\debug\jpegxrmbdec.obj
+         jpegxr_dec.dir\debug\uic_jpegxr_dec.obj
+         jpegxr_dec.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpegxr_dec.lib
+       FinalizeBuildStatus:
+         Deleting file "jpegxr_dec.dir\debug\jpegxr_dec.unsuccessfulbuild".
+         Touching "jpegxr_dec.dir\debug\jpegxr_dec.lastbuildstate".
+     1>Done Building Project "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\jpegxr\dec\jpegxr_dec.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.19

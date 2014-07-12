@@ -1,0 +1,380 @@
+﻿Build started 11/4/2013 9:12:11 AM.
+     1>Project "D:\klImaging\TestUIC\TestUIC.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Release\TestUIC.unsuccessfulbuild".
+       MessageBuildingWithCompiler:
+         Building with Intel(R) C++ Compiler XE 12.1
+       ClCompile:
+         ***** ClCompile (X64 - Intel C++)
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\Intel64\icl.exe /c /Qvc10 /Qlocation,link,"$(VCInstallDir)\bin\x86_amd64" /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\ipp\include" /ID:\klImaging\klImageCoreV /ID:\klMatrixCore\src /I"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/application/uic_transcoder_con/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/common/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/dec/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/bmp/enc/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/png/dec/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/png/enc/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/common/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/dec/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/enc/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/dec/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpegxr/enc/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/dec/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/enc/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg2000/common/src/common" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/io/uic_io/include" /I"D:/klImaging/ipp-UIC.7.1.1.013/sources/uic/core/uic/include" /Zi /nologo /W3 /O2 /Oi /Qipo /Qftz- /D _IPP_PARALLEL_DYNAMIC /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /TP "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\bmp.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\cmdline.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\detector.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\dicom.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\ippimage.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\jpeg.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\jpeg2k.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\jpegxr.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\png.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\precomp.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\raw.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\strnaturechar.cpp" "..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\timer.cpp" ..\klImageCoreV\kl_image_io.cpp ..\klImageCoreV\kl_uic_jpeg_image_io.cpp stdafx.cpp TestUIC.cpp /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\include" /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\include\fftw" /I"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\include\intel64" 
+         bmp.cpp
+         cmdline.cpp
+         detector.cpp
+         dicom.cpp
+         ippimage.cpp
+         jpeg.cpp
+         jpeg2k.cpp
+     1>..\ipp-UIC.7.1.1.013\sources\uic\application\uic_transcoder_con\src\jpeg2k.cpp(51): warning #2415: variable "MAX_N_OF_RES_LEVELS" of static storage duration was declared but never referenced
+           static const int MAX_N_OF_RES_LEVELS = 33;
+                            ^
+         
+         jpegxr.cpp
+         png.cpp
+         precomp.cpp
+         raw.cpp
+         strnaturechar.cpp
+         timer.cpp
+         kl_image_io.cpp
+     1>D:\klMatrixCore\src\kl_SEH.h(110): warning #80: a storage class may not be specified here
+             typedef enum CallstackEntryType {firstEntry, nextEntry, lastEntry};
+             ^
+         
+         kl_uic_jpeg_image_io.cpp
+     1>D:\klMatrixCore\src\kl_SEH.h(110): warning #80: a storage class may not be specified here
+             typedef enum CallstackEntryType {firstEntry, nextEntry, lastEntry};
+             ^
+         
+         stdafx.cpp
+         TestUIC.cpp
+     1>D:\klMatrixCore\src\kl_SEH.h(110): warning #80: a storage class may not be specified here
+             typedef enum CallstackEntryType {firstEntry, nextEntry, lastEntry};
+             ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(701): warning #810: conversion from "void *" to "int" may lose significant bits
+           	bool klHeapCheckBlock(void* mem){  return HeapValidate(pHeap,0,reinterpret_cast<void*>(int(mem)));	
+           	                                                                                       ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(782): warning #810: conversion from "void *" to "int" may lose significant bits
+           		 return HeapValidate(pHeap,0,reinterpret_cast<void*>(int(mem)-sizeof(klHeader) ) ) ;
+           		                                                     ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(828): warning #810: conversion from "char *" to "int" may lose significant bits
+           				klFooter* theTlr =reinterpret_cast<klFooter*>((int)theMem+sizeof(klHeader)+DataSize); ;
+           				                                              ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(994): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klFooter* pFooter=reinterpret_cast<klFooter*>((int)theMem+sizeof(klHeader)+inSize);
+           	                                              ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(996): warning #810: conversion from "void *" to "int" may lose significant bits
+           	return reinterpret_cast<void*>((int)theMem+sizeof(klHeader));
+           	                               ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1023): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klFooter* pFooter=reinterpret_cast<klFooter*>((int)theMem+sizeof(klHeader)+inSize);
+           	                                              ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1025): warning #810: conversion from "void *" to "int" may lose significant bits
+           	return reinterpret_cast<void*>((int)theMem+sizeof(klHeader));
+           	                               ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1035): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klHeader* pHeader=reinterpret_cast<klHeader*>(int(inPtr)-sizeof(klHeader));
+           	                                              ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1036): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klFooter* pFooter= reinterpret_cast<klFooter*>(int(inPtr)+pHeader->bufferLen);
+           	                                               ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1070): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klHeader* pHeader=reinterpret_cast<klHeader*>(int(inPtr)-sizeof(klHeader));
+           	                                              ^
+         
+     1>D:\klMatrixCore\src\kl_memory.h(1071): warning #810: conversion from "void *" to "int" may lose significant bits
+           	klFooter* pFooter= reinterpret_cast<klFooter*>(int(inPtr)+pHeader->bufferLen);
+           	                                               ^
+         
+       Link:
+         C:\Program Files (x86)\Intel\Composer XE 2011 SP1\bin\Intel64\xilink.exe /OUT:"D:\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\x64\Release\TestUIC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\mkl\lib\intel64" /LIBPATH:"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\compiler\lib\intel64" /LIBPATH:"C:\Program Files (x86)\Intel\Composer XE 2011 SP1\ipp\lib\intel64" /LIBPATH:"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/lib/intel64" /LIBPATH:"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/lib/intel64/Release" /LIBPATH:"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/../compiler/lib/intel64" /LIBPATH:"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/../compiler/lib/intel64/Release" mkl_solver_lp64.lib mkl_intel_lp64_dll.lib mkl_intel_thread_dll.lib mkl_core_dll.lib libiomp5md.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ippcore_t.lib ippi_t.lib ippj_t.lib ipps_t.lib ippcc_t.lib ippdc_t.lib ippch_t.lib svml_dispmt.lib libircmt.lib libiomp5md.lib /MANIFEST /ManifestFile:"x64\Release\TestUIC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\x64\Release\TestUIC.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\x64\Release\TestUIC.lib" /MACHINE:X64 x64\Release\bmp.obj
+         x64\Release\cmdline.obj
+         x64\Release\detector.obj
+         x64\Release\dicom.obj
+         x64\Release\ippimage.obj
+         x64\Release\jpeg.obj
+         x64\Release\jpeg2k.obj
+         x64\Release\jpegxr.obj
+         x64\Release\png.obj
+         x64\Release\precomp.obj
+         x64\Release\raw.obj
+         x64\Release\strnaturechar.obj
+         x64\Release\timer.obj
+         x64\Release\kl_image_io.obj
+         x64\Release\kl_uic_jpeg_image_io.obj
+         x64\Release\stdafx.obj
+         x64\Release\TestUIC.obj
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\bmp_common.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\bmp_dec.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\bmp_enc.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\core_uic.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg2000_common.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg2000_dec.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg2000_enc.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpegxr_common.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpegxr_dec.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpegxr_enc.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg_common.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg_dec.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg_enc.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\png_common.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\png_dec.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\png_enc.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\uic_io.lib"
+         "..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\zlib.lib"
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\bmp_common.lib
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\bmp_dec.lib
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\bmp_enc.lib
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\core_uic.lib
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg2000_common.lib
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg2000_dec.lib
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg2000_enc.lib
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpegxr_common.lib
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpegxr_dec.lib
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpegxr_enc.lib
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg_common.lib
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg_dec.lib
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\jpeg_enc.lib
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\png_common.lib
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\png_dec.lib
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\png_enc.lib
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\uic_io.lib
+     1>ipo : error #11018: Cannot open ..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\zlib.lib
+     1>ipo : warning #11021: unresolved ??1BMPEncoder@UIC@@UEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?WriteData@BMPEncoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?WriteHeader@BMPEncoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?AttachImage@BMPEncoder@UIC@@UEAAHAEBVImage@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Attach@ImageBuffer@UIC@@QEAAHPEBVImageDataPtr@2@AEBVImageDataOrder@2@AEBVImageSamplingGeometry@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetAsRange8u@ImageDataRange@UIC@@QEAAXE@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetEnumSampling@ImageSamplingGeometry@UIC@@QEAAHW4ImageEnumSampling@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?AttachStream@BMPEncoder@UIC@@UEAAHAEAVBaseStreamOutput@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Init@BMPEncoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??0BMPEncoder@UIC@@QEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??1BMPDecoder@UIC@@UEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?ReadData@BMPDecoder@UIC@@UEAAHPEBVImageDataPtr@2@AEBVImageDataOrder@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?ReadHeader@BMPDecoder@UIC@@UEAAHAEAVImageColorSpec@2@AEAVImageSamplingGeometry@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?AttachStream@BMPDecoder@UIC@@UEAAHAEAVBaseStreamInput@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Init@BMPDecoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??0BMPDecoder@UIC@@QEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?ArrFree@UIC@@YAXPEBX@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?ArrCountOf@UIC@@YAIPEBX@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??0ImageDataRange@UIC@@QEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?ArrAlloc@UIC@@YAPEAXII@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??1CMemBuffInput@@UEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Open@CMemBuffInput@@QEAA?AW4TStatus@BaseStream@UIC@@PEBEH@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??0CMemBuffInput@@QEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??1JPEGEncoder@UIC@@UEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?WriteData@JPEGEncoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?WriteHeader@JPEGEncoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetParams@JPEGEncoder@UIC@@QEAAHVJPEGEncoderParamsLSL@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetParams@JPEGEncoder@UIC@@QEAAHVJPEGEncoderParamsPRG@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetParams@JPEGEncoder@UIC@@QEAAHVJPEGEncoderParamsEXT@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetParams@JPEGEncoder@UIC@@QEAAHVJPEGEncoderParamsBAS@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?AttachImage@JPEGEncoder@UIC@@UEAAHAEBVImage@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetAsRange16u@ImageDataRange@UIC@@QEAAXG@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetComment@JPEGEncoder@UIC@@QEAAHHPEAD@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?AttachStream@JPEGEncoder@UIC@@UEAAHAEAVBaseStreamOutput@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Init@JPEGEncoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetNOfThreads@JPEGEncoder@UIC@@UEAAII@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??0JPEGEncoder@UIC@@QEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??1JPEGDecoder@UIC@@UEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?ReadData@JPEGDecoder@UIC@@UEAAHPEBVImageDataPtr@2@AEBVImageDataOrder@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetParams@JPEGDecoder@UIC@@QEAAHAEBVImageColorSpec@2@AEBVImageSamplingGeometry@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetParams@JPEGDecoder@UIC@@QEAAHAEAVJPEGDecoderParams@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Comment@JPEGDecoder@UIC@@QEAAXPEAPEAEPEAH@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Mode@JPEGDecoder@UIC@@QEAA?AW4_JPEG_MODE@@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?EnumSampling@ImageSamplingGeometry@UIC@@QEBA?AW4ImageEnumSampling@2@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?ReadHeader@JPEGDecoder@UIC@@UEAAHAEAVImageColorSpec@2@AEAVImageSamplingGeometry@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?AttachStream@JPEGDecoder@UIC@@UEAAHAEAVBaseStreamInput@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Init@JPEGDecoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetNOfThreads@JPEGDecoder@UIC@@UEAAII@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??0JPEGDecoder@UIC@@QEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??1JP2Encoder@UIC@@UEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?WriteData@JP2Encoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?WriteHeader@JP2Encoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetParams@JP2Encoder@UIC@@QEAAHI_N00HHI@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?AttachImage@JP2Encoder@UIC@@UEAAHAEBVImage@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?ReAlloc@ImageBuffer@UIC@@QEAAHAEBVImageDataOrder@2@AEBVImageSamplingGeometry@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?NOfBytes@UIC@@YAIW4ImageDataType@1@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?AttachStream@JP2Encoder@UIC@@UEAAHAEAVBaseStreamOutput@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetNOfThreads@JP2Encoder@UIC@@UEAAII@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Init@JP2Encoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??0JP2Encoder@UIC@@QEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??1JP2Decoder@UIC@@UEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??1JPEG2000Decoder@UIC@@UEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?ReAlloc@ImageBuffer@UIC@@QEAAHW4ImageDataType@2@W4ImageComponentOrder@2@AEBVImageSamplingGeometry@2@II@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?ReduceByGCD@ImageSamplingGeometry@UIC@@QEAAXXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??0JPEG2000Decoder@UIC@@QEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??0JP2Decoder@UIC@@QEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??1JPEGXREncoder@UIC@@UEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?FreeData@JPEGXREncoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?WriteData@JPEGXREncoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?WriteHeader@JPEGXREncoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?AttachImage@JPEGXREncoder@UIC@@UEAAHAEBVImage@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetParams@JPEGXREncoder@UIC@@UEAAHAEAUInputParams@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?WriteFileHeader@JPEGXREncoder@UIC@@UEAAHI@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetAsRange32f@ImageDataRange@UIC@@QEAAXMM@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetAsRange32s@ImageDataRange@UIC@@QEAAXHH@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetAsRange32u@ImageDataRange@UIC@@QEAAXI@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetAsRange16f@ImageDataRange@UIC@@QEAAXG@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetAsRange16s@ImageDataRange@UIC@@QEAAXFF@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?AttachStream@JPEGXREncoder@UIC@@UEAAHAEAVBaseStreamOutput@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Init@JPEGXREncoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??0JPEGXREncoder@UIC@@QEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??1JPEGXRDecoder@UIC@@UEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?ReadFileHeader@JPEGXRDecoder@UIC@@UEAAHAEAI0AEAE@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?AttachStream@JPEGXRDecoder@UIC@@UEAAHAEAVBaseStreamInput@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetNOfThreads@JPEGXRDecoder@UIC@@UEAAII@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetParams@JPEGXRDecoder@UIC@@UEAAHIII@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Init@JPEGXRDecoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??0JPEGXRDecoder@UIC@@QEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??1PNGEncoder@UIC@@UEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?WriteData@PNGEncoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?WriteHeader@PNGEncoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?AttachImage@PNGEncoder@UIC@@UEAAHAEBVImage@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?SetParams@PNGEncoder@UIC@@UEAAHPEA_N@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?AttachStream@PNGEncoder@UIC@@UEAAHAEAVBaseStreamOutput@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Init@PNGEncoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??0PNGEncoder@UIC@@QEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??1PNGDecoder@UIC@@UEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?ReadData@PNGDecoder@UIC@@UEAAHPEBVImageDataPtr@2@AEBVImageDataOrder@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?ReadHeader@PNGDecoder@UIC@@UEAAHAEAVImageColorSpec@2@AEAVImageSamplingGeometry@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?AttachStream@PNGDecoder@UIC@@UEAAHAEAVBaseStreamInput@2@@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Init@PNGDecoder@UIC@@UEAAHXZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??0PNGDecoder@UIC@@QEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??1CStdFileInput@@UEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??1CStdFileOutput@@UEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??1CMemBuffOutput@@UEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Write@CStdFileOutput@@UEAA?AW4TStatus@BaseStream@UIC@@PEBX_KAEA_K@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Close@CMemBuffOutput@@QEAA?AW4TStatus@BaseStream@UIC@@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Open@CMemBuffOutput@@QEAA?AW4TStatus@BaseStream@UIC@@PEAEH@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Close@CMemBuffInput@@QEAA?AW4TStatus@BaseStream@UIC@@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Read@CStdFileInput@@UEAA?AW4TStatus@BaseStream@UIC@@PEAX_KAEA_K@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Size@CStdFileInput@@UEAA?AW4TStatus@BaseStream@UIC@@AEA_K@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Open@CStdFileOutput@@QEAA?AW4TStatus@BaseStream@UIC@@PEBD@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ?Open@CStdFileInput@@QEAA?AW4TStatus@BaseStream@UIC@@PEBD@Z
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??0CMemBuffOutput@@QEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??0CStdFileOutput@@QEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : warning #11021: unresolved ??0CStdFileInput@@QEAA@XZ
+                 Referenced in ipo_138605obj.obj
+     1>ipo : error #11023: Not all components required for linking are present on command line
+         xilink: executing 'link'
+     1>LINK : fatal error LNK1181: cannot open input file '..\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\release\bmp_common.lib'
+     1>Done Building Project "D:\klImaging\TestUIC\TestUIC.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:23.21

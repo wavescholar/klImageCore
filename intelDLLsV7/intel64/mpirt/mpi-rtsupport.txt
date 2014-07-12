@@ -1,0 +1,6 @@
+Please use the following information when submitting customer support requests
+
+Package ID: w_mpi-rt_p_4.0.2.005
+Package Contents: Intel(R) MPI Library Runtime Environment 4.0 Update 2 for Windows* OS
+
+Please direct customer support requests through Premier Support at www.intel.com/software/products/support

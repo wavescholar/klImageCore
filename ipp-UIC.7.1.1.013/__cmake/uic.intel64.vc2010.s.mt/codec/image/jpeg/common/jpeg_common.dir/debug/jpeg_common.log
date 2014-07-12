@@ -1,0 +1,35 @@
+﻿Build started 11/4/2013 4:04:45 PM.
+     1>Project "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\jpeg\common\jpeg_common.vcxproj" on node 6 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "jpeg_common.dir\debug\jpeg_common.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/common/CMakeLists.txt
+         CMake does not need to re-run because K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\jpeg\common\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         Creating directory "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\jpeg\common\debug".
+       ClCompile:
+         k:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/common/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/core/uic/include" /Zi /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D INTEL64 /D WINDOWS /D _SBCS /D WIN32 /D _WIN32 /D _WIN32_WINNT=0x501 /D WIN64 /D _WIN64 /D "CMAKE_INTDIR=\"debug\"" /Gm- /EHsc /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"jpeg_common.dir\debug\\" /Fd"jpeg_common.dir\debug\vc100.pdb" /Gd /TP /errorReport:prompt ..\..\..\..\..\..\sources\uic\codec\image\jpeg\common\src\colorcomp.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpeg\common\src\jpegbase.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpeg\common\src\main.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpeg\common\src\metadata.cpp
+         Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         cl /c /I"C:/Program Files (x86)/Intel/Composer XE 2011 SP1/ipp/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/codec/image/jpeg/common/include" /I"K:/KL/klImaging/ipp-UIC.7.1.1.013/sources/uic/core/uic/include" /Zi /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D INTEL64 /D WINDOWS /D _SBCS /D WIN32 /D _WIN32 /D _WIN32_WINNT=0x501 /D WIN64 /D _WIN64 /D "CMAKE_INTDIR=\"debug\"" /Gm- /EHsc /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"jpeg_common.dir\debug\\" /Fd"jpeg_common.dir\debug\vc100.pdb" /Gd /TP /errorReport:prompt ..\..\..\..\..\..\sources\uic\codec\image\jpeg\common\src\colorcomp.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpeg\common\src\jpegbase.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpeg\common\src\main.cpp ..\..\..\..\..\..\sources\uic\codec\image\jpeg\common\src\metadata.cpp
+         
+         colorcomp.cpp
+         jpegbase.cpp
+         main.cpp
+         metadata.cpp
+         Generating Code...
+       Lib:
+         k:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpeg_common.lib" /NOLOGO jpeg_common.dir\debug\colorcomp.obj
+         jpeg_common.dir\debug\jpegbase.obj
+         jpeg_common.dir\debug\main.obj
+         jpeg_common.dir\debug\metadata.obj
+         jpeg_common.vcxproj -> K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\__lib\debug\jpeg_common.lib
+       FinalizeBuildStatus:
+         Deleting file "jpeg_common.dir\debug\jpeg_common.unsuccessfulbuild".
+         Touching "jpeg_common.dir\debug\jpeg_common.lastbuildstate".
+     1>Done Building Project "K:\KL\klImaging\ipp-UIC.7.1.1.013\__cmake\uic.intel64.vc2010.s.mt\codec\image\jpeg\common\jpeg_common.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.91
