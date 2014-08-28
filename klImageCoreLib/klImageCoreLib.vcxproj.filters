@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DebugLibsx64">
+      <UniqueIdentifier>{5158cf7f-fa12-4546-8742-d4983194b837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ReleaseLibsx64">
+      <UniqueIdentifier>{1496aca8-0d4b-4e76-829c-45a13e662434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="klMatrixCoreLibDependencies">
+      <UniqueIdentifier>{95310d0a-0ce9-4a5c-9b21-dd435c4e9a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="klMatrixCoreLibDependencies\DebugklPackages">
+      <UniqueIdentifier>{474bc64f-7297-4f4d-8aae-3819a05cae65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="klMatrixCoreLibDependencies\ReleaselPackages">
+      <UniqueIdentifier>{00dc639c-547d-4d8a-a032-776481636b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="klMatrixCoreLibDependencies\MatlabLibs_CDrive">
+      <UniqueIdentifier>{c422adfd-ac1a-44c5-9340-3512eb3b1eac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\x64\Psapi.Lib" />
+    <Library Include="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\x64\User32.Lib" />
+    <Library Include="..\..\x64\Debug\ARPACK2.lib">
+      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\expokit.lib">
+      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\expokitcpp.lib">
+      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\libsdpa.lib">
+      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\Matlib.lib">
+      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\UMFPACK.lib">
+      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\ARPACK2.lib">
+      <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\expokitcpp.lib">
+      <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\libsdpa.lib">
+      <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\Matlib.lib">
+      <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\UMFPACK.lib">
+      <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
+    </Library>
+    <Library Include="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\x64\Kernel32.Lib">
+      <Filter>klMatrixCoreLibDependencies</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwservices.lib">
+      <Filter>klMatrixCoreLibDependencies\MatlabLibs_CDrive</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libfixedpoint.lib">
+      <Filter>klMatrixCoreLibDependencies\MatlabLibs_CDrive</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclmcrrt.lib">
+      <Filter>klMatrixCoreLibDependencies\MatlabLibs_CDrive</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclmcr.lib">
+      <Filter>klMatrixCoreLibDependencies\MatlabLibs_CDrive</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclbase.lib">
+      <Filter>klMatrixCoreLibDependencies\MatlabLibs_CDrive</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libemlrt.lib">
+      <Filter>klMatrixCoreLibDependencies\MatlabLibs_CDrive</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libeng.lib">
+      <Filter>klMatrixCoreLibDependencies\MatlabLibs_CDrive</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmat.lib">
+      <Filter>klMatrixCoreLibDependencies\MatlabLibs_CDrive</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmex.lib">
+      <Filter>klMatrixCoreLibDependencies\MatlabLibs_CDrive</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwblas.lib">
+      <Filter>klMatrixCoreLibDependencies\MatlabLibs_CDrive</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwblascompat32.lib">
+      <Filter>klMatrixCoreLibDependencies\MatlabLibs_CDrive</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwlapack.lib">
+      <Filter>klMatrixCoreLibDependencies\MatlabLibs_CDrive</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwmathutil.lib">
+      <Filter>klMatrixCoreLibDependencies\MatlabLibs_CDrive</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmx.lib">
+      <Filter>klMatrixCoreLibDependencies\MatlabLibs_CDrive</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libut.lib">
+      <Filter>klMatrixCoreLibDependencies\MatlabLibs_CDrive</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\SuperLU_MT_VC.lib">
+      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\RBCNN.lib">
+      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\RBCNN.lib">
+      <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\SuperLU_MT_VC.lib">
+      <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\ICC.lib">
+      <Filter>DebugLibsx64</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\jp2.lib">
+      <Filter>DebugLibsx64</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\libjpeg.lib">
+      <Filter>DebugLibsx64</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\libtiff.lib">
+      <Filter>DebugLibsx64</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\libz.lib">
+      <Filter>DebugLibsx64</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\kdu_v63D.lib">
+      <Filter>DebugLibsx64</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\kdu_v63R.lib">
+      <Filter>ReleaseLibsx64</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\libjpeg.lib">
+      <Filter>ReleaseLibsx64</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\libtiff.lib">
+      <Filter>ReleaseLibsx64</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\libz.lib">
+      <Filter>ReleaseLibsx64</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\ICC.lib">
+      <Filter>ReleaseLibsx64</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\klMatrixCoreLib.lib">
+      <Filter>ReleaseLibsx64</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\klMatrixCoreLib.lib">
+      <Filter>DebugLibsx64</Filter>
+    </Library>
+    <Library Include="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\x64\AdvAPI32.Lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AssemblyInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kl_image_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kl_image_processing_functors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kl_jpeg_image_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kl_ppm_image_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kl_tiff_image_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\klBigTiffFileManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\klBigTiffManagedReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\klPerformanceCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\klProcessImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\klBigTiffSubDirFns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\InteropLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\kl_image_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\kl_image_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\kl_image_io_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\kl_image_processing_functors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\kl_img_pca.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\kl_ppm_image_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\kl_tiff_image_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\klBigTiffFileManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\klBigTiffManagedReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\klManagedLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\klPerformanceCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\klProcessImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

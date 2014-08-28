@@ -1,8 +1,0 @@
-cmake_minimum_required( VERSION 2.8.8 FATAL_ERROR )
-project( signal-processing )
-
-include( ../../builder/FindFunctions.cmake )
-include( ../../builder/FindGlobals.cmake   )
-include( ../../builder/FindIPP.cmake       )
-
-create_build( )

@@ -16,20 +16,20 @@
     <Filter Include="ReleaseLibsx64">
       <UniqueIdentifier>{911b8a6f-446a-4354-b628-c4394a236fb9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="klMatrixCoreLibDependencies">
-      <UniqueIdentifier>{67a68e02-daa6-44b0-86ca-9d72d0186a11}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="klMatrixCoreLibDependencies\DebugklPackages">
-      <UniqueIdentifier>{b643578e-dfb5-4edb-b7b1-4e06443cfbcb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="klMatrixCoreLibDependencies\MatlabLibs">
-      <UniqueIdentifier>{1eac72e2-3e18-454e-a5ed-7001355a34e6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="klMatrixCoreLibDependencies\ReleaselPackages">
-      <UniqueIdentifier>{535defce-27f9-4262-82ed-27c551904a04}</UniqueIdentifier>
-    </Filter>
     <Filter Include="DebugLibsx64">
       <UniqueIdentifier>{540133c3-0260-48aa-88c3-9d99d843b301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="klMatrixLibs">
+      <UniqueIdentifier>{0d73ebc9-4823-49ee-93fd-4f1b5e674b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="klMatrixLibs\ReleaselPackages">
+      <UniqueIdentifier>{7d7c785c-3e94-489a-b7b2-ed42e4cd3862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="klMatrixLibs\MatlabLibs">
+      <UniqueIdentifier>{7b9ad006-9a78-44d8-802d-10255e53aa99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="klMatrixLibs\DebugklPackages">
+      <UniqueIdentifier>{3f9a56a7-7674-48db-9f0c-9b7fe00550a8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -55,93 +55,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\x64\Kernel32.Lib">
-      <Filter>klMatrixCoreLibDependencies</Filter>
-    </Library>
-    <Library Include="..\..\x64\Debug\ARPACK2.lib">
-      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
-    </Library>
-    <Library Include="..\..\x64\Debug\expokit.lib">
-      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
-    </Library>
-    <Library Include="..\..\x64\Debug\expokitcpp.lib">
-      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
-    </Library>
-    <Library Include="..\..\x64\Debug\FGG.lib">
-      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
-    </Library>
-    <Library Include="..\..\x64\Debug\libsdpa.lib">
-      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
-    </Library>
-    <Library Include="..\..\x64\Debug\Matlib.lib">
-      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
-    </Library>
-    <Library Include="..\..\x64\Debug\UMFPACK.lib">
-      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
-    </Library>
-    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libemlrt.lib">
-      <Filter>klMatrixCoreLibDependencies\MatlabLibs</Filter>
-    </Library>
-    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libeng.lib">
-      <Filter>klMatrixCoreLibDependencies\MatlabLibs</Filter>
-    </Library>
-    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libfixedpoint.lib">
-      <Filter>klMatrixCoreLibDependencies\MatlabLibs</Filter>
-    </Library>
-    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmat.lib">
-      <Filter>klMatrixCoreLibDependencies\MatlabLibs</Filter>
-    </Library>
-    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmex.lib">
-      <Filter>klMatrixCoreLibDependencies\MatlabLibs</Filter>
-    </Library>
-    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwblas.lib">
-      <Filter>klMatrixCoreLibDependencies\MatlabLibs</Filter>
-    </Library>
-    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwblascompat32.lib">
-      <Filter>klMatrixCoreLibDependencies\MatlabLibs</Filter>
-    </Library>
-    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwlapack.lib">
-      <Filter>klMatrixCoreLibDependencies\MatlabLibs</Filter>
-    </Library>
-    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwmathutil.lib">
-      <Filter>klMatrixCoreLibDependencies\MatlabLibs</Filter>
-    </Library>
-    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwservices.lib">
-      <Filter>klMatrixCoreLibDependencies\MatlabLibs</Filter>
-    </Library>
-    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmx.lib">
-      <Filter>klMatrixCoreLibDependencies\MatlabLibs</Filter>
-    </Library>
-    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libut.lib">
-      <Filter>klMatrixCoreLibDependencies\MatlabLibs</Filter>
-    </Library>
-    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclbase.lib">
-      <Filter>klMatrixCoreLibDependencies\MatlabLibs</Filter>
-    </Library>
-    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclmcr.lib">
-      <Filter>klMatrixCoreLibDependencies\MatlabLibs</Filter>
-    </Library>
-    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclmcrrt.lib">
-      <Filter>klMatrixCoreLibDependencies\MatlabLibs</Filter>
-    </Library>
-    <Library Include="..\..\x64\Release\ARPACK2.lib">
-      <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
-    </Library>
-    <Library Include="..\..\x64\Release\expokitcpp.lib">
-      <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
-    </Library>
-    <Library Include="..\..\x64\Release\FGG.lib">
-      <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
-    </Library>
-    <Library Include="..\..\x64\Release\libsdpa.lib">
-      <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
-    </Library>
-    <Library Include="..\..\x64\Release\Matlib.lib">
-      <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
-    </Library>
-    <Library Include="..\..\x64\Release\UMFPACK.lib">
-      <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
-    </Library>
     <Library Include="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\x64\User32.Lib" />
     <Library Include="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\x64\Psapi.Lib" />
     <Library Include="..\..\x64\Debug\libz.lib">
@@ -168,11 +81,114 @@
     <Library Include="..\..\x64\Release\ICC.lib">
       <Filter>ReleaseLibsx64</Filter>
     </Library>
+    <Library Include="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\x64\Kernel32.Lib" />
+    <Library Include="..\..\x64\Release\ARPACK2.lib">
+      <Filter>klMatrixLibs\ReleaselPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\expokitcpp.lib">
+      <Filter>klMatrixLibs\ReleaselPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\FGT.lib">
+      <Filter>klMatrixLibs\ReleaselPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\gsl.lib">
+      <Filter>klMatrixLibs\ReleaselPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\klMatrixCoreLib.lib">
+      <Filter>klMatrixLibs\ReleaselPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\libsdpa.lib">
+      <Filter>klMatrixLibs\ReleaselPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\Matlib.lib">
+      <Filter>klMatrixLibs\ReleaselPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\RBCNN.lib">
+      <Filter>klMatrixLibs\ReleaselPackages</Filter>
+    </Library>
     <Library Include="..\..\x64\Release\SuperLU_MT_VC.lib">
-      <Filter>klMatrixCoreLibDependencies\ReleaselPackages</Filter>
+      <Filter>klMatrixLibs\ReleaselPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Release\UMFPACK.lib">
+      <Filter>klMatrixLibs\ReleaselPackages</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libemlrt.lib">
+      <Filter>klMatrixLibs\MatlabLibs</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libeng.lib">
+      <Filter>klMatrixLibs\MatlabLibs</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libfixedpoint.lib">
+      <Filter>klMatrixLibs\MatlabLibs</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmat.lib">
+      <Filter>klMatrixLibs\MatlabLibs</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmex.lib">
+      <Filter>klMatrixLibs\MatlabLibs</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwblas.lib">
+      <Filter>klMatrixLibs\MatlabLibs</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwblascompat32.lib">
+      <Filter>klMatrixLibs\MatlabLibs</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwlapack.lib">
+      <Filter>klMatrixLibs\MatlabLibs</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwmathutil.lib">
+      <Filter>klMatrixLibs\MatlabLibs</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmwservices.lib">
+      <Filter>klMatrixLibs\MatlabLibs</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libmx.lib">
+      <Filter>klMatrixLibs\MatlabLibs</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\libut.lib">
+      <Filter>klMatrixLibs\MatlabLibs</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclbase.lib">
+      <Filter>klMatrixLibs\MatlabLibs</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclmcr.lib">
+      <Filter>klMatrixLibs\MatlabLibs</Filter>
+    </Library>
+    <Library Include="C:\Program Files\MATLAB\R2012b\extern\lib\win64\microsoft\mclmcrrt.lib">
+      <Filter>klMatrixLibs\MatlabLibs</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\ARPACK2.lib">
+      <Filter>klMatrixLibs\DebugklPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\expokit.lib">
+      <Filter>klMatrixLibs\DebugklPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\expokitcpp.lib">
+      <Filter>klMatrixLibs\DebugklPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\FGT.lib">
+      <Filter>klMatrixLibs\DebugklPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\gsl.lib">
+      <Filter>klMatrixLibs\DebugklPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\klMatrixCoreLib.lib">
+      <Filter>klMatrixLibs\DebugklPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\libsdpa.lib">
+      <Filter>klMatrixLibs\DebugklPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\Matlib.lib">
+      <Filter>klMatrixLibs\DebugklPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\RBCNN.lib">
+      <Filter>klMatrixLibs\DebugklPackages</Filter>
     </Library>
     <Library Include="..\..\x64\Debug\SuperLU_MT_VC.lib">
-      <Filter>klMatrixCoreLibDependencies\DebugklPackages</Filter>
+      <Filter>klMatrixLibs\DebugklPackages</Filter>
+    </Library>
+    <Library Include="..\..\x64\Debug\UMFPACK.lib">
+      <Filter>klMatrixLibs\DebugklPackages</Filter>
     </Library>
   </ItemGroup>
 </Project>

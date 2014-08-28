@@ -1,0 +1,5736 @@
+%PDF-1.4
+%“Œ‹ ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1+0 268 0 R
+ /F2+0 272 0 R
+ /F3 2 0 R
+ /F4+0 276 0 R
+ /F5+0 280 0 R >>
+endobj
+% 'F3': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER1': class PDFDictionary 
+3 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Metropolitan_Museum_of_Art) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 263.2018
+ 704.2102
+ 356.3058
+ 716.2102 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER2': class PDFDictionary 
+4 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=New_York%2C_New_York) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 360.3058
+ 704.2102
+ 431.3938
+ 716.2102 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER3': class PDFDictionary 
+5 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=CMYK_color_model) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 419.5058
+ 692.2102
+ 489.2818
+ 704.2102 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER4': class PDFDictionary 
+6 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Monroe%2C_Washington) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 298.5049
+ 632.2102
+ 366.4969
+ 644.2102 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER5': class PDFDictionary 
+7 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=United_States) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 298.5049
+ 614.2102
+ 330.0489
+ 626.2102 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER6': class PDFDictionary 
+8 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Photorealistic) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 298.5049
+ 596.2102
+ 344.0569
+ 608.2102 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER7': class PDFDictionary 
+9 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Bachelor_of_Arts) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 298.5049
+ 578.2102
+ 313.6169
+ 590.2102 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER8': class PDFDictionary 
+10 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=University_of_Washington) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 317.6169
+ 578.2102
+ 402.7209
+ 590.2102 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER9': class PDFDictionary 
+11 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Seattle) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 410.9449
+ 578.2102
+ 432.7209
+ 590.2102 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER10': class PDFDictionary 
+12 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Master_of_Fine_Arts) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 298.5049
+ 566.2102
+ 321.8409
+ 578.2102 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER11': class PDFDictionary 
+13 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Yale_University) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 325.8409
+ 566.2102
+ 376.7209
+ 578.2102 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER12': class PDFDictionary 
+14 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Photorealist) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 82.05413
+ 524.2736
+ 129.2741
+ 539.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER13': class PDFDictionary 
+15 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=West_Village) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 252.2429
+ 494.2736
+ 304.7329
+ 509.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER14': class PDFDictionary 
+16 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Bridgehampton%2C_New_York) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 343.2809
+ 494.2736
+ 452.4309
+ 509.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER15': class PDFDictionary 
+17 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Monroe%2C_Washington) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 137.3073
+ 441.2736
+ 222.3409
+ 456.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER16': class PDFDictionary 
+18 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Photorealism) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 243.2414
+ 426.2736
+ 300.0078
+ 441.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER17': class PDFDictionary 
+19 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Hyperrealism_%28painting%29) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 312.3242
+ 426.2736
+ 370.7406
+ 441.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER18': class PDFDictionary 
+20 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Phong_Bui) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 198.1834
+ 411.2736
+ 243.2702
+ 426.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER19': class PDFDictionary 
+21 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=The_Brooklyn_Rail) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 253.5886
+ 411.2736
+ 327.0454
+ 426.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER20': class PDFDictionary 
+22 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Jackson_Pollock) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 500.9227
+ 411.2736
+ 532.5443
+ 426.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER21': class PDFDictionary 
+23 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Jackson_Pollock) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 396.2736
+ 96.7389
+ 411.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER22': class PDFDictionary 
+24 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Seattle_Art_Museum) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 159.4169
+ 396.2736
+ 241.9388
+ 411.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER23': class PDFDictionary 
+25 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Everett_Community_College) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 125.6694
+ 333.2736
+ 242.9241
+ 348.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER24': class PDFDictionary 
+26 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=University_of_Washington) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 478.8744
+ 333.2736
+ 531.9244
+ 348.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER25': class PDFDictionary 
+27 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=University_of_Washington) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 318.2736
+ 114.2104
+ 333.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER26': class PDFDictionary 
+28 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Seattle) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 125.1778
+ 318.2736
+ 152.3978
+ 333.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER27': class PDFDictionary 
+29 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Yale_University) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 308.0793
+ 303.2736
+ 372.8722
+ 318.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER28': class PDFDictionary 
+30 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Master_of_Fine_Arts) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 473.2468
+ 303.2736
+ 498.6097
+ 318.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER29': class PDFDictionary 
+31 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Brice_Marden) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 234.3988
+ 288.2736
+ 291.3148
+ 303.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER30': class PDFDictionary 
+32 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Vija_Celmins) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 297.9708
+ 288.2736
+ 352.6868
+ 303.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER31': class PDFDictionary 
+33 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Janet_Fish) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 359.3428
+ 288.2736
+ 401.2787
+ 303.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER32': class PDFDictionary 
+34 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Richard_Serra) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 407.9347
+ 288.2736
+ 464.8507
+ 303.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER33': class PDFDictionary 
+35 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Nancy_Graves) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 471.5067
+ 288.2736
+ 530.0827
+ 303.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER34': class PDFDictionary 
+36 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Jennifer_Bartlett) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 273.2736
+ 127.9936
+ 288.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER35': class PDFDictionary 
+37 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Robert_Mangold) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 133.5844
+ 273.2736
+ 200.0051
+ 288.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER36': class PDFDictionary 
+38 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Sylvia_Plimack_Mangold) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 223.1266
+ 273.2736
+ 323.7581
+ 288.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER37': class PDFDictionary 
+39 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Academy_of_Fine_Arts_Vienna) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 441.6605
+ 273.2736
+ 531.9919
+ 288.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER38': class PDFDictionary 
+40 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Academy_of_Fine_Arts_Vienna) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 258.2736
+ 94.25208
+ 273.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER39': class PDFDictionary 
+41 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Fulbright_Program) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 160.4079
+ 258.2736
+ 200.3171
+ 273.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER40': class PDFDictionary 
+42 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=University_of_Massachusetts_Amherst) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 490.3627
+ 258.2736
+ 532.4035
+ 273.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER41': class PDFDictionary 
+43 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=University_of_Massachusetts_Amherst) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 243.2736
+ 131.2929
+ 258.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER42': class PDFDictionary 
+44 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=SoHo) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 399.0529
+ 243.2736
+ 421.8329
+ 258.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER43': class PDFDictionary 
+45 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Ink_jet_printer) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 272.3829
+ 130.2736
+ 326.8229
+ 145.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER44': class PDFDictionary 
+46 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Willem_de_Kooning) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 97.27362
+ 146.0309
+ 112.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER45': class PDFDictionary 
+47 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Abstract_expressionist) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 356.3828
+ 97.27362
+ 442.6687
+ 112.2736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page1': class PDFPage 
+48 0 obj
+% Page dictionary
+<< /Annots [ 3 0 R
+ 4 0 R
+ 5 0 R
+ 6 0 R
+ 7 0 R
+ 8 0 R
+ 9 0 R
+ 10 0 R
+ 11 0 R
+ 12 0 R
+ 13 0 R
+ 14 0 R
+ 15 0 R
+ 16 0 R
+ 17 0 R
+ 18 0 R
+ 19 0 R
+ 20 0 R
+ 21 0 R
+ 22 0 R
+ 23 0 R
+ 24 0 R
+ 25 0 R
+ 26 0 R
+ 27 0 R
+ 28 0 R
+ 29 0 R
+ 30 0 R
+ 31 0 R
+ 32 0 R
+ 33 0 R
+ 34 0 R
+ 35 0 R
+ 36 0 R
+ 37 0 R
+ 38 0 R
+ 39 0 R
+ 40 0 R
+ 41 0 R
+ 42 0 R
+ 43 0 R
+ 44 0 R
+ 45 0 R
+ 46 0 R
+ 47 0 R ]
+ /Contents 301 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 300 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER46': class PDFDictionary 
+49 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Philip_Glass) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 508.6827
+ 709.9469
+ 531.9252
+ 724.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER47': class PDFDictionary 
+50 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Philip_Glass) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 694.9469
+ 88.12711
+ 709.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER48': class PDFDictionary 
+51 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Richard_Estes) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 349.4953
+ 601.9469
+ 404.8327
+ 616.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER49': class PDFDictionary 
+52 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Denis_Peterson) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 409.9002
+ 601.9469
+ 470.2377
+ 616.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER50': class PDFDictionary 
+53 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Audrey_Flack) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 475.3052
+ 601.9469
+ 530.0827
+ 616.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER51': class PDFDictionary 
+54 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Prosopagnosia) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 145.3035
+ 553.9469
+ 203.6335
+ 568.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER52': class PDFDictionary 
+55 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Walker_Art_Center) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 406.0159
+ 385.9469
+ 484.56
+ 400.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER53': class PDFDictionary 
+56 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Topographic_map) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 279.0121
+ 337.9469
+ 350.6648
+ 352.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER54': class PDFDictionary 
+57 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=CMYK) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 478.7014
+ 337.9469
+ 512.0327
+ 352.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER55': class PDFDictionary 
+58 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Beth_Israel_Medical_Center) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 201.8544
+ 213.9469
+ 315.2538
+ 228.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page2': class PDFPage 
+59 0 obj
+% Page dictionary
+<< /Annots [ 49 0 R
+ 50 0 R
+ 51 0 R
+ 52 0 R
+ 53 0 R
+ 54 0 R
+ 55 0 R
+ 56 0 R
+ 57 0 R
+ 58 0 R ]
+ /Contents 302 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 300 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER56': class PDFDictionary 
+60 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Chronicles_of_Courage:_Very_Special_Artists) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 478.4122
+ 739.9469
+ 532.5722
+ 754.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER57': class PDFDictionary 
+61 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Chronicles_of_Courage:_Very_Special_Artists) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 724.9469
+ 192.3222
+ 739.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER58': class PDFDictionary 
+62 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Jean_Kennedy_Smith) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 239.0868
+ 724.9469
+ 329.5088
+ 739.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER59': class PDFDictionary 
+63 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=George_Plimpton) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 348.1661
+ 724.9469
+ 422.7107
+ 739.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER60': class PDFDictionary 
+64 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Random_House) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 498.6927
+ 724.9469
+ 530.8654
+ 739.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER61': class PDFDictionary 
+65 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Random_House) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 709.9469
+ 88.24291
+ 724.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER62': class PDFDictionary 
+66 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Pace_Gallery) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 418.8177
+ 660.9469
+ 473.8
+ 675.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER63': class PDFDictionary 
+67 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Mezzotint) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 107.6729
+ 630.9469
+ 150.4429
+ 645.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER64': class PDFDictionary 
+68 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Colin_Westerbeck) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 133.4529
+ 582.9469
+ 210.6228
+ 597.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER65': class PDFDictionary 
+69 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=George_Eastman_House) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 219.5541
+ 567.9469
+ 314.6979
+ 582.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER66': class PDFDictionary 
+70 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Daguerreotype) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 238.5711
+ 552.9469
+ 300.9528
+ 567.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER67': class PDFDictionary 
+71 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Jerry_Spagnoli) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 394.8277
+ 552.9469
+ 460.741
+ 567.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER68': class PDFDictionary 
+72 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Tapestry) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 205.6662
+ 537.9469
+ 237.3262
+ 552.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER69': class PDFDictionary 
+73 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Robert_Rauschenberg) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 403.886
+ 537.9469
+ 491.8394
+ 552.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER70': class PDFDictionary 
+74 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Kate_Moss) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 325.3613
+ 462.9469
+ 368.6449
+ 477.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER71': class PDFDictionary 
+75 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Cindy_Sherman) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 373.8785
+ 462.9469
+ 436.612
+ 477.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER72': class PDFDictionary 
+76 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Lorna_Simpson) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 441.8456
+ 462.9469
+ 503.4691
+ 477.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER73': class PDFDictionary 
+77 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Lucas_Samaras) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 508.7027
+ 462.9469
+ 532.3491
+ 477.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER74': class PDFDictionary 
+78 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Lucas_Samaras) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 447.9469
+ 96.57291
+ 462.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER75': class PDFDictionary 
+79 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Philip_Glass) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 104.1245
+ 447.9469
+ 155.296
+ 462.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER76': class PDFDictionary 
+80 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Magnolia_Editions) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 432.9469
+ 139.3629
+ 447.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER77': class PDFDictionary 
+81 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Oakland%2C_CA) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 149.6429
+ 432.9469
+ 202.4129
+ 447.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER78': class PDFDictionary 
+82 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=86th_Street_%28IND_Second_Avenue_Line%29) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 515.3627
+ 383.9469
+ 532.0599
+ 398.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER79': class PDFDictionary 
+83 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=86th_Street_%28IND_Second_Avenue_Line%29) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 368.9469
+ 137.9729
+ 383.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER80': class PDFDictionary 
+84 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Walker_Art_Center) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 132.2923
+ 315.9469
+ 209.6517
+ 330.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER81': class PDFDictionary 
+85 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Bykert_Gallery) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 285.9469
+ 125.1791
+ 300.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER82': class PDFDictionary 
+86 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Museum_of_Modern_Art) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 425.9303
+ 285.9469
+ 524.8027
+ 300.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER83': class PDFDictionary 
+87 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Whitney_Biennial) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 243.3391
+ 270.9469
+ 314.7365
+ 285.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER84': class PDFDictionary 
+88 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Metropolitan_Museum_of_Art) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 172.9511
+ 225.9469
+ 293.332
+ 240.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER85': class PDFDictionary 
+89 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Kirk_Varnedoe) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 381.915
+ 210.9469
+ 441.7005
+ 225.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER86': class PDFDictionary 
+90 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Hayward_Gallery) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 142.5999
+ 195.9469
+ 213.7489
+ 210.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER87': class PDFDictionary 
+91 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Blaffer_Gallery) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 381.7378
+ 195.9469
+ 449.0657
+ 210.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER88': class PDFDictionary 
+92 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=University_of_Houston) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 477.5237
+ 195.9469
+ 530.5737
+ 210.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER89': class PDFDictionary 
+93 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=University_of_Houston) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 180.9469
+ 101.237
+ 195.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER90': class PDFDictionary 
+94 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Museo_Nacional_Centro_de_Arte_Reina_Sofia) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 465.6588
+ 165.9469
+ 531.4788
+ 180.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER91': class PDFDictionary 
+95 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Museo_Nacional_Centro_de_Arte_Reina_Sofia) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 150.9469
+ 175.7313
+ 165.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER92': class PDFDictionary 
+96 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=State_Hermitage_Museum) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 138.2676
+ 135.9469
+ 244.6822
+ 150.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER93': class PDFDictionary 
+97 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Documenta) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 168.1338
+ 120.9469
+ 212.0138
+ 135.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER94': class PDFDictionary 
+98 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Venice_Biennale) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 343.744
+ 120.9469
+ 415.4969
+ 135.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER95': class PDFDictionary 
+99 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Carnegie_International) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 105.9469
+ 154.8929
+ 120.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page3': class PDFPage 
+100 0 obj
+% Page dictionary
+<< /Annots [ 60 0 R
+ 61 0 R
+ 62 0 R
+ 63 0 R
+ 64 0 R
+ 65 0 R
+ 66 0 R
+ 67 0 R
+ 68 0 R
+ 69 0 R
+ 70 0 R
+ 71 0 R
+ 72 0 R
+ 73 0 R
+ 74 0 R
+ 75 0 R
+ 76 0 R
+ 77 0 R
+ 78 0 R
+ 79 0 R
+ 80 0 R
+ 81 0 R
+ 82 0 R
+ 83 0 R
+ 84 0 R
+ 85 0 R
+ 86 0 R
+ 87 0 R
+ 88 0 R
+ 89 0 R
+ 90 0 R
+ 91 0 R
+ 92 0 R
+ 93 0 R
+ 94 0 R
+ 95 0 R
+ 96 0 R
+ 97 0 R
+ 98 0 R
+ 99 0 R ]
+ /Contents 303 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 300 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER96': class PDFDictionary 
+101 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Centre_Georges_Pompidou) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 736.9469
+ 171.2929
+ 751.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER97': class PDFDictionary 
+102 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Tate_Modern) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 221.2929
+ 736.9469
+ 275.7229
+ 751.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER98': class PDFDictionary 
+103 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pacegallery.com/artists/80/chuck-close) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 258.7629
+ 718.9469
+ 274.0909
+ 733.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER99': class PDFDictionary 
+104 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pacemacgill.com/selected_works/artist_page.php?artist=Chuck%20Close) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 381.0109
+ 718.9469
+ 396.3389
+ 733.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER100': class PDFDictionary 
+105 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=National_Medal_of_Arts) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 145.8011
+ 665.9469
+ 243.3593
+ 680.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER101': class PDFDictionary 
+106 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=New_York_State_Governor%E2%80%99s_Art_Award) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 403.3845
+ 665.9469
+ 532.0781
+ 680.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER102': class PDFDictionary 
+107 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=New_York_State_Governor%E2%80%99s_Art_Award) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 650.9469
+ 89.90291
+ 665.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER103': class PDFDictionary 
+108 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Yale_University) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 103.4567
+ 635.9469
+ 167.9985
+ 650.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER104': class PDFDictionary 
+109 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Michael_R._Bloomberg) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 329.8896
+ 635.9469
+ 427.1552
+ 650.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER105': class PDFDictionary 
+110 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Barack_Obama) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 325.6113
+ 605.9469
+ 388.5803
+ 620.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER106': class PDFDictionary 
+111 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=President%27s_Committee_on_the_Arts_and_Humanities) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 414.3492
+ 605.9469
+ 532.1982
+ 620.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER107': class PDFDictionary 
+112 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=President%27s_Committee_on_the_Arts_and_Humanities) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 590.9469
+ 145.4629
+ 605.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER108': class PDFDictionary 
+113 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Philip_Glass) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 139.9845
+ 572.9469
+ 191.159
+ 587.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER109': class PDFDictionary 
+114 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Alice_Tully_Hall) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 218.7529
+ 542.9469
+ 286.8029
+ 557.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER110': class PDFDictionary 
+115 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Pace_Gallery) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 214.3162
+ 489.9469
+ 267.3517
+ 504.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER111': class PDFDictionary 
+116 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=New_York) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 285.9628
+ 489.9469
+ 333.7239
+ 504.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER112': class PDFDictionary 
+117 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=White_Cube) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 417.876
+ 489.9469
+ 467.5916
+ 504.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER113': class PDFDictionary 
+118 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Cindy_Sherman) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 409.8546
+ 474.9469
+ 478.0536
+ 489.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER114': class PDFDictionary 
+119 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Sotheby%27s) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 421.8356
+ 459.9469
+ 463.9324
+ 474.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER115': class PDFDictionary 
+120 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Eli_Broad) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 491.1859
+ 459.9469
+ 531.4559
+ 474.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER116': class PDFDictionary 
+121 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Eli_Broad) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 444.9469
+ 110.7529
+ 459.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER117': class PDFDictionary 
+122 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Magnolia_Editions) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 144.7749
+ 391.9469
+ 223.7662
+ 406.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER118': class PDFDictionary 
+123 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Barack_Obama) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 103.7218
+ 376.9469
+ 164.7307
+ 391.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER119': class PDFDictionary 
+124 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Mint_Museum) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 330.4517
+ 376.9469
+ 392.5194
+ 391.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER120': class PDFDictionary 
+125 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=North_Carolina) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 404.1083
+ 376.9469
+ 469.496
+ 391.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER121': class PDFDictionary 
+126 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Democratic_National_Convention) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 361.9469
+ 195.6929
+ 376.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER122': class PDFDictionary 
+127 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Hillary_Clinton) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 193.7729
+ 331.9469
+ 257.1129
+ 346.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER123': class PDFDictionary 
+128 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Al_Gore) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 274.0529
+ 331.9469
+ 306.5429
+ 346.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER124': class PDFDictionary 
+129 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=PBS) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 99.92288
+ 278.9469
+ 120.9129
+ 293.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER125': class PDFDictionary 
+130 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Emmy) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 329.6428
+ 278.9469
+ 356.3128
+ 293.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER126': class PDFDictionary 
+131 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=The_Colbert_Report) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 139.0629
+ 215.9469
+ 219.3929
+ 230.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page4': class PDFPage 
+132 0 obj
+% Page dictionary
+<< /Annots [ 101 0 R
+ 102 0 R
+ 103 0 R
+ 104 0 R
+ 105 0 R
+ 106 0 R
+ 107 0 R
+ 108 0 R
+ 109 0 R
+ 110 0 R
+ 111 0 R
+ 112 0 R
+ 113 0 R
+ 114 0 R
+ 115 0 R
+ 116 0 R
+ 117 0 R
+ 118 0 R
+ 119 0 R
+ 120 0 R
+ 121 0 R
+ 122 0 R
+ 123 0 R
+ 124 0 R
+ 125 0 R
+ 126 0 R
+ 127 0 R
+ 128 0 R
+ 129 0 R
+ 130 0 R
+ 131 0 R ]
+ /Contents 304 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 300 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER127': class PDFDictionary 
+133 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://nymag.com/homedesign/greatrooms/32375/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 246.5809
+ 749.7969
+ 413.8829
+ 761.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER128': class PDFDictionary 
+134 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=New_York_Magazine) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 415.8829
+ 749.7969
+ 480.6509
+ 761.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER129': class PDFDictionary 
+135 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/2004/02/22/nyregion/following-the-light-and-making-faces.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 334.5649
+ 737.7969
+ 490.3489
+ 749.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER130': class PDFDictionary 
+136 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/2004/02/22/nyregion/following-the-light-and-making-faces.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 725.7969
+ 215.1429
+ 737.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER131': class PDFDictionary 
+137 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=New_York_Times) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 217.1429
+ 725.7969
+ 269.5109
+ 737.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER132': class PDFDictionary 
+138 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.crownpoint.com/artists/100/biographical-summary) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 119.9329
+ 713.7969
+ 329.8909
+ 725.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER133': class PDFDictionary 
+139 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.guggenheim.org/new-york/collections/collection-online/show-full/bio/?artist_name=Chuck%20Close&page=1&f=Name&cr=1) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 119.9329
+ 701.7969
+ 512.3469
+ 713.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER134': class PDFDictionary 
+140 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.guggenheim.org/new-york/collections/collection-online/show-full/bio/?artist_name=Chuck%20Close&page=1&f=Name&cr=1) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 689.7969
+ 124.8389
+ 701.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER135': class PDFDictionary 
+141 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Solomon_R._Guggenheim_Museum) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 126.8389
+ 689.7969
+ 238.3989
+ 701.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER136': class PDFDictionary 
+142 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.blumandpoe.com/exhibitions/chuck-close#press) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 234.7969
+ 677.7969
+ 436.0569
+ 689.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER137': class PDFDictionary 
+143 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/2000/03/12/arts/art-architecture-chuck-close-rediscovers-the-art-in-an-old-method.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 342.1169
+ 653.7969
+ 481.0129
+ 665.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER138': class PDFDictionary 
+144 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/2000/03/12/arts/art-architecture-chuck-close-rediscovers-the-art-in-an-old-method.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 641.7969
+ 305.3109
+ 653.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER139': class PDFDictionary 
+145 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=New_York_Times) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 307.3109
+ 641.7969
+ 359.6789
+ 653.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER140': class PDFDictionary 
+146 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.tate.org.uk/art/artists/chuck-close-9202) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 119.9329
+ 629.7969
+ 291.0209
+ 641.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER141': class PDFDictionary 
+147 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Tate_Modern) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 293.0209
+ 629.7969
+ 334.5649
+ 641.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER142': class PDFDictionary 
+148 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.cleveland.com/arts/index.ssf/2009/09/contemporary_art_legend_chuck.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 322.5809
+ 617.7969
+ 487.7109
+ 629.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER143': class PDFDictionary 
+149 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.cleveland.com/arts/index.ssf/2009/09/contemporary_art_legend_chuck.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 605.7969
+ 199.5829
+ 617.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER144': class PDFDictionary 
+150 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://whitecube.com/exhibitions/chuck_close_photographs/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 262.3809
+ 593.7969
+ 462.3129
+ 605.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER145': class PDFDictionary 
+151 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=White_Cube) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 464.3129
+ 593.7969
+ 502.7529
+ 605.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER146': class PDFDictionary 
+152 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.paceprints.com/artist/172) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 123.9329
+ 569.7969
+ 252.3129
+ 581.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER147': class PDFDictionary 
+153 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pbs.org/newshour/bb/entertainment/july-dec10/close_07-06.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 300.7969
+ 545.7969
+ 496.1169
+ 557.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER148': class PDFDictionary 
+154 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pbs.org/newshour/bb/entertainment/july-dec10/close_07-06.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 533.7969
+ 133.3829
+ 545.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER149': class PDFDictionary 
+155 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=PBS_Newshour) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 135.3829
+ 533.7969
+ 186.4949
+ 545.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER150': class PDFDictionary 
+156 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://bombsite.com/issues/52/articles/1868) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 187.7809
+ 521.7969
+ 334.2029
+ 533.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER151': class PDFDictionary 
+157 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=BOMB_Magazine) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 341.4669
+ 521.7969
+ 398.5709
+ 533.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER152': class PDFDictionary 
+158 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.guardian.co.uk/artanddesign/2005/oct/09/art) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 173.5649
+ 497.7969
+ 361.6009
+ 509.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER153': class PDFDictionary 
+159 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.villagevoice.com/2012-07-18/art/a-visit-with-art-world-hero-chuck-close/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 354.5729
+ 485.7969
+ 504.5049
+ 497.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER154': class PDFDictionary 
+160 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.villagevoice.com/2012-07-18/art/a-visit-with-art-world-hero-chuck-close/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 473.7969
+ 206.9029
+ 485.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER155': class PDFDictionary 
+161 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Village_Voice) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 208.9029
+ 473.7969
+ 252.2309
+ 485.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER156': class PDFDictionary 
+162 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.jfklibrary.org/JFK/The-Kennedy-Family/Jean-Kennedy-Smith.aspx) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 224.3569
+ 461.7969
+ 486.5489
+ 473.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER157': class PDFDictionary 
+163 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://articles.latimes.com/2007/jan/21/entertainment/ca-close21) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 266.5809
+ 449.7969
+ 480.3669
+ 461.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER158': class PDFDictionary 
+164 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Los_Angeles_Times) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 482.3669
+ 449.7969
+ 493.9269
+ 461.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER159': class PDFDictionary 
+165 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Los_Angeles_Times) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 437.7969
+ 121.1329
+ 449.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER160': class PDFDictionary 
+166 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/2009/03/08/nyregion/long-island/08artsli.html?_r=1) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 239.2529
+ 425.7969
+ 496.0749
+ 437.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER161': class PDFDictionary 
+167 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=The_New_York_Times) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 500.0749
+ 425.7969
+ 512.5149
+ 437.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER162': class PDFDictionary 
+168 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=The_New_York_Times) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 413.7969
+ 130.2369
+ 425.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER163': class PDFDictionary 
+169 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://whitecube.com/artists/chuck_close/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 123.9329
+ 401.7969
+ 263.8649
+ 413.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER164': class PDFDictionary 
+170 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=White_Cube) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 265.8649
+ 401.7969
+ 304.3049
+ 413.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER165': class PDFDictionary 
+171 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.artnet.com/magazineus/reviews/lawrence/lawrence10-17-07.asp) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 145.7969
+ 389.7969
+ 399.0949
+ 401.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER166': class PDFDictionary 
+172 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://nymag.com/daily/intel/2012/05/chuck-close-art-for-second-avenue-subway.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 379.4449
+ 365.7969
+ 505.8749
+ 377.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER167': class PDFDictionary 
+173 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://nymag.com/daily/intel/2012/05/chuck-close-art-for-second-avenue-subway.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 353.7969
+ 232.8869
+ 365.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER168': class PDFDictionary 
+174 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=New_York_Magazine) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 234.8869
+ 353.7969
+ 299.6549
+ 365.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER169': class PDFDictionary 
+175 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://collections.walkerart.org/item/object/77) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 223.4209
+ 341.7969
+ 377.6029
+ 353.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER170': class PDFDictionary 
+176 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Walker_Art_Center) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 379.6029
+ 341.7969
+ 439.1389
+ 353.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER171': class PDFDictionary 
+177 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.startribune.com/entertainment/blogs/157352585.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 372.3169
+ 329.7969
+ 513.1109
+ 341.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER172': class PDFDictionary 
+178 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.startribune.com/entertainment/blogs/157352585.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 317.7969
+ 150.0889
+ 329.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER173': class PDFDictionary 
+179 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Star_Tribune) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 152.0889
+ 317.7969
+ 192.7609
+ 329.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER174': class PDFDictionary 
+180 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/1996/01/31/arts/chuck-close-to-get-a-show-at-the-modern.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 323.9009
+ 305.7969
+ 462.7969
+ 317.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER175': class PDFDictionary 
+181 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/1996/01/31/arts/chuck-close-to-get-a-show-at-the-modern.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 293.7969
+ 227.5669
+ 305.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER176': class PDFDictionary 
+182 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=New_York_Times) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 229.5669
+ 293.7969
+ 281.9349
+ 305.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER177': class PDFDictionary 
+183 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/1998/03/01/style/the-night-artists-in-paint-and-in-person.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 284.3489
+ 281.7969
+ 426.8049
+ 293.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER178': class PDFDictionary 
+184 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/1998/03/01/style/the-night-artists-in-paint-and-in-person.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 269.7969
+ 219.5909
+ 281.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER179': class PDFDictionary 
+185 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=New_York_Times) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 221.5909
+ 269.7969
+ 273.9589
+ 281.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER180': class PDFDictionary 
+186 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Michael_Kimmelman) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 80.82091
+ 257.7969
+ 151.0369
+ 269.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER181': class PDFDictionary 
+187 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/1998/02/27/arts/art-review-playful-portraits-conveying-enigmatic-messages.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 378.5729
+ 257.7969
+ 517.4689
+ 269.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER182': class PDFDictionary 
+188 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/1998/02/27/arts/art-review-playful-portraits-conveying-enigmatic-messages.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 245.7969
+ 284.8949
+ 257.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER183': class PDFDictionary 
+189 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=New_York_Times) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 286.8949
+ 245.7969
+ 339.2629
+ 257.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER184': class PDFDictionary 
+190 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.aspeninstitute.org/news/2009/05/27/chuck-close-named-2009-harman-eisner-artist-residence) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 281.0129
+ 233.7969
+ 440.3489
+ 245.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER185': class PDFDictionary 
+191 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.aspeninstitute.org/news/2009/05/27/chuck-close-named-2009-harman-eisner-artist-residence) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 221.7969
+ 258.1809
+ 233.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER186': class PDFDictionary 
+192 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Aspen_Institute) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 260.1809
+ 221.7969
+ 308.8449
+ 233.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER187': class PDFDictionary 
+193 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://whitecube.com/exhibitions/chuck_close_prints_process_and_collaboration_bermondsey_2013/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 80.82091
+ 209.7969
+ 406.7109
+ 221.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER188': class PDFDictionary 
+194 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pacegallery.com/artists/80/chuck-close) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 80.82091
+ 197.7969
+ 245.6589
+ 209.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER189': class PDFDictionary 
+195 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pacemacgill.com/selected_works/artist_page.php?artist=Chuck%20Close) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 80.82091
+ 185.7969
+ 356.1629
+ 197.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER190': class PDFDictionary 
+196 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nea.gov/honors/medals/medalists_year.html#00) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 219.0289
+ 173.7969
+ 417.6849
+ 185.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER191': class PDFDictionary 
+197 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/2003/02/25/nyregion/metro-briefing-new-york-manhattan-mayor-names-cultural-advisers.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 395.4289
+ 161.7969
+ 520.2989
+ 173.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER192': class PDFDictionary 
+198 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/2003/02/25/nyregion/metro-briefing-new-york-manhattan-mayor-names-cultural-advisers.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 149.7969
+ 343.3529
+ 161.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER193': class PDFDictionary 
+199 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=New_York_Times) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 345.3529
+ 149.7969
+ 397.7209
+ 161.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER194': class PDFDictionary 
+200 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/2005/04/22/arts/music/22glas.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 319.0129
+ 137.7969
+ 502.6329
+ 149.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER195': class PDFDictionary 
+201 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/2005/04/22/arts/music/22glas.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 125.7969
+ 92.02891
+ 137.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER196': class PDFDictionary 
+202 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=New_York_Times) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 94.02891
+ 125.7969
+ 146.3969
+ 137.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER197': class PDFDictionary 
+203 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://thepacegallery.com/Artists/ViewArtist.aspx?artist=ChuckClose&type=Artist&guid=34336f1b-1e84-4cb5-a2b6-a500a3c68813) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 164.7969
+ 113.7969
+ 440.8909
+ 125.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER198': class PDFDictionary 
+204 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://thepacegallery.com/Artists/ViewArtist.aspx?artist=ChuckClose&type=Artist&guid=34336f1b-1e84-4cb5-a2b6-a500a3c68813) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 101.7969
+ 230.7249
+ 113.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER199': class PDFDictionary 
+205 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/1999/11/17/nyregion/auction-sets-records-for-18-contemporary-artists.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 359.4529
+ 89.79685
+ 515.2369
+ 101.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER200': class PDFDictionary 
+206 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/1999/11/17/nyregion/auction-sets-records-for-18-contemporary-artists.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 77.79685
+ 250.2309
+ 89.79685 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER201': class PDFDictionary 
+207 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=New_York_Times) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 252.2309
+ 77.79685
+ 304.5989
+ 89.79685 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page5': class PDFPage 
+208 0 obj
+% Page dictionary
+<< /Annots [ 133 0 R
+ 134 0 R
+ 135 0 R
+ 136 0 R
+ 137 0 R
+ 138 0 R
+ 139 0 R
+ 140 0 R
+ 141 0 R
+ 142 0 R
+ 143 0 R
+ 144 0 R
+ 145 0 R
+ 146 0 R
+ 147 0 R
+ 148 0 R
+ 149 0 R
+ 150 0 R
+ 151 0 R
+ 152 0 R
+ 153 0 R
+ 154 0 R
+ 155 0 R
+ 156 0 R
+ 157 0 R
+ 158 0 R
+ 159 0 R
+ 160 0 R
+ 161 0 R
+ 162 0 R
+ 163 0 R
+ 164 0 R
+ 165 0 R
+ 166 0 R
+ 167 0 R
+ 168 0 R
+ 169 0 R
+ 170 0 R
+ 171 0 R
+ 172 0 R
+ 173 0 R
+ 174 0 R
+ 175 0 R
+ 176 0 R
+ 177 0 R
+ 178 0 R
+ 179 0 R
+ 180 0 R
+ 181 0 R
+ 182 0 R
+ 183 0 R
+ 184 0 R
+ 185 0 R
+ 186 0 R
+ 187 0 R
+ 188 0 R
+ 189 0 R
+ 190 0 R
+ 191 0 R
+ 192 0 R
+ 193 0 R
+ 194 0 R
+ 195 0 R
+ 196 0 R
+ 197 0 R
+ 198 0 R
+ 199 0 R
+ 200 0 R
+ 201 0 R
+ 202 0 R
+ 203 0 R
+ 204 0 R
+ 205 0 R
+ 206 0 R
+ 207 0 R ]
+ /Contents 305 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 300 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER202': class PDFDictionary 
+209 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nysun.com/arts/contemporary-art-market-returns-to-sanity/13644/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 327.2369
+ 771.7969
+ 420.4869
+ 783.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER203': class PDFDictionary 
+210 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nysun.com/arts/contemporary-art-market-returns-to-sanity/13644/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 759.7969
+ 238.2649
+ 771.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER204': class PDFDictionary 
+211 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=New_York_Sun) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 240.2649
+ 759.7969
+ 285.5209
+ 771.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER205': class PDFDictionary 
+212 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://blogs.artinfo.com/artintheair/2012/09/10/you-can-buy-chuck-closes-tapestry-portrait-of-barack-obama-for-100000/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 338.7569
+ 747.7969
+ 494.9809
+ 759.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER206': class PDFDictionary 
+213 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://blogs.artinfo.com/artintheair/2012/09/10/you-can-buy-chuck-closes-tapestry-portrait-of-barack-obama-for-100000/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 735.7969
+ 316.4149
+ 747.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER207': class PDFDictionary 
+214 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.newyorker.com/talk/2012/09/17/120917ta_talk_tomkins) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 242.8849
+ 723.7969
+ 469.5749
+ 735.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER208': class PDFDictionary 
+215 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Roberta_Smith) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 80.82091
+ 699.7969
+ 129.2689
+ 711.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER209': class PDFDictionary 
+216 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/2006/08/29/obituaries/29cajori.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 410.3569
+ 699.7969
+ 514.2789
+ 711.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER210': class PDFDictionary 
+217 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.nytimes.com/2006/08/29/obituaries/29cajori.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 687.7969
+ 175.4689
+ 699.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER211': class PDFDictionary 
+218 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=New_York_Times) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 177.4689
+ 687.7969
+ 229.8369
+ 699.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER212': class PDFDictionary 
+219 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://movies.nytimes.com/2007/12/26/movies/26chuc.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 334.5569
+ 675.7969
+ 516.1509
+ 687.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER213': class PDFDictionary 
+220 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://movies.nytimes.com/2007/12/26/movies/26chuc.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 663.7969
+ 92.02891
+ 675.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER214': class PDFDictionary 
+221 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=New_York_Times) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 94.02891
+ 663.7969
+ 146.3969
+ 675.7969 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER215': class PDFDictionary 
+222 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=William_Bartman) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 611.9469
+ 146.9129
+ 626.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER216': class PDFDictionary 
+223 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=International_Standard_Book_Number) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 229.1229
+ 596.9469
+ 251.9029
+ 611.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER217': class PDFDictionary 
+224 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Special:BookSources/0-923183-18-3) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 254.4029
+ 596.9469
+ 314.3929
+ 611.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER218': class PDFDictionary 
+225 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Jan_Greenberg_%28writer%29) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 581.9469
+ 135.2229
+ 596.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER219': class PDFDictionary 
+226 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=International_Standard_Book_Number) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 392.1529
+ 581.9469
+ 414.9329
+ 596.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER220': class PDFDictionary 
+227 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Special:BookSources/0-7894-2658-7) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 417.4329
+ 581.9469
+ 477.4229
+ 596.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER221': class PDFDictionary 
+228 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Special:Booksources/978-1-930743-99-8) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 496.2329
+ 566.9469
+ 519.0129
+ 581.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER222': class PDFDictionary 
+229 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Special:Booksources/978-1-930743-99-8) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 551.9469
+ 153.0129
+ 566.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER223': class PDFDictionary 
+230 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://thepacegallery.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 146.6129
+ 498.9469
+ 255.9529
+ 513.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER224': class PDFDictionary 
+231 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.bu.edu/phpbin/buniverse/videos/view/?id=153) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 350.2229
+ 483.9469
+ 505.0529
+ 498.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER225': class PDFDictionary 
+232 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.bu.edu/phpbin/buniverse/videos/view/?id=153) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 468.9469
+ 162.4929
+ 483.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER226': class PDFDictionary 
+233 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.kcrw.com/etc/programs/at/at070220close-up_on_chuck_cl) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 391.3029
+ 453.9469
+ 500.8729
+ 468.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER227': class PDFDictionary 
+234 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.kcrw.com/etc/programs/at/at070220close-up_on_chuck_cl) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 438.9469
+ 256.2729
+ 453.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER228': class PDFDictionary 
+235 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.artnet.com/magazineus/features/scobie/scobie8-5-08.asp) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 158.1229
+ 423.9469
+ 443.6529
+ 438.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER229': class PDFDictionary 
+236 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.washington.edu/alumni/columns/june97/close1.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 193.1329
+ 393.9469
+ 459.5529
+ 408.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER230': class PDFDictionary 
+237 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.moma.org/collection/artist.php?artist_id=1156) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 128.5829
+ 378.9469
+ 373.7429
+ 393.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER231': class PDFDictionary 
+238 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Museum_of_Modern_Art) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 398.1829
+ 378.9469
+ 494.0029
+ 393.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER232': class PDFDictionary 
+239 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://collections.walkerart.org/item/agent/42) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 229.9429
+ 363.9469
+ 419.4529
+ 378.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER233': class PDFDictionary 
+240 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.magnoliaeditions.com/Content/Close/Close.htm) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 211.0629
+ 348.9469
+ 460.0229
+ 363.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER234': class PDFDictionary 
+241 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.chuckclose.coe.uh.edu) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 232.1929
+ 333.9469
+ 378.6629
+ 348.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER235': class PDFDictionary 
+242 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.haberarts.com/close.htm) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 270.7829
+ 318.9469
+ 424.7629
+ 333.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER236': class PDFDictionary 
+243 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.lensculture.com/close.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 301.4529
+ 303.9469
+ 465.4429
+ 318.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER237': class PDFDictionary 
+244 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.artworksgallery.com/gallery/close/page1.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 196.6329
+ 288.9469
+ 437.2129
+ 303.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER238': class PDFDictionary 
+245 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pbs.org/wgbh/roadshow/archive/200905A53.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 343.8429
+ 273.9469
+ 495.8929
+ 288.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER239': class PDFDictionary 
+246 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pbs.org/wgbh/roadshow/archive/200905A53.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 258.9469
+ 178.7929
+ 273.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER240': class PDFDictionary 
+247 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.aaa.si.edu/collections/interviews/oral-history-interview-chuck-close-13141) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 504.7929
+ 209.9469
+ 529.2429
+ 224.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER241': class PDFDictionary 
+248 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.aaa.si.edu/collections/interviews/oral-history-interview-chuck-close-13141) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 194.9469
+ 406.6529
+ 209.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER242': class PDFDictionary 
+249 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.bhag.net/int/intclosc/intclosc_find01.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 319.1329
+ 179.9469
+ 456.1929
+ 194.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER243': class PDFDictionary 
+250 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.bhag.net/int/intclosc/intclosc_find01.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 164.9469
+ 161.3329
+ 179.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER244': class PDFDictionary 
+251 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.magnoliaeditions.com/Content/PressRelease/Newsletter%2010.pdf) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 290.5229
+ 149.9469
+ 469.0029
+ 164.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER245': class PDFDictionary 
+252 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.magnoliaeditions.com/Content/PressRelease/Newsletter%2010.pdf) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 134.9469
+ 205.1629
+ 149.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER246': class PDFDictionary 
+253 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://video.google.com/videoplay?docid=-8127091529031459011&q=tvshow%3ACharlie_Rose+chuck+close) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 371.0329
+ 119.9469
+ 473.7029
+ 134.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER247': class PDFDictionary 
+254 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://video.google.com/videoplay?docid=-8127091529031459011&q=tvshow%3ACharlie_Rose+chuck+close) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 104.9469
+ 409.0829
+ 119.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER248': class PDFDictionary 
+255 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.mensvogue.com/arts/articles/2007/10/chuck_close) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 229.2629
+ 89.94685
+ 488.1529
+ 104.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page6': class PDFPage 
+256 0 obj
+% Page dictionary
+<< /Annots [ 209 0 R
+ 210 0 R
+ 211 0 R
+ 212 0 R
+ 213 0 R
+ 214 0 R
+ 215 0 R
+ 216 0 R
+ 217 0 R
+ 218 0 R
+ 219 0 R
+ 220 0 R
+ 221 0 R
+ 222 0 R
+ 223 0 R
+ 224 0 R
+ 225 0 R
+ 226 0 R
+ 227 0 R
+ 228 0 R
+ 229 0 R
+ 230 0 R
+ 231 0 R
+ 232 0 R
+ 233 0 R
+ 234 0 R
+ 235 0 R
+ 236 0 R
+ 237 0 R
+ 238 0 R
+ 239 0 R
+ 240 0 R
+ 241 0 R
+ 242 0 R
+ 243 0 R
+ 244 0 R
+ 245 0 R
+ 246 0 R
+ 247 0 R
+ 248 0 R
+ 249 0 R
+ 250 0 R
+ 251 0 R
+ 252 0 R
+ 253 0 R
+ 254 0 R
+ 255 0 R ]
+ /Contents 306 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 300 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER249': class PDFDictionary 
+257 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://brooklynrail.org/2008/06/art/chuck-close-with-phong-bui) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 315.5829
+ 769.9469
+ 461.2529
+ 784.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER250': class PDFDictionary 
+258 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://brooklynrail.org/2008/06/art/chuck-close-with-phong-bui) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 754.9469
+ 191.3329
+ 769.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER251': class PDFDictionary 
+259 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.urban-muse.com/site/%28Film%29_Chuck_Close_Interview.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 461.9129
+ 739.9469
+ 513.8029
+ 754.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER252': class PDFDictionary 
+260 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.urban-muse.com/site/%28Film%29_Chuck_Close_Interview.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 74.69291
+ 724.9469
+ 314.0129
+ 739.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER253': class PDFDictionary 
+261 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.guernicamag.com/interviews/1852/close_7_1_10/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 126.1829
+ 709.9469
+ 385.1029
+ 724.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER254': class PDFDictionary 
+262 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/w/index.php?title=Guernica_Magazine) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 205.7929
+ 694.9469
+ 284.3729
+ 709.9469 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page7': class PDFPage 
+263 0 obj
+% Page dictionary
+<< /Annots [ 257 0 R
+ 258 0 R
+ 259 0 R
+ 260 0 R
+ 261 0 R
+ 262 0 R ]
+ /Contents 307 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 300 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page8': class PDFPage 
+264 0 obj
+% Page dictionary
+<< /Contents 308 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 300 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'toUnicodeCMap:AAAAAA+FreeSerif': class PDFStream 
+265 0 obj
+<< /Filter [ /FlateDecode ]
+ /Length 780 >>
+stream
+xœmÕÍnÚZ†á9Wáa: k­ıãHRAÊ ?jÎPØ¤HAäîËë/j¥ªH ×˜m?¶€5_>¬†Ã¹›ÛÇvîö‡a7¶—ãë¸mİ÷ötfæİî°=¿oM¯ÛçÍi6¿,~|{9·ç‡aœİÜtóo—/çñ­ûp;=>®ÇÖÛxØÿ7›w—ş¹óñõtúÙÛpî®f‹E·kûË	>mNŸ7Ï­›ÿ½âÏşÿßN­óiÛDÜwíå´Ù¶q3<µÙÍÕÕ¢»éW‹Yví³äZó}¿ı±ß?{uy,.mj£]ít¨ƒNêDgu¦‹ºĞU]é^İÓ×êkúV}Kß©ïè¥zI¯Ô+ú^}O¯ÕëK›ü†ßä7ü&¿á7ù¿ÉoøM~Ãoò~“ßğ›ü†ßä7ü&¿á7ù¿ÉoøM~Ãoò~“ßğ»üßåwü.¿ãwù¿Ëïø]~Çïò;~—ßñ»üßåwü.¿ãwù¿Ëïø]~Çïò;~—ßñ‡ü?äü!àùÈøCşÀòş?ğ‡ü?äü!àùÈøCşÀòş?ğ'ùş$ÂŸäOø“ü	’?áOò'üIş„?ÉŸğ'ùş$ÂŸäOø“ü	’?áOò'üIş„?ÉŸğgù3ş,ÆŸåÏø³ü–?ãÏògüYşŒ?ËŸñgù3ş,ÆŸåÏø³ü–?ãÏògüYşŒ?ËŸñùş"Á_ä/ø‹ü‘¿à/òüEş‚¿È_ğùş"Á_ä/ø‹ü‘¿à/òüEş‚¿È_ğWù+ş*Å_å¯ø«ü•¿â¯òWüUşŠ¿Ê_ñWù+ş*Å_å¯ø«ü•¿â¯òWüUşŠ¿Ê_ñ÷òßsÌ^ş[®¥—Íqzü®ÿ¢^ş%Çé'^q]}Qs-=~[Oßó~òÇİt®ëéıé7ŞOşXNkïÔÜ“~©æö+µO“ì}b1ÓÆ¿Gåöu/StšØÓ€d4†ö{¨Ÿ'VñüB	À¿endstream
+endobj
+% 'fontFile:/home/pp/local/lib/python2.6/site-packages/mwlib/fonts/freefont/FreeSerif.ttf(AAAAAA+FreeSerif)': class PDFStream 
+266 0 obj
+<< /Filter [ /FlateDecode ]
+ /Length 10711
+ /Length1 15628 >>
+stream
+xœ­{ixÅ™pU÷æì¹ÍŒ¤95·F§uZ¶.K¶,Ùò!Ë²,Û’Œ,Ÿ0v°ÂB8„…„ğ9!KdÈ!ÉB	fÃ†sÙ„#6KI Ï|oÕ´Hçû±ŸF=ıVuõ{Õ{UuÂ!:†XÔ×;'S;n†Wà›İ[–.»€NÂ;0'°İò1;ázrÇŞ‰©ø*2¹Ú?™ØsxÇ‹wœ#ÄnG(X¶s|tû=O¼ˆPd/\Oï„ù0{´ï†vùÎ©¹Cï>¦ö³€ÿ=3c£çŞhÅ€ëOÚËøp½ú»Ğ¦G§Æ?üï3yhÃxÅ‹{göÍN" W{†\ß;;¾7üÍè½Ğ~
+ğu Œ¯Å_ERàïJæ‡(Š®"çÂ&ü:ªÆô22V*‘2¬äw×§p](°}ö
+À„:zÖ	¨		…+² Ï—ph+Æ…Bÿ0Âô\†dØO¡«Ñÿö#fAüÊ• *EJ  Bj¤AZ¤CzÄ!2"2#²"²#r"¹€ÜÈƒ¼¨ùPªDU(ˆB(Œ" {Uƒ¦(‰R(2(‹jPÕ¢:TP#H»5£ÔŠÚP;ê@+Q'Z…V£.ÔzP/êCkP?@kÑ:4ˆÖ£!4Œ6 hmB›Ñà+EÛĞÚÆÑ4v¢I´íF{ĞB…Jğs#ğÊ€|~ø“: ²öôÀyà›€ÏÚ‡ÜÌáyšGÜêùª¾¡ùU†ç‘·Ñ2/ÕÓ¾K†…óó˜‹XÂó8$¿‰ÎËƒ#C‚Ğámİ%	Û·eín÷°İ=gB«û‡Ú¼Ãîğ<š´óM}Cîù&¸"	”n¯ûÈĞ«öŸÛaÜĞû†í^÷¼484ß~`˜^:ÒjdCx^:ëÁ§+áôÈˆ}yèl9íjZì*	éuBM4†sƒpsÌ¯EÎb­»_.±ü!~V&}¥î~–eI·”tß/—Y?«»“ş„Î­$t^7V¼ó“Ÿ0·\Øáf†Îã…¿ ?0gÀBŒe¼N%Ó‰¸Ñ gâ&ƒÌëñ'U)XÃšb:C‚Ëbâç÷Ÿ
+Şª>•%Ÿ"Ng„àéÆßÃ«¬
+a¯Ÿb1še°‚U¯³ZçÅ3şŞ=^Å¢¬X  øş#Ì²,a£WîÍĞ#• GBNèxå	üë)WÎuÒsï3N ø
+>ÇNüWObMæ%øËœÌüüeN<	nˆB…{ğÏ˜_ƒ•WE#.™Î¤F“Ùèà€‘g™ÜèMA#•à±YÁæ”Ìh0™uéTÒŸÜ0ä¹(¦Qµ7Vt$ùÑ­Æ°Fßß1Ö{v¢rt6Ä ¦ÒÆFUÅLÓŠ’M¡PKhu¯vızÆè8ŞÛ‰±-³>ü–±ß¿5ÿÓÖHñZ	ª/ü‰•€şT u
+<"¥‰ğAf ôÇÅ`bü^#8ÎãD<I`/†2²8Îì!ŒÂµT¦’¹­:©H4§›O1Á®ÊJgd•Ë“ÏåVFÛ*ùËbxK2°ÉV·Œºmõ;ïË&r³•‰Üæò÷vMÆÜÑS‚£œ9d·óş½Ì,_jå6İµ:¹å&ş{vÏ5ë8^a&º­*ü‰ù äClhÉ@“™¨tiTc†6aİ¬ÆÀ8ù¶qÑFXQHANMÄ3~ü^ûºº•í¾—ü~½­¢®m=`Ñ˜ÖÄú‡²cõ}oó{74Õn®Ï†½ sEª+UÛ¿ŠÙº«§bÿğáz³^b4JÍ®HÛš3¯LÕm¬®ZÓqéÓh¬iCş3wk•/)o¸­ª3–X±‘FĞşº‚Ú2â–Yïøß-[èÅ1ÂK#’T²ÑÀ‚xÆŒËmÙ´Ïï»¡tÜdŠ§Cgµá¾ÇÚV^¾®×oÔ–ç6]>¼éä–:¡ë\NÀeº¼ÄhP³ò@›J‚!V~U¨¹9ó9TŞºM—¾c0ZÌmXçW'µïz0e5ëõ 8ˆ0T&0mĞ6€ÔÒœ¸šœš‘Sğzˆ3DÓúwöW—tå¾á€ÒÔ7¨æDÈjàv÷ `0ûÚ<|kÀÎi¾8ï0kÕFQ÷ÛJtrKØ¬òÂ|Yä½Á¢1Ú2•gk™Æ`ÔªÖ;mÜ“N¯—™9Î å:C S&É´SQ‚‹	Bç,¼<Ó›ú[óË/7¿ŒùW^i†—-ìCOBÆà2/8M¢èB0¿«K¥vÁmóDâŠ~†aì«ğ‡×Z¹l\÷Ğ9ìÄ,q@$ğñÇ7B{áÏèAÈF@?_ò³KÌnÙ$¸·“oÁd&óWøKáCìÌz9ìúmëï˜3z˜û‰,²ÀõWàºò.2{"0µéŒÈ%ëÑi]ÒÿI²?&”¥‚™ŞmGŸÀ’fulÕèPpèUÉÇo¹ùqææü£ùãºÛ¾]ÔÏ|]	8uÀ·GÊ˜u§Œîx’.ù¯úô%åµù÷³fI½‘¹pw¹	k4Œ3Š]Ğ/~îwÂı1dS•»S™tÑå.i©»²3Ò³ûØİÿíq;T™ü‘û÷4&yüªÙ³"èÙ±ú¢“óæ ôËe^y¤±§¦“à‚¼ÄCTw4(ù~oŠØ4EhÀâñxQµkÌ=™®tÔÙí©N;ë«£.m¸¿m}U²®õ¶ƒÉzcOv°1Ù«SªÊÌly´.‘‘tlìª¯lğÚÖ¬Şu™Ë¦å¨¾Ë€‰—€~)DUä£–ãNaÈ‚:¿´£;ÿ6Î…zşøvÓ]w5áGó-x}şªøş>3Õò%#ÔmEÈ‚˜òJœ	˜MP±ğx´e Ş\†§~©å”
+¿„{ªêº«}5«Û¼Ùæ cØVÛw.Õv*JXæ¥Zù°bmÿEµ#Ùr•Ûék#¼z€æyæ»P™	Iî¸*DIù‚Ø¥ĞîÇÌøÅwe&×1¾aˆÆÜƒ;öOµF»šSÙõ·¾ôÜA¿W®å¾~‘CwÑÖ‰ãøªºÚ¹+†û7OÙ…¿â' ·–’Ì
+FJ§!ƒŸ8¿âéÿ¨
+ºZæFí…Yf-Ÿ(¹Äó,ğõ(oå¤FÆË&*#Ö
+E'ã5ã…	&©Ê³aÅîëvW¯éïé_=Z7R*o¯©®¯jV
+¼±.­Ïá}-sİ##‰¶ú¶ÖêÖ}‰•×„¼í±}õÕU·Ëì|Ò•¬Ï«V]ñ…ßãg€'TªÈF”ù¼Ã«1I—õ8	é’jÙÙoºVu­;8<zt}Obû«ş’+d.m1·©Ù»qüÔ7Ÿ­ñyp¹Ògäİé¬kxh­ÿ?S¬k¸e`9|ZŒ&ñŒŸYù¯/õAŒzpé‰×£Ôç‚»å°.°ê’Šşˆ˜®¸k1náŸ/…˜[GácÆÂH FR_ÊgTAé——àÏò#øLé[Ío­|ì1ê<:1õ8­#Á
+Ü))Œ)_‚ÿ
+ÇñææŸ67Ÿ9Æ0ÌÏ ²ÏJÓÊ·š	®V°§oÀ\ğPKõ&+“{Ó8½hTªÏ«ì­®=/®Ñ1‡¯1ìËùÍúØ¦.­0yæÌºöòÕÑpÓ†îMë:âí~‹"¦Ó›\x´ìtš,B1¦Î>d+~Ö‹.R¬.–,àÀ’‰˜¡z„qE[•/ğHüøÍKo=slxwYçÆÔ?Ÿñæ¯<:½ª<!IwøØœºÒ¶L ºï‡M_¹EpÄV2WüğÔñ»c¼ÛòÔW¯{ö££×T¸W®ˆn¸ÃèòçËd‘#«÷Şşß.ûÌš@äFàUŸcî€—“Æ#¤“Qì¦ÜĞf†Kp<ö%Xæ\¡‚ç*óŸDJZŸöUF7üÍÆç³oÏq‡Õœ%¸u¿Q_ÉqLj
+¿wá§Yçû˜Ä<–äfø·æ#T Ÿ{Ål %˜[ U/‘Æ €`’³EM±ÇY"±½-ƒÇİˆ-Xf±&Õ&³¹ŞÃçnÎ¹ÖÆNØl[Ú»7†Lğ¹/ÇYüHÆ%á¾ãNØ-¬L&sµ”9sÁ¯á¯îl¬miçEûü9,æ:0S	³·8<³8oÇ¯iÚ«p+Œ
+sæö©ËÃ]k"&õ‘«×İğn»õI·ûÍ‡ï8½ş²Îq}}óÃE;ĞÂ×¿€Ü&X¹"Lâó2©ã<+§\f„ô˜˜1¤×~e(ÿÛ—³«7^³¾Æ8¥µÏvºŒ&
+¡ğàHKˆ“i—r•+†ÓÁŞ59ŸÖœ—XtÅÜù…Y4aUš(ƒIE._FÖë	Ğ*”V´X7ÒæÏÜ+í»G|ğ…ßf!Ãp¬U•^wÊ º¥É§0›Kı·ô9Õ‰5÷pHV¤Üîš¿ÊøZ ûNƒg‘®è–ÃüRœÆe9ÿÆ¯›õ×ºsùwjøE’§e×ÖU*Ìo×{“v³'ñ6à³Kô¼ub.d~s!ŞE
+[â(Z	¨ç˜Ì­dŠ¹LhãÓ5CiêŸ¤{]5¨²ñ·5…7l[UıÄ¹‹Z‹ÔTb¶2G+›{+¾ò-¯å¬S¢×Kœ¡gl!}¬óHÏ×Ÿvsêz6À²™¼A°wj´q±Ò©Çî/j€\ÿ%ò9lÊñB6ÿûŸÿeñ\ìÃçÒ.)ÇI]é|kJ Hâi|ò¹Ÿ]¸
+ôõÀäEÂGF÷÷ä÷¹›pe£·¼!ÿëFÏTÑ8VÈä[3n\T 2”B6R[O-Ç$§Z£¥D]æê±«Ş5´&˜uî±	¶füŠRâÊä¯Ş<Q!ø¢ı50/ Î4(&6CQL¥Ä££XşôâÄ´¬xğmX–LTÿèİÖx ÿ‹2mUgÍ.›Ë¿UërØQï:ÛÃ™ÕÌ	 l­~ä“N†ØÃô[³“Æ9Z°ÂÛÏ¿µÒ¥Q1¢}Òõ;òÅaAô9§U—ÀÛâ]U‚²Ä»ğql«õ¸2÷yÕ÷-Ù>ò›F´{vKÑîØËÒ	ğ.bNØqâsó’bî( õ§å¹÷¼î†§ß~õ'YÌÊ;µSáIÆŸŸêª&fíÆ7qòrü7N*¤ÀÜEáÍÂŸ™'&Ù‰ ó×yñ2²ìM%p‘:ó¤ÃîTêòí”ïîÅ—ûjßcN°rK"xáC wh‘Ş¼.ïÀkº¢R®¿ şcæéšÓ-Öbîâhà*.)µñØ©‡ºæ«ÿúƒG0—qV÷„y¥!´¾®~8lP?vËMç¸õ¦áÁ•{[CÚªÆÁŞÊÄ¶muuÛ¶‰1’Y°Ú)ÆHOà‹¶éÓ#s7Ã—ysÛ›ù€·b‡İ‘Å%áµñüw=æû¶CªÿO[,°±ß§–.u¿áeœÎ¿*—ÿŒ½¾»S]”­‡!5¤…)]©œX©Œ>Ši)˜h^’eæ-¾D,íÖÔ”)-šŒn?ñæšİ·%Şq)+šÛüÕİ^‰Wg¶®HÛÛÁèñ‘ŒçöÓ7?yîkWİUÙ¸¶»bèòf¾²i]_QÇ$7^òûP”ì¯ğPªerê2^ö‹®Â-îE`_°g ^f´ó.§¹ä9£Ïù­²à'ïeÎì_4¼™727ª½«RÖ oÓªe2|Áj`8œd~œİÄ%ãòO0uí-cÑ« &¼WŒ­d‘Z–Á²hUb^¨·Iî$è¾>Ù¼ySóD{Õ¶R›Ìh²ZÆê"¹ÖŞ±¡ƒñ‰2¥›x³o[K¦õT´3™¬éÚâñ¼8´6YY±2”šhèôpêó	õ©n)Œ˜=–Ü(Ÿ^[£·È˜¤Ì¢«Y—ö4ä_i˜=‘şï|g œÇµ»©(“ìø	ªc’IBH‹îYôM(GÀ¸—BÁs«G³æòÜ;‚15Ù}ìbW-¶×¹Şİ>,nÂêÕÕ Á’PWşÓÚ¡ŞªKã,IÈ42zZğÏc|rÖË’};·Qæı™í¸¸÷ÄüÀç²¼¦ùØğãRTŞt='T27Bt®½ğÆ×ì#‘šu6æïÃ31«‘c8Š_Zø3{ğ‡DüğïUâ"*¡I.#È©pªršÛoÑ<aşì·+¿ºÛmñ±²Ûş¥K´.?P/±^¿ó¾+?ÌXÛƒ (£ÒéùÓØÖ_ç$áÖ£lÏß‹Â¼“p4À|=ü$‹üh0·,âCÀ§FCÃSã[¤Ï%ıóPu*zİã|Eeş×6Ør0)„ŞT5İ6Õ^ÇGl]ÕEN¢Öû~şƒ ´Í`‡©ëªVu–ä¶Ş'nŸH‚Æ0vj¯Œs:•¨/ğ÷ğç_àÏ¸”¥fqf–z,ŞPŞ’®Õ}"ôØ°E©èn¸FÍáæ7ÏÕ¸€ë^qßã¢ÖÆY_{Ó¬Ö«iÙtb-f¡9GJs&ë?bÑFŒ¯sD\v•V"7[.<‹|5Ñì.“ÙŒ:ßç/-u¨+ËÌófÔ*wß«¹ğMŠs¨°'ä©Ñ«ƒ	|á…cõ	+·Í¶&)Ë÷ØçU´ü®•lÿsua;ú3àRÂZŠ&ÿ N%t^Ï†põà/œ1·'­Ÿ=W”Å‚+1©wdÄ'aEàeGZ¬{°õèŸÊ_İä¹Qáş¨ğ ¡%u§Üø£|şè’8½ŸÃŸ¢™;Q	¹?@·)ÌVÜâôpfüé(gq™‹ñĞWø?ŒŸ…º*Şšl`2©ä²›˜ƒœ˜.©Œ´4§Ë¨LŠT´·‚cÇp´‹¯’Úõ:ÛhGƒJg4ÛV—S2X©ıdÃJŸÍĞ–ú]ı€ÓPâè¬6]tEïš'İVÎæ4zu×ºB!lVo,ğv¹—î; N·°	"/ÙêJg¸Å-`ûëšÈêñScu“¯”9[ª¥¹@Ck[m ¹'ÿœ/vÉÈîë*ÍŒÜeÀÚN—¿é3Î92°q*Bufz·‚.ÜD‹ËF’Ÿ—‡°:‘ }ë‰¡ÆƒG%+±ØëW¯o6”«K5ƒ{`÷‹3§ë«tÖˆÉaíœªJ*¶¤`¿„êÛ4Ş™ÈÚI©E›SE‘Òtû(Û[,²Å=”!I¬o`Ç‘ÁtBïP—lÌJuv©şşDCEMkW)ÛÔrpë®¯o%’YÌ…ŸyMXÔ½UQ·cİÈLq®‰|wƒ|F)9]Üƒ_XûDÔQ†UÛcåZ×tÇàøş‘®µÊüsÏ–VE6`cãÆ0«‘¯<<1sjãˆ°"^´W˜0|ÈEOy"àaİş²”O¡JZ˜@¼NkVÙ¹š‹õùÏÒÎş~¦os¸ÖÊ´šæá9!ÿtÖÅh4¬+ƒsÂŞÃ^»ÎB×µ‚ÿ;ğEõ¨‹ÎÑÂö“ÃÒËè-NXÀC7¢\tŸJ¾´Qe^¶=åõ@M\ÊŠ6œî´7Äƒ£í&§­{€ÛÔ	Bo¨è¹<ÓœY{¸cG8å2­réûš×íÌ¶.1„\Ş@MØ[‘æ„œµ!ÚºESRV¶²Œ¬J‹`&Í†[k*™€ÆTátîŠtĞnÂ]¬¾2bWW‹1¿z#;'ÆåÅ¬hŞfjö„Ëâ%º£%»Íz)hä„‰½5*õ¶†.æ*Ï­«	¼ş’¼T£‘9Rø×GÍœÍ?|ó'I{‰F#Oïr.®—Ñ ­§«ñ¥c‘q¯&™n(ãÿV HÚ51Ï›ŒN_)ÑdØümi§æŠO¿ã¶c7o49ù*º6a
+üèõ_X¥p¢i/2ºä2"İá¾.éà@eÊ¢3Æ9^ï^¢¤µ:Ù|f×^—Ek®kèÆ×}¦»XZIòŒ€ê-³ğÄ‰<0WE`„qò,%J,Á…—+›_ï—|Ùlt>[bó48¿îJ¹Ãe*æ*+oø}Ú¨·Ê˜m‰¥ŒÉ1¨KK°Z£¬ÉÙÏùİ`«‰R#ùáC6Æ‚à7Ë­H\·b|_ée
+Ércu{ìı(¯·(L@€øî½•V0:*ğ«^S”æŠ•ƒí7ŠxŒÄ,Ìij¢ Å`!7~ŞTä2ãç&,e«¼¡ÎİkïY7´½2	Áæ 3øFĞÚlËqGÅkUAƒ¯Ö¬Ìê(¿víıÏeYRj	¾Ğ«ÿ,*€¬­ê?&Í:$ÿ–Ó±£òB¹cWü;àµj9¯¦/Ú°üliW5ÉµŞL£Å÷¼ßÚi­*wøÏû-Z#œ˜ÌLoÌİÛñ;Ÿ•X›'úËQ³'ÿ¶İŠbÁ¿úì`ÏNˆo$>”Ò§gÔ®¨­É—eˆO¶=öÈ%»{³M}©øÙcÛv^uj|âÄvß¸uİÄñÁ¢oHŠËEª¾¢Ë6¿à©æå9HÑ¸FÖÔ×¹ùğ°´	ÙC6­UûOmŞtKKÖÛ‚¿¬å¦»÷Ğ¦©ôÖÛ¢v¬×Il|ŞkªûØšX?*>'
+àwğÏAÈ}8“X¦¬E’ÈR “.êïL+M•ï§Ê[‡Û7\¶9ı¨¡¡:^®ŞÔ´
+ß#\ø`T¨u¾ê‘U‡¶ì¹á•`_‹Kéynû©oB/Èê%±Û/ÅåS#_šE¾+4!¹!îIü1fÖpZ®¯UêKº …ã]Şœå?ƒ<XƒÂäÿÄm—hmf$Ué°-@'ó3‚ŸA$ğ-_á¸ğÒ
+G.ÊK©2Å…!Å¬QJ4ºxĞî	rÖµ¥š•+K…ÅNæšRİµî~¨ôtKÖÏ­MöŒ/Ù¥/»µÔéâ­š€;Ì»Ë›«ÒmÅU¼˜™–âšÁ[Ì¸f`(Ê t\Æ-—S[9œ’”™â<øœ3ô*».ÃaV"S¨ÓA³T5'Ö €÷u|èÒg”É)š€Š›e‰"™ô²~½§VÖešmå×U9#Uœ=ú³'®6Z˜`°£ö3¯êÓ‡]aÆÿÏÂèò÷xM$®@ù*Ğq,¬yHâûüŠ„<ÿOáWÍ&Ã1C‰RsÈëp<e3(vŒÉ¢øœ†±ÅóÅ£ØÕSN–©µÆÂàN‰ğa÷}ÀOVÉKX+öD‘¦‡¬6¾@˜Ã[ìN÷3^³níŞv±F¥ºÒ ÕnÜ«——èOé8İ6ƒl§û*Á“¥j*òÆkU•
+’–TïÊßY|ÿô[H”Qk5šü§EİÂ:•ê6NS²Dº„QF#{bq#}i®}H…M×dUòeÅ7üÀ1‹×ü3«F¶±×Pq­ÕnœİlLŠ_#8¦«4šJ8ĞSuè)Î
+•BqÕÅ®R=Àz×·¿êµjÈr¦M\çúñËÀO%ÔóÔ`ÿ’¢8èğŠzZVcİähiö—l¥ûF%±Sz£â–ŠŞ¸PeÓ™â':M½|Ş&Skp™Zc¾€Š Ép–üÎ=#n«Ş¦/ê‚Øí@›£k†>ªÅââ–:Ú@ÄV*×«ó§pé•aA®gñÆüŸøRï•œÒà¯¹34ùİ€g{a5ŞÌÜMö¶¤êîêõ€’îÒç²4àÍCİŞxÜkˆdBÉ€?›õ’2éµg“­&’¼?”q–b¥*½»!©Q'îÎ¦UE^[
+Òw)`bÖ%t-Íjæ~º$‚kÇşQ O*„8ÏRJ”.¬ÚŠñ‡”n”¯ãîªˆ]÷E˜»¥ZgÊ\h´ÇE¢±ÈFèaü1n"úââKoŸ,<‚ş?ñK½f—!íI{!ÜÔjr
+1_ñ»P(ÖÏÌZšÎ =ƒÚ‰‹oò!-C×d…b`¦`ÜLSÆŠoåU §pÿŠ¾Ç°ì1Ø}¹¾L¶·ÿª7—îí­Éö ƒ›ÙZ/"o<,Uâ%ßdÖ’ùâ ~¸)ºSCÏ Lqn‚8ewâZS¹İTŠMj†ÁX‘»ÚÏ¬•Ûİ&[ ‡DÉjëp)ËIñ•Ù"1"3HönŠ<9‚ğqÅô&–ÓÄé¨ï¬vâ²²R«å·Ì"u¸-J–Õ¨%e¬Œcş
+…K–ÿ®©›/ÅmrØ¨İ’-+Uª1ÕUá“Â‡¬¹tuÑ.¤eÑl!Wxäs9è´ûÚMl9ŒÛg#š»ñ_i®,|Ì¨ğë'Éë$- ¸—ÆK}ò¸QIRQS?´iÛ%—ît]êŠ³—)íµUõÉ‡ñëRFØ’Ü|úä¶§Êøü««ÖTO´~H÷€?Æ_Ãçé“%úÚ’&ßTB|@WÜk(j%ƒ¿Æ&c6^bär‰ÊTáÖÇ,6»”ccµşı	>_SÁæß1XÍmA‡>ÄnÆ`­¯‘[¨\ñ‚¿ùßJæİG—5dŠC_Øi`€œ
+¶¸+üöÁmiF¹Ë%RKõ`vln¤ÌõÕ
+9Ÿ;j)}wçW‚†ÃÚ¨ÂãP¥Nmé‹ûrygOõÎ¶;[S´PÁŒÆ¡Ä„bU#_œw¢R1UÓ'Aµ8'ï‘}TfQéx•³ÒÉÉìòÎ­W®³XRq«ÓĞe)¯õXJZÒŠ^‰–õ§­¥:OkÈqêØõUnÔÎ—Nß­–TfÉµõƒìNThôé¦°Çªµk‹ş¶	ŠëÁeh?Õ•Qâ:fê>#µÚe³¿ 6yŞhp8#™i¾Âé4r¼x¢r+o3sÙsÁŞ DÒnö9ì9Ú€?˜¸‹Ò÷èÁcôÇ9ŞÈ¼FëûešÉ¬˜Ìò~<5ylF™En»eÑvæò@Úl6˜K\|XjVĞgì+À¶4øIòŒÉ'noKÿX­ÉD×Zf›Ô2SÛP[ƒ‡óWl‚×f+êc+ãÁßa§´t ğ	ú.èå Ø^ĞSq(S|£óŠŠëÍœ—ÇŸŞ`Ì\ñşÌz<Ï<¡•£Cx©ÎàŞ»naŞ ëz‘t_hi†[Ú£2wØ&·ÈŒ6)šdND›fi˜w•€xæ4ølãGƒÌWÁ«”¨¨cÌ”àÕÌ,©Ğq‚8RÓª8¬âÉÎvÄ©U
+Õf‹Î«u*“şrE0êÌÌlMµE©ŒT'õer;Á·ñÛ¡ÿzf‹¦îÏÌWØwˆùşøäµÿµpşìÚ¯ËŞfï„fÉ²·£û¥üy´Aö\ß-{[|{éïŞƒÜèÚã›Q7ø‚»Õ³¥à‘ \#‡úÛ˜$H÷	ÊB; çvl*üú-pÌÀÁÃ„£8²ôš	­£p8rÆ VöëhùÒ0ÿŒtp8 Ö2c¨Œ	Áñ+$ÀÁ==¾•ì!×ØÃôZm‡`<9“ûC¨
+®ë ­&xØy$…3¹Ïı
+À3DyîŞ^¤|Ù9àÃ0g+œíôÜMywÀ¡ ¾µp‰r€9Ğ`r8EY`¼xLÀu½ç#Ä]#œup¨§¿¶£Ÿ¢8gœ¨‚Ğ¡ú'ã7C»)+ĞŞŒblMáŠ?‘ßŠ*ñW‹âø)‚q›¨NÈø_Q=?y´Î[éµĞ8î«/ƒ6™÷*øô 9t}€ûñøßğs„¹š¹y˜yyƒ-e«Ø!öföö‰G’“|Iò°ä©VZ.ÍJWI¯”¾!ÓË¶Ê®–ıT.‘çäGåÈ_+))Y[r¬äá’‚bDq»âÒªÒşÒ+KV2Ê~åÕÊ‡”Ï+_S~T&+3”U”(»¯ì¯êR]ªzGíWª¯R¿¤şLÓ¯¹Zó€æ#m•v³öŒöyD—Ô]ª{Z/ÑWè7èwêoÕÿHÿoú_é_ÓÄ!.Æíäæ¸£Üiîî#CÜpÜp¥á>Ãã†Ÿ~o,5šŒUÆ¤qĞ¸Õx²è`å¿@M²F4€hİBw¢ÈoTd=ˆüø¹E¿hDÇD˜ìWaò®ıû"Ì‚4Š°•â‹EX
+sû#–Á\~ Â%ˆe+QajgM"¬Fåì]"Ì¡ÄT°DNŞé“İ$Â:&û6…KH¿d€Â 	º”rE`òìşq&ï¾&Â,Z…ş$Â°éq–¢4>)Â2°¥ßˆp	’á¿Š°âšD„Uè*æ´«ÑJv“shˆ}–Â¥”·QæĞ!É…ËH¿< Â‘§(Ì‘œ&¿^„9´Y~…­ ÏÉÜ.‡1jÉ»"¬B'%aàAz¹sh­ôÔ‚f Š<ŒöĞßSÌ!VP1øÄQhN,ƒSËàì2¸ v4XÆ ¬ÛA4JûÈµÈÈÓàË£Ğ?	­iò\³efïá=ã;æ„x,‘ïıNÑï,ı®ÚgÇÇ…™sGgÇ…ö™ıÓÛGç&g¦ÁÍ8fïè‚Ñã³“ vCïvèİO~Ò=¾}rÿ¢¬Lä<‹&({q`&çÜÄX@Z¼’DaHáE‘QûÌô\ûÌìÄ¸Ä„œÈ(¡d¸:LØGÿ#Z‹`@º÷‰zP9ê‡Ğ^è#ä«ÉÌ@–à¶ñÙ} ¡¼üÀ$rBu$‘Ê
+åÂÿK3ô·0ä7HíeÌì*Qøìƒ9: Ç4|Fáj”4:Œˆ
+‹ÂØY€wæ1¸sôì©í•´ss{÷å¢Ñ}£F§§GwF&¦÷G@YÑ½³3»ÆÇæöEw ?;@…0x-Ğ!
+ÚØÈy†*}ş¾g@x±=ôFi™aúö£m‹‘;gà»(%9ÃØqzÏh÷ÑÑ{ ×´ºè™Œ ´Á¨Öîöïfvs;'÷	„GÎ³£ÓsãÛ…}û·„¹üˆ«c|z|vtĞ·ÛÉ1¡krl|zßxdI±Eµ¤Ÿ¿WæØ\0
+½{¡¡÷ODU	š<xğà¢ÇDÏ‰NìİÙ97µgI‡z"Ñn€·Ñ™:H­ŠèğœwQØKõ83MôRÔ5¹{èè°#€^g€QíŸÛ-l›98ú8$ìÚ?µwŸ0s`|t4.ì=rXØ>3£ddŸdÏ²ßcÏB í¡rNQÅ#«E‚ÓÀŞ$ôì¡Ó4NÙ!|¾ÿÆn§ıÛ)CE#ØL…DñŞ…sç(lİOE£=ã (¹k@ûˆÔ”PÌÓä¥xÔJ9™»(?£T1EÜKy&?4#½¨yí¦´¶ÃU¸Dã)Jò¿0µÿ6‚·.‹VÛ(OGDşGA²*Å^CÜc7`ß)rHtºÄ*"=¾0R©(=$’˜¤6€{$		DJIZ’•Ô¢°¤Z²Î‚¤ÚÍ’&I‹dÜÁ IÂH˜1I½¤¾[C­¤K²FÆá.H’n(š2’”¤NÒ×záşUä1!îIª—qj5@'D$k¦F¼ı–ÚÌÑxwÏT¯ÓIfèb-Å1ŸQk˜íjZ"3èu±5@õ;'i…3Á³“ÎÒç­¸¶ÈHb	cÔjH°Z‡¾`±Ü³_tºb®ÙF­~š†­¢«&.Y´ˆê“p};•»¨qêŠá‘Øw$í^Bç8Ğœ¡|íÁ	êú„Únêâ{EJÅ€I(í ÎöQùF)MZÑ¿Â	Gÿàï!\¸­/é:‹ñÕÃgÛÉçµÃ«çı vÎË‚#Ch^"´Í³ÁÖy™Ğv¿$ÎiC
+ÙßÄ†œ\é%BÛÃH~Y‰m\,‰ŠRh(übC	RØ(ƒ†ÒQlày•HS½ªn&x–m? M4µúÅ¦šÒ`/ZìÑ‘%.öèInyHôC‹M4¹ÀbÓHÆ–7Á £c±i†¦É¾ĞFÿJãÙiendstream
+endobj
+% 'fontDescriptor:AAAAAA+FreeSerif': class PDFDictionary 
+267 0 obj
+<< /Ascent 800
+ /CapHeight 800
+ /Descent -200
+ /Flags 4
+ /FontBBox [ -879
+ -545
+ 1767
+ 934 ]
+ /FontFile2 266 0 R
+ /FontName /AAAAAA+FreeSerif
+ /ItalicAngle 0
+ /StemV 87
+ /Type /FontDescriptor >>
+endobj
+% 'F1+0': class PDFTrueTypeFont 
+268 0 obj
+% Font FreeSerif subset 0
+<< /BaseFont /AAAAAA+FreeSerif
+ /FirstChar 0
+ /FontDescriptor 267 0 R
+ /LastChar 141
+ /Name /F1+0
+ /Subtype /TrueType
+ /ToUnicode 265 0 R
+ /Type /Font
+ /Widths [ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 250
+ 333
+ 408
+ 500
+ 500
+ 833
+ 778
+ 180
+ 333
+ 333
+ 500
+ 564
+ 250
+ 333
+ 250
+ 278
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 278
+ 278
+ 564
+ 564
+ 564
+ 444
+ 921
+ 722
+ 667
+ 667
+ 722
+ 611
+ 556
+ 722
+ 722
+ 333
+ 389
+ 722
+ 611
+ 889
+ 722
+ 722
+ 556
+ 722
+ 667
+ 556
+ 611
+ 722
+ 722
+ 944
+ 722
+ 722
+ 611
+ 333
+ 278
+ 333
+ 469
+ 500
+ 333
+ 444
+ 500
+ 444
+ 500
+ 444
+ 333
+ 500
+ 500
+ 278
+ 278
+ 500
+ 278
+ 778
+ 500
+ 500
+ 500
+ 500
+ 333
+ 389
+ 278
+ 500
+ 500
+ 722
+ 500
+ 500
+ 444
+ 480
+ 200
+ 480
+ 541
+ 364
+ 444
+ 250
+ 500
+ 350
+ 333
+ 537
+ 350
+ 825
+ 500
+ 312
+ 537
+ 420
+ 528
+ 452 ] >>
+endobj
+% 'toUnicodeCMap:AAAAAA+FreeSerifBold': class PDFStream 
+269 0 obj
+<< /Filter [ /FlateDecode ]
+ /Length 710 >>
+stream
+xœuÕËŠQ…á¹OQÃ„tß»A„¾Br!æl=v„¶”ÒôÛÇå’BRPÅ¨s¨¯F{|÷tÿÔoİøÛ°[ÎÛ±[oúÕĞ»·aÙºçö²éG¢İj³<^Vççr»ØÆ§Ãó÷Ã±mŸúõn4vãï§—‡ãğŞ}¸9_Ÿ‡ÖæmØ¬ow¯«£ñ×auZõ/ÿİ0Ûï_Û¶õÇn2šÍºU[Ÿ>ôy±ÿ²Ø¶nü¯Söüxß·NÏk!w¹[µÃ~±lÃ¢i£éd2ë¦õ8µ~õ×;Ñ+y^/.†ËŞÉéšZØ‚V¶¢mhg;:ØNv¢‹]è+öúš}¾aß oÙ·è;öú}~`? Ù§?œ
+ı¿Ğ/ğı¿Ğ/ğı¿Ğ/ğı¿Ğ/ğı¿Ğ/ğı¿Ğ/ğı¿Ğ/ğı¿Ğ/ğ+ı
+¿Ò¯ğ+ı
+¿Ò¯ğ+ı
+¿Ò¯ğ+ı
+¿Ò¯ğ+ı
+¿Ò¯ğ+ı
+¿Ò¯ğ+ı
+¿Ò¯ğ+ı
+¿Ò¯ğı¿Ñoğı¿Ñoğı¿Ñoğı¿Ñoğı¿Ñoğı¿Ñoğı¿Ñoğı¿Ñoğ;ı¿Óïğ;ı¿Óïğ;ı¿Óïğ;ı¿Óïğ;ı¿Óïğ;ı¿Óïğ;ı¿Óïğ;ı¿ÓïğıĞğıĞğıĞğıĞğıĞğıĞğıĞğıĞğ'ı	ÒŸğ'ı	ÒŸğ'ı	ÒŸğ'ı	ÒŸğ'ı	ÒŸğ'ı	ÒŸğ'ı	ÒŸğ'ı	ÒŸğıÑ_ğıÑ_ğıÑ_ğıÑ_ğıÑ_ğıÑ_ğıÑ_ğıÑ™—I€Y÷{-ß†á4¡ÎSñ<x0r6}û=8÷»=Náşa¾£kendstream
+endobj
+% 'fontFile:/home/pp/local/lib/python2.6/site-packages/mwlib/fonts/freefont/FreeSerifBold.ttf(AAAAAA+FreeSerifBold)': class PDFStream 
+270 0 obj
+<< /Filter [ /FlateDecode ]
+ /Length 9306
+ /Length1 13896 >>
+stream
+xœ­{w|\Õ•ğ½ïM“4Íhz3oŠÊM«Y–,K²äªbÙ–lK¶l5KrÁ4Æ!´„àĞlB¼Y‚)²!ĞB±1	Én`	Éb‚×	LÙ,X3ß¹÷=Lò}ìçù½¹ç–wú9÷;2Â¡|´±¨£}U8ªĞ?ÿyµ›GúÇs:sá8<†Í»§8ÙJùå1­0_68¾u$ºlğè_ıS[‡/”Ş¶şS„Ø„<Šmı[>\uS)B~²>¹9ìgĞ? }Ï¶‘©½§ïÊk‡ş}€ÿğØæşécÿz¡â"˜n¤ï8~›~Šÿ
+}n´dÀuÙĞ*Q"”ûòøØäTö Š"ÿ#™Ÿß´òÔ·J@7!ŒïgBRàïzæIF7’6»¿"˜QFÁÊ¥R†•¼‹r³õè’/Rsğ*jZ¾†CğÉfY.›yà@Æ?}û¿‘ğ#L[%’á\
+íGÿÛ1`	ğ+Cr¤@9(å…|¤BH4¨i‘é‘‘	™‘Y‘Ù‘9[r#yù¡bT‚JQ Qd/CĞTÅA9I”BiT*P%ªB‹P5ªAµ¨Õ£Å¨-A¨	-EÍhjA­¨-Gí¨­@+Ñ*´­AkQ'êBİ¨­C½h=Ú€6Š"¼Ä>  S€±ğÜHGvC{#:„¾Ÿ‡Ğ	æ’i˜FÚ–é’®ée»»§_cš–•v-ê¦c—ws¯LcmÈœÆû}xZ^ÚÛÅqM|cÿv®‹Û²)mu¹º­®îà4hYÙµ„ïv§ÙÀ‰›®íèrM×ÂŒ$@Pºx×¾®?X_ê¶Âº®ëûİVŞ5--íšnÜİM'º»4ßÛœ–»ñuÀw]o¯uyà¸‡ÕÎ)…®<G™.aîûÉQè8Fáªr	û~ô¸LúfÕ	–gÉ°”ŸËŒªN`2Ó¸4ş˜†wáœ³§N1wÍº˜.‚sEöcôóx	¡TÔ “ñn_"ÔêTXÎ‡ £†ğÑ¨‡/‹î6x”v%ovÄË"wwÖÜ25vh‰=œH ¾Uø~ğ)Á{–¾‹ô:yÌ7^ÉØT¼İæ¼ >”³«YÃù}vÇ3ÏXHë|šğ&y?„Ø²‚ç!¬çå|Š>‰}brúÀ¸Ÿ—ÇğË›ìËí;áéÛQØ·İÑfß	O×¦Âª…;±µù·ğ¯ù Ø<á†ìÙ»×À‹Cà±HO¦1½õ|ûõ£C¢×Éäz>İ„& 0ê“‰¸ÏŸPa½ÎŞß•ª¬ãõ†š+÷û9LıÛSáªEzS}zËê×»¦Â%øÃæõ¹Ë[sõú›Zš•¿cX!XTíéìÑnŞÌ¨ÍG˜-y_D7=òfáÚââQ–x– ü²ìyv„y¢ÒñTòëT¬`P"%LğnÂbÑd*Y‰1Áz~Öé4™„µìH3Ğ®j¾iM¢f:Öë0x–ğ™ßò+â¡j…Ü—ÙÂ½5q½ï]W¾ô†í…Õ1‹!ÙÅX·¨½.ÔZÓ{¸&ó—Û;‹7ï°¦™ƒ)Ş˜7ÓÀ[¥¶VõİnÛ4Ú¿Ûhö’eQuöCV~…È_
+ÜÇô*\€erESF9•Å/úZ*„g}C&7Vc¢_)a<åcNÑŞ-Óë˜º_sV•ÕY]Rfw›tjÖâH¹Šjƒ»†VïèÙî0õ´®[Úq{€32×õ×z’ŞŞ²b×ó>.å5Ùğ÷Ml!Y›ôú”–·Ëì‹vnnkÚW¹š×,N…í¯¦ª•ôšÚüe×/5•Ü“ïuF[–
+’9[ğ!ô++H;ïÍ{føQq]Û³4Ë†²]8Ê<F£@çõàBğÈ’Ò«˜ïæå;Ô%Jcs;ß|=ª¬´c¦~xiÃ«PÙÍÉ©OŞìô›­ş5wYÛ
+øœ€Oøˆ[ÊeòD5DWˆõ[İ©ö„ÿ@¤½²Ê¦3FMæ1½¿}íÕÍ'oJ”Xı]·è¹®¹Z££xª°?É<“x–;=	yàÎõ³ÁŸR1 fÅßá9U3 à'Óë”Ê´S¯•ŒÃñÂ3Ê²È3y=iÌ„”ŒSœ‰µz;ã·Û¤RÃ¦çŠÒ9º.£Áa7šº´Š”ß¥·ÛURi!+‡¹İn4tks’>ğ>Å2jØ¯—‡¨„$ ñcßé{÷İ¾wşıOê{ûmXçÏ¶¢·ÑaØÇÑ-›Â¹bá:&WÉ}Át{gŞˆ„	¸}ÁÚxİ¶¨¡5m tèvb'x1É:	ìü;§¦;C¾ü-:B|`A¶¼\L³Y‘®ÍÍ¾Cà/Ëkqè¯=e™©`N’y™²ã7™iÇL³À#`4F“‹0uy;ÖLW÷õ_µ¿Ë•ï¸Üœ×ãäğê[OŸ¾íöS'ïïÙõîØ¦¾ïõŞêàë	Àrk!öå‰TL£3õ®D&~›Òåe/hŠ2__dêsUØ22s²‚Ç&öVã«–øzpÀn *À$½ÄäaJîlıæŠm÷ŞŞ0˜‚™¾cãõ‰¶ >ó«­£Ãw™’/{pI¬µ‡êK=_|Å`³xˆñÏ"!¦mb˜ó;âg@orV/
+7U¦Âş”]¿òÖ¶µ|Ù¾‡._²ÚcwU¥¬ÁÄ]¥‹ÃvµÆX	§}!åÍµ¤=uéÈí‘b³+©İ‚ğ@W	§’}IÖà«añ‘šš[ş¾âÁÊoü;Ê}ó›;÷ÿg[¦g~Gx6dÿ_…3†ÚXÈŸ~Ÿ_ë’»äàÊóq²Ú³ÏYRÑ²8}Y?®/Íœ3l¯\÷Ëwğ7vV”D;ô…9¸ûÊ2•qbùö¯•YÜÔî6°ûÔNdG‡Ä(Ÿ7=M¬êALñøÕ‘«lşàšÁ}ë‡®<V>ù¤ŞiñšŠ¢F­œ™¶®Õ¯¼öÈÕ¿Úí/Êtônã*»÷l,LşJìù%GğA¢x>…ÿğ—/ü¦¸Te0Ggz«·ì-ğRÂ×kÀ—Îx!ı¢Ì<+8ÏÇÆ;Œ­½iYİ¥İÛk—v4îß¶qV™Õ¡¾Œsèc¡¢pìî%ËLît{ßòÅeõæØ@]Ïè¼Æâ+kËøÎÇUÅ‹[*¢©%TGàåuª#ØPŒà5©…,Wa­ÈP¯f|58éŞÏy“+·\²aèÊ#•û~Täóšü!•V!Å˜•æ[—MhGº·‚¢~¶;Ä/ìì©ìÜ½I"S(XK¥¹’œ…ğkÛú/Ÿ…æÁÙ“ZŞ3ğ¸*Ú‰xİO+Î<z8/CZ¨C’|¥X¾ åy6.ä’Q\®”Š¨e¹>Ç\b*Wä3ø­9$¾¹Ğ
+'^$Å	¬ÏÇÌàÌkLQæ2|ÀŒÙf·<öğR:™A|Œv%\x„¥äÁ-}™ú²ÙY|êdg2Ì³Dr°ÁÓÌqğÒR²‹-ŒS*Ÿ§»„à…s2İîåmvÿö•=£‰†0ìG^_ ÈêN6D#¼'Â(K,v¾ÔU³b]K|i‰½$åP»›:“Õ†Œ—ˆèqùq8û>›„ü™ ™-Nwc*Æ‚Õg£Cp€”qöÌ3GÂ)È%Ì	Ëp®dMÚêPç5Õ3¾èòv]ş½û®éÉoŞ˜¾ç7ïşÆs;[½q©¥+J^çªp‡×s˜µ,ï­…İ(s!WQvEûğwró5ÿáİ–o½ı·]¹åÖb·»¨^Û6H¯(
+	|C¬1Ç™pnu@Öƒô›Œ%ãpF%\ÀÙ’8³6¦…÷ÆüÌñÌSú¼²ĞŸ
+ì¾À/=.û[¶·½~{Fıó³ÙÌ²UÛı-­–5›åEŒgæ|WìåÁšj ±âZ4ŠHİLÄ=œN]‚…¨v@~ı¬‘ğı?»ëÊÌ3)—'—méÿØ\ûîtôÖFãv3)¾nÍV³ÌêÃg|Ö¼ª­|Iøs—íÖ£™?2©ö¦zƒS"Ù÷™‡Á.¶£Jò¥ô‚l’¥«ñ±úá´Cåˆ—¯>uêÛáUé•.×jÎ5„Êš¼=ìµ•f•§Èm8y×/™M:Ë9ƒ¿6è¾÷pæA—DÎGAÎ¨AQjV6µ +†…wë5DÊÍ|<xòä½™çK‹ğ÷=UuŞJ“ûÔ:ü¾Û&5Og^|ÆŒ9¬îÚ_ïàg2nÙ› ÷U€Û'È!nqRĞı—
+¤!=âCëG&ŠmE3§9Oœ©3kûöù-’ö†<‹%§i%ïìêş7³ÌâÔwzËb­ílİêÌCç9“ ;B³I ‰C2Ja–€_¿`³¦<0a™L]èÔû,-µ*³9·¾­xIæJ=…ß°ƒ:{~.P©YTê™ÿ*¶‚§Püvà@ é{}ö
+@g‰à@*$q’ÀÉyƒTa;&|Õœ½,¥\]Ãºõue=Ñ·w¦e·-¿*ÉG¨ÑÊkléïßıÈªjŞ7Tl– \òJ›ûç‡ïúµ(óy²Õâ—…$c‰YX?bÁÿˆOe»ø(^÷}ä‹ãÕ1¯;™y ÅãÆ?{m2
+«ŸñÚ¥f³ÄîûÍo|v -qx36¯U\Ø¼¢Îñ(Ğ×ÎyĞ—ø“xCªÈW¹7ííÛ$ŒÃŸ±ùm Im›½¿8 Médâ¦·Ù|jü–Õ¬s;Šá¾´kdhÙæ›=àÒò¹ªÂâ(²3À"HÑºc|i•½48ïş0Ét"V9¦BöHÄÃXş5§FæŠcWó›pDÃe¦U…aÓcm3']|¯L¹_7æ3ÛµyÄ3ZoÉÔa3ì•ãóó‚šHÀ1KøÄ«¿7êD~.~¬$6ª%‡ >Ün‹ô{ñÌ3)'Ãëë<n§ŞU(.xÇ,·ˆyÄÌºÒ™"/{ğzèy„ÕÌfDsÌJÅNÀÜwÁz¡hÑ¹
+—;5óÂR.GEæÑ´‹éŸù.³2S’öo³ñÄX™"üUnc‚“Ó•gĞ˜§…óœt(/ ø3^ïKı.b·eê¼ï@t0G3«p$Q¦°—Î<Âp™Ñ„pË¥ø÷¥v3ä(âë=ZêI„‘ÌË	8qºSá¯ß~êTæÅS§tõ®{`İ:æ‘ï<üÂ©ÃG^pİï÷|ï®#Îç».àÕ‚xr6Ô‰pQ^Wa¿¸ê±Ì^™9a`x3Çõ—½®Êµ|pSC²:ŠÃO¤ì
+0ªÄÆO$x‰ycgE—1_á®Z·¢‰èñÙÊ»…d$)İKÉ‚Ï/Ô«sÇ-Ö-›;éásU;M¥²ş•7vÙ­å‹œİ§ï<|jWÿ½µ½=k×õÊ.Ušø.{¹ŞïŞtÓ‘_>rh‹ÛÇ¸ÿî#ß»÷®#ÌÉù3OEÂİ†\k€¤Ä~%?D^·]8r2ÃZkĞo=]`yé7Vpƒ‡*í®®ÿú-™W’;Z«ğygÜeSçdŞÑšqùóÔä~"é–˜{+J²LEwûğb/Ì<JcM¸<‰‰éˆ;ñì9*¨0E™Ã˜ã°¼l›<_%uØì[Å*K«n-«şúXrG®Aa·Çï¨hÕ/î^¹‹yÄU }}cO2ä	;šMƒé»Üîÿ~µ:î:¹ÒÍõ‡‰_:É6İÃ!/‘ë¶”ËHÒòœ÷Ï¬ïÌ·³àöüÎ^W]æp­kSÀ¶uŸ>İİÆÎ|Tî ·”:Ÿú8°@s	JpvµË6•Š7UyÛº×ú+ß,sd2ãÍ!=W270®òÌ‰ÁõÛÇp$åärw ó³Ìg	×êexyÒ%5/Œ'«X½°<&d.½Œ'Û‰7dÌÓ~Wákim^Üá`Æë¯ÔqIæ¨YêÏüˆé,6†u&3'psLgRK(~mö#ö?ÄıB/ôy˜g
+¤Ş ~Ÿ@Nì
+ôØÿˆj_°{ÂöJ¾‰Ã>¿Y¾w7_PÓ2¹Ë¢—Û‹íÊ™à?dx¦Çk ò¬ÆgÈÂñ>fÔ…yÁÌ4îhó|n~ø)'¹™Ô°Âe––ÜÎ§g;ŞÕ`vV!dÔ	î‹3rUÿyº¾¾ã1oÉ<`aâú_ÚÇ‡>÷ŒŸ4:¬¸ÇÆZõı©JfP™/ga£Æ»Ç2ï&˜(Ê¬wİk­Vk5d¿3Ùş .k€EV©UÆÛš;×‘W¨»¹pZ„Yª49ñr'“môdDûSGuæ_q;#¸İì4+•{Çüî(¨JÎeNÿ8å„mVæLİŠ[ãDC*u¾Ñxö'µNµÑlÌ>š³È^!§{=DZÓ¥Ç¸´´)p˜
+T92‹eæ)|…¶B6Şë±éeæZ^_h´:]¼ö#5³3µÛ~­ùÁ»8»™ |ÈLz^A
+¼ÏÆÁsçjJÌZç”‹­tY3Wsz„³ïeßÇaá¾ÅÈÆ´/ÿuı_´ÌÉzwÇ®\—1!†F)NÄ4\‡Sk.©9÷m—ÎÅ\°¸.ü‚¬oÆ)<2A}¥åá´Î³÷vŸè8Ñ}ŒdnÅjòÛLöüIöG„ª*üIF‰?¹<Ju¢`Ôè3æ4©´¼˜IŸ¥o.²êìfFİe¶j-6Èƒæìy|¿õvò«5–êœl”Íß•VKSÂ9^›òñ­ŸÃéŞ¶fİ½\’[¨ôzm+Êj
+%‘xÂ\°x¿µÏftãCÒR…ãéÆe5™/Ì’\}9çk¬
+Kœv®@Ñ*Ñg½…ëvxI~ÖdÏ39 !±®V3WXùå<M!ZXZ¸_N,Y5tÅ–†Úv¥ÎçÜ°>›æLúêmã7•§™½Ü”y>ó?Ò_ü…ÈüÈLª£¯Tnş¸®®Kâ#…îŠõ—¬ïöp),ÍµúƒmuÎàHa:rpëğÍ5a»{iI¶»mğ3ôÉ¨/‚ÒÄìFêğÂ˜\æ'G^’óõ:¼Š¯(jYåNp–èïÌîêe·ºâ¹¥æ5ùu^ûµƒ#ß°òóZ‰iægœ‰1*¾òümî§éáûAZë§’-ˆæ¨ı´’Ç~ˆeæR;w˜"k­ß9¹á˜úRÌ(ò¯“9ø©µ4å±8¼ªÆÔµ#£_;çÜ¥ú‚FáM_×‚_“2¤õ¬\i-¸Üƒ*^ÍÎU¿8Ï`·˜:;ñÌ9·±¼\®÷Õk:Ü63Ï,Í÷Kµâ}ÌÉˆ›LH–m@MµÏ˜ØÜœpoËFñ; WŠ¡*L¨	Ãû©‰*ñ‚{+²AJiÂ£[&ã–QÆ¿wÙDw¼êêEjïÒHĞá+ªªkë¼êòÛûÊÜØò ^upYÇUN‡‡wŞßÒÔcHU˜Âa¶õªºŠem‘ÒE*ÛÙzLcP/öB5ğÁ¢++oœËÍ±²Ã—Î“šj(wäU†2ûlzÛGn­Öı¬¿¦¨ºÙ`ı‹Ù€oçe>µAZ5ÉáqêÀkß+åÛjÿî´2&k±_%œ[PlQ@ïl/"—¤Ú Êø7½åon­ÎÕSÖğK™µBïÄ>'ÄŸCœ+ Êf²§²	,œ&²{uôzc–İœÿÎ_¯Ô¹2³ïÅãÕËİ6ß]
+·ôåÉ4­ø÷œ‰5e/¥V7ÇÌ„jƒ„
+FPº3NĞ“ŸîaXØÃ„3WbAyA:š8!œJâÁBKÁ«áÅ-Ïå©Î•˜65üßÊÊÜ¯Ç‡sóXÖh”…Ú3Ÿ˜LŒ&—?hšàuRğ¦4Î$%¦ÌŠıúYû€¾"%ÕÖ<_Gş‹1Gg¦+ñÜK³õAünÑ?¶§FòWêã.&Øg-×Y>t®Ÿ¦zÃF]iu³Şş]g¶Y*õ–s6ßRf>µC˜dFb€Z:‹Âeş¶Ú/8#Ø19ÏüÄ7ìfVè}À'HÇXOïÿ…Ï/»]©èv:à§«ºYgÿª×ùœF)ĞŸ¥=ës$Ç¼	´òˆµó·°Àø¢ÿşşMû¯é¹ù.·¿~ÃĞ¶nØ1xƒ³ïÀhçºÉKû„ó¾6c”€ËF"F«§šoÌ.:yKI–¡9şce`ÕÖáÕ®ˆ‡eşæÑé]ØÈ%M‰5ø¥%¥¾«·İdæoŠú½Iş)‘"˜*øxÑã?¥4İ@Ó4ä¾[š˜ßàŒ_ş‚”3àúxmyıÊ­—mò¦ıËt|æÓˆÉëØ¸>ÑCúê­ã7›\é™É¦bÎ±}„åÀKÏƒ= ¶Ã'€ù¡È-^İ|YØœ°xÒÈf5”ùÌ¥7pOó5^>Äã¥{ÚÿtØÎŠŞà »¬ŒB˜Ú}sûÖĞP+@©Á#ìUô‡â‹J†BşØ¶L¡VÌşU6¯ŠókŠWËò
+Ì6nÈ]ilŒtã×º[&\f£×àtUú¯±Ûşå€Çn)â¼µ¥5«€®.û	nev“ß1Íúó7z›ÓãÈ†B½Ãjv.•HSÈŒ_
+d^vXãy‹bén°wÔıPø=†9¢'qwn~bZÍÂ=wªıÕM…Î§ÌN_Àì=mtU¯Ê¯óÙ–Õ_pd¦Ìƒ>W [iÆ¹ƒ3c£<‡êIzzhØçêiš€VN,>ñ»FCş=–½yqFaı\Íğ9íKóŒ~ÉÄè\™)\dËƒĞ`X°ö/³i
+órog~øƒp~¨f³5Î‚BÑR.åŸMu:fì:OBgûšN›wØ8x¹é®Pû–/œoj©ÔvÈyÜ£åë\V•¦ \@RhËŒádæE¼;j.¤FÕeÎÚcÚˆ–ä\“wœÈ
+yŸ^BĞ’ßcınJ½ …l
+™•ÔD$0³ÜĞÛhGA©ÚÉŞ°R>
+ºJ:¢?4sµåû
+µŸ‡ã8lˆ™•zy@Î]q&_ùÀ®0è	yÃò–_óÂ…ùíBMÃ>ââB|–!‚ŞåÕ.(kşÖÖp=›+×xò÷æG©!¼º¥`‡ÛFå·•:‹#`+MzlnL
+/æ½	ìwí –Á¬AûÉ³N±påÌL:S^àm«àğuøÒ_T„;VílaÀ¾Ú¾\oSg®:—×_Wh‘ãÉ÷¸ä²{ÌøPQãÍ–Ìˆğ[Ü
+¼šy‚ø’4D»Ÿ¦ÓdŠ^ÑŸ¥h¤ãÕ{×•ÖÖ–ö\R
+75…Ã•3+I„Õêpâ‘•Œ2?Y~¬&^P¯9VTîúìûè.±^ĞÄ4õ]bµ@è&î”@W+Ré%Dú"7É]fÉ–5²ÌLjõÅt«”n:¥¤¹êaüÜBt"ä!˜…EïôÑ¹ø”;É—\484‰2ÜÒ,û
+M¡Õ”7x|ƒo.ÿAdcAÕ§L{–°ü‹ƒ·<>Û^8“ùµ¼=Jêù…Ø™WP¼ëÂ™™!yƒø×eóÿúğ0dèÏaiZÁ”¢Uø$Ç.cëP56 ˜ÁcÅ_ *Ø×«a½úh‹±!{Ö›à©ƒG-<xlâi-ğÎJò³Œ—³÷¢aæ·(‡9ŒÔĞF˜W %ğf¤fs‘—•Î«)^–¹ ãwÀøÃt-™çÅu<óŒ =ŒœdÎŸEZ.€qĞ_<¿-Ç,šï*»Z3¼«ÁOÑÖLZWŞ¡¯=¨q[öÀƒn-½ø7¼cÇ×Ò÷tôOè¡UR½<ë¯‡ıMTm’Q_C%ğY‰ö¢ûĞgx-~¿Š3Œ›ÙÏbec^cÎ²j6Êö°·±²g$I™d·dZòŠT&µHCÒ´t¯ô™LÖ Û'»OöŸr›¼W~DşŒüER±IqDñ+Åùœ’œÁœ£9gsU¹¹S¹OåæµæíÍûfŞwòË{!ïÕ¼sÊ¤r‹ò[Ê•ò“ù×ç?—ÿW•CÕ£šPT](pôÜ\ğlÁµ[½Z}@ı¢F¥éÑìÓÜ§yLs¦P"úgş&Ú‚Nƒ÷1´ŸCÿ˜±	údE)“;ç{5h¿cXõŠ“¿ı:+Â,*Á‹EX‚
+ğÍ",|U„e(ŸQ‰°üÂ#Ây@k>jd+DX…<ì/EX‹’e@Kä@W!/a	rÈÍ"¬Eûåå&;Ü”+c¨Ÿax½%Â,ZŞaÀƒGEXŠ’ø;",ƒ8/Â
+$cl"œ‡Ö2E"œndaZÊ^%ÂZÔÅ~Há\ «’ìa	òH¾&ÂZ´Wò …•T®'E˜ÈõÖ¢^ù»Ö’¿T,a	²)ZDX‹6(†(LîºU²Í"´d“"¬ES²;)ì5…R¿ç£ƒÒJş¥?a-Z-ËG‹ÑG— a4€ÑœI¢¨>QÈ&³plœX §Àå 5¢	À2 Ğ*ÀJ°íAıtŒÌ¡]h<²Æ‡ 7JöëÅcã—NqÑ²²h€|Çèw‚~§éw9×810À­œÚÓ?1À5íİÒ?546
+fi®‚gğÂ¬^501`=Ğš¨~lx¢LŒyÒN ­”±(°QmÅEÌ¢ãækâpä‰À3+6jj›Ø:ÀECe\…È,¡Ïª0F‚Dôÿ €.z¡µtÕ¤¨/y / İĞŸ#,E@„X¦Œ®€SåÚ‰IPçY9°{ˆ@\$I”qîiìKô)yzZÖĞ¿‘Fh¨m
+<e(†á3	vÜÏ(|úa6ê‡DÕ†aíÀÛÊfxsFEÊƒ¢Â€vjj|²"ìßİ?:Ú¿-´utW”ŸÛ>°yj2<<‚Šañj Ct·°‘vŒjo
+F‰>¸9¼œØß
+ôúéÈ 5ß$¼¹i#òæ|R’v ÖĞw†¡ßAW®ÍĞk¥-YAhƒã­Ş6ÀíšàÆ¹©mC“á‘ƒvëDÿèÔÀnr×&" 75Æ‘?2o˜èæ:vmÚÌµmÍ+VPëúùª27_¦a‡^ˆ¾?U%hrÏ=sJÜ,FWxëøphÛÔÈğ¼wz"Ñ€7QKí¡Ft¸Úí0?BíMô¼›êEĞ5y{t´Øá@¯cÀŠ¨»†6ïà6MŒí}ìå¶ïŸäÆvL€¸áş}—p[Æ¶Âêå€f+u¿)@õÏãâUËDVFñ!`b˜p€2JL¿¾?‚•[èøŠoè;€İ€(øA;BÍÜOE*»¨¦èÈ ¨€¼µ	 I"Å?8—ãĞÁXå†Œo§<õSµ	:N-×Èènê|;(½-0Ë§œèZ‚4ÿGüÿçA¸oî7Qö‰ü÷ƒdcTŠqXC‚g`ß&rHôúÄùDz|`î§RQş$IDÒ"i’,‚ïòfë‹WI
+a¬	VÍğ,x¹$&'IJÒ’J¤«+¡ßızI­d±¤¨Á‡ÓIâ°l¸ªá»0TJZ%Kae”bç$m’
+IJ’TIj`®Ş_F.F€·ªÍæ‘óó= åÏ@úÙ¾4r†zâ ,ÛA[©¥8HäC4éŒÑâƒÂšÔÇ&Do“Öz[ì­¢›×4@Kğl£vo¢2ùOyŸï t	âw›éJ²‰ {/ŠŞÙ%& a‡ÜDãl”¦P!m˜!éAğ¿µT'ÿŒ‹ÙY¢¯šˆ…äMb,³ÍÀ]€R .Æ(§Ã8F¡¿ƒ& q‘¶Î	íAàu’j£ŸrA*Hò/{Š¢ğïÇ8{-j™VttÇøæîãä?‹L«»[¦u+ØßmŸ–•öv¡i–[2Í–6LK¹%'ØSJ;èHÿGìÈÈÌ±#‡¬Dì( #÷Šè(œb'—[òÊ¹2‹Ä~LæÚ„VŠ4`TifJ³»¡«‚nAŞ\7Ÿà€2Í¨Éˆ’bG4dD½p¤hVÎuµĞ-tÎuud½váz=,Ğçºèê5³İnô 3}Å"endstream
+endobj
+% 'fontDescriptor:AAAAAA+FreeSerifBold': class PDFDictionary 
+271 0 obj
+<< /Ascent 800
+ /CapHeight 800
+ /Descent -200
+ /Flags 262148
+ /FontBBox [ -796
+ -306
+ 1860
+ 932 ]
+ /FontFile2 270 0 R
+ /FontName /AAAAAA+FreeSerifBold
+ /ItalicAngle 0
+ /StemV 165
+ /Type /FontDescriptor >>
+endobj
+% 'F2+0': class PDFTrueTypeFont 
+272 0 obj
+% Font FreeSerifbold subset 0
+<< /BaseFont /AAAAAA+FreeSerifBold
+ /FirstChar 0
+ /FontDescriptor 271 0 R
+ /LastChar 127
+ /Name /F2+0
+ /Subtype /TrueType
+ /ToUnicode 269 0 R
+ /Type /Font
+ /Widths [ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 250
+ 333
+ 555
+ 500
+ 500
+ 1000
+ 833
+ 278
+ 333
+ 333
+ 507
+ 676
+ 250
+ 333
+ 250
+ 278
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 333
+ 333
+ 676
+ 676
+ 676
+ 500
+ 930
+ 722
+ 667
+ 722
+ 724
+ 667
+ 611
+ 778
+ 774
+ 386
+ 500
+ 764
+ 664
+ 943
+ 722
+ 778
+ 611
+ 778
+ 712
+ 556
+ 667
+ 722
+ 722
+ 1000
+ 722
+ 722
+ 667
+ 333
+ 278
+ 333
+ 581
+ 500
+ 333
+ 500
+ 556
+ 444
+ 556
+ 444
+ 333
+ 500
+ 556
+ 278
+ 333
+ 556
+ 278
+ 833
+ 556
+ 500
+ 556
+ 556
+ 444
+ 389
+ 333
+ 556
+ 500
+ 722
+ 500
+ 500
+ 444
+ 394
+ 220
+ 394
+ 520
+ 364 ] >>
+endobj
+% 'toUnicodeCMap:AAAAAA+FreeSerifItalic': class PDFStream 
+273 0 obj
+<< /Filter [ /FlateDecode ]
+ /Length 712 >>
+stream
+xœ}ÕËjÛP…á¹ŸBÃ–œ}OÀr…z¡é8òqjˆe#;ƒ¼}½¼L¥T ñtú4ÚÓÛÇ»Ça}è¦ßÆmÿÔİj=,Ç¶ß¾}ëÛËz˜ˆvËu8¯NÏ~³ØM¦ÇÃOïûCÛ<«íd6ë¦ß/÷‡ñ½ûp}º>=Œ­=µq½z<,^×ıÇÉôë¸<®‡—ÿlyzÛí^Û¦‡îb2ŸwË¶:~ìób÷e±iİôßçşìúñ¾kÖBt¿]¶ınÑ·q1¼´ÉìâbŞÍêa>iÃò¯w¢—<ó¼ê.ÆóŞ‹ã5?¶°­lEÛĞÎvt°ìD»Ğ—ìKôû
+}Í¾Fß°oĞ·ì[ôû}Ï¾G?°8ú~¡_àú~¡_àú~¡_àú~¡_àú~¡_àú~¡_àú~¡_àú~¡_àWú~¥_áWú~¥_áWú~¥_áWú~¥_áWú~¥_áWú~¥_áWú~¥_áWú~¥_á7ú~£ßà7ú~£ßà7ú~£ßà7ú~£ßà7ú~£ßà7ú~£ßà7ú~£ßà7ú~£ßàwú~§ßáwú~§ßáwú~§ßáwú~§ßáwú~§ßáwú~§ßáwú~§ßáwú~§ßáúş ?àúş ?àúş ?àúş ?àúş ?àúş ?àúş ?àúş ?àOúş¤?áOúş¤?áOúş¤?áOúş¤?áOúş¤?áOúş¤?áOúş¤?áOúş¤?á/úş¢¿à/úş¢¿à/úş¢¿à/úş¢¿à/úş¢¿à/úş¢¿à/úş¢¿à/úş¢ÿ<!Î“ ³cï÷ êßÆñ8£N³ñ4x0rÖCû=>wÛNáş£¥êendstream
+endobj
+% 'fontFile:/home/pp/local/lib/python2.6/site-packages/mwlib/fonts/freefont/FreeSerifItalic.ttf(AAAAAA+FreeSerifItalic)': class PDFStream 
+274 0 obj
+<< /Filter [ /FlateDecode ]
+ /Length 10268
+ /Length1 15000 >>
+stream
+xœ­{	|Å•wUwÏôÜÓsß3=3šCsjnİ·uXÖáÉ·¬Ëò!	K–8ƒÁll8Ä°dÃÁ.ß†#k’/¿Í†6›6ì._X’ÃgÏì«î–-“ä·ßï·ŸÆ5ıªºúÕÿ½zõŞ«ê1Â!-:†h44¸>İ÷6uZ^ƒ²ilÿèœò*•!œ‡b[\àé9…µîó“sSû³«'ï‚ú>¨¿8µïÈäç,¶ DCÿèÖİ£ã¿íºƒF(~îwCk£cPÿ.Ô«vï_8üÍ£êo@ımàã¾Ù±ÑÿÜø¯%àşwöÃ·<©F2ŞÌèş‰@Ğğ;¨oEH=27;¿PY<–E¨îäşÜ‰¹=ƒGÿê?ú9„ñíø’¾SÔ3(n&×Ê6ü:Ê`"%§eŒLI3¿À§*íh´‚ÇÃ“¨{`#0â+š¯Ô‚<'pb'Æç|"ñ#,\5HUuıOÿ0¢`À+G,R %R!5Œ E:¤G2 #2!3² +²!;r 'r!7ò /ò!ùQ Q
+¡0Š (ªF1G	”D)½ePåPP•P-ªCõ¨5¢&ÔŒZP+jCí¨u¢U¨u£Ô‹V£>´õ£4ˆ†ĞZ´­GĞF´	]…†ÑÚŒ¶ ­hÚvH",Q· 6
+Ğ› Hâ0vxPG–Pb	™ú–bCÃK«G–P°Å¾$7mŸá_YÂ¦”=¹„<ÿ³ôß:ÌóİÁ®Ñ=ü0?¾«Öå÷¸ü#É%*Ñ·nxUpÄŸ\¢Óv~©uhØ¿Ô
+w˜aéúÿ«ëû#.è7|Ñõ›WĞ¿$‹/u-7FF`YB»usrIx<€oTü[·º–°aW	M­—š	£¯K'Áp@×Ç¨{`¾X”z£tã,Ãş&û¸\öZã4$zœ&Í2Òü+×_h|“öœÁoˆäA?V¾õâ‹Ô='ıÔ0á©|€SÔ½0×N„JÍò\ÖbÖQzœµZÌò@¸/6ğz£Ê`ÔGõ5É”•÷'<ü“C÷oû9[ºù©£ëx«Åç³™3¦ĞüÌÉ=`Gv@ÜÌä36Ø,	ÜÁ°
+½İ¤5—‘±J½•Ó‡ñCùµõ!ƒAã8—ì)FìjB‰üÈªqSgÁî|À²Á’PJ9¡äX¡@{$ÈæğÕÓƒÍCÇ¡ìPOwª§‡š†CªÈ/Çêâ?Ã_ñtñø+>}–òUş¿K½
+¶\¶ƒp
+ƒè¥fLX[ml$…#¬[Ìz,…#-Ø‹m¦€ÅlõaºXÈ‡1ÕÖzkënuÚ­§B©Úáâï,AëöZ§ÈÔßq2˜b;¿T…{Ó
+‘³QİÒi jŒ¿élø[ÕÈcúz°SGN²åÿÔ|*Vò3h°ò{Ú
+ò«ÁÊó°^6ËƒÂÜ€Bé,?Ğ8Ú¬ÃË7|Øš-–r8ˆ¡oÄj±‚Á€ çÈ´õê‘º–“CÙº§ZFcD¯ÿ–Ì®úìª“ëã£i¼7-_—ÆÛKu!0ğ{dé1ŞÕ4‰Ù-v·]ug}ù÷®ö§Çöòİ¸’90ÒWÚúgğ….R¼*šv„•¶‡‡<[6‚'ı®©¼Cıl"+¿›H Zm‡#…œE'İæ²%‘dh¦Kùe‰p€»6	ÏAóÔêGÃ™4oñ<e²öz·.èªùÆP_s_zıX¤±»ÅÊnîŠ7\ìî-õväl­q‹½ƒjÙôå¾ºZ'§£LŠUüë£Ù„Wòf¼{«{Ò	›šmUo™/–?pK}µ­Ømªñº‡‰Ç<Bï
+öLËÖ}â’M¯0dè«ôáê>ğLÈFlª™!R²dl·RîD]}Ñ¤ÍÔÚû,®'GïßÓvtËÆº¢^Ÿ_ßğäó=skÈx\eöŒGlPÎFˆiò‘¿Ïf×®‡Òê¾Íì½ıß¯ÖoÚ8ôÚÎÛÂsÇP¿8{‹ñàfJÀª£X›—–wD`'š°ƒ;b¥™*ER” |0t2ğ$Şì
+×9u‹#ÔÅ‡Ì]!+?Á.«AoöPŒ£Êêpè,ÎH—Oã[5ëMö|ÜäÌÔ¼n£Ûå¬sZ8“Qf7›ÔZƒ…³m°5­SlVN³Ş£10ZŸËgÕ¬ÕÄšõœKov–ìùÍŠ¨UŒR›Àà‰Î1XLÎ´ÁÎ´¿újû«ØûÚkíğOè[¹P¹DÃmÙ„`Š"Åî¤ÇêğWöÙ´q‹ÙUíİÔkÈŠü3è9ìD°TâaJØ©}M‡*--ä«ò:…ÆÉØ%Á/Š
+[góìŞ?°YyŞj±ÏUŞÁÇ0Y|u½åzÁßn /ÆW>spyÈŒ,Û9&ºÍ6Sâ2†‰±âwWŸÙÔ;<|¦¿w}ù•ô¦Z>-lÎy’ø/G¾uÛ‘±ùŸœ8yñüÔ=ö4¶_ûè=±ÖnI„ïşÀ=WhÆ%“è‚lø±¬™¥Í`wØ’iL²§X“ã:™?*“Ÿ6vq:™Õ…ßv(upÿt@g½øÕ¬âõ¢~4ğõ-àQÂ$êS®Çp%%ë/”Ä‘Ø¡¶Û:·7?÷÷ÕQ£![¾ïå3=…MEŠy`WOfçğs2gˆ=aø·»¯ÊwmzĞÇËÀ³ŠğDm·ˆŠ,/'ú¸››‰6å8ÇUùÆ¡¶-;ïùÔ\Â±ÁUìß¾‰\_íÕÔö”rÍAˆÎ»ïjˆ4néİŞz‡¬	¿ã¨ Ê¡?ü%œ£ƒ¦ ¶àoëÆSƒ™òÇfü`õ‘µ;™òKï¶-=Ñ¿^îÇíåçQ~‚õ×0¯ƒCù”,R(ù,Ëö ÅÛõÎ`4^mÚ‘íÍHS›»ı±k3u6£©ßÕ9õ/_å6èY™şgİÃz¯³eÛ¡G|N£µô)Àé­|D)©Ç ×
+Áp6IÕâ °æée;a—H)‡Ÿ,0ÉÄêwN¬ß¿£íèÏÒ=A®9ß5;sÔcœê¦”e¬ÿê‡æwîıßİ5‰‹smÛ]õ«ÚısÙæU W_å<å}™Ì5!‚”ü”£|m¥~/VéÖâCÔ™‹»©M´'®¼	ş°âß€Nm0{5°ÎD€BÔ”&Pp-´˜ÂôE$#!®ï›÷ïÈ†Æ‡ÖŒ­nÍ]³Ú\]¬Yì˜ükjÒ¥»}uû¤¯ÔíX?Ø\èö´oËöOá
+{²+Ö48Øk¼•‹Úšò|IÈl•ß‚¯#x¢€¦ Á#ryZ60F„ bë¸f(«dºëÛ7Ü±cİØèUÍGŸ7ù­l!İ·úó£®wS¯ƒJNLåğ®‰s™uªº¾+khï[54wÁ¸YÈŸdø)°-‹à–çÊxyŞöXı~;¤Mc)á:Hùˆ·ÀıvPv¿«r½ÀGKr¦+½Ö
+V“ËlHäµÒá/óÃhCåÔÅ@Vd¡BÈ¢ÅÔP™ÁÊ[ñYÕ›íoöœ;'Œ»	¿z\È)Áæüj ¬Àç¡ooÿn{û'øÙ
+Iİ6à³Àì‚
+8õ¼ÙNx¨¼Bİ;‚¬hó+Â­Ç°¼KR—SËbåÏëm£e ¹cm¢}Uƒš5h«Z2áX˜oJøxÈ±¨u*¿"‚µ¦©»>ÒY,öÅ<T_wW©'\p^üÀg5óŞ„ Ïbå:,ä-d¥
+îÄ9XäE¤HL6.Ğ‚Å”.w)â¶Ä¶z§‡S­j£Cõ½<zÿCÇ®šÖtm-Şı£İuÓ³3«ƒY¦®=œûÈiˆoõ¹Ó=æ6š}¡*uìÓ3÷ÿ¯›M{üön½í{İyk”ïnı¶×97IŞIğV¾_yê‹Ûz/Ä4¢4Š‚PWa?”£©üj¼”ùµ:³%üŒ¯ºœÛUöòCÏ'8“™İ
+ãg®ZM†ãä5»ğû¿Wr½‡‰£+çÉşöI^Ø™ÁŞ{i"³ÿR˜ˆüÂ$1,Y$¢ª"ašÍ.¯Z|Ÿ§ªÚ|ÇbùÍ¸SsÚ—Â¨Zøh$ğƒOÃ¶n™ú¼Ö¶ëRuŞ¡±³ş‘YNa‹ã§ÃünM·§ÆëĞ¨,{Â<Û¶¶ºI«ÁŠ·\¡áRA-úÙvÈ‡ù#™>ñ§0u‘KîN7—Â&şIxVéR[BFı©É¾†­ë›&:Çúço¿ú›Ô=vë‹ô—û›¾62º/ß®ìº}~ÿ·]<º0¢€Åñ•j`ó)ŠøAZ4êÙ‹ß»¸,´õ†ûgñÍm^sÄÚö¥ğ±‡^eŒ8Ì†»},Ü±ªZË•‡¡—Ä|„Œ7ãˆ‡€ÔŠDÌÂU¬ÇÅ´ÛÄ†8†Tæâ£®-!×\–Å\"†w}jõbÌ)kïRvÆÜÆN3ëK)#Ìƒ__­V|™SØcøé¨@º›
+¨“n¥á—íneŞ’ù,N3İ±7ìç—ñ|dßC€DVßŸB™÷JPâ[|)g©Yé_ˆ;µ×¨İüo¡®ó9díÙx‘sk´Æ5¶ùôôë~ÍDiÚ’Ä ¬: ãÕ)ZÿK¬d6—ìW²jby°—ÁÒË6 ì¿ 7b ’d5ü$õXô2Füba^Ue×gŒÊmkêF[ÒÍôh¼Öj`ÜÊ"ÇªLH™½îÓ÷@İ0ß¦×®OõìXíÚµ×^•´l‡)¥9vÅi¾kî!È—uSİä¤ˆL‹ª!Ø‚ıJQ$I¬Q•¸Ks‚öÖ”›‰©ÚÊo´ÓÎäcò¦±!™R±'¥vÅ©[ˆ•}¦Œ“y#o¿¯ÒX99'YdÊ2@ç¿p6b³dÜ¥¹ÃÇ„ó´EnV…0œ+şa‚\ñe†„‰0èªˆİ¢âÊÇ¿şø—åÕÉVzI² –ÇÀ¿†IŸ¢ôœ/\Ì·9Í&L’ş3o¤i.ß¢«N§CöLÄîu›h-âÆ¬Ä&/éöq]`‹œ•—#š-æŠÄşYİŠ[Ÿ ÑîÁhù•Ç,tù7fe*|¤SáHŸO8´¢viUá®ö e’@Şÿ(ÿ0((‘±zÛ^úÈ¥±‘kM^Vo ôüÔ#GSø2Fü3
+IÉî•xD-cİÑ‰”¹¾L¯œÚkT‰ªÒvùß|rË«Â“˜WWŞç<ü«/Ù×²y•L8¨Æ+• È]È™0=-ÈèÌUU«?]>ihZTúÃß‰„¬{ãê'KxÁ`¤'˜Sÿøâ¨@yĞÓf.KàcIég¸²	ÿFÄRy—ú)`!^1¿Ò>#…	
+ªlêÅ´Ç}Æøæ%şNœwÒ†ƒ¾DY© ç2Ã¸ªØhYI…Ë›}6‹	F•§vâ=vš+k!V7Â:Ö¹xûRşÒöÎveÛ8tÍmí£ÇZö=8²ãš_·.ô%ºö­K¶uüëğWvv¢û¾†o˜Øyú®u‡Ú^èZ;¼ìç7‚<’bñŸrm9âña(=&†Úè¨›ëoğ4–ô`à‹Oìüäş©ºş°¢;`Ü9…ÏZ[ÂŠˆë:Vtg_m°˜a1õ÷Ô¶¸ÏËºHÒPéd‹’h{I69î“µìŠX&n{Jn?)õÚkN·ŒúÔl÷xÑiZûo±7¦OoK?fo¨UÕf»ë‚~Ù¾¸:¾ªqßºT«¨‹¯7Gåu8îO¨›z“>}¤ºYënë=s_[7èçùÁ«–õ³V°½œ 9k#+0Hÿ‘–R” ¦°y’¼­ÕÚ¼ş€Ï¡Ø¦«òßyM[­ÆšzŸ¿FmvèÏOì-¿Õæµ|óZ»_t$yìyXüAÄGq¸SöÃ´Ú¡ÏÆÚøé”Aû!Š[ÍıBösğÿğA¨{/ùÿ"I¤Ó+áàBTZ°d»tœ•¢ÁEáBõZ¥Á¨²EtfU®ÁwcraSxZëVfjCsiu¢¹%1NİãPq/ÒƒëKéPæÆÌÆù*ÿë”NÙ½£¿¶ª»©y ºw»‹4€~9ÂË1Yô©ÙKkTÜ/QGp~NcõÒNeùçÙ”êŒeb lŒQ·|…ršb‘².©³)ğ+ã‹P\r€¹Æ˜„5pÆ¨b¯°àpºbÓ‚/ùš¥ÄàÇ”ŒÔ§¡-³^§]ï¿~×kâÖÅÌ •íh÷ÄCœ	¯¦ídÑÉ”ÚªX¢üÆÜşm=u÷>çÕ[õ°4“;d-?V“o¦úÒ½2,d&çtä<İ.úd¤…Õn!is<àv—x{ùs¦œ%önÚ‹Ûÿ)ßîG.ŞM)¶WÉH.êTÉÊ«ğøf‹ü(ê†¼üğK~“`XËÌ#—†rI‚Ó§<Nsù‡æ¬ìç¦f¹Ê|;åÂ‰G•2gâ¨»ú‹#
+#+á‹Oáï”ë)Y®ŞAÜÅ£”•÷à­«B$ã`ì¾òN<sX@pğsoÀ¼,yAF=–â˜y¦Ÿ#¦Ï”Ùı<^è§Û¾:iâåßfê/X<U?¶ú‹á™Ô]0Õ^}Ãmf{p™Ö<_.'m`èŒÖjq?ô¨İfÒ:}!q,Ù •@5˜,Á;şÒf4@>zl.ñær¢±b¼”­´Ò7³:
+[ƒÅòëÙ¸¦©_k‰ı6éR¨y.üşªoZíöW=”Y_kÓ‘ÔÆ}k«M H¦5*ıÕW×§¾6¨á–Êâ-¿7¡lkr À°08¡Ğ	çğZBÒç/`œâ‹U¼ÑÀª)o–=ûSa£ÁT,³øujšUµ­“–İ®»ø–«öèGtÔ1¿·T¦ğIêä,/çØ Sk¶še0™ZöÙoÿ5u­Ş|q3's»h²4*ÿ>¡E<W£s8XİƒùnáXœMÏëD6â-ˆÇŠã9ài¶e2™:ö›ßşëëtVêaNær]órø—ÄOØÓš €)Hwv>Ùødçihß_¾ûIŸÊgğû•'É¸2Áß/kğûŸÊB{¦0ÅSr,Ú‰O·P•ğk°çQJÊÈZ.äK+Nûl-”MNÖ3½|pO6ÆÇT)»¦TôFmíë
+5Å«N¶vhÕt‹e#2¿»4–áé]MÕq§ª3VíØ¼­µ!ßÿÀîúš¥Cùé7¹ıÇ>	TïÿñLäüSêk°–# a°ĞÒñš ¦	Ğ´òèq¦o@¶»0œÏ¶ï¸sulËLü¶Z˜O®Ë{©Ï”:YùÚõùş{Ç«ş VkP^<Õ3¾İMm\œå 3/ŒûUAÄ~>¹q»´ßÎœqCãödM<ÔVÍ%‡k»úŸ˜K6ºÍ=>»ãú†BS(¡ªËv|*4¹Â*¿Ìré+¿§ô W”d!›˜ş¯T°uy‰À¨+	:¿R×?Ğ¬m3Ù´¹\¦vË©WĞ[ªû×È:ø65«õtd’»šygrkÃ¬ê€Ãìiì«k*ô>0íò-é9%6°œ¬|~ßO=
+Gë¦?ßä	íºK|_åù¿ò;P˜à[	L86• EšqGÅâIMb¦ĞĞ»ù–®PüÌœ[•‹ó_-®;YŞéØ¯ÉÕ­iê½s{ß6É1QkuÆwZ®Š¹uëXYû+üõ0‰™ìrš,å¤×ré„Ÿ–cƒËñ¥˜µv+Í­şáÍìV­)m†2€YeÕ[÷É÷÷ø&;ü)o;­ Çùe|–¯.®IùCnÎn5*Í”ff‘/?wê¶*‡Án…¢¨dñO@îªC$v{q¶­Ë{Eø&‡…—OéËï¥ÀÑ…KY*É««Y'Ó”UìÔÙ°ÊÙ1Ø±°}Í–øj—?¯ZlW¯îh¬ï¯[a6æ:j3½<~ÊhŒxãŒWÍ¹¬Íé¶µÍù@MÆl2VyÍ™H÷xy¬#^S,Fù«:s°¡{jU0*øSåCüs°«,É†¨O˜­‹‰uÄ]I•8–±iüÜZ%«ñFµÉ–°Ùn.±µssÄë÷ö´[ÔM9×¬•>¹İÂ ¶wõ¬Ú“Õ´el&CßÜ2•~]CjxB›LJ¥WeåÖ…D{Ê€=)¨[ÁªÈ	Â²KYÎ ¢«ç„7Û´ñæ`ÊZ£´ESèí*UcÔë1[Uê–\gèq¯N¯Àc¡ÊT)d*jßjñzì6ÈO€-™a<·à7‚â Ë#mE/[¼<äşªğ	zwÃ±@Ò°kŞjg× ‰ÏpØN•'~tíNÍÉÔS¸ªÅà+/*è_r~ô_MŞsAÂÜ‚IÁ$ô\9¤È’ºI¤c! ¾Ût»^H{9o}0VÓw=å¡p½²gƒìpæ¦÷wUC˜Şé9Õ-)Ûôşoñªiƒƒ#:.-F£Jdü(ŒoƒñDË—=7TTq'8ON›idd710Æ°Šw·({
+µ
+#Åiä6Â÷â7©(kcÓ‡Ôs°&`SPu™ç•Æd&!‹%!v‘ÑXé ˜¼“·’Ïr5èôÆô‘UÕQm=«QXW…Âqoß³s]Ì¬êS»"]Ítı#>Êš<Şp8frèNUl­Ø˜ÒŞt¨Ú¦\aïA<ªvô·F¶,ÆÇ_²X9£–úáNïQ­zMU.Nó£2q^>Ä?Ò+¼™ °Q‘ƒ`‡¬ää–}\	ÿ£._8¬\Bg/móóÁ¾”3<ÑDwôO×xBÊ:JnŠÔ®J8İúÆ‡ŠVÏ­¹ÁE¼]ÅêÕ˜3i¨Ÿ¸œ¾ªeåª‚pNş~°h„ìdÅûnò
+_znÅ¯ôßÜß9øô\ë`ù—…m™ŸİYÇÉöÓS}m‹Ï”¿4s[S<·çÎ¶ê,Ù=YÉá¾!’š‚àhY–†¼@'FIa¶YV‚é
+Ë¤“ÂÉˆŸº‡’ñ‰L¡ùÜ~¿?Ôú}ÎdTêÕvm·ÛÛC}&kÜeiœÊá;õVfS¾£şĞK†›<^=ÇMÙš])¬E¿uS[¦ö~gÙw
+duTÒøÀä"+B&íÆ®s9áŒ2r¥è'ßÍT)G:6Ò¥-§Z}¾÷,U÷ƒäd{À‘o÷3BöïÅ¡«Z
+«ïßí¤/S0î_îû|ƒ38yK]0&®Ç$|‘8F~w û¯åÙnÄÂÜ3^’”„gLœBéÊb‘5k¹ Ê˜¥:Óş¤Å‰7WÕí>†«ê9,£Ü2k¦~ZUsÒcËˆï·gğÓ$çµI;»ù=€°ñ\~±{ÀàŠò€¹“Ó©83§ÉTû«CÉP{ÉÜ¢4«tfNßïô†Sáµj“åKİmñ€§=ÓÉgÆÏÍ{öÖB_×+È[ŠRâUA.é´wÅ3DPñ]x1KLGe†±^Ã‡´éÆ Ù­ÒàÕØíàY»ñ£|ùohÊì«a»rVNÓØDÓ*½¾SªhjJÔiÆ|Uˆ‘È3¶ì¼…—RÒl®À Ià-]şÎuôlÉløã«MjÑåòA›#¹i|#„÷¸U:…‰*–;n/ö,ÿsÜàÍ({›ïá3S%ûØ­bşış+ÁÎÉ~såë1â—ÂÂ6›-4Ó‚uAt(f6ØüAgÿµ&¥N¡²{Lê`ŞÌ)8¿ÜWØ€ûµQgÚİW…öİŒÿ]~Ukå*9ıöI¾öanß¡n„ñr°ªÄp™M×TÌÚÄ_s¯x¥œ4û®iL äd,m¶SÉ´Üè¡Ÿ“ë0¿«#±z¯ı´V&ÃSÚjS°ÅÈ¬2kVû»>\£Ò•8º‡×Ç¸€ÇVó½ûTfÜòÅÀpÔgônÊi†|é0ç W=ÉÒÉ™¼0|¯p($ ‰úˆ”Hİ‡äËÇf›°*¥[§‹g=v»Ê;Òæ±¹Ì:MXa¬ó¨8“*Å¨‡=f‹Zo÷m&NÅ+=«¢ª«
+pŠ´;røšVØšM5¯IÚÕzÆÊ•†Z,¼ÙpÄöÅjÀùäTd¾HL,–ˆbáò¼QW¼z¾4ú—ºUm>Z´lü/ÔZ=Vƒ6&·O»µê¸Î€´RÏ´/|¯Î°p¿µ¥üïï9LœÍ}Ü£=UóéNñw¥\ù:¾?JÎeâ1–^[°—&'A—k#§v«oz9Î‡İåŸ'›ì!»K{^SİÚMF%^°†˜yuùU*ĞC‚¦3˜9oJX¹Ê şõu²g°‰gdß
+gÉ‘/ø1ñ°ÚX0‹v›§&¦¯±­İH§S\’«É”ÚízUí˜÷mŸÕ®Ö¦JO5ª5…†Gš‹Z{Äş¡ÅíU¨© ¸§+ï ¯‰{I›!g˜n7R’$‘ù#À±pø@ßÂobJÂ{l2²$X•Â/µèÎºe,ë6XéL	7;Îóz5UõüÚ/álº„GÈ5ĞÓø¸•ü.Ètåa œœ~¥p´Êæ3Åà%
+·vZ=|MHü®T*ïã
+ú"õWF+”ôkÎ÷pßCı•¸¿ÒL5`Xoøîèœ¦X«V«•¸2ªÕ³
+FÍIç3Pÿø5Ù_i‡¾ñJM¿EØ}û†Û[¾^¸­< ¿‰>!üÎòò¯G}¢ü
+Ú,ßzá¶‹yùMh²Æ•»ğ>ˆC×~ÁgÑü>¢ øè64H«ĞôctîÅ pĞ~Œú
+Ú„>®\€zsakå´óP2P`÷ôP°tõBé“®6x&Å<6>ä
+í'è»Ğ"5Vù>”óÔ½¨z®[¡úË(Oêx=”g+S7C[¢r&§Ó·‘7Q¨‘Ú"ôk vCŸ÷‘J ı2š¤ÆĞ£ø¼mğÜÇø³È˜ÿ®ü0Èı>‘&Ï	Ÿ°êáêƒ~ûV@1a+Èg­œ€vĞQàOdÕAq‘¸:€g
+÷CPA_ÈÃî_@y¶RÆgP›Ğ4>SùˆN¾ÁÓõ£÷`.bğÙ€®E¡x;şät(;uu'õõ,õ2õo4G7Ó»é/ÒOÿ‰1]Ì­Ì÷˜wÀ¹ÆdÍ²!Ùí²_É½òò³ò×Ø»À>­P)²ŠİŠ§¿RÖ(w+ïRşXU-¨¾¡ú•:«Ş®>«~O“×ìÒ\§¹YóˆæiÍw5/kíÚÚÚWt:İnIwAŸ×Ïé—ô?ã¹ãÜcÜyC­aŸáÃÆÍÆ‡›jM3¦³¦'Lošf£9%Ùê.ôˆC?K~İƒ”Bó‹P'®+I¤_J#Ô‚I4†^¯H4…äèm‰¦Qô#ÒÌÑı-½¿%Ñr¤§ª$ZhªQ¢Õ(Nİ%ÑZÔE¯“hª¢ßhJ0»`Ì°0®†9-Ñ
+0÷I´	cşA ‰D:Y‡D3¨J¶^ ABt€–ĞÑs<A"M£aô{‰şø¨DËP/I´y)F¢HNå%Zë¥U¢µèfê[­C=ôİmBÃ€ŠĞ*ç‰&8o’h:,ûº@k ä„Í °Â%Ñ&´U!Êh"|J4ğQ<.Ñ&´]ñ/í 2²;$ú°û%Ú„Ø;ºŠô‘WK´İ /I4à—Ÿ“hÚÀ*QšEsèÚ‡&Ğ$Z€˜“E5ğÉ¢Ä%:·‚.¬ kWĞu@u¡Àe¨õÀ•p;„F…6roD3àG¡}j3äT°cvîÈ¾‰É>[S“Mïœğ]¾k…ï:¾ëÀÄ¿~vráĞè	¾köàÌøèÂôì0Xs=”Àwš ÷ú‰Ó@öÂX£ Û4ƒÊÂè¾é1$@™äz M	ğ² ¦®õŸc™)+±_6(Ë
+@]³3]³¦&ølª†¯—`$¼86´å“™$‘	ı?ƒşˆ‚x@úÎKä!__-‹P_n#Ğ2 N•`¶HÈ#6M˜…ñUë&§	UÏgR™R¯âÿ”ÿ… bC7@…ÿ£Ğnè¹ 4ã¦á3Ï-B™Ï(ÜM‚g`æS’²ÓĞ÷ Ğ{`¬1xrZ&¥ñ'¥‰½õî……¹ùútz~tqtfftwjjæ`
+T›;0»gbla>=	¨&AáĞyŒCôx¸‘ë¬ Éh%Zá/ñå¥úŒ7*´L€=òĞv¼è2"òä,|‹R’ëôÙõ!¡÷²!¬®¤rÃî	şàü?;É/ìç	F®SFg&Æùùƒ»ˆ üÂ,Oş“K÷ÄÌÄÑ}üĞÁ]Ä@ÖLMÌÌO¤.+VTë!áóÇÊûÄòMCëÔRÂóûT	š<tèĞ%%I«.=5·/µ{aÿ¾Ë:¼Ø‰ö½K˜©C‚†ë¸¿_˜o¢çEA/¢®ÉÓû@GGz(’>®>8=¶—ßu`öĞèã0¿çàş¹y~vqâ èh‚ß7zô?>;½û€½hŞäçIz‰\Ùg3 üLî´ ÷¢ÿ#@œ”ÀíPSÂñ°|¦…IîaÅ>@X‘—zN	Â¿.ÕÖ:^útÂ•ğ!æè{é'é§èïÒ_§§Ÿÿs¨ÿ¨WÇ
+)Fÿ¬¬ŸìµZRúŒ>ˆö	¦:!ÈKŒü(|¿=Ç…öqß!i!ì’Ô¿„ë~Á G…Éy
+/- GòÑÊ<‘’X¾ŠZh€à˜…Ö=šQAÏâ"œ´;
+Ï’ÖEaíF‡»<`ä¥å#Êñ?XlÿÿV	Ş¹Bë»LG%ü£ Ù¬ Åô!b/pß-!$šM
+záACS‚kñ1N¦ƒieÚ˜Z&ûçæøŠ>à#´u35L/”U@09bS„(Éd˜>¸ò’Ö2íğdÓcÁ‡73yè	sÌ41Íğİ	˜5LáOAfú™z¦Ä˜F¦îÂó«É¡Ö
+—/®Šÿ>@-÷ôLÖ™Ù1á	&àşáOØÏ”Üˆyw	6<#8bÑù{$NFœáË+€Ìİ¿NÄ^Ä+Lî]	Ä“°ú{mBuPÍ
+È÷áœàî½‚[›“°ˆA‚`™ìó‚õ
+¨„ìU~wU>ƒ²èOü}W>‹ú–CÃc|ëÈã]ä?Å-q#}Kæu@ñ,Éã[‡ÑÍ¯Z¢ãKr~Õô]T\¨È "o“*TdÏH–tk‘*
+~ÕÓˆ½¾‚¤ºn*
+REeZª¨¡¢ŠKTÔa©¢…ŠÆ#Vğ’ND3‚şíã^¹endstream
+endobj
+% 'fontDescriptor:AAAAAA+FreeSerifItalic': class PDFDictionary 
+275 0 obj
+<< /Ascent 800
+ /CapHeight 800
+ /Descent -200
+ /Flags 68
+ /FontBBox [ -879
+ -434
+ 1673
+ 900 ]
+ /FontFile2 274 0 R
+ /FontName /AAAAAA+FreeSerifItalic
+ /ItalicAngle -15.5
+ /StemV 87
+ /Type /FontDescriptor >>
+endobj
+% 'F4+0': class PDFTrueTypeFont 
+276 0 obj
+% Font FreeSerifitalic subset 0
+<< /BaseFont /AAAAAA+FreeSerifItalic
+ /FirstChar 0
+ /FontDescriptor 275 0 R
+ /LastChar 127
+ /Name /F4+0
+ /Subtype /TrueType
+ /ToUnicode 273 0 R
+ /Type /Font
+ /Widths [ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 364
+ 250
+ 333
+ 420
+ 500
+ 500
+ 833
+ 778
+ 214
+ 333
+ 333
+ 500
+ 675
+ 250
+ 333
+ 250
+ 278
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 333
+ 333
+ 675
+ 675
+ 675
+ 500
+ 920
+ 611
+ 611
+ 667
+ 722
+ 604
+ 611
+ 722
+ 722
+ 339
+ 444
+ 652
+ 556
+ 828
+ 657
+ 722
+ 603
+ 722
+ 616
+ 500
+ 556
+ 722
+ 611
+ 833
+ 611
+ 556
+ 556
+ 389
+ 278
+ 389
+ 422
+ 500
+ 333
+ 500
+ 500
+ 444
+ 500
+ 444
+ 278
+ 500
+ 500
+ 278
+ 278
+ 444
+ 278
+ 722
+ 500
+ 500
+ 500
+ 500
+ 389
+ 389
+ 278
+ 500
+ 444
+ 667
+ 444
+ 444
+ 389
+ 400
+ 275
+ 400
+ 541
+ 364 ] >>
+endobj
+% 'toUnicodeCMap:AAAAAA+FreeSans': class PDFStream 
+277 0 obj
+<< /Filter [ /FlateDecode ]
+ /Length 726 >>
+stream
+xœmÕËjÛ@†á½¯BË–.œÿ03.Cš4E4½×¤†F6²³Èİ×ŸßĞB©@â£•şùõİÍİ¸=ó¯Ón}ßÃÃvÜLı°{Ö}øÑ·ãÌ|Øl×Ç×·ósı´ÚÏæ§Í÷/‡cºv³ËËaşí´x8N/Ã›«óõîvêı~5ŞÎæ_¦MŸ¶ããÿÖîŸ÷û_ı©Çáb¶\›şp:şÓjÿyõÔ‡ù?ş.Ù÷ÁÏï†o½ÛôÃ~µîÓj|ì³Ë‹‹åp¹Èå¬›Ö,‚=?Ö?WÓë·§kyj£Mí´«ƒuÒ©.tQWºªİÔz¡~O¿W_ÑWêôõ5}­¾¡oÔéê[úöÔ†ßä7ü&¿á7ù¿ÉoøM~Ãoò~“ßğ›ü†ßä7ü&¿á7ù¿ÉoøM~Ãoò~“ßğ›üßåwü.¿ãwù¿Ëïø]~Çïò;~—ßñ»üßåwü.¿ãwù¿Ëïø]~Çïò;~—ßñ»ü?äü!àùÈøCşÀòş?ğ‡ü?äü!àùÈøCşÀòş?ğ‡ü‰?åOü)âOùÊŸøSşÄŸò'ş”?ñ§ü‰?åOü)âOùÊŸøSşÄŸò'ş”?ñ§ü‘¿à/òüEş‚¿È_ğùş"Á_ä/ø‹ü‘¿à/òüEş‚¿È_ğùş"Á_ä/ø‹ü•¿â¯òWüUşŠ¿Ê_ñWù+ş*Å_å¯ø«ü•¿â¯òWüUşŠ¿Ê_ñWù+ş*Å_å¯ø«ü“¿áoò7üMş†¿Éßğ7ùş&Ãßäoø›ü“¿áoò7üMş†¿Éßğ7ùş&Ãßäoø›üùãÂh¿pZç,‚Ö9‹¤™.¯SDsFÓñÏôZ?OÓi°Gèyhi\mÇşgÊîw{íÒış©Uendstream
+endobj
+% 'fontFile:/home/pp/local/lib/python2.6/site-packages/mwlib/fonts/freefont/FreeSans.ttf(AAAAAA+FreeSans)': class PDFStream 
+278 0 obj
+<< /Filter [ /FlateDecode ]
+ /Length 7570
+ /Length1 11148 >>
+stream
+xœ­zy|[ÅµğÌ½Z¼Û²l+‰·kË’¼È¶¬ÅrlÇ»ä}‰eÇ»Ù’-y‘ïÙC 	KHx4)ğ€4](§m(>àÒ–¥_ ¤ğ„üZHh ´;ñÕwfîµxï÷ıó>É3÷ÌÌ™3çœ9çÌ™+#Œ
+G»‹Zš¹Æo¦Ÿk÷ lšpN†p¡Õa3nhn†cŞ’ì@ˆiƒñ´áÉ‘	cİğ½Ğ^€öGÆ7÷ÿµàS„Ø2„Ö ÛéúôµGbJ„6Ê÷@‡ì#f´	~šgbfáÕ„è‡ ı Ğ¿{Ü?älz·ıY„’0şÚ„sa_d•Ğ¾mÎçœp·+KŸ0¡®IÿôLÀŒezÜä”{Rykÿ/ <¡ÏÆOã»ø»yå¢ıäèÃPf 7T*aÈGrQu P–0ë(TİÔÎ¡2Ä,( y.cıF„Ÿ¿ğ>aúC2C¡=èúÁˆ] ¿2$GA(… PX!E H…()QŠEqH…V¡Õ âx”€QJFJA©HÒi‘¥£”‰²e£İ€ò@S&dF”¬¨ ­E…¨£u¨•‚´å¨U¢*dCvTjP-ªCõ¨5¢&ÔŒZĞzÔŠ¨µ£¨u¢.ÔzP/êCıh øßˆœh!W@ºcÎÁ<ä±|Û©|íğíGı‹H¿ˆ”õ‹™-‹us]‹H]ºjQ–Õ¹®‹ömïâÎ.beÎªìE¬ç¸wråY½W­¶;G¹NÎ5XŸ’ÒŸÒ•½Èèë[;mê®”ìEVï]Å-–µt¦,–ÁˆDOH¦¨S¶tÿsW<àu.ÅÒ¯NY”fu.Úçºè@W¬#Õ‡÷vg/ÊôÇSñ­Àwkooü"2rıñ4ÚU¶Ò¤Vpks³APĞÂgÙ7@69@Š…4E‘‚Ïò~ÜÄCÙ7®å²oT^;Ap·^ÍHaw‘R!WëÊXµåõ8]œ£9Ç?~án]:èñ ®¿ó˜S€
+¸¦X@¶ÒÚÜ¯‹?J*æ”ï^?B;"p•Ib›H>ä¦X5-j+--&¹ÉÊÂ ¾”Ö7šìÕ5h·AqO%oNkHÛ®6lã¶3O¿TõxÕ›ğÇK/½Äı8H—ØÍÈX¬Évƒ4129°ƒ×aS’\¥Ğê´s¾ÕbŠMÂ±ê¬‹M’i,86FY‚-f­‘ù½Eî‰fËäáÑkÒâúRªİ‹zFšq™QbN0%§FñŸ?QY¹¶ñÅÓò‘¹Ï©ˆ	×D&EF‡²8*a•i }$,?_îm·Ú™opDH\¼®àøgA%yİü– :k^¾
+4,E‰«lè.¼e5øÄ¥1.6F–ª5ç«Re±1q&c>p¥1a5¦#êı±fÈµßí²ggfa?[ß©rÛª]+İÌ¯\µ6—{¿Û^DšYEıK:¼ÁUC:]ö¢ŒÌ¢¢ô¬"ĞŸ9p…Ù<qà“Ğ_„–$*ËõäSäª|ĞfŒ\¥f©ÎÔ”¥h¸ÂgBWé2×q½›l}¹©®½ÅM{’[
+·LüŸ"}V—»ú×G«òók›BV'¨"'º«zò‹lêŠN[~ƒşçÖbI×=ø	9UcÈÕÅgñ¿üS–-ÓR‘Ç€_G¨­‰–fèOÌ‹F¦Ú€«ÁnCÈ8ğ¤RksşUëm·Yë;;™sç¿ùúÂ 
+\åW¸HÀU©A‘:S‘õ‰¸g)*Á$tÓ!Bw n¡+·ªä*¹N®³ê¬ª£¥ÒQå¸İTRj´+G™s“Ú¢¤®´¾¾´®¤"-™k|ÉÄáwˆw€Á)‚}ƒõ1q§í§OÛq(©OŸ"kG`½€<„'ğ¡µ¥ÌVİáõªW{nÖb­9šàå Ïp.€İ"4-8áS\PS#Ò€úy cV{Şè|¸Š@–ÈÀª/Y?±2ç–àÔŸÌ
+\Áß^ÃÁ‘Ò\ÂšŒ
+jjˆSD3ËJÊ)+J¹<¿ijÏñ÷×ÙqG×­†(~ÿO?ƒßä/ğïİu]*bÓAğ$XM
+5f.QvâoJÃsZ—Š^*a
+ğVÃŠù&bW‘8ËSbSJp)Î§f%7Ê?pïø±«¼@gùtY«¿wcKñ|úË™Ş[ZóÕÙ³;KÍÖöµMäøh¦íT™\-Ğ•ƒ§iÈSŸHc¡†‹#Ö2Òsîé¡²‚›'Ş‰ê”ÖÔØš~¤	h®d¶Kq]\s•{áRc]}åM¸Ñ—”ÁÙÎÁZ! 5¤I±`“ÂD÷WÁâjş/¸¢Üëí|ÿX~77ûçó¯Pı¨Á¿0ÌK!{—"Xîr¤:“èÒjÂ»¿ÇŸK(ªŞyëX†-[£THØÎä©G[uFaòzsªãY7{'D¯ÎHÎVÌw64÷$jğna?é«á”÷3NÁ^YPyCÉJ5U—ª×…w†–ä4¬Ç…Ş-7»?ıWykkÉº–:\Ù°Õ5Øa*¸cwó!Ï>¼ÛQQÕÓQYíìqY “ŒÅG[S,LĞÂ‰ıéÛvò71§êò§=CNt€jDş”¤Ã!äYÌ7Äíuîd©2Âû¶ì9³gs~æü³ó™Ó“••Öªµ·´®/¯tàÙÂyç–­Î¹ÂÔ²<Çè¨ÃXö×u&ãºb£ùjã¶¦ÆÒĞ‹ìc	Ö]Â1,˜¸hVÊ (GN¦ZÁK –²ÔRñhåŸFv9ZñØ•ÒØ	úh+·õûğÁn¿Å„	ç-ñDr‚¾å¡üâ“€şş6Å!‘ÆÙë^ÿ¶S¿gÂ<¾wÙù1Ê|Eã‰¨Z4±á86_áçğí°nşé/š	]#òS<ëcS,R(LŸ€/BqÚíÙíBlúŠ‰háX©%[˜x^…or¡ËÔ½F_b.‰g6è-\ÌJŒıj¢·8–D¢%Ù¢éÖXÌ{amA»Ü9ó›nF“S——½–Ëµj*†ujSikİô¼géïD„~j`ŠıĞ·@v‡°‰½n˜jÑ¬*â"Ä:¬%XğjâÑ2µ¸k*ötæ>GwXRL™çƒGşşŸ?iJ˜œÚvfs[]Å¯»ønCƒocDEƒ½ïw›ö¹òüôÒÁBüY½æ@çö'?~ğà‹\eæØSƒÿ«²ØöŞ½[]]5Ş¦‰G:øWÙ 5ïnË³Q¾Pİ	1UN,_“"Wc8§CüÿQã–,`¸\L.¼û.ZÎÀüo‰¼,"›ä‡y‘o“i¢†dÌ˜ÄĞ`¥5gáX“ÒHC€ŒÎÉÿ§¯ëÎqÛK·ßıÛßææ•ÄT•~ğzÿs.­¨(y27¾íÎË—ùßd™“ÖÚ¾#{k {tš¸Ä  ¨ÖjbRRsXƒÂP½¹áÓ¬¨şÑ­»&º7*6¦ğ_ÔÏWç*°Ë88Úlş´©égûoû©{”¿`jòn¤rwAu?•;
+!p%SëÄP‚»ğê;üäögŸœŒ9w’ìÅÖ»n¿ã.ÿºa®æ’l1¢½"…Ô±¿Ã/}¿á]øNÜğm+s®õJë
+~%àÓLT½Œİ6?ƒ{‰J—QW2Ÿ™!ş+c’@fÈSÔ–…Z4”ámikû‹]7½E*Ï¿ú}´±~gËöŸ*"79föãQmc[iÆÁ˜V~«sæì#çh‹e‹ß¾şçÂZø˜[90¬  5@Q3:ş¶¾><…òÆŸÂEK:ÀwÁ¬“âùè'û‰Q@›ĞR@\:0Ø“”tèéIìÖù2CŸ b ÀÚÖÈà¥ó>OWYnY•À±¥»—õIØÀ¦`HÆø·±ŞÇP  œÄ›ø·ù<GçÁı™‰¥9>ğCöáWØÃS›Aù0^ãß †PŠš%ÆÃ§Và³ƒ§;oúÏ³7u2CKşf+2Dh6Àœ½Â^a8õÉ$¬`özù}n¼
+Ü¼t‘«9ÇÌ‡°_!p_„¸Bd"¡D“*‹B0óáGœ<ùàÑÿà2sààåƒ°ógo½‰7¼yv÷Cü¿úÅ-·ÿRˆ!$èzi>Mie‘åÁ2¥`Ä*ï¦K}8{|–o>YY__y’aû6ñ¯2çüT-T!ŸS”ŸrºKåº†À/u*Âa¢‘9ŸëİàÎ<øâÈ‘®fÂÙLqq.ì0îÎ{lÓMµ]wì}ˆp™P"ğØÕÃÀc""©açl°*V[Mx8†^u|àœYÅe)e8zÍ¦˜Â’ÏúpËØt~VCå_ÿZgÃ­!3185(£ Z•S[^YÊÿ9çî/i½¹&ÿ»b1L€<p¯ĞK‹9á2îz0HÆ$="Ga«{Kbğ†‚&MäŞïXØ±wâşº®üŠßÕ­L/)Ï¨o*ĞàNeV{ÑšÌ•CmĞìš«n¬²f¢ób6V&®]—“®¶öK“óÍÉ‚BfÉ¬§1ƒØ†Ü2ö}Æ3û–63ûZ[§øİ#ø}€:=˜ô¾ûví>Üçnït5#ßî›üâQss[ÌMúd®ŒØ+&ÆŠouñßºŞzeîÆ8q|ºlÓ¡XÍ4øc.?òóág<·ıÌõË½¦céQ˜²È´‚„yÌm‚oÁDLgâ}˜™şãŸ6aæ_›yÖ™ñíØÀ¿çğÿ7œ$ÈÙ!sæ	rœİÜÇ4ıÖë~œDñ3üƒxpINY-úO,§´`8·m|~ré/øI~˜9×¶ôçÖVÆ"ÄÆ²€}+è”ú>”oGF~Ïœ«¹öAû+ôƒ¼?$ÎıÄú	Éû™Oˆ\0ÿua¾ÊÎ%æŸ­ak®9Ä˜Škñ£3ÉÈ½AI„?U{¿mËfsŠ¿ëù³°ÆÇ¦"°›¬A3Š¥GvÂü8PáGÌE÷Tjİ¾Å‡™‹‡QÈ„ıV1ñ(îêâ-@îKv~9fË­$²b%‰èlL\¹ì5§+;8X—!mëoîMPf¯*NHËÓ®+(,–:l«İuÅùxÓ±Z;ÿZS¬Iol«ViWGEÊC$RÙš5qÚôlÿµ™ıaQaÙ-zÂS>ğJïzäfbR¬äËºXµr%Õæ;Öz=Û<cEõ—*ZZ*ªÚ`”W7Ú¹ûÁîJügÿS~Wÿ¤ ƒdˆïçAÎUäNtı¶š"ğr‡ßn*3W56ÙÆbÛ‚&ûÇ¶ïí™À½Ö"ÿ`ßèc‡wî~`Pˆ#k€Ş?hşO­ÊrJÁŞ×ãÔ¥6çnÙ:<nùQU[›X%aØ–—ußí÷¬Ç‘üç“=½~_O¿è¦Ó¼<¢q"ÉgâT×™¤aP'MÓ,ó;p|–cXİ5×íÛuóDİ¦Õ±ü.¬ÅmëJ[?®I¯ònØx3÷×•YõŒ¤¼«CĞ‰Îóø`¯$˜Îcn"ÆL‡Ãn//T­R†2aU|şSUWA©Ô†Áê”Ğâ+y£7Õ²Ô`¹1Mçãè±oÔÃ½Û¶ºK£µ½>y{Ä¦¶u}JeSSUEC½êí»ô4ğuõî™muÎx£_òõLŒõN|“„ùCĞ¹’¼g¦‰&=ô…l»Uf”59šú‚†.³œ-ü0‰¿tüİ·ŠÀ·èÇÔåB@î?v8ÚÙÒçLØ›^/İßÀ§-ºÆ©(jƒ1`}*
+¹$ØÃ#CƒµI¶´o‚­ÆI:VC'cTÕ—b> °šäJ5+=ßùşØ“o_O¬´ııü£8¡å5š~Àrúİ{=7¹·í†Üäf¾}§Ğw.D\Õ²ÌŠ=,öÆÔz³S¯©1×6·™rL5BÅ„Õåf¶èÓê«ùyì5Z[ÖB>+>—uû¬¡\Y#îûTÕëº…Æ²& Õi54•Cö7–[@tzMàa~9eVŞ“E‘÷d+µiûNßäö~{K‹İ¶¾™‰?|ëM‡ã ÃÏMLô:}‚oå´àÿñ‚ÿ« ¦^ Šı¿±hÜ³y«ÛYv7uÿ6Ç;Ì‡Íıÿ~Ëö{šø0ßàÿÄ_Á)Í5!ÕŠë×‹Iş=w]*Åu—lÔ]›ßÁqTÚí¥ÔS»)QŒà‚Ë&œ/`ìÔ…İÁåmmmi•é¡±øE¦n„ÿŒ	(2±äèéU˜ù±U|¢ÍÅâ¥[¥ÖŞ˜·È,6k¥6«©¯Ö÷ä îd‡MÅ9¦–&ûìĞ«²r­ÙšÄÔe\eImG[c[VZ‚:L©´ÁVıF°«ˆÀÄ3Ğ·J`ƒ4æÅ
+§ºğŒß Œ_©KÌ3WW;ˆ³ß— ”ØåYéxÕ]Â}¡xşÜ‘•äÌİJN ùåßê5-…=`åMZ³¾©âï$¦3Èüê·aB^ Û‰=Oõï?ÔÏ„ñøQ‚cÌK€ó_ò‚ÌQwÿ½½c®áO?¾ŸwÃ¾—š·Cuæ‘;€R­“«•¬Ie5á´Î›÷<ıÄÀıbÿùòË8ãç#sbÀŞg¨g“›î²g—BJ¡Ä·t_ÉèO^¯X“ÊïÚş½w<¼^¦Jp0¼‡%P½ó¿—#@ñ2¶ñğZş=p6~_m=^¨¥úË
+èqø2}ßœ¹±<ê¸"Ò¦™§¾r ƒÄ1‘š5i9­k4‘9æµ©z}êZ3s®<AwÂfÖ.œĞ%”ÛJ¶Û‚‹ì—ØÈ½rˆ£ËïjWq1sn9wH„µe0ÆÑü‚„e³ULu¡I™PÅF`Â’:1JßÚ¯‰Ê5¦de¥šÏ’u4ß_¶ØF–%÷†¯á'©m¥ÊÕÄô“15
+„KHtOäÊ,k^|ülB\R¬Å«ËTáé&{}”M¡Ñ\SAó£ïĞgLŞò»TÈ]ò–^_¦B~…ÿ‰ïË-ä>YÖ×g0@½5H+o”Qÿ6àó8‹¾ÿ"Ü¨É[ŠXP´Iu¼³Ïm0¡5>ï.ª’håMRÏ2 Ä‰< “CPŞ¸¢uÊ#k¥œğ¬0‚_¡ÏØ+×ea¯\‹X‘…„‹Ûjc>,ˆ,ş‚	e/“%Oíı·_-?¯UğFÙF	D(’«®üÚ‡ØËãuË]«¸vl£ø‹âõ*qy‹‡¶Akfô(J
+»%2÷Cf÷<è§ÕBÑâ=(©AFÀí€v}Æ¾ü,(ÃPR¡pP ¨Åş((ZÀ÷‘4²	Zô¨‘ı
+æİPš™3È ¥àn¸–v³!HmÌ#¼
+8zÔÂ–£zèo€q-ôõĞçÔ°æÅÜp»9ìı´„CĞ)#<ãX‡ÿ´õA–8 ™	%ÖH†ç(é€ÏD(vô>ª@ï>…ñB€«`};é‡’Fæ‘9@Çã©0è°ààCFø†Chã&”…% KĞ­ô`Ãç§Fªç¼€ğëo|õp²Ï WpÄSøV|?‹Ïàñçb"3SÃL1@äû’Íaíìnö)öö"û¥$D’$i’“üAòµT+­’öJ§¤H_şoéUYl•Ì(«“MÊî–”}+/“·Ê'å»åGäÏÊÏÈ?–_
+	JÊ	*ª:ô\Ğ‡ÁÑÁUÁ®à£Á'ƒß
+ş<$"$!¤)Är(ä¹Ë¡Lhahoè¶Ğ¡ÇB_
+½z-LVæ	Ûöïa‡	ûW¸`»nü0r¡)°L†¶ƒi÷çĞ–@+‹	Y±ËR´K„1ŒabüfQ.a	\è¦EX
+¤",CAøB,è]€Ca­Gvvyİ”ÆŞ/ÂJ¤/‚óV"…u£‚ÖQXp˜ìÏ"¬D»dïR8ˆö?Oa
+í Ãñ‚zW„YTƒ>a	ŠÆ",ÛÛ.Â2…ßá °Ÿ«"Š6à¯E8íg¶‰pªa×‹°u²Âº!d]I³+Ñ‚¤Âa¤_¾+Q¯|ŒÂQĞ"û…• GË_a%ê—Ÿ§p,ùíDv˜Â«ÉïÁ²HV¢Y2…ÓH¿ämG{%‰0ğ)õ‹°µIŸ¦p&Ù_I5ªD~4‰6£qäFÃ`ù2"|à	Ë°éØr\p¼ ;X›¾r UBm9ió£Yä‹tB¿Z>òH¥ró¸{x†3F=©M´¶Ğº€Ök9û”ÛÍ9üÃ3óÎ)7g÷Ïú\Î¯ß–×t ]š†Àu8} 5B·–šEpit»¼³ˆòáÈs
+PŞŒÀ‰…?A (ô›Q6Êƒ²,-²û}3vÿÔˆ›3æ¸B‘GX`sv^6aı7äĞ
+"B`d
+úupd¶BÏ´—ûÈÒyÀ‘şsÁ€Ä`ƒ{j¤çÒZİs^ry9FK>—Æı?RšP;ı„< ƒØùiX"¾Ó€>G§ø öÀ’# ÍÂSĞS.àN<
+¤‡`æ4ô‹K‹:Í²33“Ó…¹¹ÓÎ9§ÏçôäŒøfs@K¹“SşQ÷ĞÌtî0°3ºä6X‡¨f¨‘'±èx¨¸ºœØõœ´‡l,}³hp…#2Óµ %yº×MçŒC»…b­!h5Ğ§›ªÈM,±Íãæf§İœ˜›ñx§9Â#Ï‘)§oÆíâ¦g‰ ÜŒŸ#ÿDTíö¹§œã\Ëìà¸wˆkğ¹}ÓîœëŠÔ:O¿ÿU™C?p»\è„V?U%hr~~~E‰C¢·äLçxf&Æ¯ëp'<HwjšÑá<G©LR=úa§‰^]“Ùã £-Àzõ+¢>6Íz‡Æ¸Á)ÿ¼ô±ÀÎNLNsş9÷èÈÍ;·læ\şÀŞôw @õDÂ	ªr„êÄ¥|À˜zÆé¹)#dk·@ıOÀuÑ~ee^Üş1`G/
+vM'É,ÎR!ghD$³š&ÌS#£”}€…àP'œøÂ(åÇIU"ß$å™ü‹é£†5F×rÁ(\r¢Ù’üŒìÿŸuàtU/u™AÊÓ‘'Hæ§RLqŒ1 î9$º]âp"=Ş”T*Ê$1y’zIµdÔ¾$Ñˆƒ–ARÅp“Ä$P)É—HŠP6Å.‚¶Ú’2I¥¤èÀ—‹‘˜vh•@]Š$’À4Rêœ¤QR(±J,’bI)Œ5Ãü:ré]À£—ræ¤’Íƒ6Æpµ±å¸Nöõ{‚}‘=Î>Á§#^ª_7µ¾n˜õ%@DCÔÆĞEj{Ã¢ù½º?Äb/#~:B¬NÀ¹F­jJ´OŸ†üè‚ØrĞ}šqªàIèxènßZh‹`‹¢ÖGb½ÖZøås0gVt[á¤Şã£Opvâ	Ä©Ëª¦~å…q•ß%jÀMµ%Xâ'Ù i-ğ¢§4İ°¦Ÿò5M4xÕÆh˜WB.Yi8›¦ò9éš~ °™ZÒ(à\Ab®H?dDÿÍç)ØƒêƒZ:c| ë¸ü#ßbTWıbL+ »ºeY½hQÂÙÙ¬ªÅ ÎökÉ>&‹6äĞ*2hÈcÄ†”³ı²¶9$¶ƒÉ´Íb#„ïˆƒx1T$X¡ÑLÖqÖ>Í0‚Îş­ôDP:Sì‰$=7öD‘È²•¦‚ Dİ€Ğõƒ”endstream
+endobj
+% 'fontDescriptor:AAAAAA+FreeSans': class PDFDictionary 
+279 0 obj
+<< /Ascent 800
+ /CapHeight 800
+ /Descent -200
+ /Flags 4
+ /FontBBox [ -958
+ -462
+ 1632
+ 1050 ]
+ /FontFile2 278 0 R
+ /FontName /AAAAAA+FreeSans
+ /ItalicAngle 0
+ /StemV 87
+ /Type /FontDescriptor >>
+endobj
+% 'F5+0': class PDFTrueTypeFont 
+280 0 obj
+% Font FreeSans subset 0
+<< /BaseFont /AAAAAA+FreeSans
+ /FirstChar 0
+ /FontDescriptor 279 0 R
+ /LastChar 132
+ /Name /F5+0
+ /Subtype /TrueType
+ /ToUnicode 277 0 R
+ /Type /Font
+ /Widths [ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 500
+ 278
+ 278
+ 355
+ 556
+ 556
+ 889
+ 667
+ 191
+ 333
+ 333
+ 389
+ 584
+ 278
+ 333
+ 278
+ 278
+ 556
+ 556
+ 556
+ 556
+ 556
+ 556
+ 556
+ 556
+ 556
+ 556
+ 278
+ 278
+ 584
+ 584
+ 584
+ 556
+ 1015
+ 667
+ 667
+ 722
+ 722
+ 667
+ 611
+ 778
+ 722
+ 278
+ 500
+ 667
+ 556
+ 833
+ 722
+ 778
+ 667
+ 778
+ 722
+ 667
+ 611
+ 722
+ 667
+ 944
+ 667
+ 667
+ 611
+ 278
+ 278
+ 277
+ 469
+ 556
+ 333
+ 556
+ 556
+ 500
+ 556
+ 556
+ 278
+ 556
+ 556
+ 222
+ 222
+ 500
+ 222
+ 833
+ 556
+ 556
+ 556
+ 556
+ 333
+ 500
+ 278
+ 556
+ 500
+ 722
+ 500
+ 500
+ 500
+ 334
+ 260
+ 334
+ 584
+ 500
+ 556
+ 221
+ 333
+ 333
+ 1000 ] >>
+endobj
+% 'R281': class PDFCatalog 
+281 0 obj
+% Document Root
+<< /Outlines 283 0 R
+ /PageMode /UseNone
+ /Pages 300 0 R
+ /Type /Catalog >>
+endobj
+% 'R282': class PDFInfo 
+282 0 obj
+<< /Author (\(anonymous\))
+ /CreationDate (D:20130420144517+00'00')
+ /Creator (\(unspecified\))
+ /Keywords (mwlib version: 0.15.6, mwlib.rl version: 0.14.1, mwlib.ext version: 0.13.1)
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title () >>
+endobj
+% 'R283': class PDFOutlines 
+283 0 obj
+<< /Count 5
+ /First 284 0 R
+ /Last 299 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+284 0 obj
+<< /Count -14
+ /Dest [ 48 0 R
+ /XYZ
+ 181.8669
+ 787.6635
+ 0 ]
+ /First 285 0 R
+ /Last 297 0 R
+ /Next 299 0 R
+ /Parent 283 0 R
+ /Title (Chuck Close) >>
+endobj
+% 'Outline.3.0': class OutlineEntryObject 
+285 0 obj
+<< /Dest [ 48 0 R
+ /XYZ
+ 206.2069
+ 477.457
+ 0 ]
+ /Next 286 0 R
+ /Parent 284 0 R
+ /Title (Early life and education) >>
+endobj
+% 'Outline.3.1': class OutlineEntryObject 
+286 0 obj
+<< /Count 3
+ /Dest [ 48 0 R
+ /XYZ
+ 97.69291
+ 226.457
+ 0 ]
+ /First 287 0 R
+ /Last 289 0 R
+ /Next 290 0 R
+ /Parent 284 0 R
+ /Prev 285 0 R
+ /Title (Work) >>
+endobj
+% 'Outline.4.0': class OutlineEntryObject 
+287 0 obj
+<< /Dest [ 59 0 R
+ /XYZ
+ 129.0169
+ 277.6635
+ 0 ]
+ /Next 288 0 R
+ /Parent 286 0 R
+ /Title ("The Event") >>
+endobj
+% 'Outline.4.1': class OutlineEntryObject 
+288 0 obj
+<< /Dest [ 100 0 R
+ /XYZ
+ 94.02491
+ 694.6635
+ 0 ]
+ /Next 289 0 R
+ /Parent 286 0 R
+ /Prev 287 0 R
+ /Title (Prints) >>
+endobj
+% 'Outline.4.2': class OutlineEntryObject 
+289 0 obj
+<< /Dest [ 100 0 R
+ /XYZ
+ 130.6969
+ 417.6635
+ 0 ]
+ /Parent 286 0 R
+ /Prev 288 0 R
+ /Title (Commissions) >>
+endobj
+% 'Outline.3.2': class OutlineEntryObject 
+290 0 obj
+<< /Dest [ 100 0 R
+ /XYZ
+ 222.9509
+ 352.1302
+ 0 ]
+ /Next 291 0 R
+ /Parent 284 0 R
+ /Prev 286 0 R
+ /Title (Exhibitions and collections) >>
+endobj
+% 'Outline.3.3': class OutlineEntryObject 
+291 0 obj
+<< /Dest [ 132 0 R
+ /XYZ
+ 134.1069
+ 702.1302
+ 0 ]
+ /Next 292 0 R
+ /Parent 284 0 R
+ /Prev 290 0 R
+ /Title (Recognition) >>
+endobj
+% 'Outline.3.4': class OutlineEntryObject 
+292 0 obj
+<< /Dest [ 132 0 R
+ /XYZ
+ 130.7189
+ 526.1302
+ 0 ]
+ /Next 293 0 R
+ /Parent 284 0 R
+ /Prev 291 0 R
+ /Title (Art market) >>
+endobj
+% 'Outline.3.5': class OutlineEntryObject 
+293 0 obj
+<< /Dest [ 132 0 R
+ /XYZ
+ 135.8289
+ 428.1302
+ 0 ]
+ /Next 294 0 R
+ /Parent 284 0 R
+ /Prev 292 0 R
+ /Title (Fundraising) >>
+endobj
+% 'Outline.3.6': class OutlineEntryObject 
+294 0 obj
+<< /Dest [ 132 0 R
+ /XYZ
+ 138.0969
+ 315.1302
+ 0 ]
+ /Next 295 0 R
+ /Parent 284 0 R
+ /Prev 293 0 R
+ /Title (In the media) >>
+endobj
+% 'Outline.3.7': class OutlineEntryObject 
+295 0 obj
+<< /Dest [ 208 0 R
+ /XYZ
+ 127.8489
+ 784.1302
+ 0 ]
+ /Next 296 0 R
+ /Parent 284 0 R
+ /Prev 294 0 R
+ /Title (References) >>
+endobj
+% 'Outline.3.8': class OutlineEntryObject 
+296 0 obj
+<< /Dest [ 256 0 R
+ /XYZ
+ 109.3549
+ 648.1302
+ 0 ]
+ /Next 297 0 R
+ /Parent 284 0 R
+ /Prev 295 0 R
+ /Title (Sources) >>
+endobj
+% 'Outline.3.9': class OutlineEntryObject 
+297 0 obj
+<< /Count 1
+ /Dest [ 256 0 R
+ /XYZ
+ 147.0989
+ 535.1302
+ 0 ]
+ /First 298 0 R
+ /Last 298 0 R
+ /Parent 284 0 R
+ /Prev 296 0 R
+ /Title (External links) >>
+endobj
+% 'Outline.5.0': class OutlineEntryObject 
+298 0 obj
+<< /Dest [ 256 0 R
+ /XYZ
+ 116.6449
+ 243.6635
+ 0 ]
+ /Parent 297 0 R
+ /Title (Interviews) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+299 0 obj
+<< /Dest [ 264 0 R
+ /XYZ
+ 133.5109
+ 597.6635
+ 0 ]
+ /Parent 283 0 R
+ /Prev 284 0 R
+ /Title (License) >>
+endobj
+% 'R300': class PDFPages 
+300 0 obj
+% page tree
+<< /Count 8
+ /Kids [ 48 0 R
+ 59 0 R
+ 100 0 R
+ 132 0 R
+ 208 0 R
+ 256 0 R
+ 263 0 R
+ 264 0 R ]
+ /Type /Pages >>
+endobj
+% 'R301': class PDFStream 
+301 0 obj
+% page stream
+<< /Filter [ /ASCII85Decode
+ /FlateDecode ]
+ /Length 3715 >>
+stream
+Gatm=gN)=4&q+thrrFu1lXXQZ8b'B;ZFt7tPBCUQ4./_.j8kttO^jR$J><qAlh<5$;P^CP1J*a%M$+*+2bou/%6MeR^Q/;C;R#aKS#t#_9'3[Mn&.N9_Do!$U$](9q7^Wu^-?k/Z\S.Ycf\q9]?9'4_"+D;LGe`->>J)=o<[aQk4F"Tm'0su\on"/8"2XoR,bNns0@QPZq6kA9eIsd'moks*ku=E5+\DFW;dg<i-V0&.'d.%[Cqpm\U$DO\B<usJ,PFZJ,R!3r_:!HjI\/B0J.7G+Eh7MKjed,Vg\(TJ%D3BGpeE1jcS;8@+dgWK]I(gDT'C\/6nNN0q@_W_W)3r\&!?DSbC-"LVVuTG9$[4qMo#\^C'*,Yn]]IKEiO[,<L8Gl(+`.OCPnLk4h5(a7gf/kiQ!rfQI+R=aoF+*KO?jiW1Zb;)6N*4j.JEj;9*pSHt9KYf53UB`?WNF9K#f@bpGho_Wm'g=0_@kaN#%GIuana)[!udIGt_AOfUJ2imS(h";T>0^E+Q?&h/)MZNV2KR9ue``>@:lOZRKCDJXU(kBtc1!q*cn%!aRg&dJ>_m,7=:)lajTYESPg@g*dn5]DVWsRgCg>lDRAB>Hj54cp+%mlNQ4O:$-c8U^6XA4I(i8S(m9!2]re\#Ge9dQ6[aT]:S[2GUDo6q6dp8_.g'A!+;n%W:P;=c?:<E6J$C\h4NK[i)mchRZ,_#"%8I*7H&6b-=hXK8aK$+%`s.A,6Z2QA+=$<bqoKpO?Q`@;\3R'8HOn5NGrC6DcEfg<f4EE3C2M2LZ[R@:+P8hl'N#Z[:XZN=!s%ub9_pV20<F`OJ68f8#\JAlE1(C*&7a3NZM>jQd-`E?(t9)PGnpeEA?<c;),\7<d@Xg:(=-]hgo`R]hkRu(CQ-VXFjP(kNd;^IoE$EN@C@NgsaiODG,1Afi4X,g-m+bp'TUZd]t'6VAT-oP3a4HSl&_:4VaHg8sc$eGJT3)9B!G1o+US!9rnL\$nU!iL78p5RjbS1f%YWq(9B*N1tnBU4+0l+:iHC[qr+-d7E1].YuWpTda23;pXn'VMJfEGMGqs'f&Zi,pA>NqD2@cJs=WD6):S%eH\cVLa.jGVu%@WE6QsaQKbuB=l:"V,&/j.[@D@!WfB;Yc>fpbst)pQl]N_^.Rp;_HU]c0D+s8@D@hM:-8C*&:88"=_$Uo\]gX2O[NWNc7NY_iN2qH+F%2TUAGdj`>q5#\p^jQY<3V;]D;R&hU2?e%7+[<^/=-c9I[D:`OsQTW`NB[Qp#n:O!bI8*F@(^K@)(g[pr5k__F:IA+AchGjn]e)@6Tm?8NY<;a3#XR5hTMq<Ld#K+/ae*sMq@o_l!Toq@:lG8_H"V]Nu[5NbH^\qE^I_pF;ae(/@L[%lT(qP-omGb]E;)cJSJ\n^lba,:gKT+)\6j&[e4(j&PD=KKb`]UOtFS#oTqBpE;iRInFj+PLA3'uk^\d'!i0_`O;(E(>]]Y-+\T(q*KGs(.Hl,-7T?Om"Y*)uMJ!5N+K'8=ua:SnaOAa;Kd$;&dq03FBU0jI[)Q!T[]eA(b=-R-jZdU^aA4\e8s'_M.0B5K%rdTKuJNPosr_Or_u(^]ZpEH'8LY:p`JcU;1H].^BSK()3h&L)!lN<r+=%9I+SiZ::]rR,^aV7:HIEjRCuQ65u"alD5eKP6okH;:Y$"%'D3W`,V*nLpbIcrm1DbHsps68#K/;oLsD0ZM@Co]NBa)Fp5!jF<C7dUFa'34PHrjOS>hIF)bSJ;uEs4m[i9W0]D"q@%MtY&3=D)8#'ks/,Rqtk8uT1ei*i"m7mO-g7*^JmjRgBP1%oqe]7B6[Q+rNl&"GIMf`+kRPJlS!N55tdQ]VdM]Bejfg]rEGaZl0FtYB%L/=$>*B&O(./"5u*Qs?BC-W)sc]hEi=3ElZZ5KjM)f"2p$nCu@_RT5eS)6[#4^&$\j6^G)e9J']n":[<#85-d)4fjjI7ZH&-?rgSE[QF9O_;_g6E0oRre""^&pGX!Qfb@3$kV!,7;j'TV<]J_WR7R^)b'H4;7oqCWU`d*IR59'Ld*7=^Wo95W,/>0[uIO='A7'Ue2DFHpPpUsQ/(mWNr7O;m,C0q67,Jq;+449W'+ud"neX-GA?"7S%Z@BCY]^s4oOJ1@nZoH14`ZfE+nAX;h.B/'t[kX4XZ+MD48JrSVEKk+OmLPCO?OQ[8+!PppnOJXLI$\T/Qr;ZnS]"q&E9EfQe7C5&QtTL/+e\=Y),1cT"OZ'6[74ZV'BD#n^h'!1$8%DRAuu04t>o^T4c1Pm!fq0sl>r>2D,REeh>3\lO-W`SS`p'n_?$(YE[E68N1o^&\H,`iMmMPE.57YH88<+.F[9/b6%<^;VAkfX.]H)iSbSG&?CR`1@//?j&YZ;<lnanb\4?p(E(8N+NnuK_=IUSTq>KBm1Je,fRQ[h!'8rEe"i)7&4mRNUSOMh7BIFK;'ed7c.%!>`*B=3jBbI$(-,h@"E`r<rE]=H<4jLhPIXnM9#rc"E\A]%#hXJ3,/W:L^g**CF.=X>6Kp$D!u$]Q\:k3YbKm5.S1qb(sB"lr79-06W67LYm1]\S4F?^%V8%"KtO&UV-%,f*BnFm&NA2lC#5MA?P>&ke:@0VGl":,:ial$?5#=OPn9a]n>[T\45B+O;*d!1OSbfo[tXJJC']p:ZZaP#Hn_OnX/gjI?6:Ae;j'LM(,2X1"8(/[g8>`O8>U[9k&%*^qlsM6:Rp6s*9:+Z8)Ec6eEf)oddd4,18Lq=K7&sD484HA9K)6!@_HZa0jsq3%S^88]G"i_?)-%0-n7`im-Gp/JlnS19A-cPFB)Fd$21UFT/4dLk?.h+*mZpEk)Ns28dem]T[q9D>cg3dA%bM0>SOb&^<K8UI!1;c4RRkL/Ud_WQ!J7&@K`Q%1E;F0^3P.]j>1k8C7^!NZ9I\DE5IA@X],?,26&JOT.p06_o*glH6S\t3N!3]$hQHT1[;Z15HYK\JcHb(5fp-4kNRHFBRTMEZs>&`faTZkJTGL(CfU'E1fC?I?W84VCo-3FHn54l:%$_*,k)Uandf$XE-cTGoaYm]Qr4SXe*scAk0Z#KO9D".&nkLLkU,fKe56P3cVg/E7hqkFl`'+A+Q+/Q*d#<OWng/%B:JUZ:*/f%mPJq'<Kj5RK6Jn+NoOefPVZC*'m%>O46kD%^Tm5qDab5\asX<Ed*L-'rJGd>l+S2Xl&57l[Z3s$9,-8[GIG:BJ7H'_:Af*l9gcDO6(k2Z?*60[H;@_QF,5Tibk6D#T>hX@ZsR@q^%gUu=_k8hl6Op7XJMF79oW;$<_DtA>cY1.#mqM1V>>r6kVecFj("k=ecIT5CT$s+!)4;79]*R;oC&Zqa_Z4JJ0"X,QOPe^Z:4rDmKgr1\KREDYsMI>+#/d'7/2XW8h9XU13\3_)'0\g_(+cng`-AHQ`G^K2c-cU#E&4&<!XLWTjEqid4:D=1juaC2fGQSDtM"]kW=8`USYb^es]C2>aN#\T\QK;Z92JN3R`Q+(E`K?V_@O=!m(>CY\o;[Y&.!H25uJ-agZajl@J4(IDu29I7/XBZL=WcbM>(>)IYrHq">.X/R[#fmn=u>ABLkX;=hu-.#$+:J+qb-^u1'8b=Y_K7L$=s4?#Dgf:U<]cus6s>pfokNmut0(!D\rP-dXIk3o7C*&5^VU=JiR6e[tt[VX#"M#[HmG-J^G\83LXW(`%QD(&#_*$tRs;7^!GLQ$W5!f<J?r?&+^q-a~>endstream
+endobj
+% 'R302': class PDFStream 
+302 0 obj
+% page stream
+<< /Filter [ /ASCII85Decode
+ /FlateDecode ]
+ /Length 3886 >>
+stream
+Gasar?'F#$&q&T:r=:<kG]Tc:+t8CIh376EB317Sn$7)8e2\$N$&OI0Jd[[@d(fR+#,&]]leP/_d8D)@1[+)f)9$'FIq&Cqd>7+h\_(7r[:57d=hJ(D7D<(uBg.SH,I/kWnglkJ<f:=gYO8QsiipVJ>K\EfZN^'`"`n!XGLop"Daf%51DdN[q!N"sGPjH;[p'GWiq=a>o;3F`:Z>)cSGG_1r[Dab-@WJ<^A9egHa6#IaLt$CGnMFp`P_WehCgnFjmL@-_hSp*%aQ3h0:b:gJ)78jA]l?&Y*1_,jGW6+m-_ad2-V$Eo6IcJM;*GtIL=VlimLi(2`iP%apGBh;J]>XCF.].<'n'g0XVe"0WjPu-tIZX?,Wo+FVcr@Sa?*cocJe#T-(g447JLKPnNAcY*QY!-(Q2J17tc?WE8e"X1d0O^(NSp]rBPqWb#Cl?RfoiOO)%VBU(7%hTMB![$UPo_/MK2m2HAtV'mgg$[)UqbK5B+I_lo0(R;A(fGZ7ih)JEPo9TD/ke0_oB3JHe9'pq1LlGF*;dWZ`lmf7XcRapJH'0e3.<:'#9WQng44(gJIU`Ua7H2:54L/p%mc>jc&b_UG]pO(E$7Bu<MdSFAKX%Ai$eWRXpTV+@XV"c?kZ[^*LF<eEPr]FJ]ZcOacB\Ur>LSA@S7r]+-a`JRh[XL]XiMDj@B=I[fCq8:OtE.Fp:,?3'(<;=1kX.L8#AmUlUK>XkJf'ZI'JX`(p`/F"MF^H-QuG]C_QrSAcc3'F^9n8iSsfUm_2T'/?E`?"tOl;GG5m\`F:rZ!fXm%-dD_/5-MWp:a*X1\KcC4LtDWTs&i"X_U?,n3#4ALKlL?@Y#`*,m`E@@/\sCLX*pgkgon"e\H'YB$nL"V`qj!CqOD=ZXN:"$O?8'%?[$,/%DUtMflTJ]l*6.&Q0g-l2Jo^fnMdas`WmFU,1T26W@^,!3XMb^eZ0sA8;pnbTPV/dMLj2(:=nf3p,i]Yc.Gf+YcTblYdCaJUjsMSM,S^VkdkjUA)53H,.SSFm(.M=GKIH`>.#Ac`5NY;nh%g[!dPOXG^cK'Rcd=%n>;leq_eR!N'JP,"h5fjmr1Lqc3]*).5d^Jj,>1#q2WRcg/&8qL)r:])es*?"7H]\:p%/h7i_8=>F5JjobVnCK!Ve"[IB%M%$ln5-]n9:Q?gpk'sU[sQu!SC%l!Mk?L+_&KN*8!iOc3@#,fTk:/7B?q#r'EW>a7F,%RlS3kWL$1`)L_?DRu*I(\eXWEmT"_!8]b2)9fIX#IZp;)d:19B%XOi.dt&Nb]I"!M6G[fq*GVlTCBY5*U;5`uZaFlO.4b.'4Pr2oqQ#"3^@Z$E"D?4R@"ho&X)*7RL:W`mY1"1EVSPJ`m/gSgaT5$a)EQ\6_2qBGS>Y?F;cQKBg#.S:C9J.'4E,>9]7"bsgS_f'@GBlOJq=d5ZqPY?FDG$<TEF)"e;+Xf`\rF;Wo96bFhIZDYW-M!ulpCt-S=mU=MR+]]XWn4G5._5cb2h6?]R'g6;Lh]H6UEY&CfYFV,``)08E[)(uf+tY7@CGicd;m`1rnN89gd=.V.Q:tk0Zs'A1]R1ccKh=OF[tF_kH`/FF37GuTM\7P<>@qDoC<aI=-W/S`,IMF4(4_tgE)ATPMT?;>)-XSM\J/7JQsHaW.t.X<o(iF0q&49'om&D`Yqm0KW-^H2qe[&)b/6p[8QI^Kg#-Xq_UkQrGd>D^_I8Th'jN*-1F("/PnZW7m`'R8cPJbg$]mrRc+nT7%EGsYaV<HC02:-IUR+Xu+>[%nUbhXdWs]L;GjpqjNXt&"6/E<k?@[EE+feXX]F(sEhl@O)N(=HqC(,BCSU(o!/P\]&+?W;C0FI7h-_0t[FjM&P3PU6#h>iRRMim[HK/3)u4Pr&3-X2(7aGS<d^TMo*dfJ!UPr1Oc2?:a36[Ih@Lp4t1%*B54Q9@%CdVSo-MT(Ej=Q2;3e+N<1lrB$;9IcQJ0C,J[V3"V^d.i4[;ik#miG6kD>[/$'c6Qm78_7"s&YBM6&mugYL$Bj2r3tg?G11Q$Aj4$4IF8^4p5-shkW=rR;b_9Gk.@=26/ccQ<DDbBE\9KD"q%OMGah##((`S"s6(GhM^6S(YHVrcDNZA>Ji2?>5a@t+@OQeT/F;/,Y%=[X\Y2=R=+>dHWR=,N+J[S4<^bs-c/8el%[;Xr%?]H"L,rD-gB2M[3FCj,jU3fmB&H+.h7pKd/_f76[f#npi4#7q3L"`P]<=Q[=XdYYW"rS*V5OS5<`95.PcGSi%#V<C<O+2UFE(%=&#Zl&*W'\Zn!bq)N1RH<Uu.;3;Hn%hTZuTDd=4Aj)0C8*Js(!Tm"(6g^GM&HhS7A&nYigN.jX.sdUfn6?kD*,Qc[V9l:G8::[hTG]j4m[rjCU>?`?j"&==[nI#oGSoKhf:>*aRGR#A,-NoXqBaMZbXP^Q6f0jk'IXjZI;EsK!>4CS6L9bQP:/SaL/,`397"#oMm47`n@2DipfD/"S%4kNh7q_N@A`SI2DE]53F^_b#JAGlgQ]n4a\UI\%3kFlr@<IUXsicpmpn@9$\V"H>,AL*9>U)^7QdLcm1:7IF.5#LN5iUsh!cinKU)Z<9i/;tj29X:u+mcrad"an:[<9Jq5+K>E["f^<Be3\NIEnP\,KbP#XWA4u'j_Gp;9lQu6A$(Z%G&,2LJ"2"pK]s<'%JB+6o_T:X0!cOQas-AU8YNVjKbc;&N5nE/9kq*qh*HKJZ3sH65JkYYf(#JaC5/XQhu*ELO5V=5EKOM,jcns6'(uSM.#q6T_r_r95R5:8e9[iqX3`spDVh_b?pN[G>sigL'l$/t'\(mI$V$-m=d&PB^RYr7S9,O-jYKRr"\3d?5f)6p1R?Z;Rc(EMfVp[%Ge2@EZa>9!+k$,E!ohWapn1p3dZ5gK*5M-l`u\7\F2=0E*s^OE>-OZ+T[R)-\3:!u6@L<KpW8#V(DOe0i+qfSaO<&cMm$gj0Ha(jlhN@,rX6sc$SR8+)9k`R;`3I4\u/6@rO"_ZbgR73.H1,r/#b8_k1>_>6o@B4K+.:s["^T>2T9+UkT3DIP%Cq&pa5H:C+k#`>eZmD+L;u0h#fi7:u&():,V[eSLO6YYX#Y>&cWLsp1Qpji'dqU"Hle3)t#b`^hgA8?GE]iO7P24*dO(#"Q"]lN!k6:[n?2+d3n6q<&X:'=fH0+Zf2#.3N;oO?8XT7`44`DrL"$=(OSG3d:cpaQ1aqJJoFZDAt8YW5KmA9"emQq=E1f"]^Vb"Q(!%R:[C'?dp^IY%[JN@QCUrMoK16o7PBWf4EkuSY9)b-!np@M5+8SlnFb]HT6Ad.1E5LO/1Opi23Q(RYfP_oKT$5%-b0tK[q7,;'>49c'4_*;\58`SA=B(:ICD:iatsSQ2ej`tY%(`p3kf[(_9$Tm#N)lh6W&MAc,Ho<876-EP"45<d_A.D&?eC^,>_t*Mj_g!aZ0.=@LqCrc5eAoaneT"!F_u\.[4DYj'u&A'<1bL1<I(P=_1qX&0t,abZ;o"d`FRA`I%HD,$]tuqEOb&ou\H-IkMas>IohX_#hn@94JMd*G#I]aplFcaINSV7.W_lV9(c_VV:B6W1AKgTlRt<dl.[f%"q`H&Q^s4l5FL4?`j%N0M-/YjVE`n*T9FO1CAuXnms/&<c@4LG[r<W&n!`Gem[_*;k4+]:"T9Zj/6Yj899rRdL;13s/#W]&3&K7im8*[2+@H$r"-TO:t^ELjMq43Ees7]Z]A+523"YTTZ*l^7b(#BAMNCuS=$/hjimaJ_B$]kFO4R:-6R66dot=X_cb=pSaiB86/aZ>6DU]V->h**K23$h=DaYk4uhVnDZ:^C(eT\Z;]Jr/NdPY6PMp2I2*D5XeTZWQUV'Kkr$,%?4K6fU?2'SVF>e7A?l4%4'9t?eNgV&nYPo'P$l2k~>endstream
+endobj
+% 'R303': class PDFStream 
+303 0 obj
+% page stream
+<< /Filter [ /ASCII85Decode
+ /FlateDecode ]
+ /Length 3704 >>
+stream
+Gatm=gN)&i&Ud`GraEr&95c3sGEVi8/%4QI]hp?">H,[S6XWI/$GaFZ5RdVa3B[J+!-Fnm8aVg4i\K!3h<4FpVTTtWkF-n\S=Q62CjUJ+YeZ`^mP7tOq/SLekDm`+(5C[^*eq@D)7qpmq0mYL[]B&WMIrP(#$B>:i0XcAk4I`Z208M=cIm?c?G1F[K!,Zr?8FNNf:U^V4Dj(^G+P[*]O]WDYj7q7g[!=P^RP7M.tkao>-r7]RHF_IfCR44IXdXOKCeIpoZjq\p?;>MmK9$+Rala9nn-:t>InY="LJ&:ha`H_N4$"5M*)m#hR84.>kO1cb#Hn`$_GJ?Q8''=[>=,d]?5DbZ'DC@VUeFU/N->C2(Nr$1fKjbi`7=@/W5V8V3V9+g^5W8;rKL8==t6.=fiO%;^q,;Y19O$'"j=n3o;r.UGm6097OLFc]`u-]L]7uNA^76fJ*5?ZFZLX(p[&?45+D6$/-]FMmZrlXB6YrWH$*&V./)i?s?d3XA/rB<E6@nY1GGKE]DjiQC6bo_8;Y(@mM\l<giV\;/;HAfS*^5WGVlt@A$<"*DB:(D:Y"ua^\Mfi[^G=HH/pT0NAsr1:\1_:g9c7EAI.*8uZ$,/3nf%<QI-5e^u9o2L">uCTTX!NTM2M$i;FGNa7noL5G9)Y2Qdg?#$EO?/s;4?$kO3_$fs6'ST*I:/8O-2om';l+Ko>,M6R^6e!gcE5-3i#Y>Aamaq>flREtn3Oqs\$a%Opr'>d3D8n/R$26)sna/LA+%l3>*^-+[_(;6aGCu:s7?mP!2"rEC4gSqmJ]X`[<3uJlmDEL['PSV=juj5g2JlAX@jM[*c4"H.ILA9gLjcU$.?>lW@]kF3;k(-@@=^_Ud/r]dLg9LQYd]IjV(1g4-WB`.fWouNgRaEqph^:fKc;Wr"J!@KK;/DK3DV3[el'E"$:mJ\fii+(,M4J]/"X@!n06]EjkRb9;OlRYOO0K>]FroO^gbQ0#rLVc.jXFBc&5\)Z,23WH/<SPLePr/,Ur;\4`N*'r(o7fgLbBKcF)@Alr)6M92LF!&MLr[6Cd.&F\9k%'2c][)7q60MH-7K`6q4@*A"HB$6(^S(X=&YfL(H!8T)=G+H2JNZHQu&8`-!g@5eiaJhuC#.,SL_S!V>c9ZP3_i\OUXBI-eBAY<G=-26*JJSQZ>n;KAPS`5$$?4C?,ZaC?%,t;9+c.E9l4Zir/[K:*W1*:]_IJR=e121pV'4.LJ*_886`mH^o_?!"h0sr.X;TUCe.&&&o66AMhnsLm:]_USAF$kR9GNMD$e;kj!*-`>r=U_;uEU*m2AOs_r&KIKG,49^-(+cm[_BHWsjbB-enY2[5Uj-q^'mXSkqn^nj4K,CVhUC5s]^R.i&R!EYU2kj,K!H)S4[:gg#r$F5Qfb`(%#F[1l=CG5SkZ8DDg$]P5l:6b``C/D0f?R_;_eb)TuPam-]82S^e)M[b7(CY<2ZLF)j)8[OU`,U#RG[Y9Mr/oQ"-UBZFal2P]VF54lMl"5X_Ps=*=g;0Og;Y.%f5)@=+qG^Z&\%DL>A*C;"(U.I9Fu!3d@Cd@Gt!hff0,]2_1<j]*k;ltg6p"l/9NZYHG,Wn+f5^G`G`<VnT.2,H-+d^A5cODsNm[L0%"co(^;RgOZun7C''YPJ(\>rW>2NTYQR]mBdcb<>Bm59dsP*r1P8*a%c@!XL>p?38:-+\m>S&lEt8ZUAn6\WZp@])Wo9&=S#:\huL='q0a2\S*BE2UDS^JhdM;n@C>n-kA1XDq`tUK?uK<0SoQq+d%0fKZYYKo`8Q9nZH+[S_'HS,dBR9.5af(6WR5Gh,c_Qh.VBr"<qA,;Uj&NfgD[VQf/fK05/Pe7-7<N7-+To=Kj3L0t6VHA:mlM])pDro`m074m5W(j;fa^*N*PN$oXbXejducot%P=PMu`tef!=tT@imm)t>nNJ_k2T7W'^YH^d0\1%&P^L,'%NE5_;7&]]*/fqM64<UpAcZ,P051N5NUBFAQGR6W.8X=Hm&W4Z)_9B/$o*70+0q9D+[%n"gf9^onk(5=83:U3urlbO^$P+1_s:Va60P`Xh*CFZ?l=[PnRMqO.jN^'SE)Ba0C/dkRs!!#!&GjCRA"_Unu`K_A!C>r+d71U3GS]+YmkF.HT\kLKhPjEh<%lP!([IVZOU*G6ZNWeK*'kg7IBp+W+[b-([C]CCA%T2eWl_8tD^m1&^-_Dsko0$+bghf:RNSadQE;]Otk7fAkJ#4^bQcoE8p-4>4P?#$Ba3Ut5nfP?Wo1T5tHJUc1AucB8![O=N)f%u'6:#COXh/Eh>D$DQ=tN;T!1,FfR&WF\8ECg?:\#%^9c_8_'c7$S8FB33^-/D$OqGTn/gA70Wn*sYX4h1'5,b*!!EE:oi^ao=kD%B.T*jVqKFqL]mo(OE+3)+_g3[5uG$hj2K,[Euim$YAeTIB0_Wojpc4-KjSH##&%\ZO/>]T?4ml[B-N_8-<+N<-b1$t1Dfj5AA->c&.Nt_m,5Disj)tXIOnj?W+-nS`V0^;/uAMc>/kl`Qj(4]e/o,G5K=(%K'b>-kU<[pX37.W54"$,mn<eNtfa`N*]dM?BJ30mefGsU8C0FCfkaj[ji7s;GqGGRRT)7d%Fe^hO\[\5r/+,P-l?T8ED*T-4$8_(LE;54H@*ZFofRN4;j4moc/!c&N0VDN;di_h:*J6k>\[d9.^U%MP765LtE]%ohR,b"V(D0`+=DHj^JdU\&KiHSGh/D9c\0U6d3EpuPUU6%M'f,SRJf4=:l'CD$X/)GHD2jP?e_<naM2_:_&(D!&/*X8_CN7$.$R"iOS7!e`l<t6M=L(:&6l7HA&/-uA2Z?l+=nBjieq+@#t/*DB^::YMX(:@2?XbGIiU-=VagZp`Ug+iY8l)(Q01rgSkb"Q#R2`:upc>`"2,O<0_Xcf<<#Y42iq\<jUkG,+%gImcAE:cu-[t/rG47a];ToC*e9XM^acEU5M0F3'2V1HXBH59p+=R)Rd"q;M4&*,K[l"f5U:,gqAlDJA]*2W(Wh+UKIhk+t<Pdp`.JjgqWoQ-G_/1>o0fn?>e[@3,Rbg'\.Yf_pfMA/&CmqmDZQb)+e/_<Q!rbh[1W^s)eZ$%^;?66)+m=5kBQH+=gFC]jHKJscUYAo^KrsWq@mA:q@&^Yd5:9Yh]*[\F75YP'VNP6(<iD=OJWc[PmX%#c@4IU6fG&Z5"U$=^g4/ElObl7l+iXRaU7F@q')CEoHSP\fhI='B=AVaX#jf&$0.b0-aU@:Q(VY@&oZ/9dW8O/?V5/;2CIYmR$6;'Z%''tO<e4?OGjF+k0BPAk6)pSDp'9#<PWCaNHn*cK1XO]4Kd&7e3L[C[X-J6A9W(_F8Ra^J0#SkjYL$)T"I;_0@h4\.WbHGZDW>E($]\)R2@t1S\HH%Q@[]EMhhFuUh"sTD'?Vg@tVij:ebL-B\L(fu3liMd))YNYB`Ojr"TiVJjju`UqlsSTi-7Ih5_T(upMLB%pVWP=>g92UbpGkrK%ds*A$AgNMC+QpI?8XMUJ(bAW$0PnA@i[QDjlaQq)_$M]lE:jBAKCNu5HBnD"VX)Mf(dXbR'r`inYc9Cfj9cm),V@.]f;[',YA2$DcZ?FEX;;@M-\0.1S^OTN+a0jIc(!RNO$D/Jr\=o=d9l^@D>-kp7n8BH4jU;$i?Dbq]gud]6A4dZ;jgF'U5$>'.%fXDu4dnURsfP=qn6cL(`S*Ecud"+$)FK,l~>endstream
+endobj
+% 'R304': class PDFStream 
+304 0 obj
+% page stream
+<< /Filter [ /ASCII85Decode
+ /FlateDecode ]
+ /Length 2664 >>
+stream
+GatU4gN)%.&q+thrrKMb<TD:Q$qZQq[;WK3G!$McG[p-<VDe#GOg'Wr8MD9$Xo<cF"/KhC0'+?-LF,9ZEOu&>Bm@k@?dJXD$?gm\ZGlWBaTC?+]l>l@U[ctSNa.V[/.?r>'S[RqEqXI$pAOp5lW2^6.WWC7(gp&o_)2nur;>nrb.Q8r,;q.+LMQAIpsis)8*5MAqO(V_Z8Qu;P?cYt*Lm&IVSB?re+9nqR=?/+KYb`5'YD*>]>;\`I'[.`\]XZKo;s&lcF8,/pO'mXJ^.oQg6`ZO:,M[b*ZIP!Z^UUd[DU`$p[GhM`?LL;`YLlKf%)$VNFJ/RBq#CJ=kOQHTp^5F4'=JL_ot^BA_jI'D_1S=U%d_C4C9snkj:=apPn90&B:uqVMc)t@9iVLbn`o90j-;8Z6g59;0adW7]Nbk1DHj,k^OM>CV^t6CP4<#c/:T4!'jbUWJSJ_;(9c_P&]:d0K$u,<0hV%]K`5ck$:YKf`8`*U%DU>ls:El9N>l5\puC,>g%G$p9j@d]FjL*V:^/Yla&'><=Tj!;`"(sc^t4:V/@.;J4E;EP@Z1fV/f^##CR2Ul3_J)__JN\:P?FtPnl6FS?gh29lZJGNd/.oE!Pkp*(0^tG(R>tYdG@b6d'nfj2m;)o+RH2*a'92r[&EI%n+cY^d[dE(_3(g5SlH;&:\j'oP*p4Cq_X_iep@W]Ta+i`e<A1KQ4NZL=kRL'=pIHpo!3c\OqcJ<YF9T;oJt)Dgdr,M%i0/L;9n&_+1U7Fq:LoPWkVu81[b=]_\es%M!h439$>8)`e5/LP?H*7QhuIPW".9Y/B'+^\P%aNP/H$-M+^pf^[tk3"AYP?S8i`m@NWkI!API9[%cr:Mt-eBVE3J"YZ39@?sBSgI0+BAO7U%1X^e)"VrXfV<*q@J:U,%VNl"&`dnprZ*?`_Jf/s<4b)s+Y^`!A<S+NZp-rZ84.[6.Q@LCo;o?sFK(o]942+\*g\;8$Jr?.IES+9o'GZ@J2oMah8X&Rq'Bi>GBMh<DRF6p^Z1!%*1u#ZW2'V;UnW?HRJ#(Dr<e+eVMF,n%1gJ+6.U<\".IZJR[[?"6Cm&3S^l"+2I4NN<@8-*;Q?9`TRk]kST^t#/G#)/.*^q_EK&/(J4l0TD"_(jK%ZFcXLdg`hCC]Y-IE(5,qo[pLrN_lQib!.D)BkIt?PXduPB?.e/^OQULtXJ$pb^BTAKi+Sp+st?e-X1g8%q&KNG/elDE&cs/#5f[AbVV:A]8P-?MENdd&J6DK(:H+":V;NUU`5ZA5^Z,-,qQJfTY=7$f;c+D"/gm%)qBA;,OA6l:1>B%CX%SOh4I1)'$b0KKi;r[)8.U.J-b*,=h(>XpoN8#aAn($DBXkMbItW:s*0OPA/Rm1U@qR=@eTWle!OkD0q?[WJ$#"7@-TsEp+3T=Ll9,Goo&5\]!.-c1<7YKF6@%:PK`[_2eciaaSFE<1#UE3RT\ef2&,$Z,d*dnU;.g:+Sk3G]K'RoCGY3nhmu+`SuVcl$6<q]=#`Z>(am"o>[Pf/JtfhO'I(W,[t`@c:#E8YOfsc4)l*ta.[,Jd2Shi3paf4&LP*5TlNGk0Uc&..au^L@XY`r?6CIc9Y\:.-bNRO)pF3"Dso(^2Y59`CSi"-f=]7,fkf8e^^G*ZO-IdcPDqePNk_'<IPcp50c,pp2O3H1Q8Rbh-BV&tDC!alg@_?\iW92A#Yab;KM>^Y&!gR&<ZZp)eE`(F1l/d4bE;hlSLG-TP#Z*YOH,\[HT,dXKIa0LqEhf!>cX/?,k4L)a9Z1rcORu?&<0J]K>9WH#2V`Qf.\1A<;.$h\.(eig2B>h>8G8;gaG:iH\DD@7"p).AjdQ+qG-SMH&5"KZ]D)m9r*2E[550s)3OOm^>Tf9'"UO(Z`NqP]X(o8H2saK\L/,W6smO#qE/ES`pq-Irun5c'm;rEO&.LSg'A%`[X8iG(FGs/O`O$igmJq%h/daEL.onFKPR*djQf[<<kJ"\dE:<</,rN^.aa'cKWTQRM1Q&qWfaQ`P!H?c6CSgRm%o<II'>V]p[#/C#V5<-[N_G##I-&K5CcLON4^noE^q6!Rg]#J@@%q"(\B:b%J3lHH"jg<VWcgT-"N'>hq?BF-k+F"[5D^#Z-V2Y:d&^@XTIkD:.&O"3C%F0c:Cc<<#dugHNaet-fcO1!I^TiWG#D\f66dE>+D>E!nV$:SkctHn](lPNS]o;\+[B:Z:4<tPM#Wi@mqCo&S*9?oNP8Ri^$q_Y9(9Q)%gJtOX$htg&b,Ca?Rh[-obM9gi6&[SFF:XQ>c(7m7&1UU/MBe9*OQoqNX*?FEqt9?%:bC)j`&S5W%ABeTSDtoYXO6@ZTrF2!V9C]:5MGpDY.`Vdm1h[T5`U=MUTj;XpO&qqJnsI@e4"76*k-MZ6\h1a9J'?;#>"Zm47Cm$?g,K8SuRH;p3WF0\.X&7G%L2Q3$u[T>rC>XPN&XD^L=d`S*AI`8PQ][-.Gm"9k8#BKo=CpU,ld^G6j9.dle_VDVn3<iW<&rebe$Is"%,"I4de^KB<ptFVb]m:0q73"0\^TZV/OtK?7PRdlG&Z5f1&sqe\pf4.:ql2u@7/&IuhP4"hSZ$p*NSYI[C=']4A!P5\hBG?NJ'`IYO\r*Ol]BV<mA[c0BG)"G'@WV/"V]4(F'1i^2U4r,f_O5#!W#g,rV~>endstream
+endobj
+% 'R305': class PDFStream 
+305 0 obj
+% page stream
+<< /Filter [ /ASCII85Decode
+ /FlateDecode ]
+ /Length 4476 >>
+stream
+Gb"/,CN%re(B#9ss+0BAB@G\XUPIr$JRX^ORWLS^Rn^OI#2;R39=2W,,$dgHli$L'8Qh)EE_P0(E<^9<e94AS,k'\TpI.0bL;/cF)5Lqia%"P6*JW9cbBNfR53hk=/[&qO-q1l=[^s1[q^b%"]/sADGF\J/C:uY[ht,TA:"@$[%7IS8F#ZG1igsF48C:5Rc9L9iN<UWgph4W(p5\,V\4/spccAa9pjr_M5]6k=49&4YC00oZh=?DK[bGiipAO<fl?[pX.UR+RDt0P[^;X`GNmFb4aRPOV<GU0*>FiL_G>Pd/[2.$$hAL^QeWZ'[FBX\0J)l5_dfa0"jVZ]d%(-:d(M#o:@0+L"OD`CgK9+CQ++FF.eWGos\8CX4EXmHep3kTumee/L_dtEi-X6LM[?(o(HOO#Oq/a%ta6g]UK5ePD%p`tbUn7o#BBY$?0Z=HKhE/V2jS&;0CYR[k0DEk&1##27F::CTR,As`>OR!sMt;>ol6l7B/h+3/U>"f']BQb:ZP5n]bt\:8Fmg"8P_:<W&_$+b$()FCH(+!koN\TclZW.&ZCLs[p[(&WInus*G:p&G)344d-mOdXVc=nnWX6i^#]Q?T&`@ai$3@Uj"KD^S_8'9<&;CZukUdR%AmF?RQjcE7"b=Eh?t`1e*:kH7;p$;K`rqs].*hQ!Ag,Cl[J]Y6_hMV9+k,[T(E[IZe!+AI?mXu1[u]okhaP-^RgB^)4pUsj(u0$oWn-!XFgi!omM7@cQ)\E)7WR1)V_cWIA7[S.jFTMuAI\F;e&LgF;M;bU79JSB>E@]-n0o;tb&RS,`Zh<`Y-$P#gXbaIUc]97*7Fm8<`Z"Fm(]0"c<'$sNZ"D26)/KeZ>:Ug!b45+Qj#;SGQWrVkq1k9)qJ[CUDiM[$$0'6&RdDfWGYKa,41qn9W]3!W4Mp/ci>?46"aj5iMNZp=TXg]pB"LAVq.e;Op60ZmIG=Tp+(kro(oNb\G)c\e]'QmYFU!s'm/j/pMfS5pC"oTkI+.A]As8oJ^Ic1d)eW$crlKn+t[$cUIre6W(B&kF%!P8B5JUbkX1I'+VDf_=4?Qo2+Ci_rRb$G63<=MmYX4jcIVGO_k[8G3#m!K5cKob0ce\Sqh\Q'/!,\]_cSD*Ko/!G&YL438&FP^o'@NR\9G_4Y]d<P7G[8J'D7qo;*UTt"C7+-+JI6J+bCP[UF\Q4>'b;pH9jkh0IB1ub3h>&3MHrK54g!!duWQE&%>lVN>d6!bg6!il(ti9#F[5Ke_l(gQBV]EKB=chZ"fr<`/Ql-HVcVt$k,I\-X[T;H.[:UYi?XCBD0)EE=[98ENZEYJF_uK.C@2L#dba"Yn!hKCV+f3gAkgkSahdI<cPNGc9fgF(ji\Of&kV#l`uP*d(e`FR*.ZSCS;uuEfuHnOKM6UW(mY<hXHgp)rTd<6O,tbJ0g2kSsHP&D$N^qO9nL/T:,4oBM1*l+o/#4CfrZ2TO%HKg9k;:H_"_o0;s`R'hlMFU;Z4eiH-*2[Z:X.SB_cZ2tRKo#nd'uP)T"\7W9(3lE@(rr2r%Tl84R@2$%_,V6A6kbk'7)QGN3<kZs=pQ<7ViA'<6%:NXA/2[jiJTo.fM0WM:?,.\]M9`04q\\1dZnE:-I5=`OVD:PFkmuC"e6M`e+im>rFE;j%H^\,`_MutgNTK,a!;^Jj"[ZA#f_Coj<O,M<6o02+!WlsB8ZKEl4_q;3[H-Kmg:OS8'e^J3A^KuP[VrN^<M`VM1`p#!qO:jh]b[CHAU^\f%%at=6oQtb9548rX"K38AS*1,a'U%q@klCkT-DYH[LaYamAlMs81nRe,':Ik-5R?-kn\7f!hmQDTHcuZ)jT:.8Ho'a'6k\R)]F^%GJB%q%^jO;$.-(8RKKd15Z2KgbnPFSMC)1=$@[Jb7E5bXXi<*:!3H3+T?KlY4!dr,t8`85OZXZE7m&joDf(\Y"SKD1\bud]jr$+Z#3m(fIY=Jn7F!45TGs&eI)LjEGCHTFqFCru1\'U$O2IDijg5r4"fK)`g=INe)d3bH6'6bi.UKTmbhs9oPXL]50Mo-'<LUU4-p0N9#=/;fPoYBb]>Ng\"Jq=RVQBmKq5KnjnXCt$Th!UZl,L,9C%Ckn_^V>K5AC<jM(%df"R:2Dt?FTSG-7Z5*.;&EA1#gd&/8UX7$!^%`=-EmC3_A5<","2PA,.h&LmU`c<<:mhU3cf+BR9ef*J7=0rCFDh[4/ni!^T6s,q\8IFc6\tJ6&_qa\`r&N[mJJ#LEVIIe8HueNOPToneSP"B5_gSs.P_Th,=>FM_a"6BB7QZ[aPd]uK#dV\pA\-?<t).BJMd_bK7H=?slO4_2%d/F/AY<2,Fo/g%XDW]J@2im$8_%Vm+oDrf4VS1019%AY3k\M.Nscpn.llK+B9'IOMf12=2hd.oH.:?YM8`=821muDnHm/m1!oc%=uKJV9$;OYh:D[JmBEJ_jQi1rG4S;k9`\7sl*C3rU`gno3go8n&-?#plkOcUQI"_!PC0US,j"jTi1c+2b_&t2fq*p$Za*g`pD!o:7[YefC`Y-t$bp$&&Xe.iSR;GXjK;jsVUf%%='f!U@aOS5s_s%V,@Qjo:P&B9>FVL0I+^7'DeJMcC,?/c__j?W$A2:%aW-0th?YEt1pFm4[P[?J1<D6A,qP"0$&i[hBK-5-aY+&_5+,d`C9nE6iUL@TeYjV!a^1&XAO(\B.t(#(b]F0BM@A%HFlY<J#7Tu!]$3iQ+\)_cd08$VM/@BIcE]WO8\kH8/[W[!ETNprFu@+8HNJq_1RA_9H-5^e/n0k-l1/=h-B$Z.=.A4"C;]3BlbWk,rZ5KC4&Y%;er(dX(YHTA\GYB\k(cImgh^>.*f]57QL>B+/V_s+EaD1crUCqTI)(PFK0@F4.IIWg:k^@C"/e\`c',dL+5..c_e"L*TRK*bri]IS_8XMWtB4u8+#;[4:q\:IQYkV:I;3g5c29r\&U6a3tO@Hm5"EFEEn0eKIBe&p0Lrh9/^X.HH_"F-9`eng_=X^+NSOHo2t2OB1U!Y?\'l^Wl<@%'=&7J:,L\eb5-/Tt/^fW<VNlAF%)-eCb:J/[nn!]e`d%f#N$d>q%F]6B[:)Q(Y55>huQKon\>,C%EGRPeN1N^8u@IUTYp2U59.rbtt/RQtZa2sT[qM\KcE5,f\?YXD_eK.j..d%(el7Sh<@-odH__SqPBm7]=Z@1\##@DjM`JFEBpT%5I1KLbm\&:W7&?,,S&&c1W&-4LF,=^+\P\35Hacu:*D$_F#P4<dAA[I-%)l_JTg"m-eq!%5hN1?MMgF%$;V!i)m<O?$sGS2kEnVsQ55[!UT-i*;Zuk1khbDIH2/Uk!Md[@+$phtB**G?MNWVNJK>"h"n]cXT^8&&./Cq8%-P#$^&pVt)H4^Xk[GQ'Goqau;!2&0]B`qMs/G?F:g:%@m%DGg5e^6<48k`$?j/eg_JBel7^l\uVU7j;YMp>E@FF_.3&[#-uQg&7a(n^X4kaM<(BG#&d8[leVX:4Me@$OeBk8b@Gb\KZmt/q[G*!MIhb6N+<fd^)riR/tV`sc-m/ulf_^?S11#<f!pqHCL"u4'i]3]O\-+bF=mf&O)N'Dq5J!b4C2[CndqZp`>I^9QkJ_'BZ<YS+*M:rLG)1f6g62[HKa@)%"cL)SE<881DcLE^_dB_CF:E0W7PP+ni3l#;XoTG8V9Hr1sC)"+FPjLG8s!UEoKAcjtg@n\15jkQ*tM[5O',G>6!\.e=3JM<r"`E*tLUQ>[_pG!)F4ij9!M_?O_i_3=@Vu]5hc/HWZAr$^G5)AAg9-5/"(&Y:Ps!E0:e2gf\^/&j>UaX(n,6[@:k9@;h!ZY[J\k=@`>A'>bFg&PWl?6C8?&2Bq,1'I]lf/C"daPXfA$%l59QcgNEGmeiPi+#T;0AX,J!QI+bS!t?OJP`CPVj3V#UGZD#NGFls(V2T?pQ>6ajq++ECB4/FdXBj&j-b9g(X(g,0&!Aa%XI%`1Y@[oq-?eD[o!$.=kZIOa+Ib7ibnaU",E)Xk"M2e`AMGgeq3X,/*>P`a4mCh&N9XL.$q&3#a%X4;EM8?3Cjl_F/Fs/q1j]_q,8e\'ep"pp]6IB%X(e"mSW[5sCFCSK8U!pP]XF)++p"n*"(a`0<\TjG$dU,.gRUKf_='MVb[r%=`NgsB6YF4AQrc#8qu@/0V#%e=^FXf8I(.Pco-oucTd.c.3((Gm#buHu)?5`^3i]S.1A]miUAoWh9b'!RMi7l:Nts$d51<;G3i:;0Q9k.j,A9!)#,+dnPfJ0BPdWK=&p7T==`ELX0l-5"1pcp@;DKi92Q:`1ARhk4m0NN(9O='H;89oq\;:P2^@p9Pf,6S9b9=R-eII>JL#$1X_S0ks0Bi%SNd!j.TD3:HcQFpcAf9CL%slPLo7Ja/.SeYu>-:[nT'2>f)0\@J0#A$VJAsX`HfsWWMfNs8O\5#.Kqk2/i+PV1+8CGkjjD4K"KW#"^_3ILW8)EkB@Y>HX`>)`M7958Sc8e0LZdq~>endstream
+endobj
+% 'R306': class PDFStream 
+306 0 obj
+% page stream
+<< /Filter [ /ASCII85Decode
+ /FlateDecode ]
+ /Length 3169 >>
+stream
+Gb!;hs&7[^'*"L?reDNVc'?#$F1,T!2K(VsTO4n!j[eg,H`q?)`DI6_>=rIp>jef1Q(<GVO@3gK#"gtnB_>s2o3(I`j>p]/+/elm:18@eL<8in#L@8`:=P:HLn\K3YT69NpYBH>qite#FEVlBm-Zj>?7Jk?VVgr-m'CA5(CfGEGNYn4cLmP*FAqtrQ1Hg2BL?tDNXst?Y^\dXj%D@,6q3e8pG6pk%55?*422NfPob<+-ta7JDUZ#,qu+&oJ*gu(?Z*"7qEnhBf?YLC?YfX,YHOHsV-2Pi[Nd_O!./Kf2u@W.nP7GIlhShKF7Z)16)YS2kr-&'rtR%detNn]D"@V#L"8P$,,h739\N4]%Iml95?$@3c=SOh-8M"+&X=#aVY[ZL6Di[#%<-1=s7EZ!a+>h1NeJa!$AVNq$'CQR_&67`j;B?H*Q"5568>J<:\uB5`Ws6m5Kul()%J.BX4&b>5FG36L*D#6jkNf`(9-QJLf@M+UQK:kN3T>Y)spfWBVgE+/Qli?;SpQ`m@$eeBsg+M<9Vf[dY@ANHZsr=JPP-!+YTOQo*;j?hWO]$6FE?;#j'aI&o-l2Oi&p4E0O.liW,T]cm<1j.HJmUO@g._5RcS,8:k\Bp..e`+=-m.Z0d9_gO&TKWgANMAkESe/E6h0&$$OK,>+=['m4B623kEkA&d3fP("m$.jj':j\m\\!3ouB&7kYH+4b[k%nd>4?@`V[BREp<%h%?I?fp.8_.ddBZp@W;EQRDZm=X?\nsu(X]9^oLQc4,E+,c\9=^5BQ"&:/e=J'V6d^0%.p[N1,+*L1ACSpADRie1pd;r5h"'$(-0"7(?J['lD7o#_uKjN8_''U_&fkd:n6hH7r^B(gt@B2S0\[?JD9_>8_"?Iu1UMK!3k/0;[i'p0%g"*DUL7/NnG>(1.aVs*H)t8_2BhD4BE'=p(num$W,\e0Qa>1_DA?(H"Q8RS(UY5@IEiN56NHa1f32oohmf$aP`k<<I;=p6udC_:l+"Ju5@&gSr8s?Xbgo`QYf7g_O5H9d[X]c$Y6Bm*%MBkJ+Fsp:=A)@!4`\^+jKA/!a*0^TO'L%t@]1C<RS4effh\/#Gn:mbW9a::=1_j*9S8u"mFb<uBGa.o6H8?X58%?f$4jOZ#kX04B,se]c$oN;M>ZD0HmdS6H9(IjR<>t4J6n[NQe5suDO-ZTaY.Mo9go?onEp_E[5+q8=XP#2nU+GJ9WiAt6Oi&_A(eI@fr<IcdKQ@Lh0R9?3I0&^k,p\4:pt:KJF9Tph2/i0@*RS[&O?mMQalPfGD$J"&%I/hnN$o\U9Q\Y>#+.HtD7i)B).\$]1Q>BL&@]Yn_I<&;fkhM04N7VI(sQ[$s0d"@@HN>!<\$Df<og]ZY[ohg<U+I-@/3+c@A="`_IgW1-@7<njli"c%JZ4X\\U=o^IWs"PC:;@,DF="<40d8j%;U]TqYo,K@@K"Y\_8QE4LFM0_-d(m>"_MVI+7uId8<!3Q9A;4VD5(Oe62q>2UIXGdO>?%r`1V&A&e"SeB$t4We9)L,l:Nkt"jA@kHO"_eMC^0h#P\RYiq4r1;n*;kbDA*%PdWJ_.3%a9p2!mWdXA'u'SRir`$h8/T*Hf->UhP16F*EYZ:r[19BsNeLN"_#8UajfRs0"k8?gEVNs&qYf&WKfB8a2js">Q+**Y]Onki'p!8"&=P([:'hrrGN?Fh"2BnGk=e+5Fk^S<<k(JnQQ(k0IVq9UnS$]fgfUYEcW#1R:G-='`VNOb#T$QaN\T\7=Qhd25BHbRg0ef8(RT]gX\oC!9#)QF&tia#M*BIF"7M8rcC\XOV[JJiP3C7`6f,[S=;OGE8?fB$\IH'_N2=)3_A$`")cXHaS7="&P,.70,\dDn40W#B/o(;b5/%U+U8[oq`6$_h[C6@FH_o&:a^^HSgq9u5UOXCt/tAqF^mC3-q3uAmS&9#,M9=qS/:3(Y(5j6/)iB?8DqUhp9!`O1;!A'^f4!g`9Ebk2/c2F:PrN]9iH@V41R&tkA@2Y4;p:K9Y"#<U4pJ5e8<J3IZ/E42GDIJ7P,FffMoA$+R:H2:c=sYY7(-hiD,J>U+dJ5?CA8!;P*f4Dj%"XO<2@H78BBa:OOK%Ejojfh02@mnB8JA:o2>3I#H<a@^@@Tu0S,_lE0=ij:Naa&Jt\efNgA9"S\HI7o2\IaY3d2r<[s#;nme\pKt>ZVA+0YuqitJe:EGKs$T+9Gk+MtsU/m8M4EkXtk&#rBH](0)bqqS`-rW(tZ,beaaH2=5&R?F7#`tMYUW)oN%5:[.GVc<n[b.tgl#*-"4.'A9J=ka:r=.ut=k9,b!@Wk"1u?;iYqVNd8"2oBCSSf#&pO#'o^li5\uQVuld:C5_<jUlSk^_(*3`lMS)PbS)<m"CS'A?cXj$i[i()R99Dlkn&=7?*FkK^2Aa^1983TdjkVOjl,VYF7N_$.t3SgGY[Nq)MELuAl`cf72mEEj]FrTnj#=>>OEV1`3+ESb?+YU1*33tB3kA76E?tFeeJd2(cAHpcDRVM=8=6rS?J34L@T8gbl1-/,%7Hrg##.].Wf>D!e`!XMj;sq[+fQ#5bbM+<BRgaWg@j*k]qU37k,3'9I1'b,!D.*6rId?l_fj4/`S_*K@*-t>kh/3IAcrf'PE/S]d%JJ]E6A+,kf=au<KM-2tf#suN8ouC>,Q(+;LSa)>GCPuXal;l^K*1ls8HL-&.3YV)jpNe5GO*M-icRH2lHleN6Ha7s'8=7HhE:k1H8Yq9?N/+`>QA*$8UO55ah4Ej%7F]'bTIR7Amal8TBb/tQIBk:B3gf`b:Y$k$h7;WpU0JAog)9<KnOLjPPtTq>lnO.7IF[</UAWs1`#*#]KX4kW9Kt6L<f@bnTgmf!SYZp^4D7'D@J)ahBt>s4a837'HQV4gI1/h.?=Lg5JH(N!60mH\7[XlA:s[R"8^K".Xd]Bf]M-tJ$:OdUB6sZ^BNj!a=3'90(3`O6mdk%oNe'!]G=tD;#!E8]dhn#`rH2<R(n_[2e\+2@)aN3(5pfbXNN5lN>"'qhA7p45I3\s%ID1+h8mU<e;nEYFtNM;e"ON=;cc!g5FC-a6JLO5irs*4A1j]af"-qQ]d8d>;.kTt<OKPj=<dWql2^Si1!C`[#r^nuQ(DeD55+,gQnT1_EO*F:U;\c2XUoLg]V)tKr\#>21[OQ-"*;Xi_u~>endstream
+endobj
+% 'R307': class PDFStream 
+307 0 obj
+% page stream
+<< /Filter [ /ASCII85Decode
+ /FlateDecode ]
+ /Length 719 >>
+stream
+Gb!#Z9lHLd&A9=Y+%A9L2W3CK+/ZO"MQ9ctg;`n!#mk$6@2hDs"cC`8?W_,:A#J^#dKkLAR.lt,o6(6@e/Xi_K+qi&5qP_IkX752D;&CN[PkB%L(k&KBU3'8SgCV(V7eG="3U[UC<"3=)bqH)GQ<Y4C$#E`^M/7__K^Xh2R`s^YCI($DEsW1<U^"[,VR"H38_Ms"4rPaIGs@>_9f;:UF@B*62E#PiI'4<AcJ76IPK4$5C6GgjLAmrF_M<%9VRq5Yq]@lXn?-"-fPGHZTV@OfA]L'/jU.'U!8'Pd_,!M]"4H13%6<+[#EsbS7`GX.LM\k][39;S2c0>bO^MM0nVQ[-ATAMmS!=WAK_V<VB))a.WJVZhMm;H!<A^$&dE.^q6;809ba,(8GIh>87<&bKcrW14%sGE1[ft)T5)aH;f2E2mb3,iRu4ePdlhd'SG:X%F+$!Z\lG*_e[7=8Zilh_+o>$P\o[/`\par?/`?>O%]cnhdMuNR5-GkP?a5b0AH@7g"ac354*kToeoe+nWFZh!pmIRO74@NP+A[^?.;0S+K3VtRPLLUu]]^Ci](b19&)k1]1/7buO66)bq!it%<nFt,MuRB5!DHIH/>IcgqU(3\X5BP'0GI:l+q3I0cEfY"@3k:)iuAnrO^:>`L!AZ*T?;oN&bC3daI8g?RW4M^on$dAggCU[mgnN7V'#LtBQiM[jfeZ$@[`pkT?r9E1B~>endstream
+endobj
+% 'R308': class PDFStream 
+308 0 obj
+% page stream
+<< /Filter [ /ASCII85Decode
+ /FlateDecode ]
+ /Length 2920 >>
+stream
+Gat=,CNJ7?(&dP<rs/0pdajOP=k$qo3]jc$bB>F,'pWIEdk;7=M6K6q!C0<MYOB#`@l[8hS(U@]?@[9jq`5O4bTctC_f&S]j.hEIO,l-`Zs-*akRL^50PI$MU6q2s8_U:QP.^'Y/3Q2nI!cVmYOZF/\!<I0*NU+_6t(UO+!4e4=o>R<O3L=@H56Gnc%sVG/5FjqNkITb?=lg6eC6AiNcCVrU!_`>AaPJ"IqS?X2ZF"$c&[qb*WEfW2X0l-0`+_ZeW)]JDUK#aoO"fmq(&:KKNCd\o_hVNZS)A/]nc8q=L[,O%bcQ&oocZ4bHN)CVVg\*J[YZmh'V(ImU*?HpL2"Bf4_oXVAfuYK)-4tpag<j$"BN'IF7$lE0p'K%r[4lSSd"U)(,Kk]dmCu@/k(6nai[(f:VadIXg')XRNt#jn)O9elH[!-$%+3`i`+HVc)\ef;a_n=/0f(s!p\#.#rUdnK7,jN=!A+@iUcN>>^op?E`NaGJ_WYY4/b3G--#&'I:lA1^69a-.dAlY+7"n,hR`T"sIbV"ODrJn&C9H-XXO[p09%ic':'=2i]I@QTgB!6C1s+.XE\#iX[;KcL.LRN1tcjF7u(K!T1poS4"_]J[0aL<BJl,6>V5r5M+=V6!?6d\\e76_70q%_.`%O_7;%?=W4Ak+]cSi2JLfj&XrP^,!-pL[tXJ6TYZ?A7F[0'I"Lch_/6mpnrqR=?e"2c,nY9U@TDH*Q6m["6FE,?!g#uqb^!-XYT_V:4EF+#1br0%Z`Sn;"S\u3oY'g#C/uJe3&Rh$dW;,C;eUL2?=jc-,g@?$_FQ(:/@Z?_8JB$4bVobIL4tnQH#%/%Or&n2>?G'NcVF2=S<s!RcO>eS%:5>b28_bFiu5&C/tO5X:R>n;((b_^2hQ??P1GB<)j79UfQ<2OP!9<0NhW<iKndh)Qn.BERI:.O;Xf(`Li[@VQ<Mu!b1[l_?:pP%=%VelYkUu:O!6D%a]5)n*9d23,UJj3"Io^l#R&5IXKt5!1AOI*8de]#rhs#S\.)/&<b<Si'"/JiAfALQg*b]!ain__YSu.b3fh!lXl,u%/sD*=)#+GXR-2,-kA'55:kpMHL"DTsK'u+Bh`p=DV8QCY(9]8u7QOjUUcu1E6<A;0@=`DZRGjKRb<+NdT1#N/D:[.8rd^F`=4ic`.q%2<Q)bWTkhWAg'^0%[NoVL>bsi!Gj,Au>[9OLh"t`0jo/.YN/^MAJ&F&Dfcp/NAHU2CO+V1f\iBJVn$u9,Vl^qWaMHu\t]IV)qm"XWK[Ua!h$?-Bh\B,(b1bQVc)\"1JJfJ6#Ke039AMT[;"`N<4-^RFVXj#BNa,O^jN_KZDL$!5&#8LqCg$RmCJC(ith?e/:/I1HFn64Hm$8#aGNW`X/9;=5TCmG;`DT+fbDo#E?UpCjm`LC*l\IK^gDQ4//qR2+bM0(l-_JS[\^>_4F>HTm$1,(9H\PmJin+Rs/W8/hpj;U[//WuK;#p/VQ_=\_@2HqK#ieLM`e-[3c+Vm$,TSFQFHQ*WhgsHg+,_DRoT\o:A'hHTbRM[<_(JjNVS9QEp#O+uWXTM.F!:S.#oXltF4Ll;\]dGoq&DlKV$"$?#GRdo!e3_ek;Jh#!g2mQFm$8h_G"o8A_2]26L82[d+^!*S+?Q:jq2;,l5rg)I-3cP>gPKbfE/U!Z-#@<g@>Ld.hF[#RiLA=9$-kJ9:`N.ImV8JQ8`P`!(:m9eOo@N$.]F5I%!rNUge^Q!bFK=IHZ+GrdBS,<J(QWT!Jio`FaA=m+(/DGPm_%1ReM:Pe(I<#-W*M8MJK*I:p*uCiLC4<C;je4"+$=IU"X6S]nKG1R,1;G\a)\t(YK^oAr6jL9H-\?>?*N531lDtV\ZFBL\Ir[*utsIe;64F?nhXiZT%a*"^W#41W75uQELnL:hn":d^r9\%m^Z(QY-,'F[ruj5X0lf%3iJ%[<j`&_gb[:1_[DWfg^3!GP?<+4eU5f%]5d?(0?[o@:jWOYih1;ELBXS4(kG$THp$b>dI5iHBs=%e_u1XLnZ(^WO5^qWTCo>,W10g8=I`p]"ubrH`+rXErbj\Y["p#^'EID%QgKjnfutH/^\cGPaG#m8Jl)/Hs;u,&>dg,.6,ZI,,Q0DmoYTdOJQaL9oZ9H1Pqr9:%^d,PG0+!/qe%UFMfQWdu)n>Un3nSPBsrHD)pZR0@3*!(tY"$W>CgMW*#t37f4p/KCRDo"I"`tYee]enL,FOSR7HGg#Di1>F_U-HMufOoIDtRWlA3$!op!&*/Y[T-#*L8L2'OaAHlQ6<?#@7PlUAYE+u![\=8I!V.)A^L4NBe-`D++b9`<`:&2KkR2=AC(H><gYb0(#3Z^`\J=K)GlX^o^DV'$`$.XK9:$J[>r,X%o:kqu((bMg,hC*i+;8Vr.P#044rMJX!KBBK17M$<Y9qFEgP>L?=$WGF2Y9"LRV_"<#Zd)ERZ[sY7UdnD<i3#)78(br?qt&tJ(%qidaicig##m%hga<RP5*eh]r%\pfmLoYc:48`gL>s+u_A97^$bsVm/fqsHYs:i?\D*.5]rPgC^/B?2`>9pPCNu?Z=%#VNMd9F2SBauV8IY8.k=\*PBRrMh6%]mfRo"eDSHJA80a6hX31P`78+dbIr#]/ME"[152"C&'>bf@aJ:9H>$7E1o3oG3Iq($$h7hu,+P+[l-0"o/Y*e*)S:Q232k6t/L\IV((nJSK08,sY#*5fb4s5^<IWuKLu`['BH+5a)iYC5eU/*_;i^$f4.^>&l&"5_nV%%P#G-iH'FV#0=6^SDfsKe]Gh$cME*bB7qcV@,1O-0oXXXaYcH7jHfKs'Y"bnhXA)pi'_=8D!e^"bo!)H'C:Y\EQ?>fX]nsf;-g_;Om:]DFnjnfNB_6+*D.r(\uC&/a5ZQ*S9Oip5CQW!t0<L[<IHh?/kY&:P%d&>:f.9k^Src2Dk~>endstream
+endobj
+xref
+0 309
+0000000000 65535 f
+0000000113 00000 n
+0000000273 00000 n
+0000000450 00000 n
+0000000736 00000 n
+0000001016 00000 n
+0000001292 00000 n
+0000001572 00000 n
+0000001845 00000 n
+0000002119 00000 n
+0000002395 00000 n
+0000002680 00000 n
+0000002949 00000 n
+0000003230 00000 n
+0000003507 00000 n
+0000003781 00000 n
+0000004055 00000 n
+0000004342 00000 n
+0000004624 00000 n
+0000004898 00000 n
+0000005187 00000 n
+0000005458 00000 n
+0000005737 00000 n
+0000006014 00000 n
+0000006290 00000 n
+0000006570 00000 n
+0000006857 00000 n
+0000007143 00000 n
+0000007429 00000 n
+0000007698 00000 n
+0000007975 00000 n
+0000008256 00000 n
+0000008530 00000 n
+0000008804 00000 n
+0000009076 00000 n
+0000009351 00000 n
+0000009625 00000 n
+0000009904 00000 n
+0000010180 00000 n
+0000010464 00000 n
+0000010753 00000 n
+0000011042 00000 n
+0000011321 00000 n
+0000011618 00000 n
+0000011915 00000 n
+0000012181 00000 n
+0000012458 00000 n
+0000012737 00000 n
+0000013006 00000 n
+0000013713 00000 n
+0000013987 00000 n
+0000014261 00000 n
+0000014536 00000 n
+0000014812 00000 n
+0000015086 00000 n
+0000015361 00000 n
+0000015638 00000 n
+0000015915 00000 n
+0000016181 00000 n
+0000016454 00000 n
+0000016853 00000 n
+0000017158 00000 n
+0000017463 00000 n
+0000017743 00000 n
+0000018020 00000 n
+0000018294 00000 n
+0000018568 00000 n
+0000018839 00000 n
+0000019110 00000 n
+0000019388 00000 n
+0000019670 00000 n
+0000019945 00000 n
+0000020220 00000 n
+0000020490 00000 n
+0000020770 00000 n
+0000021041 00000 n
+0000021315 00000 n
+0000021590 00000 n
+0000021865 00000 n
+0000022140 00000 n
+0000022413 00000 n
+0000022692 00000 n
+0000022967 00000 n
+0000023269 00000 n
+0000023571 00000 n
+0000023850 00000 n
+0000024126 00000 n
+0000024408 00000 n
+0000024686 00000 n
+0000024973 00000 n
+0000025247 00000 n
+0000025524 00000 n
+0000025801 00000 n
+0000026084 00000 n
+0000026366 00000 n
+0000026669 00000 n
+0000026972 00000 n
+0000027256 00000 n
+0000027527 00000 n
+0000027803 00000 n
+0000028072 00000 n
+0000028742 00000 n
+0000029028 00000 n
+0000029302 00000 n
+0000029572 00000 n
+0000029872 00000 n
+0000030158 00000 n
+0000030465 00000 n
+0000030772 00000 n
+0000031051 00000 n
+0000031335 00000 n
+0000031611 00000 n
+0000031925 00000 n
+0000032239 00000 n
+0000032514 00000 n
+0000032794 00000 n
+0000033070 00000 n
+0000033342 00000 n
+0000033615 00000 n
+0000033892 00000 n
+0000034167 00000 n
+0000034440 00000 n
+0000034713 00000 n
+0000034994 00000 n
+0000035270 00000 n
+0000035545 00000 n
+0000035822 00000 n
+0000036116 00000 n
+0000036395 00000 n
+0000036666 00000 n
+0000036933 00000 n
+0000037201 00000 n
+0000037467 00000 n
+0000038088 00000 n
+0000038355 00000 n
+0000038636 00000 n
+0000038942 00000 n
+0000039248 00000 n
+0000039526 00000 n
+0000039806 00000 n
+0000040152 00000 n
+0000040498 00000 n
+0000040790 00000 n
+0000041067 00000 n
+0000041398 00000 n
+0000041729 00000 n
+0000042007 00000 n
+0000042280 00000 n
+0000042555 00000 n
+0000042859 00000 n
+0000043163 00000 n
+0000043442 00000 n
+0000043716 00000 n
+0000043974 00000 n
+0000044268 00000 n
+0000044562 00000 n
+0000044838 00000 n
+0000045103 00000 n
+0000045380 00000 n
+0000045656 00000 n
+0000045961 00000 n
+0000046266 00000 n
+0000046543 00000 n
+0000046837 00000 n
+0000047123 00000 n
+0000047404 00000 n
+0000047685 00000 n
+0000047980 00000 n
+0000048262 00000 n
+0000048544 00000 n
+0000048807 00000 n
+0000049081 00000 n
+0000049373 00000 n
+0000049677 00000 n
+0000049981 00000 n
+0000050262 00000 n
+0000050531 00000 n
+0000050812 00000 n
+0000051095 00000 n
+0000051378 00000 n
+0000051654 00000 n
+0000051959 00000 n
+0000052264 00000 n
+0000052542 00000 n
+0000052849 00000 n
+0000053156 00000 n
+0000053434 00000 n
+0000053715 00000 n
+0000054038 00000 n
+0000054361 00000 n
+0000054639 00000 n
+0000054960 00000 n
+0000055281 00000 n
+0000055560 00000 n
+0000055876 00000 n
+0000056147 00000 n
+0000056447 00000 n
+0000056724 00000 n
+0000057057 00000 n
+0000057390 00000 n
+0000057668 00000 n
+0000057946 00000 n
+0000058224 00000 n
+0000058502 00000 n
+0000058845 00000 n
+0000059188 00000 n
+0000059506 00000 n
+0000059824 00000 n
+0000060086 00000 n
+0000061147 00000 n
+0000061443 00000 n
+0000061739 00000 n
+0000062015 00000 n
+0000062355 00000 n
+0000062695 00000 n
+0000062979 00000 n
+0000063256 00000 n
+0000063536 00000 n
+0000063816 00000 n
+0000064094 00000 n
+0000064371 00000 n
+0000064648 00000 n
+0000064926 00000 n
+0000065205 00000 n
+0000065503 00000 n
+0000065800 00000 n
+0000066090 00000 n
+0000066388 00000 n
+0000066685 00000 n
+0000066986 00000 n
+0000067287 00000 n
+0000067534 00000 n
+0000067810 00000 n
+0000068086 00000 n
+0000068372 00000 n
+0000068658 00000 n
+0000068945 00000 n
+0000069226 00000 n
+0000069504 00000 n
+0000069788 00000 n
+0000070056 00000 n
+0000070333 00000 n
+0000070587 00000 n
+0000070843 00000 n
+0000071102 00000 n
+0000071379 00000 n
+0000071656 00000 n
+0000071933 00000 n
+0000072240 00000 n
+0000072547 00000 n
+0000072822 00000 n
+0000073097 00000 n
+0000073391 00000 n
+0000073685 00000 n
+0000074003 00000 n
+0000074321 00000 n
+0000074585 00000 n
+0000075366 00000 n
+0000075650 00000 n
+0000075934 00000 n
+0000076224 00000 n
+0000076514 00000 n
+0000076792 00000 n
+0000077057 00000 n
+0000077412 00000 n
+0000077722 00000 n
+0000078714 00000 n
+0000089587 00000 n
+0000089848 00000 n
+0000090978 00000 n
+0000091908 00000 n
+0000101379 00000 n
+0000101650 00000 n
+0000102708 00000 n
+0000103644 00000 n
+0000114080 00000 n
+0000114352 00000 n
+0000115405 00000 n
+0000116341 00000 n
+0000124071 00000 n
+0000124332 00000 n
+0000125379 00000 n
+0000125521 00000 n
+0000125858 00000 n
+0000125986 00000 n
+0000126209 00000 n
+0000126398 00000 n
+0000126627 00000 n
+0000126804 00000 n
+0000126993 00000 n
+0000127171 00000 n
+0000127381 00000 n
+0000127575 00000 n
+0000127768 00000 n
+0000127962 00000 n
+0000128157 00000 n
+0000128350 00000 n
+0000128540 00000 n
+0000128765 00000 n
+0000128924 00000 n
+0000129081 00000 n
+0000129260 00000 n
+0000133120 00000 n
+0000137151 00000 n
+0000141000 00000 n
+0000143809 00000 n
+0000148430 00000 n
+0000151744 00000 n
+0000152607 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(9{\265\(\211\334\001\205\023\252\015!U>\357\242) (9{\265\(\211\334\001\205\023\252\015!U>\357\242)] 
+
+ /Info 282 0 R
+ /Root 281 0 R
+ /Size 309 >>
+startxref
+155644
+%%EOF

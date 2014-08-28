@@ -82,7 +82,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="log4net">
-      <HintPath>..\log4net\log4net-1.2.11\bin\net\4.0\release\log4net.dll</HintPath>
+      <HintPath>..\..\klServiceComponents\log4net-1.2.13\bin\net\4.0\release\log4net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -153,9 +153,9 @@
     <None Include="Resources\Icon1.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\klImageCoreV\klImageCoreV.vcxproj">
-      <Project>{5D92FD03-F989-4E3F-96D4-BE417003B02C}</Project>
-      <Name>klImageCoreV</Name>
+    <ProjectReference Include="..\klImageCoreLib\klImageCoreLib.vcxproj">
+      <Project>{F9ACA180-78EA-4ADC-BD8B-3E391729E71C}</Project>
+      <Name>klImageCoreLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Kakadu">
+      <UniqueIdentifier>{f69f8d1d-372a-4e3f-ad63-ffe2985dc512}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Kakadu\Kakadu-6.3\apps\jp2\jp2.cpp">
+      <Filter>Kakadu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Kakadu\Kakadu-6.3\apps\support\kdu_region_compositor.cpp">
+      <Filter>Kakadu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Kakadu\Kakadu-6.3\apps\support\kdu_stripe_compressor.cpp">
+      <Filter>Kakadu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Kakadu\Kakadu-6.3\apps\support\kdu_stripe_decompressor.cpp">
+      <Filter>Kakadu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Kakadu\Kakadu-6.3\apps\jp2\mj2.cpp">
+      <Filter>Kakadu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tiff-4.0.0beta4\tiff-4.0.0beta4\libtiff\tif_jpeg2000.cpp">
+      <Filter>Kakadu</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

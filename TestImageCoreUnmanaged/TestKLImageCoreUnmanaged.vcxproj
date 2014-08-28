@@ -170,12 +170,18 @@
     <Library Include="..\..\x64\Debug\expokitcpp.lib">
       <FileType>Document</FileType>
     </Library>
-    <Library Include="..\..\x64\Debug\FGG.lib">
+    <Library Include="..\..\x64\Debug\FGT.lib">
+      <FileType>Document</FileType>
+    </Library>
+    <Library Include="..\..\x64\Debug\gsl.lib">
       <FileType>Document</FileType>
     </Library>
     <Library Include="..\..\x64\Debug\ICC.lib">
       <FileType>Document</FileType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\..\x64\Debug\klMatrixCoreLib.lib">
+      <FileType>Document</FileType>
     </Library>
     <Library Include="..\..\x64\Debug\libjpeg.lib">
       <FileType>Document</FileType>
@@ -195,27 +201,33 @@
     <Library Include="..\..\x64\Debug\Matlib.lib">
       <FileType>Document</FileType>
     </Library>
+    <Library Include="..\..\x64\Debug\RBCNN.lib">
+      <FileType>Document</FileType>
+    </Library>
     <Library Include="..\..\x64\Debug\SuperLU_MT_VC.lib">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
     </Library>
     <Library Include="..\..\x64\Debug\UMFPACK.lib">
       <FileType>Document</FileType>
     </Library>
     <Library Include="..\..\x64\Release\ARPACK2.lib">
       <FileType>Document</FileType>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </Library>
     <Library Include="..\..\x64\Release\expokitcpp.lib">
       <FileType>Document</FileType>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </Library>
-    <Library Include="..\..\x64\Release\FGG.lib">
+    <Library Include="..\..\x64\Release\FGT.lib">
       <FileType>Document</FileType>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\..\x64\Release\gsl.lib">
+      <FileType>Document</FileType>
     </Library>
     <Library Include="..\..\x64\Release\ICC.lib">
       <FileType>Document</FileType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\..\x64\Release\klMatrixCoreLib.lib">
+      <FileType>Document</FileType>
     </Library>
     <Library Include="..\..\x64\Release\libjpeg.lib">
       <FileType>Document</FileType>
@@ -223,7 +235,6 @@
     </Library>
     <Library Include="..\..\x64\Release\libsdpa.lib">
       <FileType>Document</FileType>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </Library>
     <Library Include="..\..\x64\Release\libtiff.lib">
       <FileType>Document</FileType>
@@ -235,14 +246,15 @@
     </Library>
     <Library Include="..\..\x64\Release\Matlib.lib">
       <FileType>Document</FileType>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </Library>
+    <Library Include="..\..\x64\Release\RBCNN.lib">
+      <FileType>Document</FileType>
     </Library>
     <Library Include="..\..\x64\Release\SuperLU_MT_VC.lib">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
     </Library>
     <Library Include="..\..\x64\Release\UMFPACK.lib">
       <FileType>Document</FileType>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </Library>
     <Library Include="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\x64\Kernel32.Lib">
       <FileType>Document</FileType>

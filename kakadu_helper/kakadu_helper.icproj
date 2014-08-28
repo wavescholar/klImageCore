@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Intel C++ Project"
+	Version="12.1"
+	Name="jp2"
+	ProjectGUID="{44092598-2E9E-44AB-8018-E7BF1FC60592}"
+	VCNestedProjectGUID="{E561A6EA-EDF4-49CF-AD38-C0581B815825}"
+	VCNestedProjectFileName="kakadu_helper.vcproj"
+	>
+	<Configurations/>
+	<Files/>
+</VisualStudioProject>
